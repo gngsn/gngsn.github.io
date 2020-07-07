@@ -30,7 +30,7 @@ var ctx = document.getElementById("myChart").getContext('2d');
             maintainAspectRatio: true,
             scales: {
                 legend: {
-                    display: true
+                    display: false
                 },
                 yAxes: [{
                     ticks: {
