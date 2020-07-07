@@ -29,6 +29,9 @@ var ctx = document.getElementById("myChart").getContext('2d');
         options: {
             maintainAspectRatio: true,
             scales: {
+                legend: {
+                    display: true
+                },
                 yAxes: [{
                     ticks: {
                         beginAtZero:true
