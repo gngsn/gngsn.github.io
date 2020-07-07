@@ -30,19 +30,14 @@ var ctx = document.getElementById("myChart").getContext('2d');
         options: {
             maintainAspectRatio: true,
             scales: {
-                layout: {
-                    padding: {
-                        left: 50,
-                        right: 50,
-                        top: 0,
-                        bottom: 0
-                    }
-                },
                 legend: {
                     display: false
                 },
-                tooltips: false,
+                tooltips: {
+                    enabled: false
+                },
                 yAxes: [{
+                    barThickness: 10,
                     ticks: {
                         beginAtZero:true
                     },
@@ -51,9 +46,9 @@ var ctx = document.getElementById("myChart").getContext('2d');
                     }
                 }],
                 xAxes: [{
-                    barPercentage: 0.6,
                     gridLines: {
-                        display:false
+                        display:false,
+                        drawBorder: false,
                     }
                 }]
             },
