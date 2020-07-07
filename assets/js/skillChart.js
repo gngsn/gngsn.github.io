@@ -33,8 +33,7 @@ var language = new Chart(langCtx, {
                 },
                 gridLines: {
                     display: false
-                }
-            },{
+                },
                 barThickness: 6,
             }],
             xAxes: [{
@@ -79,8 +78,7 @@ var textCtx = new Chart(textCtx, {
                 },
                 gridLines: {
                     display: false
-                }
-            },{
+                },
                 barThickness: 6,
             }],
             xAxes: [{
