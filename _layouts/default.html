@@ -8,9 +8,9 @@
 <body>
   <main class="container">
     <section class="about">
-      <a href="/"><img src="{{ /assets/portfolio.JPG' | relative_url }}" alt="{{ site.plainwhite.name }}"></a>
+      <a href="/"><img src="{{ 'https://avatars0.githubusercontent.com/u/43839834?s=460&u=b7adb50247c984996c96063def7a3ef17c927ec7&v=4' | relative_url }}" alt="{{ site.plainwhite.name }}"></a>
       <h2 id="title">
-        <a href="/">{{ site.plainwhite.name }}</a>
+        <p>{{ site.plainwhite.name }}</p>
       </h2>
       <p class="tagline">{{ site.plainwhite.tagline }}</p>
       <ul class="social">
@@ -70,9 +70,21 @@
       {%- endif -%}
       <!-- <p>&copy;
         {{ "now" | date: "%Y" }}</p> -->
-      {%- if site.plainwhite.dark_mode -%}
+      {%- if site.plainwhite.plainwhite -%}
       <div>
         <p>🌖 Dark Mode 
+          <i class="icon-moon"></i>
+          <label class="switch">
+            <input type="checkbox" id="dark-mode-toggle">
+            <span class="slider round" onclick="toggleDarkMode()"></span>
+          </label>
+        </p>
+      </div>
+      <script type="text/javascript" src="/assets/js/darkmode.js"></script>
+      {%- endif -%}
+      {%- if site.plainwhite.dark_mode -%}
+      <div>
+        <p>🌒 Dark Mode 
           <i class="icon-moon"></i>
           <label class="switch">
             <input type="checkbox" id="dark-mode-toggle">
@@ -98,6 +110,7 @@
   {%- endif -%}
 
   {% if site.plainwhite.search %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
   <script src="/assets/js/simple-jekyll-search.min.js"></script>
   <script src="/assets/js/search.js"></script>
   {% endif %}
