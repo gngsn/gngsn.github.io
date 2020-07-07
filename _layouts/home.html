@@ -35,8 +35,9 @@ layout: default
     {% endif %}
   </li>
   <h1 class="main-top" style="text-align: right;"> PORTFOLIO </h1>
+</ul>
 
-  {%- for post in site.posts -%}
+{%- for post in site.posts -%}
   <li>
     {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
     <a class="post-link" href="{{ post.url | relative_url }}">
@@ -62,7 +63,6 @@ layout: default
     </div>
   </li>
   {%- endfor -%}
-</ul>
 <!-- <p class="feed-subscribe"><svg class="svg-icon orange">
 		<use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
 	</svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p> -->
