@@ -41,11 +41,8 @@ var ctx = document.getElementById("myChart").getContext('2d');
                 legend: {
                     display: false
                 },
-                tooltips: {
-                    enabled: false
-                },
+                tooltips: false,
                 yAxes: [{
-                    barPercentage: 0.6,
                     ticks: {
                         beginAtZero:true
                     },
@@ -54,6 +51,7 @@ var ctx = document.getElementById("myChart").getContext('2d');
                     }
                 }],
                 xAxes: [{
+                    barPercentage: 0.6,
                     gridLines: {
                         display:false
                     }
