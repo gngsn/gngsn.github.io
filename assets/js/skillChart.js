@@ -5,14 +5,13 @@ var language = new Chart(langCtx, {
     data: {
         labels: ["JavaScript", "TypeScript", "Java", "Swift", "C"],
         datasets: [{
-            data: [12, 19, 3, 5, 2, 3],
+            data: [12, 19, 3, 5, 2],
             backgroundColor: [
-                'rgba(43, 43, 43,1)',
+                'rgba(43, 43, 43 ,1)',
                 'rgba(43, 43, 43, 1)',
                 'rgba(43, 43, 43, 1)',
                 'rgba(43, 43, 43, 1)',
                 'rgba(43, 43, 43, 1)',
-                'rgba(43, 43, 43, 1)'
             ]
         }]
     },

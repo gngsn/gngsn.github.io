@@ -28,6 +28,7 @@ const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-s
 var theme = getCookie('theme');
 if ( (theme === null && userPrefersDark) || theme === 'dark') {
     var toggleInput = document.querySelector('#dark-mode-toggle');
+    language.data.datasets.backgroundColor = ['#f7f7f7', '#f7f7f7','#f7f7f7','#f7f7f7','#f7f7f7'];
     toggleInput.checked = true;
     toggleDarkMode();
 }
