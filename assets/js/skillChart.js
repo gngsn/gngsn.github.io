@@ -22,17 +22,22 @@ var ctx = document.getElementById("myChart").getContext('2d');
                 //     'rgba(153, 102, 255, 1)',
                 //     'rgba(255, 159, 64, 1)'
                 // ],
-                borderWidth: 0
+                barThickness: 2,
+                // borderWidth: 0
             }]
         },
         options: {
             maintainAspectRatio: true,
-            // scales: {
-            //     yAxes: [{
-            //         ticks: {
-            //             beginAtZero:true
-            //         }
-            //     }]
-            // }
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero:true
+                    },
+                    gridLines: {
+                        offsetGridLines: false
+                    }
+                }]
+            },
+            
         }
     });
