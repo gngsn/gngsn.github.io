@@ -34,9 +34,32 @@ video {
   font-family: "Noto Sans KR", sans-serif;; 
   font-weight: 900; 
   font-style: normal;
-  margin: 50px 5px; 
+  margin: 20px 0px 70px 0px;
   font-size: 73px; 
   position: relative;
+  @media screen and (max-width: $mobileW) {
+    margin: 20px 0px 40px 0px;
+    font-size: 55px;
+  }
+}
+
+.graph-container {
+  width: 400px; 
+  height: 300px; 
+  margin: auto; 
+  padding: 20px;
+  display: flex; 
+  flex-direction: row;
+  @media screen and (max-width: $mobileW) {
+    width: 90vw;
+    flex-direction: column;
+    height: 800px; 
+  }
+}
+
+.graph {
+  display: flex; 
+  flex-direction: column;
 }
 
 a {
@@ -79,6 +102,7 @@ main {
       max-width: calc(100% - #{$leftWidth});
       margin-left: $leftWidth;
       width: 100%;
+      height: vh;
     }
   }
   .about {
@@ -262,7 +286,7 @@ main {
   margin: 0 0 0.67em 0;
   display: flex;
   align-items: baseline;
-  border-bottom: 1px solid #eee;
+  // border-bottom: 1px solid #eee;
 }
 
 #posts-label {
