@@ -3,7 +3,7 @@ var textCtx = document.getElementById("tect").getContext('2d');
 var language = new Chart(langCtx, {
     type: 'bar',
     data: {
-        labels: ["JavaScript", "TypeScript", "Java", "Swift", "C", "C++"],
+        labels: ["JavaScript", "TypeScript", "Java", "Swift", "C"],
         datasets: [{
             data: [12, 19, 3, 5, 2, 3],
             backgroundColor: [

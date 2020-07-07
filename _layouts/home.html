@@ -12,57 +12,55 @@ layout: default
 <ul class="posts">
   <h1 class="main-top"> BACKEND </h1>
   <h1 class="main-top"> DEVELOPER </h1>
-  <li class="posts-labelgroup" id="posts-labelgroup">
-    <div class="graph-container">
-      <div class="graph">
-        <p style="margin: 30px;"> Language </p>
-        <canvas id="language"></canvas>
-      </div>
-      <div class="graph">
-        <p style="margin: 30px;"> Tech </p>
-        <canvas id="tect"></canvas>
-      </div>
+  <div class="graph-container">
+    <div class="graph">
+      <p style="margin: 30px;"> Language </p>
+      <canvas id="language"></canvas>
     </div>
-    <script src="/assets/js/skillChart.js"></script>
-    {% if site.plainwhite.search %}
-    <div class="search-container">
-      <div class="search-section">
-        <i class="icon-search"></i>
-        <input type="text" name="search" id="searchbar" autocomplete="off" aria-label="search in posts">
-      </div>
-      <div class="search-results" id="search-results" data-placeholder="No Results" style="display: none;"></div>
+    <div class="graph">
+      <p style="margin: 30px;"> Tech </p>
+      <canvas id="tect"></canvas>
     </div>
-    {% endif %}
-  </li>
+  </div>
+  <script src="/assets/js/skillChart.js"></script>
+  {% if site.plainwhite.search %}
+  <div class="search-container">
+    <div class="search-section">
+      <i class="icon-search"></i>
+      <input type="text" name="search" id="searchbar" autocomplete="off" aria-label="search in posts">
+    </div>
+    <div class="search-results" id="search-results" data-placeholder="No Results" style="display: none;"></div>
+  </div>
+  {% endif %}
   <h1 class="main-top" style="text-align: right;"> PORTFOLIO </h1>
 </ul>
 
 {%- for post in site.posts -%}
-  <li>
-    {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
-    <a class="post-link" href="{{ post.url | relative_url }}">
-      <h2 class="post-title">{{ post.title | escape }}</h2>
-    </a>
-    <div class="post-meta">
-      <div class="post-date">
-        <i class="icon-calendar"></i>
-        {{ post.date | date: date_format }}
-      </div>
-      {%- if post.categories.size > 0-%}
-      <ul class="post-categories">
-        {%- for tag in post.categories -%}
-        <li>{{ tag }}</li>
-        {%- endfor -%}
-      </ul>
-      {%- endif -%}
+<li>
+  {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
+  <a class="post-link" href="{{ post.url | relative_url }}">
+    <h2 class="post-title">{{ post.title | escape }}</h2>
+  </a>
+  <div class="post-meta">
+    <div class="post-date">
+      <i class="icon-calendar"></i>
+      {{ post.date | date: date_format }}
     </div>
-    <div class="post">
-      {%- if site.show_excerpts -%}
-      {{ post.excerpt }}
-      {%- endif -%}
-    </div>
-  </li>
-  {%- endfor -%}
+    {%- if post.categories.size > 0-%}
+    <ul class="post-categories">
+      {%- for tag in post.categories -%}
+      <li>{{ tag }}</li>
+      {%- endfor -%}
+    </ul>
+    {%- endif -%}
+  </div>
+  <div class="post">
+    {%- if site.show_excerpts -%}
+    {{ post.excerpt }}
+    {%- endif -%}
+  </div>
+</li>
+{%- endfor -%}
 <!-- <p class="feed-subscribe"><svg class="svg-icon orange">
 		<use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
 	</svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p> -->
