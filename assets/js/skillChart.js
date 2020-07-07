@@ -51,7 +51,7 @@ var textCtx = new Chart(textCtx, {
     data: {
         labels: ["Node", "Spring", "iOS", "React", "Angular"],
         datasets: [{
-            data: [12, 19, 3, 5, 2, 3],
+            data: [12, 19, 3, 5, 2],
             backgroundColor: [
                 'rgba(43, 43, 43,1)',
                 'rgba(43, 43, 43, 1)',

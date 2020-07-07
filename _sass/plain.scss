@@ -34,7 +34,7 @@ video {
   font-family: "Noto Sans KR", sans-serif;; 
   font-weight: 900; 
   font-style: normal;
-  margin: 90px 5px; 
+  margin: 50px 5px; 
   font-size: 73px; 
   position: relative;
 }
@@ -220,6 +220,7 @@ main {
 .post-container {
   list-style-type: none;
   margin: 45px 30px;
+  padding: 30px 0px;
   @media screen and (max-width: $smallMobileW) {
     margin-left: 20px;
     margin-right: 20px;

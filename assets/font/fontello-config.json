@@ -208,7 +208,10 @@
       "uid": "1fb8776fe6f1d3bbf970996fdfcf0f94",
       "css": "link",
       "code": 61563,
-      "src": "mfglabs"
+      "src": "mfglabs",
+      "search": [
+        "link"
+      ]
     },
     {
       "uid": "7616a1175ef5c5701831c9653d9a5198",

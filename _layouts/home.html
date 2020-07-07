@@ -10,13 +10,14 @@ layout: default
 
 {%- if site.posts.size > 0 -%}
   <ul class="posts">
-    <h1 class="main-top"> PORTFOLIO </h1>
+    <h1 class="main-top"> BACKEND </h1>
+    <h1 class="main-top"> DEVELOPER </h1>
     <li class="posts-labelgroup" id="posts-labelgroup">
-      <div style="width:28vw; margin: auto;">
+      <div style="width: 400px; height: 450px; margin: auto; padding: 20px;">
         <p style="margin: 30px;"> Language </p>
         <canvas id="language"></canvas>
     </div>
-    <div style="width:30vw; margin: auto;">
+    <div style="width: 400px; height:450px; margin: auto; padding: 20px;">
       <p style="margin: 30px;"> Tech </p>
       <canvas id="tect"></canvas>
   </div>
@@ -31,6 +32,7 @@ layout: default
       </div>
       {% endif %}
     </li>
+    <h1 class="main-top" style="text-align: right;"> PORTFOLIO </h1>
 
     {%- for post in site.posts -%}
       <li>
