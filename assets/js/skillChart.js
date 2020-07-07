@@ -52,6 +52,11 @@ var ctx = document.getElementById("myChart").getContext('2d');
                     gridLines: {
                         display:false
                     }
+                }],
+                xAxes: [{
+                    gridLines: {
+                        display:false
+                    }
                 }]
             },
             
