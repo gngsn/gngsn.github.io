@@ -8,7 +8,7 @@
 <body>
   <main class="container">
     <section class="about">
-      <a href="/"><img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}"></a>
+      <a href="/"><img src="{{ "/assets/portfolio.JPG" | relative_url }}" alt="{{ site.plainwhite.name }}"></a>
       <h2 id="title">
         <a href="/">{{ site.plainwhite.name }}</a>
       </h2>
@@ -21,22 +21,15 @@
           </li>
         </a>
         {%- endif -%}
-        {%- if site.plainwhite.social_links.linkedIn -%}
-        <a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}" target="_blank">
-          <li>
-            <i class="icon-linkedin-squared"></i>
-          </li>
-        </a>
-        {%- endif -%}
-        {%- if site.plainwhite.social_links.twitter -%}
-        <a href="https://twitter.com/{{ site.plainwhite.social_links.twitter }}" target="_blank">
-          <li>
-            <i class="icon-twitter-squared"></i>
-          </li>
-        </a>
-        {%- endif -%}
         {%- if site.plainwhite.social_links.instagram -%}
         <a href="https://instagram.com/{{ site.plainwhite.social_links.instagram }}" target="_blank">
+          <li>
+            <i class="icon-instagram"></i>
+          </li>
+        </a>
+        {%- endif -%}
+        {%- if site.plainwhite.social_links.tistory -%}
+        <a href="https://{{ site.plainwhite.social_links.blog }}.tistory.com" target="_blank">
           <li>
             <i class="icon-instagram"></i>
           </li>
@@ -63,34 +56,6 @@
           </li>
         </a>
         {%- endif -%}
-        {%- if site.plainwhite.social_links.dribbble -%}
-        <a href="https://dribbble.com/{{ site.plainwhite.social_links.dribbble }}" target="_blank">
-          <li>
-            <i class="icon-dribbble"></i>
-          </li>
-        </a>
-        {%- endif -%}
-        {%- if site.plainwhite.social_links.flickr -%}
-        <a href="https://flickr.com/{{ site.plainwhite.social_links.flickr }}" target="_blank">
-          <li>
-            <i class="icon-flickr"></i>
-          </li>
-        </a>
-        {%- endif -%}
-        {%- if site.plainwhite.social_links.telegram -%}
-        <a href=" https://t.me/{{ site.plainwhite.social_links.telegram }}" target="_blank">
-          <li>
-            <i class="icon-telegram"></i>
-          </li>
-        </a>
-        {%- endif -%}
-        {%- if site.plainwhite.social_links.soundcloud -%}
-        <a href=" https://soundcloud.com/{{ site.plainwhite.social_links.soundcloud }}" target="_blank">
-          <li>
-            <i class="icon-soundcloud"></i>
-          </li>
-        </a>
-        {%- endif -%}
       </ul>
       {%- if site.plainwhite.navigation -%}
       <nav class="navigation">
@@ -103,11 +68,11 @@
         </ul>
       </nav>
       {%- endif -%}
-      <p>&copy;
-        {{ "now" | date: "%Y" }}</p>
+      <!-- <p>&copy;
+        {{ "now" | date: "%Y" }}</p> -->
       {%- if site.plainwhite.dark_mode -%}
       <div>
-        <p>Dark Mode
+        <p>🌖 Dark Mode 
           <i class="icon-moon"></i>
           <label class="switch">
             <input type="checkbox" id="dark-mode-toggle">
