@@ -10,12 +10,16 @@ layout: default
 
 {%- if site.posts.size > 0 -%}
   <ul class="posts">
+    <h1 class="main-top"> PORTFOLIO </h1>
     <li class="posts-labelgroup" id="posts-labelgroup">
-
-    <p class="posts-main"> PORTFOLIO</p>
-    <div style="width:30vw">
-        <canvas id="myChart"></canvas>
+      <div style="width:30vw; margin: auto;">
+        <p style="margin: 30px;"> Language </p>
+        <canvas id="language"></canvas>
     </div>
+    <div style="width:30vw; margin: auto;">
+      <p style="margin: 30px;"> Tech </p>
+      <canvas id="tect"></canvas>
+  </div>
     <script src="/assets/js/skillChart.js"></script>
       {% if site.plainwhite.search %}
       <div class="search-container">
