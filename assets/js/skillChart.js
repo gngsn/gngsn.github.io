@@ -14,6 +14,7 @@ var ctx = document.getElementById("myChart").getContext('2d');
                     'rgba(43, 43, 43, 1)',
                     'rgba(43, 43, 43, 1)'
                 ],
+                
                 // borderColor: [
                 //     'rgba(255,99,132,1)',
                 //     'rgba(54, 162, 235, 1)',
@@ -29,15 +30,27 @@ var ctx = document.getElementById("myChart").getContext('2d');
         options: {
             maintainAspectRatio: true,
             scales: {
+                layout: {
+                    padding: {
+                        left: 50,
+                        right: 50,
+                        top: 0,
+                        bottom: 0
+                    }
+                },
                 legend: {
                     display: false
                 },
+                tooltips: {
+                    enabled: false
+                },
                 yAxes: [{
+                    barPercentage: 0.6,
                     ticks: {
                         beginAtZero:true
                     },
                     gridLines: {
-                        offsetGridLines: false
+                        display:false
                     }
                 }]
             },
