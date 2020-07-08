@@ -32,10 +32,18 @@ layout: default
     <div class="search-results" id="search-results" data-placeholder="No Results" style="display: none;"></div>
   </div>
   {% endif %}
-  <h1 class="main-top" style="text-align: right;"> PORTFOLIO </h1>
+  <h1 class="main-top" style="text-align: right;"> PORTFOLIO. </h1>
 </ul>
 
 <ul class="posts">
+  <h1 class="main-top"> ABOUT. </h1>
+  <div class="about-container">
+    
+  </div>
+  <p class="main-top" style="text-align: right;">"NOT FIRST, BUT BEST"</p>
+</ul>
+
+<ul class="posts"></ul>
 {%- for post in site.posts -%}
 <li>
   {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
