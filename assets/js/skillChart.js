@@ -3,9 +3,9 @@ var textCtx = document.getElementById("tect").getContext('2d');
 var language = new Chart(langCtx, {
     type: 'bar',
     data: {
-        labels: ["JavaScript", "TypeScript", "Java", "Swift", "C"],
+        labels: ["JavaScript", "Java", "Swift", "SQL"],
         datasets: [{
-            data: [12, 19, 3, 5, 2],
+            data: [90, 80, 60, 90],
             backgroundColor: [
                 'rgba(43, 43, 43 ,1)'
             ]
@@ -29,10 +29,10 @@ var language = new Chart(langCtx, {
                 gridLines: {
                     display: false
                 },
-                barThickness: 6,
+                barThickness: 20,
             }],
             xAxes: [{
-                categoryPercentage: 2.0,
+                categoryPercentage: 1.5,
                 gridLines: {
                     display: false,
                     drawBorder: false,
@@ -76,7 +76,7 @@ var textCtx = new Chart(textCtx, {
                 gridLines: {
                     display: false
                 },
-                barThickness: 6,
+                barThickness: 20,
             }],
             xAxes: [{
                 gridLines: {

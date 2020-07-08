@@ -111,12 +111,12 @@ main {
       max-width: calc(100% - #{$leftWidth});
       margin-left: $leftWidth;
       width: 100%;
-      height: vh;
+      // height: vh;
     }
   }
   .about {
     display: flex;
-    height: 100vh;
+    height: 100%;
     padding-bottom: 15vh;
     @media screen and (max-width: $mobileW) {
       height: auto;
