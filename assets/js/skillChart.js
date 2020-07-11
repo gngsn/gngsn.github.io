@@ -7,7 +7,10 @@ var language = new Chart(langCtx, {
         datasets: [{
             data: [90, 80, 60, 90],
             backgroundColor: [
-                'rgba(43, 43, 43 ,1)'
+                'rgba(43, 43, 43,1)',
+                'rgba(43, 43, 43, 1)',
+                'rgba(43, 43, 43, 1)',
+                'rgba(43, 43, 43, 1)'
             ]
         }]
     },
@@ -29,15 +32,15 @@ var language = new Chart(langCtx, {
                 gridLines: {
                     display: false
                 },
-                barThickness: 20,
+                // barThickness: 20,
             }],
             xAxes: [{
-                categoryPercentage: 1.5,
+                categoryPercentage: 1,
                 gridLines: {
                     display: false,
                     drawBorder: false,
                 },
-                barThickness: 6,
+                barThickness: 25,
             }]
         },
     }
