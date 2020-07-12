@@ -31,8 +31,7 @@ var language = new Chart(langCtx, {
                 },
                 gridLines: {
                     display: false
-                },
-                // barThickness: 20,
+                }
             }],
             xAxes: [{
                 categoryPercentage: 1,
