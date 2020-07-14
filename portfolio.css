@@ -34,7 +34,6 @@ canvas{width:25vw !important;}
 
 .section2 .text_container h1 {font-size: 4rem;color: #fff; border-bottom: #fff solid 0.2rem; display: inline;}
 .section2 .text_container {text-align: left; padding: 20vh 10vw;}
-.section2 .text_container h4 {font-size: 2rem;color: #fff; display: inline; font-weight: 300;}
-.section2 .text_container h2 {font-size: 2.5rem;color: #fff; border-bottom: #fff solid 0.2rem; margin: 1rem 2rem;}
-.section2 .onoff {position: absolute; background-repeat: no-repeat;background-size: contain;background-image: url("./img/on:off.png"); margin: 5vh 0vw;width: 25vw; height: 50vh;}
+.section2 .text_container h2 {font-size: 2.5rem;font-weight: 200;color: #fff; border-bottom: #fff solid 0.05rem; display: inline;}
+.section2 .onoff {position: absolute; background-repeat: no-repeat;background-size: contain;background-image: url("./img/onoff.png"); margin: 5vh 0vw;width: 25vw; height: 50vh;}
 
