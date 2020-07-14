@@ -35,6 +35,16 @@ $(document).ready(function () {
     });
 });
 
+let email = "rudtjs4540@gmail.com";
+document.querySelector("#icon_mail").addEventListener("click", function(){
+    var emailCopy = document.createElement('textarea');
+    emailCopy.value = email;
+    document.body.appendChild(emailCopy);
+    emailCopy.select();
+    alert(email+"\n메일이 복사되었습니다!")
+    document.execCommand("copy");
+    document.body.removeChild(emailCopy);
+});
 
 
 var langCtx = document.getElementById("language").getContext('2d');

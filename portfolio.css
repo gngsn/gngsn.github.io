@@ -13,7 +13,7 @@ body {margin: 0px;background-color: #171717;}
 
 .main h1 {position: absolute; color: #fff;line-height: 7rem;font-size: 7.5rem;font-family: 'Montserrat';  margin: 1vh 1vh;}
 .main {margin: 5vh 5vw; z-index: 10;}
-.section1 .selfie {position: absolute; background-repeat: no-repeat;background-size: contain;background-image: url("./img/selfie.JPG"); margin: 30vh 10vw;width: 25vw; height: 50vh; z-index: 0;}
+.section1 .selfie {position: absolute; background-repeat: no-repeat;background-size: contain;background-image: url("./img/selfie.JPG"); margin: 35vh 10vw;width: 25vw; height: 50vh; z-index: 0;}
 .graph-container {width: 30vw;height: 20vh; padding: 30vh 0vw 0vh 40vw;display: flex;flex-direction: row;}
 .graph {display: flex;flex-direction: column; margin: 4vh 0vw 0vw 1vw;}
 .graph p {color: #fff; font-family: 'Noto Sans KR'; font-weight: 300;font-size: 1.5rem;}
@@ -22,6 +22,7 @@ canvas{width:25vw !important;}
 .icon {position: absolute; right: 5vw;bottom: 7vh;margin: auto; display: flex; align-items: flex-end;}
 .icon div {height: 6vh; width: 6vw;margin: 0vh 0.1vw;}
 .icon_mail {margin-right:1vw !important;background-repeat: no-repeat;background-size: contain;background-image: url("./img/mail.png");}
+.icon_mail:hover {cursor: pointer;}
 .icon_github {background-repeat: no-repeat;background-size: contain;background-image: url("./img/github.png");}
 .icon_linkedin {background-repeat: no-repeat;background-size: contain;background-image: url("./img/linkedin.png");}
 .icon_insta {background-repeat: no-repeat;background-size: contain;background-image: url("./img/instagram.png");}
