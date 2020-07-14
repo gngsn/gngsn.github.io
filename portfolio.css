@@ -1,5 +1,5 @@
-body {margin: 0px; width:100vw; background-color: #171717;}
-.content {background-color: #171717;background-repeat: no-repeat;background-size: cover;width: 100%;height: 100vh;margin: 0px;}
+body {margin: 0px; background-repeat: no-repeat;width:100vw; background-size: cover;background-color: #171717; background-attachment: fixed; background-image: url("./img/bg.png");}
+.content {width: 100%;height: 100vh;margin: 0px;}
 .section2 {height: 200vh !important;}
 .fixed-nav {display: flex;width: 300px; height: 0px;}
 .fixed-nav .nav {text-align: right; position: fixed; align-items: flex-end;top: 30px;right: 0px;} 
@@ -7,10 +7,8 @@ body {margin: 0px; width:100vw; background-color: #171717;}
 .fixed-nav .nav a {color: #212121; position: relative; display: inline-block; font-family: 'Montserrat', sans-serif;}
 .fixed-nav .nav li .active {color: #fff !important;}
 .fixed-nav .nav li {list-style:none;}
-/* .fixed-nav .nav .active::after {color: white;} */
-.section1 .title h2 {font-size: 110px;font-weight: 900;color: #fff; height: 100px;}
-/* .section1 .title img {font-size: 110px;font-weight: 900;color: #fff; height: 100px;} */
 
+.section1 .title h2 {font-size: 110px;font-weight: 900;color: #fff; height: 100px;}
 .main h1 {position: absolute; color: #fff;line-height: 7rem;font-size: 7.5rem;font-family: 'Montserrat';  margin: 1vh 1vh;}
 .main {margin: 5vh 5vw; z-index: 10;}
 .section1 .selfie {position: absolute; background-repeat: no-repeat;background-size: contain;background-image: url("./img/selfie.JPG"); margin: 35vh 10vw;width: 25vw; height: 50vh; z-index: 0;}
