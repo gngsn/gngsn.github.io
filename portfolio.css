@@ -1,5 +1,5 @@
-body {margin: 0px;background-color: #171717;}
-.content {background-color: #171717;background-repeat: no-repeat;background-size: cover;width: 100vw;height: 100vh;margin: 0px;}
+body {margin: 0px; width:100vw; background-color: #171717;}
+.content {background-color: #171717;background-repeat: no-repeat;background-size: cover;width: 100%;height: 100vh;margin: 0px;}
 .section2 {height: 200vh !important;}
 .fixed-nav {display: flex;width: 300px; height: 0px;}
 .fixed-nav .nav {text-align: right; position: fixed; align-items: flex-end;top: 30px;right: 0px;} 
@@ -15,13 +15,13 @@ body {margin: 0px;background-color: #171717;}
 .main {margin: 5vh 5vw; z-index: 10;}
 .section1 .selfie {position: absolute; background-repeat: no-repeat;background-size: contain;background-image: url("./img/selfie.JPG"); margin: 35vh 10vw;width: 25vw; height: 50vh; z-index: 0;}
 .graph-container {width: 30vw;height: 20vh; padding: 30vh 0vw 0vh 40vw;display: flex;flex-direction: row;}
-.graph {display: flex;flex-direction: column; margin: 4vh 0vw 0vw 1vw;}
+.graph {display: flex;flex-direction: column; margin: 4vh 0vw 0vw 2.5vw;}
 .graph p {color: #fff; font-family: 'Noto Sans KR'; font-weight: 300;font-size: 1.5rem;}
 canvas{width:25vw !important;}
 
 .icon {position: absolute; right: 5vw;bottom: 7vh;margin: auto; display: flex; align-items: flex-end;}
 .icon div {height: 6vh; width: 6vw;margin: 0vh 0.1vw;}
-.icon_mail {margin-right:1vw !important;background-repeat: no-repeat;background-size: contain;background-image: url("./img/mail.png");}
+.icon_mail {margin-right:2vw !important;background-repeat: no-repeat;background-size: contain;background-image: url("./img/mail.png");}
 .icon_mail:hover {cursor: pointer;}
 .icon_github {background-repeat: no-repeat;background-size: contain;background-image: url("./img/github.png");}
 .icon_linkedin {background-repeat: no-repeat;background-size: contain;background-image: url("./img/linkedin.png");}
@@ -37,3 +37,15 @@ canvas{width:25vw !important;}
 .section2 .text_container h2 {font-size: 2.5rem;font-weight: 200;color: #fff; border-bottom: #fff solid 0.05rem; display: inline;}
 .section2 .onoff {position: absolute; background-repeat: no-repeat;background-size: contain;background-image: url("./img/onoff.png"); margin: 5vh 0vw;width: 25vw; height: 50vh;}
 
+
+.section3 .grid {margin: 20vh; border-left: #fff solid 0.1rem; width: 70vw; height: 100vh;}
+.section3 h1 {font-size: 4rem;color: #fff;display: inline; margin-left: 2vw; }
+
+.project {color: #fff; margin: 10vh 0vw 10vh 5vw;}
+.project h4{font-weight: 300;}
+.project p{font-weight: 200;}
+.project {color: #fff; margin-left: 5vw; margin-top: 7vh;}
+
+
+.project a:link { color: #fff;}
+.project a:visited { color: #fff;}

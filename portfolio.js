@@ -28,10 +28,10 @@ $(document).ready(function () {
             nav.children().removeClass("active");
             nav.children().eq(2).addClass("active");
         }
-        if (wScroll >= cont.eq(3).offset().top) {
-            nav.children().removeClass("active");
-            nav.children().eq(3).addClass("active");
-        }
+        // if (wScroll >= cont.eq(3).offset().top) {
+        //     nav.children().removeClass("active");
+        //     nav.children().eq(3).addClass("active");
+        // }
     });
 });
 
@@ -41,7 +41,7 @@ document.querySelector("#icon_mail").addEventListener("click", function(){
     emailCopy.value = email;
     document.body.appendChild(emailCopy);
     emailCopy.select();
-    alert(email+"\n메일이 복사되었습니다!")
+    alert(email+"\n메일이 복사되었습니다.")
     document.execCommand("copy");
     document.body.removeChild(emailCopy);
 });
