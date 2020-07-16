@@ -28,10 +28,10 @@ $(document).ready(function () {
             nav.children().removeClass("active");
             nav.children().eq(2).addClass("active");
         }
-        // if (wScroll >= cont.eq(3).offset().top) {
-        //     nav.children().removeClass("active");
-        //     nav.children().eq(3).addClass("active");
-        // }
+        if (wScroll >= cont.eq(3).offset().top) {
+            nav.children().removeClass("active");
+            nav.children().eq(3).addClass("active");
+        }
     });
 });
 
