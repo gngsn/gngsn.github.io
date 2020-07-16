@@ -37,10 +37,9 @@ canvas{width:20vw !important;}
 .section3 .text_container h2 {font-size: 2.5rem;font-weight: 200;color: #fff; border-bottom: #fff solid 0.05rem; display: inline;}
 .section3 .onoff {position: absolute; background-repeat: no-repeat;background-size: contain;background-image: url("./img/onoff.png"); margin: 5vh 0vw;width: 25vw; height: 50vh;}
 
-.section4 {padding: 10vh 10vw;}
-.section4 .grid {padding: 3vh 0vw; border-left: #fff solid 0.1rem; width: 70vw;}
+.section4 {padding: 5vh 10vw;}
+.section4 .grid {padding: 2vh 0vw; border-left: #fff solid 0.1rem; width: 70vw;}
 .section4 h1 {font-size: 4rem;color: #fff;display: inline; margin-left: 2vw; }
-
 
 .gallery {display: flex; flex-direction: row; width: 80vw; overflow-x: auto; }
 .gallery img {width: 400px; margin: 5vh 0.4vw;}
@@ -53,16 +52,16 @@ summary h3 {font-weight: 700; font-size: 2rem; border-bottom: #fff solid 2px; di
 
 details[open] summary ~ * { animation: sweep .5s ease-in-out; }
 @keyframes sweep {0% {opacity: 0; margin-left: -10px} 100% {opacity: 1; margin-left: 0px}}
-/* details summary ~ * { animation: close_sweep .5s ease-in-out; }
-@keyframes close_sweep {100% {opacity: 0; margin-left: -10px} 0% {opacity: 1; margin-left: 0px}} */
-details {color: #fff; margin: 10vh 0vw 0vh 5vw;}
+details {color: #fff; margin: 5vh 0vw 5em 5vw;}
 details[open] .project { padding: .5em; border-left: #fff solid .3px; padding-left: 2em;}
 details[open] h4 {font-weight: 500; font-size: 1.5rem; }
+details[open] h5 {font-weight: 300; font-size: 1.5rem; }
 details[open] p {font-weight: 200; font-size: 1.4rem; line-height: 2rem;}
 details[open] summary { margin-bottom: 2.5em;}
 
 
 @media (max-width:800px) {
+    .content {width: 90vw;}
     .fixed-nav {display: none;}
     .section1 {flex-direction: column;}
     .section1 .main h1 {line-height: 4rem;font-size: 3.5rem; order: 0; display: inline; width: 70vw;}
@@ -81,21 +80,32 @@ details[open] summary { margin-bottom: 2.5em;}
     .section2 .motto h1 {font-size: 2rem;}
     .section2 .motto {text-align: center; padding: 10vh 10vw;}
     .section2 .motto h4 {font-size: 1rem;color: #fff; display: inline; font-weight: 300;}
-    .section2 .motto h2 {font-size: 0.5rem;color: #fff; border-bottom: #fff solid 0.2rem;display: inline;}
+    .section2 .motto h2 {font-size: 1.3rem;color: #fff; border-bottom: #fff solid 0.2rem;display: inline;}
     .section2 .onoff { height: 5vh;}
 
-    .section2 .text_container h1 {font-size: 2rem;color: #fff; border-bottom: #fff solid 0.2rem; display: inline;}
-    .section2 .text_container {padding: 10vh 10vw;}
-    .section2 .text_container h2 {font-size: 0.5rem;font-weight: 200;color: #fff; border-bottom: #fff solid 0.05rem; display: inline;}
-    .section3 .grid {margin: 4vh 4vw;}
+    .section3 .text_container h1 {font-size: 2rem;color: #fff; border-bottom: #fff solid 0.2rem; display: inline;}
+    .section3 .text_container {padding: 10vh 10vw;}
+    .section3 .text_container h2 {font-size: 0.5rem;font-weight: 200;color: #fff; border-bottom: #fff solid 0.05rem; display: inline;}
+    .section4 .grid {margin: 4vh 0vw 4vh 2vw;}
+    .section4 {width:90vw; padding: 5vh 1vw;}
 
 
-.section3 p {font-size: 0.5rem;}
-.section3 h2 {font-size: 1rem;}
-.section3 h4 {font-size: 0.7rem;}
+
+.section4 p {font-size: 0.5rem;}
+.section4 h2 {font-size: 0.8rem;}
+.section4 h3 {font-size: 1.0rem;}
+.section4 h4 {font-size: 0.7rem;}
 /* .section3 .grid {margin: 20vh; border-left: #fff solid 0.1rem; width: 70vw; height: 100vh;} */
-.section3 h1 {font-size: 2rem;color: #fff;display: inline; margin-left: 2vw; }
+.section4 h1 {font-size: 2rem;color: #fff;display: inline; margin-left: 2vw; }
 
-.project {color: #fff; margin: 10vh 0vw 10vh 5vw;}
-.project {color: #fff; margin-left: 5vw; margin-top: 7vh;}
+summary h2 {font-size: 1rem;}
+summary h3 {font-size: 1.4rem; border-bottom: #fff solid 2px; display: inline;}
+
+details {color: #fff; margin: 5vh 0vw 5em 5vw;}
+details[open] h4 {font-size: 1.2rem; }
+details[open] h5 {font-size: 1.2rem; }
+details[open] p {font-size: 1rem; line-height: 1.4;}
+details[open] summary { margin-bottom: 2.5em;}
+
+details[open] .project { width: 75vw;}
 }
