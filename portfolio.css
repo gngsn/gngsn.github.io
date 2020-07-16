@@ -3,10 +3,9 @@ a:link { color: #fff;}
 a:visited { color: #fff;}
 
 .content {width: 100vw;height: 100vh;margin: 0px;}
-.fixed-nav {display: flex;width: 300px; height: 0px;}
-.fixed-nav .nav {text-align: right; position: fixed; align-items: flex-end;top: 30px;right: 0px;} 
-.fixed-nav .nav a {font-size: 1.5rem; margin-right: 5vh; font-weight: 700;}
-.fixed-nav .nav a {color: #212121; position: relative; display: inline-block; font-family: 'Montserrat', sans-serif;}
+.fixed-nav { display: flex; align-items: flex-start; width: 30px; height: 0px;}
+.fixed-nav .nav { position: fixed; top: 30px; right: 0px;} 
+.fixed-nav .nav a {font-size: 2em;  font-weight: 700;color: #212121; position: relative; display: inline-block; font-family: 'Montserrat', sans-serif;}
 .fixed-nav .nav li .active {color: #fff !important;}
 .fixed-nav .nav li {list-style:none;}
 
@@ -14,14 +13,14 @@ a:visited { color: #fff;}
 .section1 .title h2 {font-size: 110px;font-weight: 900;color: #fff; height: 100px;}
 .section1 .main {margin: 2vh 2vw; z-index: 10; width: 22;}
 .section1 .main h1 {position: absolute; color: #fff;line-height: 7rem;font-size: 7.5rem;font-family: 'Montserrat';  margin: 1vh 1vh;}
-.section1 .selfie {position: absolute; background-repeat: no-repeat;background-size: contain;background-image: url("./img/selfie.JPG"); margin: 35vh 10vw;width: 25vw; height: 50vh; z-index: 0;}
-.graph-container {width: 30vw;height: 20vh; padding: 30vh 0vw 0vh 30vw;display: flex;flex-direction: row;}
+.section1 .selfie {position: absolute; background-repeat: no-repeat;background-size: contain;background-image: url("./img/selfie.JPG"); margin:300px 10vw;width: 25vw; height: 50vh; z-index: 0;}
+.graph-container {width: 30vw;height: 20vh; padding: 35vh 0vw 0vh 40vw;display: flex;flex-direction: row;}
 .graph {display: flex;flex-direction: column; margin: 4vh 0vw 0vw 2.5vw;}
 .graph p {color: #fff; font-family: 'Noto Sans KR'; font-weight: 300;font-size: 1.5rem;}
 canvas{width:20vw !important;} 
 
 .icon {position: absolute; right: 5vw;bottom: 7vh;margin: auto; display: flex; align-items: flex-end;}
-.icon div {height: 6vh; width: 6vw;margin: 0vh 0.1vw;}
+.icon div {height: 5vh; width: 5vw;margin: 0vh 0.3vw;}
 .icon_mail {margin-right:2vw !important;background-repeat: no-repeat;background-size: contain;background-image: url("./img/mail.png");}
 .icon_mail:hover {cursor: pointer;}
 .icon_github {background-repeat: no-repeat;background-size: contain;background-image: url("./img/github.png");}
@@ -38,7 +37,8 @@ canvas{width:20vw !important;}
 .section3 .text_container h2 {font-size: 2.5rem;font-weight: 200;color: #fff; border-bottom: #fff solid 0.05rem; display: inline;}
 .section3 .onoff {position: absolute; background-repeat: no-repeat;background-size: contain;background-image: url("./img/onoff.png"); margin: 5vh 0vw;width: 25vw; height: 50vh;}
 
-.section4 .grid {margin: 10vh 10vw; padding: 3vh 0vw; border-left: #fff solid 0.1rem; width: 70vw;}
+.section4 {padding: 10vh 10vw;}
+.section4 .grid {padding: 3vh 0vw; border-left: #fff solid 0.1rem; width: 70vw;}
 .section4 h1 {font-size: 4rem;color: #fff;display: inline; margin-left: 2vw; }
 
 
@@ -51,8 +51,12 @@ summary::-webkit-details-marker {display: none}
 summary h2 {font-weight: 500; font-size: 1.4rem;}
 summary h3 {font-weight: 700; font-size: 2rem; border-bottom: #fff solid 2px; display: inline;}
 
+details[open] summary ~ * { animation: sweep .5s ease-in-out; }
+@keyframes sweep {0% {opacity: 0; margin-left: -10px} 100% {opacity: 1; margin-left: 0px}}
+/* details summary ~ * { animation: close_sweep .5s ease-in-out; }
+@keyframes close_sweep {100% {opacity: 0; margin-left: -10px} 0% {opacity: 1; margin-left: 0px}} */
 details {color: #fff; margin: 10vh 0vw 0vh 5vw;}
-details[open] .project { margin: 0em 0em 2.5em 0em;padding: .5em; border-left: #fff solid .3px; padding-left: 2em;}
+details[open] .project { padding: .5em; border-left: #fff solid .3px; padding-left: 2em;}
 details[open] h4 {font-weight: 500; font-size: 1.5rem; }
 details[open] p {font-weight: 200; font-size: 1.4rem; line-height: 2rem;}
 details[open] summary { margin-bottom: 2.5em;}
