@@ -3,9 +3,9 @@ a:link { color: #fff;}
 a:visited { color: #fff;}
 
 .content {width: 100vw;height: 100vh;margin: 0px;}
-.fixed-nav { display: flex; align-items: flex-start; width: 30px; height: 0px;}
-.fixed-nav .nav { position: fixed; top: 30px; right: 0px;} 
-.fixed-nav .nav a {font-size: 2em;  font-weight: 700;color: #212121; position: relative; display: inline-block; font-family: 'Montserrat', sans-serif;}
+.fixed-nav { display: flex; align-items: flex-end; width: 30px; height: 0px;}
+.fixed-nav .nav { position: fixed; top: 30px; right: 10px; margin-right: 3vw;} 
+.fixed-nav .nav a {font-size: 2em; font-weight: 700;color: #212121; position: relative; display: inline-block; font-family: 'Montserrat', sans-serif;}
 .fixed-nav .nav li .active {color: #fff !important;}
 .fixed-nav .nav li {list-style:none;}
 
