@@ -1,5 +1,6 @@
 body {margin: 0px; background-repeat: no-repeat;width:100vw; background-size: cover;background-color: #171717; background-attachment: fixed; background-image: url("./img/bg.png");}
 .content {width: 100%;height: 100vh;margin: 0px;}
+.contents { width: 90vw;margin: auto;}
 .section2 {height: 200vh !important;}
 .fixed-nav {display: flex;width: 300px; height: 0px;}
 .fixed-nav .nav {text-align: right; position: fixed; align-items: flex-end;top: 30px;right: 0px;} 
@@ -15,7 +16,7 @@ body {margin: 0px; background-repeat: no-repeat;width:100vw; background-size: co
 .graph-container {width: 30vw;height: 20vh; padding: 30vh 0vw 0vh 40vw;display: flex;flex-direction: row;}
 .graph {display: flex;flex-direction: column; margin: 4vh 0vw 0vw 2.5vw;}
 .graph p {color: #fff; font-family: 'Noto Sans KR'; font-weight: 300;font-size: 1.5rem;}
-canvas{width:25vw !important;}
+canvas{width:25vw !important;} 
 
 .icon {position: absolute; right: 5vw;bottom: 7vh;margin: auto; display: flex; align-items: flex-end;}
 .icon div {height: 6vh; width: 6vw;margin: 0vh 0.1vw;}
@@ -35,7 +36,6 @@ canvas{width:25vw !important;}
 .section2 .text_container h2 {font-size: 2.5rem;font-weight: 200;color: #fff; border-bottom: #fff solid 0.05rem; display: inline;}
 .section2 .onoff {position: absolute; background-repeat: no-repeat;background-size: contain;background-image: url("./img/onoff.png"); margin: 5vh 0vw;width: 25vw; height: 50vh;}
 
-
 .section3 .grid {margin: 20vh; border-left: #fff solid 0.1rem; width: 70vw; height: 100vh;}
 .section3 h1 {font-size: 4rem;color: #fff;display: inline; margin-left: 2vw; }
 
@@ -44,6 +44,43 @@ canvas{width:25vw !important;}
 .project p{font-weight: 200;}
 .project {color: #fff; margin-left: 5vw; margin-top: 7vh;}
 
-
 .project a:link { color: #fff;}
 .project a:visited { color: #fff;}
+
+
+@media (max-width:800px) {
+    .fixed-nav {display: none;}
+    .section1 .main h1 {line-height: 4rem;font-size: 3.5rem; order: 0; display: inline; width: 70vw;}
+    .section1 .main { width: 80vw; height: 60vh; z-index: 10;display: flex;}
+    .section1 .selfie {position: relative;margin: 30vh auto 0vh;width: 50vw; z-index: 0;order: 1;}
+
+    .graph-container {display: none;}
+    /* .graph-container {width: 30vw; height: 20vh; padding: 0vh 0vw 0vh 00vw;display: flex;flex-direction: column}
+    .graph {display: flex;flex-direction: column; margin: 0vh 0vw 0vw 0vw;}
+    /* .graph p {font-size: 1rem;} */
+
+    /* .icon {position: absolute; right: 5vw;bottom: 0vh;margin: auto; display: flex; align-items: flex-end;}
+    canvas{width:70vw !important; height: 50vh !important;} */
+    .section2 {height:120vh !important;}
+
+    .section2 .motto h1 {font-size: 2rem;}
+.section2 .motto {text-align: center; padding: 10vh 10vw;}
+.section2 .motto h4 {font-size: 1rem;color: #fff; display: inline; font-weight: 300;}
+.section2 .motto h2 {font-size: 0.5rem;color: #fff; border-bottom: #fff solid 0.2rem;display: inline;}
+.section2 .onoff { height: 5vh;}
+
+    .section2 .text_container h1 {font-size: 2rem;color: #fff; border-bottom: #fff solid 0.2rem; display: inline;}
+    .section2 .text_container {padding: 10vh 10vw;}
+.section2 .text_container h2 {font-size: 0.5rem;font-weight: 200;color: #fff; border-bottom: #fff solid 0.05rem; display: inline;}
+.section3 .grid {margin: 4vh 2vw;}
+
+
+.section3 p {font-size: 0.5rem;}
+.section3 h2 {font-size: 1rem;}
+.section3 h4 {font-size: 0.7rem;}
+/* .section3 .grid {margin: 20vh; border-left: #fff solid 0.1rem; width: 70vw; height: 100vh;} */
+.section3 h1 {font-size: 2rem;color: #fff;display: inline; margin-left: 2vw; }
+
+.project {color: #fff; margin: 10vh 0vw 10vh 5vw;}
+.project {color: #fff; margin-left: 5vw; margin-top: 7vh;}
+}
