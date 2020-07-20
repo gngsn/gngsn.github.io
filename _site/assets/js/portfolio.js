@@ -87,7 +87,7 @@ let options= {
 var language = new Chart(langCtx, {
     type: 'bar',
     data: {
-        labels: ["Java", "JavaScript", "SQL", "PHP", "C"],
+        labels: ["Java", "JS", "SQL", "PHP", "C"],
         datasets: [{
             data: [80, 100, 100, 70, 60],
             backgroundColor: [
@@ -97,7 +97,7 @@ var language = new Chart(langCtx, {
     },
     options: options
 });
-
+  
 var textCtx = new Chart(textCtx, {
     type: 'bar',
     data: {
