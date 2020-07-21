@@ -27,15 +27,16 @@ canvas{width:25vw !important;}
 .icon_linkedin {background-repeat: no-repeat;background-size: contain;background-image: url("./img/linkedin.png");}
 .icon_insta {background-repeat: no-repeat;background-size: contain;background-image: url("./img/instagram.png");}
 
-.section2 .motto h1 {font-size: 4rem;color: #fff; border-bottom: #fff solid 0.2rem; display: inline;}
-.section2 .motto {text-align: center; padding: 20vh 10vw;}
-.section2 .motto h4 {font-size: 2rem;color: #fff; display: inline; font-weight: 300;}
-.section2 .motto h2 {font-size: 2.5rem;color: #fff; border-bottom: #fff solid 0.2rem;display: inline;}
+.section2 .motto {text-align: center; padding: 10vh 10vw; }
+.section2 .motto h1 {font-size: 3.5rem;color: #fff; border-bottom: #fff solid 0.2rem; display: inline;}
+.section2 .motto h4 {font-size: 1.8rem;color: #fff; display: inline; font-weight: 300;}
+.section2 .motto h2 {font-size: 2rem;color: #fff; border-bottom: #fff solid 0.2rem;display: inline;}
+.motto .onoff {background-repeat: no-repeat;background-size: contain;background-image: url("./img/onoff.png"); margin: 10vh auto;width: 25vw; height: 20vh;}
 
-.section3 .text_container {text-align: left; padding: 10vh 10vw;}
-.section3 .text_container h1 {font-size: 4rem;color: #fff; border-bottom: #fff solid 0.2rem; display: inline;}
-.section3 .text_container h2 {font-size: 2.5rem;font-weight: 200;color: #fff; border-bottom: #fff solid 0.05rem; display: inline;}
-.section3 .onoff {position: absolute; background-repeat: no-repeat;background-size: contain;background-image: url("./img/onoff.png"); margin: 5vh 0vw;width: 25vw; height: 50vh;}
+.section3 {padding: 10vh 0vw;}
+.section3 .text_container {text-align: left; padding: 5vh 10vw;}
+.section3 .text_container h1 {font-size: 3.5rem;color: #fff; border-bottom: #fff solid 0.2rem; display: inline;}
+.section3 .text_container h2 {font-size: 2rem;font-weight: 200;color: #fff; border-bottom: #fff solid 0.05rem; display: inline;}
 
 .section4 {padding: 5vh 10vw;}
 .section4 .grid {padding: 2vh 0vw; border-left: #fff solid 0.1rem; width: 70vw;}
@@ -82,7 +83,6 @@ details[open] summary { margin-bottom: 2.5em;}
     .section2 .motto {text-align: center; padding: 10vh 0vw;}
     .section2 .motto h4 {font-size: 1rem;color: #fff; display: inline; font-weight: 300;}
     .section2 .motto h2 {font-size: 1.2rem;color: #fff; border-bottom: #fff solid 0.1rem;display: inline;}
-    .section2 .onoff { height: 5vh;}
 
     .section3 .text_container h1 {font-size: 1.5rem;color: #fff; border-bottom: #fff solid 0.2rem; display: inline;}
     .section3 .text_container {padding: 10vh 5vw; width: 70vw;}
