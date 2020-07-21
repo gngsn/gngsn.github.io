@@ -2,10 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+
+    <title> {{ site.title | default: site.title }} </title>
+    <meta name="generator" content="Jekyll v4.1.1" />
+    <meta property="og:title" content="kyeongsun" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:url" content="http://gngsn.github.io/" />
+    <meta property="og:site_name" content=" {{ site.title | default: site.title }} " />
+
     <meta name="description" content="{{site.title | default: site.title}}" />
     <meta property="og:description" content="{{ site.tagline }}" content="안녕하세요. 백엔드 개발자를 꿈꾸는 박경선입니다." />
-    <link rel="canonical" href="https://gngsn.github.io/" />
+    <link rel="canonical" href="http://localhost:4000/" />
     <link rel="icon" type="image/png" href="./assets/img/selfie_sq.JPG" sizes="32x32" />
     
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i,800,800i,900,900i&display=swap"
@@ -13,12 +22,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/assets/main.css">
-    <title> {{ site.posts | default: site.title }} </title>
-    <meta name="generator" content="Jekyll v4.1.1" />
-    <meta property="og:title" content="kyeongsun" />
-    <meta property="og:locale" content="ko_KR" />
-    <meta property="og:url" content="http://gngsn.github.io/" />
-    <meta property="og:site_name" content=" {{ site.title | default: site.title }} " />
 </head>
 
 <body>
@@ -63,9 +66,11 @@
         </section>
         <section class="content section2">
             <div>
-                <div class="motto">
-                    <h1>할 땐 하자.</h1>
+                <div class="main">
                     <div class="onoff"></div>
+                </div>
+                <div class="motto">
+                    <h1>할 땐 하자.<br /><br /><br /></h1>
                     <h4>개발할 땐 깊은 집중하고,<br />
                         사람들과 어울릴 때에는 잘 화합하는 사람.<br />
                         <br />
