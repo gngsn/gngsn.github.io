@@ -82,7 +82,8 @@ details[open] summary { margin-bottom: 2.5em;}
     .section2 .motto {text-align: center; padding: 10vh 0vw;}
     .section2 .motto h4 {font-size: 1rem;color: #fff; display: inline; font-weight: 300;}
     .section2 .motto h2 {font-size: 1.2rem;color: #fff; border-bottom: #fff solid 0.1rem;display: inline;}
-
+    .motto .onoff {margin: 5vh auto 0vh;width: 40vw; height: 15vh;}
+    
     .section3 .text_container h1 {font-size: 1.5rem;color: #fff; border-bottom: #fff solid 0.2rem; display: inline;}
     .section3 .text_container {padding: 10vh 5vw; width: 70vw;}
     .section3 .text_container h2 {font-size: 0.8rem; font-weight: 200;color: #fff; border-bottom: #fff solid 0.05rem; display: inline;}
