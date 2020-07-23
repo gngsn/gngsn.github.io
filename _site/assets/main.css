@@ -33,7 +33,7 @@ canvas{width:25vw !important;}
 .section2 .motto h2 {font-size: 2rem;color: #fff; border-bottom: #fff solid 0.2rem;display: inline;}
 .motto .onoff {background-repeat: no-repeat;background-size: contain; margin: 10vh auto; background-image: url("./img/onoff.png"); width: 25vw; height: 20vh;}
 
-.section3 .text_container {text-align: left; padding: 20vh 10vw;}
+.section3 .text_container {text-align: left; padding: 15vh 10vw;}
 .section3 .text_container h1 {font-size: 3.5rem;color: #fff; border-bottom: #fff solid 0.2rem; display: inline;}
 .section3 .text_container h2 {font-size: 2rem;font-weight: 200;color: #fff; border-bottom: #fff solid 0.05rem; display: inline;}
 
@@ -53,10 +53,10 @@ summary h3 {font-weight: 700; font-size: 2rem; border-bottom: #fff solid 2px; di
 details[open] summary ~ * { animation: sweep 0.3s ease-in-out; }
 @keyframes sweep {0% {opacity: 0; margin-left: -10px} 100% {opacity: 1; margin-left: 0px}}
 details {color: #fff; margin: 5vh 0vw 5em 5vw;}
-details[open] .project { padding: .5em; border-left: #fff solid .3px; padding-left: 2em;}
-details[open] h4 {font-weight: 500; font-size: 1.5rem; margin: 2em 0em 0em 0em;}
-details[open] h5 {font-weight: 300; font-size: 1.5rem; }
-details[open] p {font-weight: 200; font-size: 1.4rem; line-height: 2rem; margin-left: 10px;}
+details[open] .project { padding: 1em; border-left: #fff solid .3px;}
+details[open] h4 {font-weight: 400; font-size: 1.5rem; color: #727272; margin: 2em 0em 0em 0em;}
+details[open] h5 {font-weight: 900; font-size: 2rem; margin-left: 2em;}
+details[open] p {font-weight: 300; font-size: 1.4rem; line-height: 2rem; margin-left: 2em;}
 details[open] summary { margin-bottom: 2.5em;}
 
 
@@ -83,7 +83,7 @@ details[open] summary { margin-bottom: 2.5em;}
     .section2 .motto h4 {font-size: 1rem;color: #fff; display: inline; font-weight: 300;}
     .section2 .motto h2 {font-size: 1.2rem;color: #fff; border-bottom: #fff solid 0.1rem;display: inline;}
     .motto .onoff {margin: 5vh auto 0vh;width: 40vw; height: 15vh;}
-    
+
     .section3 .text_container h1 {font-size: 1.5rem;color: #fff; border-bottom: #fff solid 0.2rem; display: inline;}
     .section3 .text_container {padding: 10vh 5vw; width: 70vw;}
     .section3 .text_container h2 {font-size: 0.8rem; font-weight: 200;color: #fff; border-bottom: #fff solid 0.05rem; display: inline;}
