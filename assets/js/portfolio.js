@@ -35,77 +35,77 @@ $(document).ready(function () {
     });
 });
 
-function scrollThere(targetElement, speed) {
-    // initiate an animation to a certain page element:
-    $('html, body').stop().animate({
-            scrollTop: targetElement.offset().top
-        }, // move window so target element is at top of window
-        speed, // speed in milliseconds
-        'swing' // easing
-    ); // end animate
-} // end scrollThere function definition
+// function scrollThere(targetElement, speed) {
+//     // initiate an animation to a certain page element:
+//     $('html, body').stop().animate({
+//             scrollTop: targetElement.offset().top
+//         }, // move window so target element is at top of window
+//         speed, // speed in milliseconds
+//         'swing' // easing
+//     ); // end animate
+// } // end scrollThere function definition
 
 
-//--- START SCROLL EVENTS ---//
-// detect a mousewheel event (note: relies on jquery mousewheel plugin):
-$(window).on('mousewheel', function (e) {
-    // get Y-axis value of each div:
-    var div1y = $('#section1').offset().top,
-        div2y = $('#section2').offset().top,
-        div3y = $('#section3').offset().top,
-        div4y = $('#section4').offset().top,
-        // get window's current scroll position:
-        lastScrollTop = $(this).scrollTop(),
-        // for getting user's scroll direction:
-        scrollDirection,
-        // for determining the previous and next divs to scroll to, based on lastScrollTop:
-        targetUp,
-        targetDown,
-        // for determining which of targetUp or targetDown to scroll to, based on scrollDirection:
-        targetElement;
+// //--- START SCROLL EVENTS ---//
+// // detect a mousewheel event (note: relies on jquery mousewheel plugin):
+// $(window).on('mousewheel', function (e) {
+//     // get Y-axis value of each div:
+//     var div1y = $('#section1').offset().top,
+//         div2y = $('#section2').offset().top,
+//         div3y = $('#section3').offset().top,
+//         div4y = $('#section4').offset().top,
+//         // get window's current scroll position:
+//         lastScrollTop = $(this).scrollTop(),
+//         // for getting user's scroll direction:
+//         scrollDirection,
+//         // for determining the previous and next divs to scroll to, based on lastScrollTop:
+//         targetUp,
+//         targetDown,
+//         // for determining which of targetUp or targetDown to scroll to, based on scrollDirection:
+//         targetElement;
 
-    // get scroll direction:
-    if (e.originalEvent.deltaY > -5) {
-        scrollDirection = 'up';
-    } else if (e.originalEvent.deltaY <= 5) {
-        scrollDirection = 'down';
-    } // end if
+//     // get scroll direction:
+//     if (e.originalEvent.deltaY > -5) {
+//         scrollDirection = 'up';
+//     } else if (e.originalEvent.deltaY <= 5) {
+//         scrollDirection = 'down';
+//     } // end if
 
-    // prevent default behavior (page scroll):
-    e.preventDefault();
+//     // prevent default behavior (page scroll):
+//     e.preventDefault();
 
-    // condition: determine the previous and next divs to scroll to, based on lastScrollTop:
-    if (lastScrollTop === div1y) {
-        targetUp = $('#section1');
-        targetDown = $('#section2');
-    } else if (lastScrollTop === div2y) {
-        targetUp = $('#section1');
-        targetDown = $('#section3');
-    } else if (lastScrollTop === div3y) {
-        targetUp = $('#section2');
-        targetDown = $('#section4');
-    } else if (lastScrollTop < div2y) {
-        targetUp = $('#section1');
-        targetDown = $('#section2');
-    } else if (lastScrollTop < div3y) {
-        targetUp = $('#section2');
-        targetDown = $('#section3');
-    } else if (lastScrollTop < div4y) {
-        targetUp = $('#section3');
-        targetDown = $('#section4');
-    }
-    // condition: determine which of targetUp or targetDown to scroll to, based on scrollDirection:
-    if (scrollDirection === 'down') {
-        targetElement = targetDown;
-        scrollThere(targetElement, 500);
-    } else if (scrollDirection === 'up') {
-        targetElement = targetUp;
-        scrollThere(targetElement, 500);
-    } // end else if
+//     // condition: determine the previous and next divs to scroll to, based on lastScrollTop:
+//     if (lastScrollTop === div1y) {
+//         targetUp = $('#section1');
+//         targetDown = $('#section2');
+//     } else if (lastScrollTop === div2y) {
+//         targetUp = $('#section1');
+//         targetDown = $('#section3');
+//     } else if (lastScrollTop === div3y) {
+//         targetUp = $('#section2');
+//         targetDown = $('#section4');
+//     } else if (lastScrollTop < div2y) {
+//         targetUp = $('#section1');
+//         targetDown = $('#section2');
+//     } else if (lastScrollTop < div3y) {
+//         targetUp = $('#section2');
+//         targetDown = $('#section3');
+//     } else if (lastScrollTop < div4y) {
+//         targetUp = $('#section3');
+//         targetDown = $('#section4');
+//     }
+//     // condition: determine which of targetUp or targetDown to scroll to, based on scrollDirection:
+//     if (scrollDirection === 'down') {
+//         targetElement = targetDown;
+//         scrollThere(targetElement, 500);
+//     } else if (scrollDirection === 'up') {
+//         targetElement = targetUp;
+//         scrollThere(targetElement, 500);
+//     } // end else if
 
 
-}); // end on mousewheel event
-//--- END SCROLL EVENTS ---//
+// }); // end on mousewheel event
+// //--- END SCROLL EVENTS ---//
 
 
 
