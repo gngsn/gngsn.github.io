@@ -64,15 +64,12 @@ $(window).on('mousewheel', function (e) {
         // for determining which of targetUp or targetDown to scroll to, based on scrollDirection:
         targetElement;
 
-        console.log("deltaY: ", e.originalEvent.deltaY);
-
     // get scroll direction:
     if (e.originalEvent.deltaY > -5) {
         scrollDirection = 'up';
     } else if (e.originalEvent.deltaY <= 5) {
         scrollDirection = 'down';
     } // end if
-    console.log("scrollDirection :", scrollDirection);
 
     // prevent default behavior (page scroll):
     e.preventDefault();
