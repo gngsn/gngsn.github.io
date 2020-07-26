@@ -32,7 +32,35 @@ $(document).ready(function () {
             nav.children().removeClass("active");
             nav.children().eq(3).addClass("active");
         }
+
+        var offset1 = (wScroll - $('.offset1').offset().top*0.7) * 0.3;
+        var offset2 = (wScroll - $('.offset2').offset().top*0.7) * -0.3;
+        var offset3 = (wScroll - $('.offset3').offset().top*0.7) * 0.3;
+
+        if (offset1 < 10) {
+        $(".offset1").css({'transform': 'translateX(' + offset1 + 'px)'});
+        }
+        if (offset2 > 0) {
+        $(".offset2").css({'transform': 'translateX(' + offset2 + 'px)'});
+        }
+        if (offset3 < 0) {
+        $(".offset3").css({'transform': 'translateX(' + offset3 + 'px)'});
+        }
+
+        var color = 255 - (wScroll - $('.section2').offset().top *0.6);
+        var color2 = (wScroll - $('.section2').offset().top*0.6);
+        
+        $(".off").css({'background-color': 'rgb('+color2+', '+'+'+color2+','+ color2+')'});
+        $(".off h2").css({'color': 'rgb('+ color + ', '+'+'+color+','+ color+')'});
+
+        $(".on").css({'background-color': 'rgb('+color+', '+'+'+color+','+ color+')'});
+        $(".on").css({'border': '1px solid rgb('+ color2 + ', '+'+'+color2+','+ color2+')'});
+        $(".on h2").css({'color': 'rgb('+ color2 + ', '+'+'+color2+','+ color2+')'});
+
+        var color2 = (wScroll - $('.section3').offset().top*0.6);
+        
     });
+
 });
 
 // function scrollThere(targetElement, speed) {
@@ -106,8 +134,6 @@ $(document).ready(function () {
 
 // }); // end on mousewheel event
 // //--- END SCROLL EVENTS ---//
-
-
 
 let email = "rudtjs4540@gmail.com";
 document.querySelector("#icon_mail").addEventListener("click", function () {
