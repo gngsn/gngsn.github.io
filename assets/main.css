@@ -1,7 +1,7 @@
 body {margin: 0px; width:100vw; background-size: cover;background-color: #000000;}
  /* background-repeat: no-repeat; background-attachment: fixed; background-image: url("");} */
-a:link { color: #fff;}
-a:visited { color: #fff;}
+a:link { color: #000;}
+a:visited { color: #000;}
 
 .content {width: 100vw;height: 100vh;margin: 0px;}
 .fixed-nav { display: flex; align-items: flex-end; width: 30px; height: 0px;}
@@ -131,9 +131,9 @@ details[open] summary { margin-bottom: 2.5em;}
     .section4 h1 {font-size: 2rem;color: #fff;display: inline; margin-left: 2vw; }
 
     summary h2 {font-size: 1rem;}
-    summary h3 {font-size: 1.4rem; border-bottom: #fff solid 2px; display: inline;}
+    summary h3 {font-size: 1.4rem; border-bottom: #000 solid 2px; display: inline;}
 
-    details {color: #fff; margin: 5vh 0vw 5em 5vw;}
+    details {color: #000; margin: 5vh 0vw 5em 5vw;}
     details[open] h4 {font-size: 1rem; }
     details[open] h5 {font-size: .9rem; }
     details[open] p {font-size: .8rem; line-height: 1.4;}
