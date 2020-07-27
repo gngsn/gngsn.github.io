@@ -37,30 +37,31 @@ $(document).ready(function () {
         var offset2 = (wScroll - $('.offset2').offset().top*0.7) * -0.3;
         var offset3 = (wScroll - $('.offset3').offset().top*0.7) * 0.3;
 
-        if (offset1 < 10) {
-        $(".offset1").css({'transform': 'translateX(' + offset1 + 'px)'});
-        }
-        if (offset2 > 0) {
-        $(".offset2").css({'transform': 'translateX(' + offset2 + 'px)'});
-        }
-        if (offset3 < 0) {
-        $(".offset3").css({'transform': 'translateX(' + offset3 + 'px)'});
-        }
+        if (offset1 < 10)
+            $(".offset1").css({'transform': 'translateX(' + offset1 + 'px)'});
+        if (offset2 > 0)
+            $(".offset2").css({'transform': 'translateX(' + offset2 + 'px)'});
+        if (offset3 < 0)
+            $(".offset3").css({'transform': 'translateX(' + offset3 + 'px)'});
 
-        var color = 255 - (wScroll - $('.section2').offset().top *0.6);
-        var color2 = (wScroll - $('.section2').offset().top*0.6);
+        var toBlack = 255 - (wScroll - $('.section2').offset().top *0.6);
+        var toWhite = (wScroll - $('.section2').offset().top*0.6);
         
-        $(".off").css({'background-color': 'rgb('+color2+', '+'+'+color2+','+ color2+')'});
-        $(".off h2").css({'color': 'rgb('+ color + ', '+'+'+color+','+ color+')'});
+        $("body").css({'background-color': 'rgb('+toWhite+', '+'+'+toWhite+','+ toWhite+')'});
+        $(".off").css({'color': 'rgb('+ toWhite + ', '+'+'+toWhite+','+ toWhite+')'});
+        $(".off h2").css({'color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
 
-        $(".on").css({'background-color': 'rgb('+color+', '+'+'+color+','+ color+')'});
-        $(".on").css({'border': '1px solid rgb('+ color2 + ', '+'+'+color2+','+ color2+')'});
-        $(".on h2").css({'color': 'rgb('+ color2 + ', '+'+'+color2+','+ color2+')'});
-
-        var color2 = (wScroll - $('.section3').offset().top*0.6);
-        
+        $(".off").css({'border': '1px solid rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
+        $(".on").css({'background-color': 'rgb('+toBlack+', '+'+'+toBlack+','+ toBlack+')'});
+        $(".on").css({'border': '1px solid rgb('+ toWhite + ', '+'+'+toWhite+','+ toWhite+')'});
+        $(".on h2").css({'color': 'rgb('+ toWhite + ', '+'+'+toWhite+','+ toWhite+')'});
+        $(".motto > h1").css({'color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
+        $(".motto > h2").css({'color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
+        $(".underline").css({'background-color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
+        $(".motto > h2").css({'border-bottom': '0.2rem solid rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
+        $(".motto > h4").css({'color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
+        $(".fixed-nav .nav li .active").css({'color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+') !important'});
     });
-
 });
 
 // function scrollThere(targetElement, speed) {

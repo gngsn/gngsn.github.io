@@ -52,7 +52,7 @@ layout: default
                 </div>
                 <h4 class="offset1"><span><em>개발할 땐 깊은 집중하고,</em></span></h4>
                 <h4 class="offset2"><span><em>사람들과 어울릴 때에는 잘 화합하는 사람.</em></span></h4><br/>
-                <h2>“어차피 할 거 ! 후회하지 않도록.”<br /><br /></h2>
+                <h2>“어차피 할 거! 후회하지 않도록.”<br /><br /></h2>
                 <h4 class="offset3"><span><em>좌우명을 갖고 실천합니다.</em></span></h4>
             </div>
         </div>
@@ -62,19 +62,19 @@ layout: default
             <div class="about about1"></div>
             <div class="about about2">
                 <div class="text_container">
-                    <h1>PASSION.</h1><br /><br />
+                    <h1>PASSION.<br /><br /></h1>
                     <h2>항상 성장을 갈망하며,<br />그 누구에게도<br />뒤쳐지지 않는<br />열정을 갖고있습니다.</h2>
                 </div>
             </div>
             <div class="about about3">
                 <div class="text_container">
-                    <h1>WITH.</h1><br /><br />
+                    <h1>WITH.<br /><br /></h1>
                     <h2>“함께”라는 가치를<br />중요시하여<br />주변 사람과 화합합니다.<br /></h2>
                 </div>
             </div>
             <div class="about about4">
                 <div class="text_container">
-                    <h1>CONSTANTLY.</h1><br /><br />
+                    <h1>CONSTANTLY.<br /><br /></h1>
                     <h2>어떤 일을 하든지 <br />포기하지 않고 <br />끝까지 해냅니다.</h2>
                 </div>
             </div>
@@ -92,11 +92,19 @@ layout: default
         </div> -->
     </section>
     <section id="section4" class="content section4">
+        <article class="post">
         <div class="grid">
+            {% if site.paginate %}
+            {% assign posts = paginator.posts %}
+          {% else %}
+            {% assign posts = site.posts %}
+          {% endif %}
+            <h2> {{ posts }} </h2>
+            {% for page in (1..paginator.total_pages) %}
             <details>
                 <summary>
-                    <h2>2020.01.18 ~ 2020.08.01</h2>
-                    <h3>IT 동아리 SOPT 25대 서버파트장</h3>
+                    <h2> {{ post.duration }} </h2>
+                    <h3> {{ post.title }}</h3>
                 </summary>
                 <div class="project">
                     <h4>Summary</h4>
@@ -140,6 +148,7 @@ layout: default
                     <p><a href="https://github.com/gngsn/26th_SERVER">> Github 링크 - 세미나 실습 자료</a></p>
                 </div>
             </details>
+            {% endfor %}
             <details>
                 <summary>
                     <h2>2019-12-22 ~ 2020-01-04</h2>
@@ -326,5 +335,6 @@ layout: default
                 </div>
             </details>
         </div>
+    </article>
     </section>
 </div>
