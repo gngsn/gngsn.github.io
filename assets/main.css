@@ -1,69 +1,86 @@
-body {margin: 0px; width:100vw; background-size: cover;background-color: #000000;}
- /* background-repeat: no-repeat; background-attachment: fixed; background-image: url("");} */
+body {margin: 0px; width:100vw; background-size: cover;background-color: #000;overflow-x: hidden;}
 a:link { color: #000;}
 a:visited { color: #000;}
+section {height: 100%; scroll-snap-align: start; scroll-snap-stop: normal;}
 
-.content {width: 100vw;height: 100vh;margin: 0px;}
+.content {width: 100vw;height: 100vh;margin: 0px; overflow: auto; scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory; background-color: #000; }
+
 .fixed-nav { display: flex; align-items: flex-end; width: 30px; height: 0px;}
 .fixed-nav .nav { position: fixed; top: 30px; right: 10px; margin-right: 3vw;} 
 .fixed-nav .nav a {font-size: 2em; font-weight: 700;color: #212121; position: relative; display: inline-block; font-family: 'Montserrat', sans-serif; }
 .fixed-nav .nav li .active {color: rgb(231, 231, 231);}
 .fixed-nav .nav li {list-style:none;}
 
-section {margin-bottom: 10vw !important;}
-.section1 {display: flex;}
+
+
+
+.section1 {display: flex; flex-direction: row;overflow: hidden;}
 .section1 .title h2 {font-size: 110px;font-weight: 900;color: #fff; height: 100px;}
-.section1 .main {margin: 2vh 2vw; z-index: 10; width: 22;}
-.section1 .main h1 {position: absolute; color: #fff;line-height: 7rem;font-size: 7.5rem; font-family: 'Montserrat';  margin: 1vh 1vh;}
-.section1 .selfie {position: absolute; background-repeat: no-repeat;background-size: contain;background-image: url("./img/selfie.JPG"); margin:300px 10vw;width: 25vw; height: 50vh; z-index: 0;}
-.graph-container {width: 30vw;height: 20vh; padding: 40vh 0vw 0vh 37vw;display: flex;flex-direction: row;}
-.graph {display: flex;flex-direction: column; margin-right: 1.4vw;}
-.graph p {color: #fff; font-family: 'Noto Sans KR'; font-weight: 300;font-size: 1.5rem;}
-canvas{width:25vw !important;} 
+.section1 .main {margin: 0vh 2vw; z-index: 10; width: 22;}
+.section1 .main h1 {margin-top: 3vh; margin-bottom: 0vh; color: #fff; line-height: 8rem; font-size: 9rem; font-family: 'Montserrat';}
+.section1 .selfie {background-repeat: no-repeat;background-size: contain;background-image: url("./img/selfie.JPG");width: 30vw; height: 50vh; z-index: 0; margin: -10vh 0vw 0vh 20vw;}
+.section1 .graph-container {width: 30vw;height: 20vh; display: flex; padding-left: 6vw; flex-direction: column;}
+.section1 .graph-container .graph {display: flex;flex-direction: column; padding-top: 5vh; margin-right: 1.4vw;}
+.section1 .graph-container .graph p {color: #fff; font-family: 'Noto Sans KR'; font-weight: 300;font-size: 1.5rem;}
+.section1 .graph-container canvas {width:30vw !important; } 
 
+.section1 .icon {margin: 10vh auto; display: flex; align-items: flex-end;}
+.section1 .icon div {height: 5vh; width: 5vw;margin: 0vh 0.3vw;}
+.section1 .icon_mail {margin-right:2vw !important;background-repeat: no-repeat;background-size: contain;background-image: url("./img/mail.png");}
+.section1 .icon_mail:hover {cursor: pointer;}
+.section1 .icon_github {background-repeat: no-repeat;background-size: contain;background-image: url("./img/github.png");}
+.section1 .icon_linkedin {background-repeat: no-repeat;background-size: contain;background-image: url("./img/linkedin.png");}
+.section1 .icon_insta {background-repeat: no-repeat;background-size: contain;background-image: url("./img/instagram.png");}
 
-.icon {position: absolute; right: 5vw;bottom: 7vh;margin: auto; display: flex; align-items: flex-end;}
-.icon div {height: 5vh; width: 5vw;margin: 0vh 0.3vw;}
-.icon_mail {margin-right:2vw !important;background-repeat: no-repeat;background-size: contain;background-image: url("./img/mail.png");}
-.icon_mail:hover {cursor: pointer;}
-.icon_github {background-repeat: no-repeat;background-size: contain;background-image: url("./img/github.png");}
-.icon_linkedin {background-repeat: no-repeat;background-size: contain;background-image: url("./img/linkedin.png");}
-.icon_insta {background-repeat: no-repeat;background-size: contain;background-image: url("./img/instagram.png");}
+.section2 {overflow: hidden;}
+.section2 .title {margin: 0vh 0vw 0vh 0vw; transform-origin: left top; transform:rotate(-90deg) translate(-50em, 0em); width: 40vw;height: 10vw;}
+.section2 .title h1 {font-size: 8em; color: #000; border-bottom: #000 solid 0.2rem; display: inline;font-family: 'Montserrat' }
+.section2 .motto {text-align: center; padding: 0vh 3vw; display: flex; flex-direction: row;}
+.section2 .motto .text_container {margin-left: 0vw;margin-top: 15vh;}
+.section2 .motto .text_container > h1 {font-size: 5em; font-weight: 900; color: #fff; line-height: 0.4em; margin: 0em;}
+.section2 .motto .text_container > h2 {font-size: 2rem; color: #fff; border-bottom: #fff solid 0.2rem;display: inline;}
+.section2 .motto .text_container > h4 {font-size: 1.5rem; color: #fff; font-weight: 300; line-height: 1rem;}
+.section2 .motto .underline {background-color: #fff; height: 2px; width: 4em; margin: auto;}
+.section2 .motto .onoff { margin: 5vh auto;  width: 500px; height: 250px; display: flex; position: relative;}
+.section2 .motto .onoff .block { border-radius: 50%; width: 250px; height: 250px;}
+.section2 .motto .onoff .block h2 {font-size: 5rem; font-family: 'Noto Sans KR';}
+.section2 .motto .onoff .on {background-color: #fff; margin-right: -1vw;}
+.section2 .motto .onoff .off {border: 1px solid #fff; margin-left: -1vw;}
+.section2 .motto .onoff .on h2 {color: #000;}
+.section2 .motto .onoff .off h2 {color: #fff;}
 
-.section2 .motto > h1 {font-size: 3.5em;color: #fff; display: inline; margin: 0em;}
-.section2 .motto {text-align: center; padding: 15vh 10vw;}
-.section2 .motto > h4 {font-size: 1.5rem;color: #fff; font-weight: 300;}
-.section2 .motto > h2 {font-size: 2rem;color: #fff; border-bottom: #fff solid 0.2rem;display: inline;}
-.underline {background-color: #fff; height: 2px; width: 4.5em; margin: auto;}
-/* .motto .onoff {background-repeat: no-repeat;background-size: contain; margin: 10vh auto; background-image: url("./img/onoff.png"); width: 25vw; height: 20vh;} */
-.motto .onoff { margin: 10vh auto;  width: 300px; height: 150px; display: flex; position: relative;}
-.onoff .block { border-radius: 50%; width: 150px; height: 150px;}
-.onoff .block h2 {font-size: 3rem; font-family: 'Noto Sans KR'; }
-.onoff .on {background-color: #fff; margin-right: -1vw;}
-.onoff .off {border: 1px solid #fff; margin-left: -1vw;}
-.onoff .on h2 {color: #000;}
-.onoff .off h2 {color: #fff;}
+.section3 {overflow: hidden;}
+.section3 .title {margin: 5vh 0vw 0vh 5vw;}
+.section3 .title h1 {font-size: 8em; color: #000; border-bottom: #000 solid 0.2rem; display: inline; font-family: 'Montserrat'}
+.section3 .text_container {text-align: left; margin-top: 25%; text-align: center; }
+.section3 .text_container h1 {font-size: 1.8em; color: #000; border-bottom: #000 solid 0.2rem; display: inline;}
+.section3 .text_container h2 {font-size: 1.4em; font-weight: 200; color: #000; display: inline; margin-top: 2em;}
 
-.section3 .text_container {text-align: left; margin-top: 25%; text-align: center;}
-.section3 .text_container h1 {font-size: 2em; color: #000; border-bottom: #000 solid 0.2rem; display: inline;}
-.section3 .text_container h2 {font-size: 1.5em; font-weight: 200; color: #000; display: inline; margin-top: 2em;}
-
-.section3 .about_container {display: flex; flex-direction: row;width: 100vw; height: 70vh; padding-top: 20vh;}
-.about { border: 1px solid #000; border-radius: 50%; position: relative; margin: auto -20px;}
-.about.about1 {height: 23vw; width: 30vw; margin-top: 25vh; animation: movex 3s ease-in-out alternate infinite;}
-.about.about2 {height: 26vw; width: 33vw; margin-top: 10vh; animation: movey 2s ease-in-out alternate infinite;}
-.about.about3 {height: 23vw; width: 30vw; margin-top: 25vh; animation: movey2 3s ease-in-out alternate infinite;}
-.about.about4 {height: 23vw; width: 30vw; animation: movey2 2.5s ease-in-out alternate infinite;}
-.about.about5 {height: 18vw; width: 25vw; margin-top: 30vh; margin-right: -70px; right: -20px;}
+.section3 .about_container {display: flex; flex-direction: row;width: 100vw; height: 70vh; padding-top: 8vh;}
+.section3 .about_container .about { border: 1px solid #000; border-radius: 50%; position: relative; margin: auto -20px;}
+.section3 .about_container .about.about1 {height: 23vw; width: 30vw; margin-top: 25vh; animation: movex 3s ease-in-out alternate infinite;}
+.section3 .about_container .about.about2 {height: 26vw; width: 33vw; margin-top: 10vh; animation: movey 2s ease-in-out alternate infinite;}
+.section3 .about_container .about.about3 {height: 23vw; width: 30vw; margin-top: 25vh; animation: movey2 3s ease-in-out alternate infinite;}
+.section3 .about_container .about.about4 {height: 23vw; width: 30vw; animation: movey2 2.5s ease-in-out alternate infinite;}
+.section3 .about_container .about.about5 {height: 18vw; width: 25vw; margin-top: 30vh; margin-right: -70px; right: -20px;}
 
 @keyframes movex{0%{transform : translate(-5px, 0)}100%{transform : translate(5px, 0)}}
 @keyframes movey{0%{transform : translate(0, 0); width: 38vw;height: 28vw;}100%{transform : translate(0, -15px);}}
 @keyframes movey2{0%{transform : translate(0, 0); width: 33vw; height: 25vw; }100%{transform : translate(0, -20px);}}
 
-/* .section4 {padding: 5vh 10vw;} */
-.section4 {padding-top: 15vh;}
-.section4 .grid {padding: 2vh 0vw; border-left: #000 solid 0.1rem; width: 70vw; margin: 5vh 10vw;}
-.section4 h1 {font-size: 4rem;color: #000;display: inline; margin-left: 2vw; }
+@keyframes changeWhiteBG{0%{background-color: #000;}100%{background-color: #fff;}}
+@keyframes changeBlackBG{0%{background-color: #fff;}100%{background-color: #000;}}
+@keyframes changeWhiteCL{0%{color: #000;}100%{color: #fff;}}
+@keyframes changeBlackCL{0%{color: #fff;}100%{color: #000;}}
+@keyframes changeWhiteBorder{0%{border:1px solid #000;}100%{border:1px solid #fff;}}
+@keyframes changeBlackBorder{0%{border:1px solid #fff;}100%{border:1px solid #000;}}
+
+.section4 { overflow-y: scroll; height: 100vw; width: 100vh; padding: 0px;margin: 0px; overflow-x: hidden; transform-origin: left bottom;transform:rotate(-90deg) translateY(100vw);scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory; }
+.section4::-webkit-scrollbar {display: none}
+.section4 .row {width:100vw; height: 100vh; margin-top: -170vw; margin-bottom: 225vw; transform-origin: left bottom; transform:rotate(90deg) translateX(130vw);}
+.section4 .row >div {width: 90%; height: 90%; padding: 3% 5%; height: 100%; scroll-snap-align: start; scroll-snap-stop: normal;overflow: hidden;}
+.section4 h1 {font-size: 9rem; color: #000; border-bottom: 5px solid #000; display: inline; margin-left: 2vw; font-family: 'Montserrat'}
+.section4 .title {width:100vw;scroll-snap-align: start; scroll-snap-stop: normal;}
 
 .gallery {display: flex; flex-direction: row; width: 80vw; overflow-x: auto; }
 .gallery img {height: 250px; margin: 5vh 0.4vw;}
@@ -71,22 +88,21 @@ canvas{width:25vw !important;}
 .gallery::-webkit-scrollbar-thumb {opacity: .4; background-color: #000; border-radius: 15px;}
 summary::-webkit-details-marker {display: none}
 
-summary h2 {font-weight: 500; font-size: 1.4rem;}
-summary :hover {cursor: pointer;}
-summary h3 {font-weight: 700; font-size: 2rem; border-bottom: #000 solid 2px; display: inline;}
+.project.title h2 {font-weight: 500; font-size: 2rem;}
+.project.title h3 {font-weight: 700; font-size: 4rem; border-bottom: #000 solid 2px; display: inline;}
 
-details[open] summary ~ * { animation: sweep 0.3s ease-in-out; }
+.project.content summary ~ * { animation: sweep 0.3s ease-in-out; }
 @keyframes sweep {0% {opacity: 0; margin-left: -10px} 100% {opacity: 1; margin-left: 0px}}
 details {color: #000; margin: 5vh 0vw 5em 5vw;}
-details[open] .project { padding: 1em; border-left: #000 solid .3px;}
-details[open] h4 {font-weight: 400; font-size: 1.5rem; color: #727272; margin: 2em 0em 0em 0em;}
-details[open] h5 {font-weight: 900; font-size: 2rem; margin-left: 2em;}
-details[open] p {font-weight: 300; font-size: 1.4rem; line-height: 2rem; margin-left: 2em;}
-details[open] summary { margin-bottom: 2.5em;}
-
+.project.content .project { padding: 1em; border-left: #000 solid .3px;}
+.project.content h4 {font-weight: 400; font-size: 1.5rem; color: #727272; margin: 2em 0em 0em 0em;}
+.project.content h5 {font-weight: 900; font-size: 2rem; margin-left: 2em;}
+.project.content p {font-weight: 300; font-size: 1.2rem; line-height: 2rem; margin-left: 2em;}
+.project.content { margin-bottom: 2.5em;}
 
 @media (max-width:800px) {
     body {width: auto;}
+    p, h2, h4 { font-family: 'Noto Sans KR';}
     .content {width: 100vw;}
     .fixed-nav {display: none;}
     .section1 {flex-direction: column;}
@@ -107,20 +123,19 @@ details[open] summary { margin-bottom: 2.5em;}
     .section2 .motto > h4 {font-size: 1rem;color: #fff; font-weight: 300;}
     .section2 .motto > h2 {font-size: 1.3rem;color: #fff; border-bottom: #fff solid 0.2rem;display: inline;}
 
-    .section3 .text_container {margin-top: 20%; }
+    .section3 .text_container {margin-top: 15%; }
     .about { border: 1px solid #000; border-radius: 50%; position: relative; margin: auto;}
     .about.about1 {display: none;}
     .about.about2 {height: 38vw; width: 40vw; margin-top: 20vh;margin: auto -10px;}
     .about.about3 {height: 38vw; width: 40vw; margin-top: 20vh;margin: auto -5px;}
-    .about.about4 {height: 38vw; width: 40vw; margin-top: 20vh;margin: auto -10px; animation: movey 3s ease-in-out alternate infinite;;}
+    .about.about4 {height: 38vw; width: 40vw; margin-top: 20vh;margin: auto -10px; animation: movey 2s ease-in-out alternate infinite;;}
     .about.about5 {display: none;}
-    .section3 .text_container h1 {font-size: 1em;border-bottom: #fff solid 0.1rem;}
-    .section3 .text_container h2 {font-size: 0.3em; display: inline-block; margin-top: 5px;}
+    .section3 .text_container h1 {font-size: 0.8em;border-bottom: #000 solid 0.1rem;}
+    .section3 .text_container h2 {font-size: 0.2em; display: inline-block; margin-top: 0px;}
     
     @keyframes movey{0%{transform : translate(0, 0); width: 43vw;height: 40vw;}100%{transform : translate(0, -15px);}}
     @keyframes movey2{0%{transform : translate(0, 0); width: 33vw; height: 35vw; }100%{transform : translate(0, -20px);}}
     
-
     /* .gallery { width: 68vw; } */
     .gallery img {height: 150px; margin: 5vh 0.4vw;}
 

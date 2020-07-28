@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
     var nav = $(".fixed-nav .nav li"); //버튼을 변수에 할당(저장)
     var cont = $("#contents>section"); //컨텐츠를 변수에 할당
 
@@ -13,9 +12,9 @@ $(document).ready(function () {
             scrollTop: offset
         }, 1000);
     });
-
-    $(window).scroll(function () {
-        var wScroll = $(this).scrollTop();
+    $('.content').scroll(() => {
+        var wScroll = $('.content').scrollTop();
+        
         if (wScroll >= cont.eq(0).offset().top) {
             nav.children().removeClass("active");
             nav.eq(0).children().addClass("active");
@@ -37,104 +36,65 @@ $(document).ready(function () {
         var offset2 = (wScroll - $('.offset2').offset().top*0.7) * -0.3;
         var offset3 = (wScroll - $('.offset3').offset().top*0.7) * 0.3;
 
-        if (offset1 < 10)
-            $(".offset1").css({'transform': 'translateX(' + offset1 + 'px)'});
-        if (offset2 > 0)
-            $(".offset2").css({'transform': 'translateX(' + offset2 + 'px)'});
-        if (offset3 < 0)
-            $(".offset3").css({'transform': 'translateX(' + offset3 + 'px)'});
+        // $(".offset1").css({'transform': 'translateX('+ -offset1 + 'px)'})
+        // $(".offset").css({'transform': 'translateX('+ -offset2 + 'px)'})
+        // $(".offset1").css({'transform': 'translateX('+ -offset3 + 'px)'})
+        // console.log('wScroll : ', wScroll);
+        // console.log($('.section2').offset().top);
+        // if (offset1 < 10)
+            
+        // if (offset2 > 0)
+        // $(".offset1").css({'transform': 'translateX(' + offset1 + 'px)'});
+        //     $(".offset2").css({'transform': 'translateX(' + offset2 + 'px)'});
+        //     $(".offset3").css({'transform': 'translateX(' + offset3 + 'px)'});
+        // if (offset3 < 0)
+            
 
-        var toBlack = 255 - (wScroll - $('.section2').offset().top *0.6);
-        var toWhite = (wScroll - $('.section2').offset().top*0.6);
+        var toBlack = $('.section2').offset().top;
+        var toWhite = (wScroll - $('.section2').offset().top);
+
+        var section2Offset =$('.section2').offset().top;
+        if ( document.querySelector('.content').style.backgroundColor === 'white'&& section2Offset - wScroll > -500) {
+            $(".content").css({'animation': 'changeBlackBG 1s ease-in-out alternate'});
+            setTimeout(() => {
+                $(".content").css({'background-color': 'rgb(0,0,0)'});
+            }, 400);
+        }else if (wScroll - $('.section2').offset().top > 10) {
+            $(".off").css({'animation': 'changeWhiteBG 1s ease-in-out alternate'});
+            $(".content").css({'animation': 'changeWhiteBG 1s ease-in-out alternate'});
+
+            $(".off h2").css({'animation': 'changeBlackCL 1s ease-in-out alternate'});
+            $(".off").css({'animation': 'changeBlackBorder 1s ease-in-out alternate'});
+            $(".on").css({'animation': 'changeBlackBG 1s ease-in-out alternate'});
+            $(".on").css({'animation': 'changeWhiteBorder 1s ease-in-out alternate'});
+            $(".on h2").css({'animation': 'changeWhiteCL 1s ease-in-out alternate'});
+            $(".motto .text_container > h1").css({'animation': 'changeBlackCL 1s ease-in-out alternate'});
+            $(".motto .text_container > h2").css({'animation': 'changeBlackCL 1s ease-in-out alternate'});
+            $(".text_container .underline").css({'animation': 'changeBlackBG 1s ease-in-out alternate'});
+            $(".motto .text_container > h2").css({'border-bottom': '0.2rem solid rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
+                $(".motto .text_container > h4").css({'color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
+                $(".fixed-nav .nav li .active").css({'color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+') !important'});
+            setTimeout(() => {
+                $(".content").css({'background-color': 'white'});
+                $(".off h2").css({'color': 'black'});
+                $(".off").css({'border': '1px solid black'});  
+                $(".on").css({'background-color': 'black'});
+                $(".on").css({'border': '1px solid white'});
+                $(".on h2").css({'color': 'white'});
+                $(".motto .text_container > h1").css({'color': 'black'});
+                $(".motto .text_container > h2").css({'color': 'black'});
+                $(".underline").css({'background-color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
+            }, 300);
+        }
         
-        $("body").css({'background-color': 'rgb('+toWhite+', '+'+'+toWhite+','+ toWhite+')'});
-        $(".off").css({'color': 'rgb('+ toWhite + ', '+'+'+toWhite+','+ toWhite+')'});
-        $(".off h2").css({'color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
 
-        $(".off").css({'border': '1px solid rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
-        $(".on").css({'background-color': 'rgb('+toBlack+', '+'+'+toBlack+','+ toBlack+')'});
-        $(".on").css({'border': '1px solid rgb('+ toWhite + ', '+'+'+toWhite+','+ toWhite+')'});
-        $(".on h2").css({'color': 'rgb('+ toWhite + ', '+'+'+toWhite+','+ toWhite+')'});
-        $(".motto > h1").css({'color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
-        $(".motto > h2").css({'color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
-        $(".underline").css({'background-color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
-        $(".motto > h2").css({'border-bottom': '0.2rem solid rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
-        $(".motto > h4").css({'color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
-        $(".fixed-nav .nav li .active").css({'color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+') !important'});
+        // console.log("$('.section4').offset().top: ", $('.section4').offset().top);
+        // if (wScroll > $('.section4').offset().top) {
+        //     $(".section4").scrollTop($(".section4").height());
+        //     $(".section4").css({'overflow': 'scroll'});
+        // } else {$(".section4").css({'overflow': 'hidden'});}
     });
 });
-
-// function scrollThere(targetElement, speed) {
-//     // initiate an animation to a certain page element:
-//     $('html, body').stop().animate({
-//             scrollTop: targetElement.offset().top
-//         }, // move window so target element is at top of window
-//         speed, // speed in milliseconds
-//         'swing' // easing
-//     ); // end animate
-// } // end scrollThere function definition
-
-
-// //--- START SCROLL EVENTS ---//
-// // detect a mousewheel event (note: relies on jquery mousewheel plugin):
-// $(window).on('mousewheel', function (e) {
-//     // get Y-axis value of each div:
-//     var div1y = $('#section1').offset().top,
-//         div2y = $('#section2').offset().top,
-//         div3y = $('#section3').offset().top,
-//         div4y = $('#section4').offset().top,
-//         // get window's current scroll position:
-//         lastScrollTop = $(this).scrollTop(),
-//         // for getting user's scroll direction:
-//         scrollDirection,
-//         // for determining the previous and next divs to scroll to, based on lastScrollTop:
-//         targetUp,
-//         targetDown,
-//         // for determining which of targetUp or targetDown to scroll to, based on scrollDirection:
-//         targetElement;
-
-//     // get scroll direction:
-//     if (e.originalEvent.deltaY > -5) {
-//         scrollDirection = 'up';
-//     } else if (e.originalEvent.deltaY <= 5) {
-//         scrollDirection = 'down';
-//     } // end if
-
-//     // prevent default behavior (page scroll):
-//     e.preventDefault();
-
-//     // condition: determine the previous and next divs to scroll to, based on lastScrollTop:
-//     if (lastScrollTop === div1y) {
-//         targetUp = $('#section1');
-//         targetDown = $('#section2');
-//     } else if (lastScrollTop === div2y) {
-//         targetUp = $('#section1');
-//         targetDown = $('#section3');
-//     } else if (lastScrollTop === div3y) {
-//         targetUp = $('#section2');
-//         targetDown = $('#section4');
-//     } else if (lastScrollTop < div2y) {
-//         targetUp = $('#section1');
-//         targetDown = $('#section2');
-//     } else if (lastScrollTop < div3y) {
-//         targetUp = $('#section2');
-//         targetDown = $('#section3');
-//     } else if (lastScrollTop < div4y) {
-//         targetUp = $('#section3');
-//         targetDown = $('#section4');
-//     }
-//     // condition: determine which of targetUp or targetDown to scroll to, based on scrollDirection:
-//     if (scrollDirection === 'down') {
-//         targetElement = targetDown;
-//         scrollThere(targetElement, 500);
-//     } else if (scrollDirection === 'up') {
-//         targetElement = targetUp;
-//         scrollThere(targetElement, 500);
-//     } // end else if
-
-
-// }); // end on mousewheel event
-// //--- END SCROLL EVENTS ---//
 
 let email = "rudtjs4540@gmail.com";
 document.querySelector("#icon_mail").addEventListener("click", function () {
@@ -146,7 +106,6 @@ document.querySelector("#icon_mail").addEventListener("click", function () {
     document.execCommand("copy");
     document.body.removeChild(emailCopy);
 });
-
 
 var langCtx = document.getElementById("language").getContext('2d');
 var textCtx = document.getElementById("tect").getContext('2d');
@@ -178,7 +137,7 @@ let options = {
             barThickness: 22,
             ticks: {
                 fontColor: "white",
-                fontSize: 12,
+                fontSize: 18,
                 stepSize: 1,
                 beginAtZero: true
             }
@@ -190,7 +149,7 @@ var language = new Chart(langCtx, {
     data: {
         labels: ["Java", "JS", "SQL", "PHP", "C"],
         datasets: [{
-            data: [80, 100, 100, 70, 60],
+            data: [8, 10, 10, 7, 6],
             backgroundColor: [
                 '#fff', '#fff', '#fff', '#fff', '#fff'
             ]
@@ -204,7 +163,7 @@ var textCtx = new Chart(textCtx, {
     data: {
         labels: ["Node", "Spring", "Linux", "Git", "MySQL"],
         datasets: [{
-            data: [100, 80, 50, 100, 100],
+            data: [10, 8, 5, 10, 10],
             backgroundColor: [
                 '#fff', '#fff', '#fff', '#fff', '#fff'
             ]

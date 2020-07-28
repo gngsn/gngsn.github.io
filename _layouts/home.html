@@ -2,30 +2,29 @@
 layout: default
 ---
 
-<nav class="fixed-nav">
+<!-- <nav class="fixed-nav">
     <ul class="nav">
         <li><a href="#" class="active">DEVELOPER.</a></li>
         <li><a href="#">MOTTO.</a></li>
         <li><a href="#">ABOUT.</a></li>
         <li><a href="#">PROJECT.</a></li>
     </ul>
-</nav>
+</nav> -->
 <div id="contents" class="content">
     <section id="section1" class="content section1">
         <div class="main">
-            <div class="selfie"></div>
             <h1>PARK <br /> KYEONG <br /> SEON </h1>
+            <div class="selfie"></div>
         </div>
         <div class="graph-container">
             <div class="graph">
-                <p style="margin: 30px;"> Language </p>
+                <p style="margin: 30px;"> LANGUAGE </p>
                 <canvas id="language"></canvas>
             </div>
             <div class="graph">
-                <p style="margin: 30px;"> Skill </p>
+                <p style="margin: 30px;"> SKILL </p>
                 <canvas id="tect"></canvas>
             </div>
-            {%- assign social = site.minima.social_links -%}
             <div class="icon">
                 <div id="icon_mail" class="icon_mail"></div>
                 <a target="_blank" href="https://www.instagram.com/{{ social.instagram }}">
@@ -42,11 +41,12 @@ layout: default
 
     </section>
     <section id="section2" class="content section2">
-        <div>
-            <div class="motto">
-                <h1>할 땐 하자.<div class="underline"></div>
-                </h1>
-
+        <div class="motto">
+            <div class="title">
+                <h1>MOTTO.</h1>
+            </div>
+            <div class="text_container">
+                <h1>“ 할 땐 하자.”<br /><br /></h1>
                 <div class="onoff">
                     <div class="block on">
                         <h2> ON</h2> <span></span>
@@ -57,12 +57,16 @@ layout: default
                 </div>
                 <h4 class="offset1"><span><em>개발할 땐 깊은 집중하고,</em></span></h4>
                 <h4 class="offset2"><span><em>사람들과 어울릴 때에는 잘 화합하는 사람.</em></span></h4><br />
+
                 <h2>“어차피 할 거! 후회하지 않도록.”<br /><br /></h2>
                 <h4 class="offset3"><span><em>좌우명을 갖고 실천합니다.</em></span></h4>
             </div>
         </div>
     </section>
     <section id="section3" class="content section3">
+        <div class="title">
+            <h1>ABOUT.</h1>
+        </div>
         <div class="about_container">
             <div class="about about1"></div>
             <div class="about about2">
@@ -87,22 +91,23 @@ layout: default
         </div>
     </section>
     <section id="section4" class="content section4">
-
+        <div class="title">
+        <h1>PROJECT</h1>
+    </div>
         {% if site.paginate %}
-            {% assign posts = paginator.posts %}
+        {% assign posts = paginator.posts %}
         {% else %}
-            {% assign posts = site.posts %}
+        {% assign posts = site.posts %}
         {% endif %}
 
-        {%- if posts.size > 0 -%}
-        <div class="grid">
-            {%- for post in posts -%}
-            <details>
-                <summary>
+        {%- for post in posts -%}
+        <div class="row">
+            <div class>
+                <div class="project title">
                     <h2> {{ post.duration }} </h2>
                     <h3> {{ post.title }}</h3>
-                </summary>
-                <div class="project">
+                </div>
+                <div class="project content">
                     <h4>SUMMARY</h4>
                     <p>{{ post.summary }}</p>
                     <h4>SKILL</h4>
@@ -111,28 +116,26 @@ layout: default
                     {{ post.content }}
                 </div>
                 {% if post.curriculum %}
-                <div class="project">
-                    {{ post.curriculum }}
-                    <h4>세미나 자료 </h4>
-                    <a href="https://drive.google.com/drive/folders/1LGXAw4he2bH2LiUMP4aS80-8XqoUcDOC">
-                        <p>> 세미나 자료 전체 확인</p>
-                    </a>
-                    <div class="gallery">
-                        <img src="/assets/img//photo1.png">
-                        <img src="/assets/img/photo2.png">
-                        <img src="/assets/img/photo3.png">
-                        <img src="/assets/img/photo4.png">
-                        <img src="/assets/img/photo5.png">
-                        <img src="/assets/img/photo6.png">
-                    </div>
-                    <h4>링크</h4>
-                    <p><a href="https://github.com/gngsn/26th_SERVER">> Github 링크 - 세미나 실습 자료</a></p>
+                {{ post.curriculum }}
+                <h4>세미나 자료 </h4>
+                <a href="https://drive.google.com/drive/folders/1LGXAw4he2bH2LiUMP4aS80-8XqoUcDOC">
+                    <p>> 세미나 자료 전체 확인</p>
+                </a>
+                <div class="gallery">
+                    <img src="/assets/img//photo1.png">
+                    <img src="/assets/img/photo2.png">
+                    <img src="/assets/img/photo3.png">
+                    <img src="/assets/img/photo4.png">
+                    <img src="/assets/img/photo5.png">
+                    <img src="/assets/img/photo6.png">
                 </div>
+                <h4>링크</h4>
+                <p><a target="_blank" href="https://github.com/gngsn/26th_SERVER">> Github 링크 - 세미나 실습 자료</a></p>
+
                 {% endif %}
-            </details>
-            {%- endfor -%}
+            </div>
         </div>
-        {%- endif -%}
+        {%- endfor -%}
     </section>
-    </div>
+</div>
 </div>
