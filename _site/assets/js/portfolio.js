@@ -86,13 +86,10 @@ $(document).ready(function () {
                 $(".underline").css({'background-color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
             }, 300);
         }
-        
-
-        // console.log("$('.section4').offset().top: ", $('.section4').offset().top);
-        // if (wScroll > $('.section4').offset().top) {
-        //     $(".section4").scrollTop($(".section4").height());
-        //     $(".section4").css({'overflow': 'scroll'});
-        // } else {$(".section4").css({'overflow': 'hidden'});}
+        if ($('.section4').offset().top < 10)
+            $(".section4").css({'overflow-y': 'scroll'});
+        else
+            $(".section4").css({'overflow-y': 'hidden'});
     });
 });
 

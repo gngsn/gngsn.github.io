@@ -32,16 +32,16 @@ section {height: 100%; scroll-snap-align: start; scroll-snap-stop: normal;}
 
 .section2 {overflow: hidden;}
 .section2 .title {margin: 0vh 0vw 0vh 0vw; transform-origin: left top; transform:rotate(-90deg) translate(-50em, 0em); width: 40vw;height: 10vw;}
-.section2 .title h1 {font-size: 8em; color: #000; border-bottom: #000 solid 0.2rem; display: inline;font-family: 'Montserrat' }
-.section2 .motto {text-align: center; padding: 0vh 3vw; display: flex; flex-direction: row;}
-.section2 .motto .text_container {margin-left: 0vw;margin-top: 15vh;}
+.section2 .title h1 {font-size: 7em; color: #000; border-bottom: #000 solid 0.2rem; display: inline;font-family: 'Montserrat' }
+.section2 .motto {text-align: center; padding: 0vh 0vw; display: flex; flex-direction: row;}
+.section2 .motto .text_container {margin-left: 0vw;margin-top: 12vh;}
 .section2 .motto .text_container > h1 {font-size: 5em; font-weight: 900; color: #fff; line-height: 0.4em; margin: 0em;}
 .section2 .motto .text_container > h2 {font-size: 2rem; color: #fff; border-bottom: #fff solid 0.2rem;display: inline;}
 .section2 .motto .text_container > h4 {font-size: 1.5rem; color: #fff; font-weight: 300; line-height: 1rem;}
 .section2 .motto .underline {background-color: #fff; height: 2px; width: 4em; margin: auto;}
-.section2 .motto .onoff { margin: 5vh auto;  width: 500px; height: 250px; display: flex; position: relative;}
-.section2 .motto .onoff .block { border-radius: 50%; width: 250px; height: 250px;}
-.section2 .motto .onoff .block h2 {font-size: 5rem; font-family: 'Noto Sans KR';}
+.section2 .motto .onoff { margin: 5vh auto;  width: 400px; height: 200px; display: flex; position: relative;}
+.section2 .motto .onoff .block { border-radius: 50%; width: 200px; height: 200px;}
+.section2 .motto .onoff .block h2 {font-size: 4rem; font-family: 'Noto Sans KR';}
 .section2 .motto .onoff .on {background-color: #fff; margin-right: -1vw;}
 .section2 .motto .onoff .off {border: 1px solid #fff; margin-left: -1vw;}
 .section2 .motto .onoff .on h2 {color: #000;}
@@ -49,12 +49,12 @@ section {height: 100%; scroll-snap-align: start; scroll-snap-stop: normal;}
 
 .section3 {overflow: hidden;}
 .section3 .title {margin: 5vh 0vw 0vh 5vw;}
-.section3 .title h1 {font-size: 8em; color: #000; border-bottom: #000 solid 0.2rem; display: inline; font-family: 'Montserrat'}
+.section3 .title h1 {font-size: 7em; color: #000; border-bottom: #000 solid 0.2rem; display: inline; font-family: 'Montserrat'}
 .section3 .text_container {text-align: left; margin-top: 25%; text-align: center; }
 .section3 .text_container h1 {font-size: 1.8em; color: #000; border-bottom: #000 solid 0.2rem; display: inline;}
 .section3 .text_container h2 {font-size: 1.4em; font-weight: 200; color: #000; display: inline; margin-top: 2em;}
 
-.section3 .about_container {display: flex; flex-direction: row;width: 100vw; height: 70vh; padding-top: 8vh;}
+.section3 .about_container {display: flex; flex-direction: row;width: 100vw; height: 70vh; padding-top: 5vh;}
 .section3 .about_container .about { border: 1px solid #000; border-radius: 50%; position: relative; margin: auto -20px;}
 .section3 .about_container .about.about1 {height: 23vw; width: 30vw; margin-top: 25vh; animation: movex 3s ease-in-out alternate infinite;}
 .section3 .about_container .about.about2 {height: 26vw; width: 33vw; margin-top: 10vh; animation: movey 2s ease-in-out alternate infinite;}
@@ -77,7 +77,7 @@ section {height: 100%; scroll-snap-align: start; scroll-snap-stop: normal;}
 .section4::-webkit-scrollbar {display: none}
 .section4 .row {width:100vw; height: 100vh; margin-top: -170vw; margin-bottom: 225vw; transform-origin: left bottom; transform:rotate(90deg) translateX(130vw);}
 .section4 .row >div {width: 90%; height: 90%; padding: 3% 5%; height: 100%; scroll-snap-align: start; scroll-snap-stop: normal;overflow: hidden;}
-.section4 h1 {font-size: 9rem; color: #000; border-bottom: 5px solid #000; display: inline; margin-left: 2vw; font-family: 'Montserrat'}
+.section4 h1 {font-size: 7rem; color: #000; border-bottom: 5px solid #000; display: inline; margin-left: 2vw; font-family: 'Montserrat'}
 .section4 .title {width:100vw;scroll-snap-align: start; scroll-snap-stop: normal;}
 
 .gallery {display: flex; flex-direction: row; width: 80vw; overflow-x: auto; }
