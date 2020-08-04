@@ -84,12 +84,15 @@ $(document).ready(function () {
                 $(".motto .text_container > h1").css({'color': 'black'});
                 $(".motto .text_container > h2").css({'color': 'black'});
                 $(".underline").css({'background-color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
-            }, 300);
+            }, 950);
         }
-        if ($('.section4').offset().top < 10)
+        if ($('.section4').offset().top < 10) {
             $(".section4").css({'overflow-y': 'scroll'});
-        else
+            $("body").css({'overflow-y': 'hidden'});
+        } else{
             $(".section4").css({'overflow-y': 'hidden'});
+            $("body").css({'overflow-y': 'scroll'});
+        }
     });
 });
 

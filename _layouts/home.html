@@ -92,8 +92,8 @@ layout: default
     </section>
     <section id="section4" class="content section4">
         <div class="title">
-        <h1>PROJECT</h1>
-    </div>
+            <h1>PROJECT</h1>
+        </div>
         {% if site.paginate %}
         {% assign posts = paginator.posts %}
         {% else %}
@@ -102,38 +102,27 @@ layout: default
 
         {%- for post in posts -%}
         <div class="row">
-            <div class>
-                <div class="project title">
-                    <h2> {{ post.duration }} </h2>
-                    <h3> {{ post.title }}</h3>
-                </div>
-                <div class="project content">
-                    <h4>SUMMARY</h4>
-                    <p>{{ post.summary }}</p>
-                    <h4>SKILL</h4>
-                    <p>{{ post.skill }}</p>
-                    <h4>DETAIL</h4>
-                    {{ post.content }}
-                </div>
+            {% if post.isTitle==true %}
+            <div class="project title content">
+                <h2> {{ post.duration }} </h2>
+                <h3> {{ post.title }}</h3>
+                <h4>SUMMARY</h4>
+                <p>{{ post.summary }}</p>
+                <h4>SKILL</h4>
+                <p>{{ post.skill }}</p>
+
                 {% if post.curriculum %}
                 {{ post.curriculum }}
-                <h4>세미나 자료 </h4>
-                <a href="https://drive.google.com/drive/folders/1LGXAw4he2bH2LiUMP4aS80-8XqoUcDOC">
-                    <p>> 세미나 자료 전체 확인</p>
-                </a>
-                <div class="gallery">
-                    <img src="/assets/img//photo1.png">
-                    <img src="/assets/img/photo2.png">
-                    <img src="/assets/img/photo3.png">
-                    <img src="/assets/img/photo4.png">
-                    <img src="/assets/img/photo5.png">
-                    <img src="/assets/img/photo6.png">
-                </div>
-                <h4>링크</h4>
-                <p><a target="_blank" href="https://github.com/gngsn/26th_SERVER">> Github 링크 - 세미나 실습 자료</a></p>
-
                 {% endif %}
             </div>
+            {% elsif post.isTitle==false %}
+            <div class="project content">
+                {{ post.content }}
+            </div>
+            <div class="project content">
+
+            </div>
+            {% endif %}
         </div>
         {%- endfor -%}
     </section>

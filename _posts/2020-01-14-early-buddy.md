@@ -2,12 +2,9 @@
 layout: home
 duration: "2019-12-22 ~ 2020-01-04"
 title: "얼리버디 (SOPT APPJAM) - 우수상"
-summary: "2주간의 해커톤으로 약속시간을 위한 나만의 대중교통 배차 알리미 서비스 개발 <br />
-                        알림 서비스(FCM) / 일정 확인, 일정 업데이트 및 삭제 (ODsay API)"
-skill: "Node.js, Express, Database, MySQL, MongoDB, AWS Services, Git, Github, Network"
-
+isTitle: false
 ---
-
+<h4>DETAIL</h4>
 <h5>APPJAM 해커톤 우수상. Node.js 서버 개발. 협업 능력</h5>
 2주간의 해커톤 기간 동안, 약속시간을 지키지 못하는 사람들을 위한 대중교통 배차 알림 서비스를 모바일 어플리케이션으로 제작하였습니다.
 주 업무는 node.js를 이용해 서버를 개발하는 것입니다.
