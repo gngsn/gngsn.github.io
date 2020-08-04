@@ -16,10 +16,11 @@ section {height: 100%; scroll-snap-align: start; scroll-snap-stop: normal;}
 .section1 .main {margin: 0vh 2vw; z-index: 10; width: 22;}
 .section1 .main h1 {margin-top: 3vh; margin-bottom: 0vh; color: #fff; line-height: 8rem; font-size: 9rem; font-family: 'Montserrat';}
 .section1 .selfie {background-repeat: no-repeat;background-size: contain;background-image: url("./img/selfie.JPG");width: 30vw; height: 50vh; z-index: 0; margin: -10vh 0vw 0vh 20vw;}
-.section1 .graph-container {width: 30vw;height: 20vh; display: flex; padding-left: 6vw; flex-direction: column;}
-.section1 .graph-container .graph {display: flex;flex-direction: column; padding-top: 5vh; margin-right: 1.4vw;}
-.section1 .graph-container .graph p {color: #fff; font-family: 'Noto Sans KR'; font-weight: 300;font-size: 1.5rem;}
-.section1 .graph-container canvas {width:30vw !important; } 
+.section1 .graph-container {width: 30vw;height: 10vh; display: flex; padding-left: 6vw; flex-direction: column;}
+.section1 .graph-container .graph {display: flex;flex-direction: column; padding-top: 3.5vh; margin-right: 1.4vw;}
+.section1 .graph-container .graph p {color: #fff; font-family: 'Noto Sans KR'; font-weight: 300;font-size: 1.2rem;}
+.section1 .graph-container canvas {width:25vw !important; } 
+.section1 .graph-container canvas#tect {height: 60% !important; } 
 
 .section1 .icon {margin: 10vh auto; display: flex; align-items: flex-end;}
 .section1 .icon div {height: 5vh; width: 5vw;margin: 0vh 0.3vw;}
