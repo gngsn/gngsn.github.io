@@ -79,24 +79,24 @@ section {height: 100%; scroll-snap-align: start; scroll-snap-stop: normal;}
 .section4 .row >div {width: 90%; height: 90%; padding: 3% 5%; height: 100%; scroll-snap-align: start; scroll-snap-stop: normal;overflow: hidden;}
 .section4 h1 {font-size: 7rem; color: #000; border-bottom: 5px solid #000; display: inline; margin-left: 2vw; font-family: 'Montserrat'}
 .section4 .title {width:100vw;scroll-snap-align: start; scroll-snap-stop: normal;}
+.section4 .project.title h2 {font-weight: 500; font-size: 2rem;}
+.section4 .project.title h3 {font-weight: 700; font-size: 2.4rem; border-bottom: #000 solid 2px; display: inline;}
 
-.gallery {display: flex; flex-direction: row; width: 90vw; overflow-x: auto; }
-.gallery img {height: 250px; margin: 5vh 0.4vw;}
-.gallery::-webkit-scrollbar {height: 6px;}
-.gallery::-webkit-scrollbar-thumb {opacity: .4; background-color: #000; border-radius: 15px;}
+.section4 .project.content .project { padding: 1em; border-left: #000 solid .3px;}
+.section4 .project.content h4 {font-weight: 400; font-size: 1.5rem; color: #727272; margin: 2em 0em 0em 0em;}
+.section4 .project.content h5 {font-weight: 900; font-size: 2rem; margin-left: 2em;}
+.section4 .project.content p {font-weight: 300; font-size: 1.2rem; line-height: 2rem; margin-left: 2em;}
+.section4 .project.content { margin-bottom: 2.5em;}
+
+.section4 .project.content .gallery {display: flex; flex-direction: row; width: 90vw; overflow-x: auto; }
+.section4 .project.content .gallery img {height: 250px; margin: 5vh 0.4vw;}
+.section4 .project.content .gallery::-webkit-scrollbar {height: 6px;}
+.section4 .project.content .gallery::-webkit-scrollbar-thumb {opacity: .4; background-color: #000; border-radius: 15px;}
 summary::-webkit-details-marker {display: none}
 
-.project.title h2 {font-weight: 500; font-size: 2rem;}
-.project.title h3 {font-weight: 700; font-size: 4rem; border-bottom: #000 solid 2px; display: inline;}
-
-.project.content summary ~ * { animation: sweep 0.3s ease-in-out; }
+.section4 .project.content summary ~ * { animation: sweep 0.3s ease-in-out; }
 @keyframes sweep {0% {opacity: 0; margin-left: -10px} 100% {opacity: 1; margin-left: 0px}}
 details {color: #000; margin: 5vh 0vw 5em 5vw;}
-.project.content .project { padding: 1em; border-left: #000 solid .3px;}
-.project.content h4 {font-weight: 400; font-size: 1.5rem; color: #727272; margin: 2em 0em 0em 0em;}
-.project.content h5 {font-weight: 900; font-size: 2rem; margin-left: 2em;}
-.project.content p {font-weight: 300; font-size: 1.2rem; line-height: 2rem; margin-left: 2em;}
-.project.content { margin-bottom: 2.5em;}
 
 @media (max-width:800px) {
     body {width: auto;}

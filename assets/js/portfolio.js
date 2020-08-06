@@ -52,28 +52,48 @@ $(document).ready(function () {
 
         var toBlack = $('.section2').offset().top;
         var toWhite = (wScroll - $('.section2').offset().top);
-
-        var section2Offset =$('.section2').offset().top;
-        if ( document.querySelector('.content').style.backgroundColor === 'white'&& section2Offset - wScroll > -500) {
+        
+        var section2Offset = $('.section2').offset().top;
+        console.log(section2Offset);
+        if (document.querySelector('.content').style.backgroundColor === 'white'&& section2Offset > 500) {
             $(".content").css({'animation': 'changeBlackBG 1s ease-in-out alternate'});
+            // $(".off").css({'animation': 'changeWhiteBG 1s ease-in-out reverse'});
+            // $(".off h2").css({'animation': 'changeBlackCL 1s ease-in-out reverse'});
+            // $(".off").css({'animation': 'changeBlackBorder 1s ease-in-out reverse'});
+            // $(".on").css({'animation': 'changeWhiteBG 1s ease-in-out alternate'});
+            // $(".on h2").css({'animation': 'changeBlackCL 1s ease-in-out alternate'});
+            // $(".motto .text_container > h1").css({'animation': 'changeBlackCL 1s ease-in-out reverse'});
+            // $(".motto .text_container > h2").css({'animation': 'changeBlackCL 1s ease-in-out reverse'});
+            // $(".text_container .underline").css({'animation': 'changeBlackBG 1s ease-in-out reverse'});
+            // $(".motto .text_container > h2").css({'border-bottom': '0.2rem solid rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
+            // $(".motto .text_container > h4").css({'color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
+            // $(".fixed-nav .nav li .active").css({'color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+') !important'});
             setTimeout(() => {
                 $(".content").css({'background-color': 'rgb(0,0,0)'});
+            //     $(".content").css({'background-color': 'black'});
+            //     $(".off h2").css({'color': 'white'});
+            //     $(".off").css({'border': '1px solid white'});  
+            //     $(".on").css({'background-color': 'white'});
+            //     $(".on").css({'border': '1px solid black'});
+            //     $(".on h2").css({'color': 'black'});
+            //     $(".motto .text_container > h1").css({'color': 'white'});
+            //     $(".motto .text_container > h2").css({'color': 'white'});
+            //     $(".underline").css({'background-color': 'rgb('+ toWhite + ', '+'+'+toWhite+','+ toWhite+')'});
             }, 400);
-        }else if (wScroll - $('.section2').offset().top > 10) {
+        } else if (section2Offset<90) {
             $(".off").css({'animation': 'changeWhiteBG 1s ease-in-out alternate'});
             $(".content").css({'animation': 'changeWhiteBG 1s ease-in-out alternate'});
-
             $(".off h2").css({'animation': 'changeBlackCL 1s ease-in-out alternate'});
             $(".off").css({'animation': 'changeBlackBorder 1s ease-in-out alternate'});
-            $(".on").css({'animation': 'changeBlackBG 1s ease-in-out alternate'});
-            $(".on").css({'animation': 'changeWhiteBorder 1s ease-in-out alternate'});
-            $(".on h2").css({'animation': 'changeWhiteCL 1s ease-in-out alternate'});
+            $(".on").css({'animation': 'changeWhiteBG 1s ease-in-out reverse'});
+            // $(".on").css({'animation': 'changeWhiteBorder 1s ease-in-out alternate'});
+            $(".on h2").css({'animation': 'changeBlackCL 1s ease-in-out reverse'});
             $(".motto .text_container > h1").css({'animation': 'changeBlackCL 1s ease-in-out alternate'});
             $(".motto .text_container > h2").css({'animation': 'changeBlackCL 1s ease-in-out alternate'});
             $(".text_container .underline").css({'animation': 'changeBlackBG 1s ease-in-out alternate'});
             $(".motto .text_container > h2").css({'border-bottom': '0.2rem solid rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
-                $(".motto .text_container > h4").css({'color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
-                $(".fixed-nav .nav li .active").css({'color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+') !important'});
+            $(".motto .text_container > h4").css({'color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
+            $(".fixed-nav .nav li .active").css({'color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+') !important'});
             setTimeout(() => {
                 $(".content").css({'background-color': 'white'});
                 $(".off h2").css({'color': 'black'});
@@ -84,7 +104,7 @@ $(document).ready(function () {
                 $(".motto .text_container > h1").css({'color': 'black'});
                 $(".motto .text_container > h2").css({'color': 'black'});
                 $(".underline").css({'background-color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
-            }, 950);
+            }, 800);
         }
         if ($('.section4').offset().top < 10) {
             $(".section4").css({'overflow-y': 'scroll'});
