@@ -54,7 +54,6 @@ $(document).ready(function () {
         var toWhite = (wScroll - $('.section2').offset().top);
         
         var section2Offset = $('.section2').offset().top;
-        console.log(section2Offset);
         if (document.querySelector('.content').style.backgroundColor === 'white'&& section2Offset > 500) {
             $(".content").css({'animation': 'changeBlackBG 1s ease-in-out alternate'});
             // $(".off").css({'animation': 'changeWhiteBG 1s ease-in-out reverse'});
@@ -106,14 +105,43 @@ $(document).ready(function () {
                 $(".underline").css({'background-color': 'rgb('+ toBlack + ', '+'+'+toBlack+','+ toBlack+')'});
             }, 800);
         }
+
+        console.log ($('.section4').offset());
         if ($('.section4').offset().top < 10) {
-            $(".section4").css({'overflow-y': 'scroll'});
-            $("body").css({'overflow-y': 'hidden'});
-        } else{
-            $(".section4").css({'overflow-y': 'hidden'});
-            $("body").css({'overflow-y': 'scroll'});
-        }
+            if ($('.section4 .title').offset().left > 0){
+                $(".section4").css({'overflow-y': 'hidden'});
+                $("body").css({'overflow-y': 'scroll'});
+            } else {
+                $(".section4").css({'overflow-y': 'scroll'});
+                $("body").css({'overflow-y': 'hidden'});
+            }
+        } 
+        
+        
     });
+});
+
+$('.about2').click(function(){
+    // if (this.classList.contains('active')) {
+    //     $('.about1').show();
+    //     $('.about3').show();
+    //     $('.about4').show();
+    //     $('.about5').show();
+    //     $('.about2').removeClass('active');
+    // } else {
+    //     $('.about1').hide();
+    //     $('.about2').addClass('active');
+    //     $('.about3').hide();
+    //     $('.about4').hide();
+    //     $('.about5').hide();
+    // }
+});
+
+$('.about3').click(function(){
+
+});
+$('.about4').click(function(){
+
 });
 
 let email = "rudtjs4540@gmail.com";
