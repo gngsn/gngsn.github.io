@@ -121,6 +121,27 @@ $(document).ready(function () {
     });
 });
 
+
+var with_intro = true;
+// remove initial logo hider
+setTimeout(function(){ 
+    document.body.classList.remove('pre-intro')
+}, 50);
+
+// preload all of current page on first load
+imagesLoaded( document.querySelector('.barba-wrapper'), function( instance ) {
+  // console.log('all images are loaded');
+    setTimeout(function(){ 
+        document.body.classList.remove('intro')
+        setTimeout(function(){ 
+            document.body.classList.add('with-transition')
+
+            
+        }, 1000);
+    }, 1300);
+});
+
+
 $('.about2').click(function(){
     // if (this.classList.contains('active')) {
     //     $('.about1').show();
