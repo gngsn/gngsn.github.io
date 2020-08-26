@@ -165,21 +165,20 @@
 
 // });
 
-// // let email = "rudtjs4540@gmail.com";
-// // document.querySelector("#icon_mail").addEventListener("click", function () {
-// //     var emailCopy = document.createElement('textarea');
-// //     emailCopy.value = email;
-// //     document.body.appendChild(emailCopy);
-// //     emailCopy.select();
-// //     alert(email + "\n메일이 복사되었습니다.")
-// //     document.execCommand("copy");
-// //     document.body.removeChild(emailCopy);
-// // });
+let email = "rudtjs4540@gmail.com";
+document.querySelector("#icon_mail").addEventListener("click", function () {
+    var emailCopy = document.createElement('textarea');
+    emailCopy.value = email;
+    document.body.appendChild(emailCopy);
+    emailCopy.select();
+    alert(email + "\n메일이 복사되었습니다.")
+    document.execCommand("copy");
+    document.body.removeChild(emailCopy);
+});
 
 var inView = false;
 
 function isScrolledIntoView(elem) {
-    console.log('sdsd');
     var docViewTop = $(window).scrollTop();
     var docViewBottom = docViewTop + $(window).height();
 
@@ -191,12 +190,16 @@ function isScrolledIntoView(elem) {
 }
 
 $('#contents').scroll(function () {
-    if (isScrolledIntoView('#tect')) {
+    if (isScrolledIntoView('#language')) {
         if (inView) {
             return;
         }
         var langCtx = document.getElementById("language").getContext('2d');
         var textCtx = document.getElementById("tect").getContext('2d');
+        langCtx.canvas.width = 400;
+        textCtx.canvas.width = 400;
+        // langCtx.canvas.height = 200;
+
         let options = {
             maintainAspectRatio: true,
             legend: {
@@ -222,28 +225,28 @@ $('#contents').scroll(function () {
                         display: false,
                         drawBorder: false,
                     },
-                    barThickness: 22,
+                    barThickness: 18,
                     ticks: {
-                        fontColor: "black",
-                        fontSize: 20,
+                        fontColor: "white",
+                        fontSize: 16,
                         stepSize: 1,
                         beginAtZero: true
                     }
                 }]
             },
             animation: {
-                duration: 3000,
+                duration: 5000,
             },
         }
         var language = new Chart(langCtx, {
             type: 'bar',
             data: {
-                labels: ["Java", "JS", "SQL", "PHP", "C"],
+                labels: ["Java", "JS", "MySQL", "PHP", "C"],
                 datasets: [{
-                    data: [8, 10, 10, 7, 6],
+                    data: [8, 10, 10, 7, 5],
                     backgroundColor: [
-                        // '#fff', '#fff', '#fff', '#fff', '#fff'
-                        '#000', '#000', '#000', '#000', '#000'
+                        '#fff', '#fff', '#fff', '#fff', '#fff'
+                        // '#000', '#000', '#000', '#000', '#000'
                     ]
                 }]
             },
@@ -257,8 +260,8 @@ $('#contents').scroll(function () {
                 datasets: [{
                     data: [10, 8, 5, 10, 10],
                     backgroundColor: [
-                        // '#fff', '#fff', '#fff', '#fff', '#fff'
-                        '#000', '#000', '#000', '#000', '#000'
+                        '#fff', '#fff', '#fff', '#fff', '#fff'
+                        // '#000', '#000', '#000', '#000', '#000'
                     ]
                 }]
             },

@@ -27,11 +27,7 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 
 
 
-
-
-
-
-.demo-2 {
+:root {
     --color-text: #919191;
     --color-bg: #e4dfdd 42;
     --color-link: #000;
