@@ -1,36 +1,104 @@
-body {margin: 0px; width:100vw; background-size: cover;background-color: #000;overflow-x: hidden;}
-a:link { color: #000;}
-a:visited { color: #000;}
-section {height: 100%; scroll-snap-align: start; scroll-snap-stop: normal;}
+* {display: block;box-sizing: border-box;}
+body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
+.content {width: 100vw;height: 100vh;margin: 0px; overflow: auto; scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory;}
 
-.content {width: 100vw;height: 100vh;margin: 0px; overflow: auto; scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory; background-color: #000; }
+.inner {position: fixed;top: 0;left: 0;width: 100%;height: 100vh;transition: 0.8s transform cubic-bezier(0.65, 0, 0.35, 1);z-index: -1;pointer-events: none; background-color: #000;}
+.inner > div { padding: 72px 150px 0px; display: flex; flex-direction: row; margin: auto; bottom: 0; height: calc(100% - 92px);}
+.inner .text{display: inline;color: #fff; margin-top:100px; z-index: 2;}
+.inner .text h1 {line-height: 7rem; font-size: 7rem;font-family:'Noto Th';min-width: 600px;}
+.inner .text h3 {font-size: 3.5rem;font-family:'Noto R';}
+.inner .selfie {max-width: 650px;bottom: 0%;z-index: 0;}
+.inner .selfie img {position:fixed; width: 500px;height: auto; bottom: 0px; transform: translateX(-5%);}
 
-.fixed-nav { display: flex; align-items: flex-end; width: 30px; height: 0px;}
-.fixed-nav .nav { position: fixed; top: 30px; right: 10px; margin-right: 3vw;} 
-.fixed-nav .nav a {font-size: 2em; font-weight: 700;color: #212121; position: relative; display: inline-block; font-family: 'Montserrat', sans-serif; }
-.fixed-nav .nav li .active {color: rgb(231, 231, 231);}
-.fixed-nav .nav li {list-style:none;}
+.section-cont {margin-top: 99.5vh;z-index: 99; }
+.section-cont > img{width: 100%;}
+.section-cont > div{padding: 60px 0px; margin: auto;text-align: center;}
+.section.intro {background-color: #FF3901; color: #fff;font-family:'Noto Th';}
+.section.intro h1{font-family:'NanumM R', 'Noto R'; font-size: 5rem; border-bottom: #fff solid 1px; display: inline;}
+.section.intro h3{text-align: left;font-family:'NanumM R', 'Noto R'; line-height: 1.3; font-size: 2.2rem; display: block; padding: 50px 60px;}
+.section.intro h4{text-align: left;font-family:'NanumM R', 'Noto R'; font-size: 2rem; padding-left: 60px;}
 
-.section1 {display: flex; flex-direction: row;overflow: hidden;}
-.section1 .title h2 {font-size: 110px;font-weight: 900;color: #fff; height: 100px;}
-.section1 .main {margin: 0vh 2vw; z-index: 10; width: 22;}
-.section1 .main h1 {margin-top: 3vh; margin-bottom: 0vh; color: #fff; line-height: 8rem; font-size: 9rem; font-family: 'Montserrat';}
-.section1 .selfie {background-repeat: no-repeat;background-size: contain;background-image: url("./img/selfie.JPG");width: 30vw; height: 50vh; z-index: 0; margin: -10vh 0vw 0vh 20vw;}
-.section1 .graph-container {width: 30vw;height: 10vh; display: flex; padding-left: 6vw; flex-direction: column;}
-.section1 .graph-container .graph {display: flex;flex-direction: column; padding-top: 3.5vh; margin-right: 1.4vw;}
-.section1 .graph-container .graph p {color: #fff; font-family: 'Noto Sans KR'; font-weight: 300;font-size: 1.2rem;}
-.section1 .graph-container canvas {width:25vw !important; } 
-.section1 .graph-container canvas#tect {height: 60% !important; } 
+.section.skill{padding:172px 150px; background-color: #F2F2F2; color: #000;font-family:'Noto Th';}
+.section.skill h1 {font-family:'Noto Th'; font-size: 4rem; border-bottom: #000 solid 1px; display: inline;margin-bottom: 20px;}
 
+.section .graph-container {display: flex; padding-left: 2vw;}
+.section .graph-container .graph {margin-right: 12vw;}
+.section .graph-container canvas {width:30vw !important;margin-top: 10vh;  } 
+
+@media (max-width:1048px) {
+    .inner > div { padding:  72px 50px 0px;}
+    .inner .text h1 {line-height: 5rem; font-size: 6rem;min-width: 350px;}
+    /* .inner .selfie {max-width: 500px;} */
+}
+
+@media (max-width:820px) {
+    .inner .selfie {max-width: 650px;bottom: 0%; position:fixed;}
+    .inner > div { padding: 72px 10px 0px; }
+    .inner .text{position: fixed; bottom: 0%;}
+    .inner .text h1 {line-height: 4rem; font-size: 4rem;min-width: 600px;}
+    .inner .text h3 {font-size: 2.5rem;}
+    .inner .selfie {min-width: 500px;}
+
+    .section-cont > div{padding: 60px 10px;}
+    .section.intro h1{font-size: 2.5rem; border-bottom: #fff solid 1px; display: inline;}
+    .section.intro h3{font-size: 1rem; display: block; padding: 50px 20px;}
+    .section.intro h4{font-size: 0.8rem; padding-left: 20px;}
+
+    .section.skill h1 {font-size: 2rem;}
+    .section .graph-container {flex-direction: column; padding-left: 2vw;}
+    .section .graph-container .graph {margin-right: 6vw;margin-top: 50px;}
+    .section .graph-container canvas {width:80vw !important; height: 200px !important; margin-top: 10vh;  } 
+    .section.skill {padding: 50px 20px;}
+    .inner .selfie img {width: 500px;left: 50%;transform: translateX(-40%);}
+}
+
+.cursor {position: fixed;left: 0;top: 0;pointer-events: none;}
+.cursor--small {width: 5px;height: 5px;left: -2.5px;top: -2.5px;border-radius: 50%;z-index: 11000;background: var(--color-text);}
+.cursor--canvas {width: 100vw;height: 100vh;z-index: 12000;}
+
+
+.section.bubble {background-color: #FF3901; color: #fff;font-family:'Noto Th';padding-bottom: 100px;}
+.section.bubble h1{font-family:'Noto R'; font-size: 5rem; border-bottom: #fff solid 1px; display: inline;}
+.section.bubble .about_container {display: flex; flex-direction: row;width: 100vw; height: 70vh; padding-top: 1vh;}
+.section.bubble .about_container .about { border: 1px solid #fff; border-radius: 50%; position: relative; margin: auto -20px; }
+.section.bubble .about_container .about:hover {cursor: pointer;}
+.section.bubble .about_container .about.about1 {height: 300px; width: 300px; margin-top: 25vh; animation: movex 3s ease-in-out alternate infinite;}
+.section.bubble .about_container .about.about2 {height: 380px; width: 380px; margin-top: 10vh; animation: movey 2s ease-in-out alternate infinite;}
+.section.bubble .about_container .about.about2.active {height: 400px; width: 400px;margin-top: 0vh; animation: resizee 2s ease-out alternate;}
+.section.bubble .about_container .about.about3 {height: 380px; width: 380px; margin-top: 25vh; animation: movey2 3s ease-in-out alternate infinite;}
+.section.bubble .about_container .about.about4 {height: 380px; width: 380px; animation: movey2 2.5s ease-in-out alternate infinite;}
+.section.bubble .about_container .about.about5 {height: 300px; width: 300px; margin-top: 30vh; margin-right: -70px; right: -5px;}
+.section.bubble .about_container .text_container {text-align: left; margin-top: 15%; text-align: center; }
+.section.bubble .about_container .text_container h1 {font-size: 2em; color: #fff; border-bottom: #fff solid 0.2rem; display: inline;}
+.section.bubble .about_container .text_container h2 {font-size: 1.2em; font-weight: 200; color: #fff; display: inline; margin-top: 2em;}
+
+@keyframes movex{0%{transform : translate(-5px, 0)}100%{transform : translate(5px, 0)}}
+@keyframes movey{0%{transform : translate(0, 0); width: 360px;height: 360px;}100%{transform : translate(0, -15px);}}
+@keyframes movey2{0%{transform : translate(0, 0); width: 400px; height: 400px; }100%{transform : translate(0, -20px);}}
+@keyframes resizee {0%{height: 26vw; width: 33vw;}100%{height: 300vw; width: 300vw; margin-top: -100vw;}}
+@keyframes moveybig{0%{transform : translate(0, 0); }100%{transform : translate(0, -15px);}}
+
+@keyframes changeWhiteBG{0%{background-color: #000;}100%{background-color: #fff;}}
+@keyframes changeBlackBG{0%{background-color: #fff;}100%{background-color: #000;}}
+@keyframes changeWhiteCL{0%{color: #000;}100%{color: #fff;}}
+@keyframes changeBlackCL{0%{color: #fff;}100%{color: #000;}}
+@keyframes changeWhiteBorder{0%{border:1px solid #000;}100%{border:1px solid #fff;}}
+@keyframes changeBlackBorder{0%{border:1px solid #fff;}100%{border:1px solid #000;}}
+
+
+/* .section .selfie {background-repeat: no-repeat;background-size: contain;background-image: url("./img/selfie.JPG");width: 30vw; height: 50vh; z-index: 0; margin: -10vh 0vw 0vh 20vw;} */
+
+
+/* 
 .section1 .icon {margin: 10vh auto; display: flex; align-items: flex-end;}
 .section1 .icon div {height: 5vh; width: 5vw;margin: 0vh 0.3vw;}
 .section1 .icon_mail {margin-right:2vw !important;background-repeat: no-repeat;background-size: contain;background-image: url("./img/mail.png");}
 .section1 .icon_mail:hover {cursor: pointer;}
 .section1 .icon_github {background-repeat: no-repeat;background-size: contain;background-image: url("./img/github.png");}
 .section1 .icon_linkedin {background-repeat: no-repeat;background-size: contain;background-image: url("./img/linkedin.png");}
-.section1 .icon_insta {background-repeat: no-repeat;background-size: contain;background-image: url("./img/instagram.png");}
+.section1 .icon_insta {background-repeat: no-repeat;background-size: contain;background-image: url("./img/instagram.png");} */
 
-.section2 {overflow: hidden;}
+/* .section2 {overflow: hidden;}
 .section2 .title {margin: 0vh 0vw 0vh 0vw; transform-origin: left top; transform:rotate(-90deg) translate(-50em, 0em); width: 40vw;height: 10vw;}
 .section2 .title h1 {font-size: 7em; color: #000; border-bottom: #000 solid 0.2rem; display: inline;font-family: 'Montserrat' }
 .section2 .motto {text-align: center; padding: 0vh 0vw; display: flex; flex-direction: row;}
@@ -45,9 +113,9 @@ section {height: 100%; scroll-snap-align: start; scroll-snap-stop: normal;}
 .section2 .motto .onoff .on {background-color: #fff; margin-right: -1vw;}
 .section2 .motto .onoff .off {border: 1px solid #fff; margin-left: -1vw;}
 .section2 .motto .onoff .on h2 {color: #000;}
-.section2 .motto .onoff .off h2 {color: #fff;}
+.section2 .motto .onoff .off h2 {color: #fff;} */
 
-.section3 {overflow: hidden;}
+/* .section3 {overflow: hidden;}
 .section3 .title {margin: 5vh 0vw 0vh 5vw;}
 .section3 .title h1 {font-size: 7em; color: #000; border-bottom: #000 solid 0.2rem; display: inline; font-family: 'Montserrat'}
 .section3 .text_container {text-align: left; margin-top: 25%; text-align: center; }
@@ -62,11 +130,11 @@ section {height: 100%; scroll-snap-align: start; scroll-snap-stop: normal;}
 .section3 .about_container .about.about2.active {height: 100vh; width: 500vw;margin-top: 0vh; animation: resizee 2s ease-out alternate;}
 .section3 .about_container .about.about3 {height: 23vw; width: 30vw; margin-top: 25vh; animation: movey2 3s ease-in-out alternate infinite;}
 .section3 .about_container .about.about4 {height: 23vw; width: 30vw; animation: movey2 2.5s ease-in-out alternate infinite;}
-.section3 .about_container .about.about5 {height: 18vw; width: 25vw; margin-top: 30vh; margin-right: -70px; right: -20px;}
+.section3 .about_container .about.about5 {height: 18vw; width: 25vw; margin-top: 30vh; margin-right: -70px; right: -20px;} */
 
 /* @keyframes about2Scale{0%{height:26vw;}100%{width:33vw}} */
 
-@keyframes movex{0%{transform : translate(-5px, 0)}100%{transform : translate(5px, 0)}}
+/* @keyframes movex{0%{transform : translate(-5px, 0)}100%{transform : translate(5px, 0)}}
 @keyframes movey{0%{transform : translate(0, 0); width: 38vw;height: 28vw;}100%{transform : translate(0, -15px);}}
 @keyframes movey2{0%{transform : translate(0, 0); width: 33vw; height: 25vw; }100%{transform : translate(0, -20px);}}
 @keyframes resizee {0%{height: 26vw; width: 33vw;}100%{height: 300vw; width: 300vw; margin-top: -100vw;}}
@@ -77,7 +145,7 @@ section {height: 100%; scroll-snap-align: start; scroll-snap-stop: normal;}
 @keyframes changeWhiteCL{0%{color: #000;}100%{color: #fff;}}
 @keyframes changeBlackCL{0%{color: #fff;}100%{color: #000;}}
 @keyframes changeWhiteBorder{0%{border:1px solid #000;}100%{border:1px solid #fff;}}
-@keyframes changeBlackBorder{0%{border:1px solid #fff;}100%{border:1px solid #000;}}
+@keyframes changeBlackBorder{0%{border:1px solid #fff;}100%{border:1px solid #000;}} */
 
 .section4 { overflow-y: scroll; height: 100vw; width: 100vh; padding: 0px;margin: 0px; overflow-x: hidden; transform-origin: left bottom;transform:rotate(-90deg) translateY(100vw);scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory; }
 .section4::-webkit-scrollbar {display: none}
@@ -103,6 +171,8 @@ summary::-webkit-details-marker {display: none}
 .section4 .project.content summary ~ * { animation: sweep 0.3s ease-in-out; }
 @keyframes sweep {0% {opacity: 0; margin-left: -10px} 100% {opacity: 1; margin-left: 0px}}
 details {color: #000; margin: 5vh 0vw 5em 5vw;}
+
+
 
 @media (max-width:800px) {
     body {width: auto;}

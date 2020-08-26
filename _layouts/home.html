@@ -1,69 +1,74 @@
 ---
 layout: default
+type: home
 ---
 
-<!-- <nav class="fixed-nav">
-    <ul class="nav">
-        <li><a href="#" class="active">DEVELOPER.</a></li>
-        <li><a href="#">MOTTO.</a></li>
-        <li><a href="#">ABOUT.</a></li>
-        <li><a href="#">PROJECT.</a></li>
-    </ul>
-</nav> -->
 <div id="contents" class="content">
-    <section id="section1" class="content section1">
-        <div class="main">
-            <h1>PARK <br /> KYEONG <br /> SEON </h1>
-            <div class="selfie"></div>
-        </div>
-        <div class="graph-container">
-            <div class="graph">
-                <p style="margin: 30px;"> LANGUAGE </p>
-                <canvas id="language"></canvas>
-            </div>
-            <div class="graph">
-                <p style="margin: 30px;"> SKILL </p>
-                <canvas id="tect"></canvas>
-            </div>
-            <div class="icon">
-                <div id="icon_mail" class="icon_mail"></div>
-                <a target="_blank" href="https://www.instagram.com/{{ social.instagram }}">
-                    <div class="icon_insta"></div>
-                </a>
-                <a target="_blank" href="https://www.linkedin.com/in/%EA%B2%BD%EC%84%A0-%EB%B0%95-4b95961b2/">
-                    <div class="icon_linkedin"></div>
-                </a>
-                <a target="_blank" href="https://github.com/{{ social.github }}">
-                    <div class="icon_github"></div>
-                </a>
+    <div id="main" class="main">
+        <div class="inner">
+            <div class="cursor cursor--small"></div>
+            <canvas class="cursor cursor--canvas" resize></canvas>
+            <div>
+                <div class="text">
+                    <h1>PARK <br /> KYUNG SUN </h1>
+                    <h3>박경선</h3>
+                </div>
+                <div class="selfie">
+                    <img src="../assets/img/selfie.png" />
+                </div>
             </div>
         </div>
-
-    </section>
-    <section id="section2" class="content section2">
-        <div class="motto">
-            <div class="title">
+        <div class="section-cont">
+            <div class="section bubble">
                 <h1>MOTTO.</h1>
-            </div>
-            <div class="text_container">
-                <h1>“ 할 땐 하자.”<br /><br /></h1>
-                <div class="onoff">
-                    <div class="block on">
-                        <h2> ON</h2> <span></span>
+                <div class="about_container">
+                    <div class="about about1"></div>
+                    <div class="about about2">
+                        <div class="text_container">
+                            <h1>PASSION.<br /><br /></h1>
+                            <h2>항상 성장을 갈망하며,<br />그 누구에게도<br />뒤쳐지지 않는<br />열정을 갖고있습니다.</h2>
+                        </div>
                     </div>
-                    <div class="block off">
-                        <h2>OFF</h2>
+                    <div class="about about3">
+                        <div class="text_container">
+                            <h1>WITH.<br /><br /></h1>
+                            <h2>“함께”라는 가치를<br />중요시하여<br />주변 사람과 화합합니다.<br /></h2>
+                        </div>
+                    </div>
+                    <div class="about about4">
+                        <div class="text_container">
+                            <h1>CONSTANTLY.<br /><br /></h1>
+                            <h2>어떤 일을 하든지 <br />포기하지 않고 <br />끝까지 해냅니다.</h2>
+                        </div>
+                    </div>
+                    <div class="about about5"></div>
+                </div>
+            </div>
+            <!-- <div class="section intro">
+                <h1> 성장 중독 개발자. </h1>
+                <h3>쉬는 날이면 카페를 가서 노트북을 켜둡니다.<br />
+                    그럼 무엇이든 할 게 생기거든요.<br />
+                    저한테는 그게 휴식이자, 소확행입니다.<br />
+                    제가 생각하는 일들을 바로 해낼 수 있기 때문이죠.
+                </h3>
+                <h4>#개발 #디자인 #포스팅 </h4>
+            </div> -->
+            <img src="../assets/img/working.jpg" />
+            <div class="section skill">
+                <div class="graph-container">
+                    <div class="graph">
+                        <h1> LANGUAGE. </h1>
+                        <canvas id="language"></canvas>
+                    </div>
+                    <div class="graph">
+                        <h1> SKILL. </h1>
+                        <canvas id="tect"></canvas>
                     </div>
                 </div>
-                <h4 class="offset1"><span><em>개발할 땐 깊은 집중하고,</em></span></h4>
-                <h4 class="offset2"><span><em>사람들과 어울릴 때에는 잘 화합하는 사람.</em></span></h4><br />
-
-                <h2>“어차피 할 거! 후회하지 않도록.”<br /><br /></h2>
-                <h4 class="offset3"><span><em>좌우명을 갖고 실천합니다.</em></span></h4>
             </div>
         </div>
-    </section>
-    <section id="section3" class="content section3">
+    </div>
+    <!-- <section id="section3" class="content section3">
         <div class="title">
             <h1>ABOUT.</h1>
         </div>
@@ -126,6 +131,6 @@ layout: default
             {% endif %}
         </div>
         {%- endfor -%}
-    </section>
+    </section> -->
 </div>
 </div>
