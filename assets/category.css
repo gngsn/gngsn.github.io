@@ -9,10 +9,10 @@ a:link:active, a:visited:active {color: #fff;}
 .main {width: 100vw;margin: 0px; overflow: auto; scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory;}
 .about .main {height: 0vh;}
 .inner {position: fixed;top: 0;left: 0;width: 100%;height: 100vh;transition: 0.8s transform cubic-bezier(0.65, 0, 0.35, 1);z-index: -1; background-color: #000; padding-top: 90px;border-bottom: 0.5vh solid #FF3901;
-    -webkit-transition: background-color 1s ease-out;
-    -moz-transition: background-color 1s ease-out;
-    -o-transition: background-color 1s ease-out;
-    transition: background-color 1s ease-out;}
+    -webkit-transition: background-color 800ms ease-out;
+    -moz-transition: background-color 800ms ease-out;
+    -o-transition: background-color 800ms ease-out;
+    transition: background-color 800ms ease-out;}
 .inner .center{width: 100%; height: 100vh;}
 .about .inner h2{font-size: 2.8rem;font-family: 'Noto Th';}
 
@@ -129,13 +129,11 @@ summary::-webkit-details-marker {display: none}
 }
 
 @media (max-width:480px) {
-    
     .project .inner .center .slick-slide .proj-title h1{font-size: 1.4rem; }
     .inner .center .slick-slide{margin: 0px;}
     .project .section-cont .post h2{font-size: 1.2rem; margin: 40vh 0px 30px 5vw;}
     .project .section-cont .post h3{font-size: 1.5rem;margin-left: 5vw;}
     .about .inner h2 {font-size: 2rem;}
     .about .inner .switch img {width: 70px;
-        /* margin: 0 80px 0 100px; */
     }
 }

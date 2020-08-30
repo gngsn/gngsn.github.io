@@ -9,8 +9,6 @@ const initCursor = () => {
         clientY = e.clientY;
     });
 
-    // transform the innerCursor to the current mouse position
-    // use requestAnimationFrame() for smooth performance
     const render = () => {
         innerCursor.style.transform = `translate(${clientX}px, ${clientY}px)`;
         // if you are already using TweenMax in your project, you might as well
@@ -31,6 +29,7 @@ initCursor();
 let lastX = 0;
 let lastY = 0;
 let isStuck = false;
+let isSwitch = false;
 let showCursor = false;
 let group, stuckX, stuckY, fillOuterCursor;
 
@@ -79,23 +78,24 @@ const initCanvas = () => {
     };
 
     paper.view.onFrame = event => {
-        // using linear interpolation, the circle will move 0.2 (20%)
-        // of the distance between its current position and the mouse
-        // coordinates per Frame
+
         if (!isStuck) {
             // move circle around normally
             lastX = lerp(lastX, clientX, 0.2);
             lastY = lerp(lastY, clientY, 0.2);
             group.position = new paper.Point(lastX, lastY);
         } else if (isStuck) {
-            // fixed position on a nav item
-            lastX = lerp(lastX, stuckX, 0.2);
-            lastY = lerp(lastY, stuckY, 0.2);
+                // fixed position on a nav item
+                lastX = lerp(lastX, stuckX, 0.2);
+                lastY = lerp(lastY, stuckY, 0.2);
             group.position = new paper.Point(lastX, lastY);
         }
-    
+
         if (isStuck && polygon.bounds.width < shapeBounds.width) {
             // scale up the shape 
+            if (isSwitch) {
+                polygon.scale(7);
+            }
             polygon.scale(1.08);
         } else if (!isStuck && polygon.bounds.width > 30) {
             // remove noise
@@ -110,7 +110,7 @@ const initCanvas = () => {
             const scaleDown = 0.92;
             polygon.scale(scaleDown);
         }
-    
+
         // while stuck and big, apply simplex noise
         if (isStuck && polygon.bounds.width >= shapeBounds.width) {
             isNoisy = true;
@@ -120,27 +120,27 @@ const initCanvas = () => {
                     bigCoordinates[i] = [segment.point.x, segment.point.y];
                 });
             }
-    
+
             // loop over all points of the polygon
             polygon.segments.forEach((segment, i) => {
-    
+
                 // get new noise value
                 // we divide event.count by noiseScale to get a very smooth value
                 const noiseX = noiseObjects[i].noise2D(event.count / noiseScale, 0);
                 const noiseY = noiseObjects[i].noise2D(event.count / noiseScale, 1);
-    
+
                 // map the noise value to our defined range
                 const distortionX = map(noiseX, -1, 1, -noiseRange, noiseRange);
                 const distortionY = map(noiseY, -1, 1, -noiseRange, noiseRange);
-    
+
                 // apply distortion to coordinates
                 const newX = bigCoordinates[i][0] + distortionX;
                 const newY = bigCoordinates[i][1] + distortionY;
-    
+
                 // set new (noisy) coodrindate of point
                 segment.point.set(newX, newY);
             });
-    
+
         }
         polygon.smooth();
     };
@@ -155,8 +155,11 @@ const initHovers = () => {
     const handleMouseEnter = e => {
         const navItem = e.currentTarget;
         const navItemBox = navItem.getBoundingClientRect();
+        isSwitch = navItem.classList.contains('switch');
         stuckX = Math.round(navItemBox.left + navItemBox.width / 2);
-        stuckY = Math.round(navItemBox.top + navItemBox.height / 2);
+        if(navItem.classList.contains('home')){
+            stuckY = Math.round(navItemBox.top + navItemBox.height / 2);
+        } else {stuckY = Math.round(navItemBox.top + navItemBox.height / 2)+10;}
         isStuck = true;
     };
 
@@ -174,6 +177,3 @@ const initHovers = () => {
 };
 
 initHovers();
-
-
-

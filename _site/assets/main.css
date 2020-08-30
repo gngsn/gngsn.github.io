@@ -1,15 +1,16 @@
 :root{
     --main-red: #dd4226;
+    --main-black: #000;
+    --main-white: #fff;
 }
-
 
 * {display: block;box-sizing: border-box; overflow-x: hidden;}
 body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 .content {width: 100vw;height: 100vh;margin: 0px; overflow: auto; scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory;}
 
-.inner {position: fixed;top: 0;left: 0;width: 100%;height: 100vh;transition: 0.8s transform cubic-bezier(0.65, 0, 0.35, 1);z-index: -1;pointer-events: none; background-color: #000;}
+.inner {position: fixed;top: 0;left: 0;width: 100%;height: 100vh;transition: 0.8s transform cubic-bezier(0.65, 0, 0.35, 1);z-index: -1;pointer-events: none; background-color: var(--main-black);}
 .inner > div { padding: 72px 150px 0px; display: flex; flex-direction: row; margin: auto; bottom: 0; height: calc(100% - 92px);}
-.inner .text{display: inline;color: #fff; margin-top:100px; z-index: 2;}
+.inner .text{display: inline;color: var(--main-white); margin-top:100px; z-index: 2;}
 .inner .text h1 {line-height: 7rem; font-size: 7rem;font-family:'Noto Th';min-width: 600px;}
 .inner .text h3 {font-size: 3.5rem;font-family:'Noto R';}
 .inner .selfie {max-width: 650px;bottom: 0%;z-index: 0;}
@@ -18,11 +19,11 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 .section-cont {margin-top: 99.5vh;z-index: 99; }
 .section-cont > img{width: 100%;}
 .section-cont > div{padding: 60px 0px; margin: auto;text-align: center;}
-.section.intro h1{font-family:'NanumM R', 'Noto R'; font-size: 5rem; border-bottom: #fff solid 1px; display: inline;}
+.section.intro h1{font-family:'NanumM R', 'Noto R'; font-size: 5rem; border-bottom: var(--main-white) solid 1px; display: inline;}
 .section.intro h3{text-align: left;font-family:'NanumM R', 'Noto R'; line-height: 1.3; font-size: 2.2rem; display: block; padding: 50px 60px;}
 .section.intro h4{text-align: left;font-family:'NanumM R', 'Noto R'; font-size: 2rem; padding-left: 60px;}
 
-.section.skill{padding:100px 70px 200px; background-color: #000; color: #fff;font-family:'Noto Th';}
+.section.skill{padding:100px 70px 200px; background-color: var(--main-black); color: var(--main-white);font-family:'Noto Th';}
 .section.skill h1 {font-family:'Noto Th'; font-size: 2.5rem; border-bottom: var(--main-red) solid 1px; display: inline;}
 .section.skill .graph-container {display: flex;justify-content: space-around;}
 .section.skill .graph-container canvas {margin-top: 10vh;  } 
@@ -31,10 +32,10 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 .cursor--small {width: 5px;height: 5px;left: -2.5px;top: -2.5px;border-radius: 50%;z-index: 11000;background: var(--color-text);}
 .cursor--canvas {width: 100vw;height: 100vh;z-index: 12000;}
 
-.section.bubble {background-color: var(--main-red); color: #fff;font-family:'Noto Th';padding-bottom: 100px;}
-.section.bubble > h1{font-family:'Noto R'; font-size: 5rem; border-bottom: #fff solid 1px; display: inline;}
+.section.bubble {background-color: var(--main-red); color: var(--main-white);font-family:'Noto Th';padding-bottom: 100px;}
+.section.bubble > h1{font-family:'Noto R'; font-size: 5rem; border-bottom: var(--main-white) solid 1px; display: inline;}
 .section.bubble .about_container {display: flex; flex-direction: row;width: 100vw; height: 70vh; padding-top: 1vh;}
-.section.bubble .about_container .about { border: 1px solid #fff; border-radius: 50%; position: relative; margin: auto -20px; }
+.section.bubble .about_container .about { border: 1px solid var(--main-white); border-radius: 50%; position: relative; margin: auto -20px; }
 .section.bubble .about_container .about:hover {cursor: pointer;}
 .section.bubble .about_container .about.about1 {height: 300px; width: 300px; margin-top: 25vh; animation: movex 3s ease-in-out alternate infinite;}
 .section.bubble .about_container .about.about2 {height: 380px; width: 380px; margin-top: 10vh; animation: movey 2s ease-in-out alternate infinite;}
@@ -42,21 +43,12 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 .section.bubble .about_container .about.about4 {height: 380px; width: 380px; animation: movey2 2.5s ease-in-out alternate infinite;}
 .section.bubble .about_container .about.about5 {height: 300px; width: 300px; margin-top: 30vh; margin-right: -70px; right: -5px;}
 .section.bubble .about_container .text_container {margin-top: 15%; text-align: center; }
-.section.bubble .about_container .text_container h1 {font-size: 2em; color: #fff; border-bottom: #fff solid 0.2rem; display: inline;}
-.section.bubble .about_container .text_container h2 {font-size: 1.2em; font-weight: 200; color: #fff; display: inline; margin-top: 2em;}
+.section.bubble .about_container .text_container h1 {font-size: 2em; color: var(--main-white); border-bottom: var(--main-white) solid 0.2rem; display: inline;}
+.section.bubble .about_container .text_container h2 {font-size: 1.2em; font-weight: 200; color: var(--main-white); display: inline; margin-top: 2em;}
 
 @keyframes movex{0%{transform : translate(-5px, 0)}100%{transform : translate(5px, 0)}}
 @keyframes movey{0%{transform : translate(0, 0); width: 360px;height: 360px;}100%{transform : translate(0, -15px);}}
 @keyframes movey2{0%{transform : translate(0, 0); width: 380px; height: 340px; }100%{transform : translate(0, -20px);}}
-@keyframes resizee {0%{height: 26vw; width: 33vw;}100%{height: 300vw; width: 300vw; margin-top: -100vw;}}
-@keyframes moveybig{0%{transform : translate(0, 0); }100%{transform : translate(0, -15px);}}
-
-@keyframes changeWhiteBG{0%{background-color: #000;}100%{background-color: #fff;}}
-@keyframes changeBlackBG{0%{background-color: #fff;}100%{background-color: #000;}}
-@keyframes changeWhiteCL{0%{color: #000;}100%{color: #fff;}}
-@keyframes changeBlackCL{0%{color: #fff;}100%{color: #000;}}
-@keyframes changeWhiteBorder{0%{border:1px solid #000;}100%{border:1px solid #fff;}}
-@keyframes changeBlackBorder{0%{border:1px solid #fff;}100%{border:1px solid #000;}}
 
 .icon {position: absolute; right: 5vw;bottom: 40px;margin: auto; display: flex; align-items: flex-end;}
 .icon div {height: 50px; width: 70px;margin: 0vh 0.3vw;}
@@ -65,6 +57,9 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 .icon .icon_github {background-repeat: no-repeat;background-size: contain;background-image: url("./img/github.png");}
 .icon .icon_linkedin {background-repeat: no-repeat;background-size: contain;background-image: url("./img/linkedin.png");}
 .icon .icon_insta {background-repeat: no-repeat;background-size: contain;background-image: url("./img/instagram.png");}
+
+.section hr {display: none;}
+.section h1.contact {display: none;}
 
 @media (max-width:1048px) {
     .inner > div { padding:  72px 50px 0px;}
@@ -92,7 +87,7 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
     .inner .selfie img {width: 500px;left: 50%;transform: translateX(-40%);}
 
     .section-cont > div{padding: 0px 10px;}
-    .section.intro h1{font-size: 2.5rem; border-bottom: #fff solid 1px; display: inline;}
+    .section.intro h1{font-size: 2.5rem; border-bottom: var(--main-white) solid 1px; display: inline;}
     .section.intro h3{font-size: 1rem; display: block; padding: 50px 20px;}
     .section.intro h4{font-size: 0.8rem; padding-left: 20px;}
 
@@ -116,40 +111,10 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
     .section.bubble .about_container .text_container h2 {font-size: 1.2em;}
     .section.bubble > h1{display: none;}
 }
-
-
-.section4 { overflow-y: scroll; height: 100vw; width: 100vh; padding: 0px;margin: 0px; overflow-x: hidden; transform-origin: left bottom;transform:rotate(-90deg) translateY(100vw);scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory; }
-.section4::-webkit-scrollbar {display: none}
-.section4 .row {width:100vw; height: 100vh; margin-top: -170vw; margin-bottom: 225vw; transform-origin: left bottom; transform:rotate(90deg) translateX(130vw);}
-.section4 .row >div {width: 90%; height: 90%; padding: 3% 5%; height: 100%; scroll-snap-align: start; scroll-snap-stop: normal;overflow: hidden;}
-.section4 h1 {font-size: 7rem; color: #000; border-bottom: 5px solid #000; display: inline; margin-left: 2vw; font-family: 'Montserrat'}
-.section4 .title {width:100vw;scroll-snap-align: start; scroll-snap-stop: normal;}
-.section4 .project.title h2 {font-weight: 500; font-size: 2rem;}
-.section4 .project.title h3 {font-weight: 700; font-size: 2.4rem; border-bottom: #000 solid 2px; display: inline;}
-
-.section4 .project.content .project { padding: 1em; border-left: #000 solid .3px;}
-.section4 .project.content h4 {font-weight: 400; font-size: 1.5rem; color: #727272; margin: 2em 0em 0em 0em;}
-.section4 .project.content h5 {font-weight: 900; font-size: 2rem; margin-left: 2em;}
-.section4 .project.content p {font-weight: 300; font-size: 1.2rem; line-height: 2rem; margin-left: 2em;}
-.section4 .project.content { margin-bottom: 2.5em;}
-
-.section4 .project.content .gallery {display: flex; flex-direction: row; width: 90vw; overflow-x: auto; }
-.section4 .project.content .gallery img {height: 250px; margin: 5vh 0.4vw;}
-.section4 .project.content .gallery::-webkit-scrollbar {height: 6px;}
-.section4 .project.content .gallery::-webkit-scrollbar-thumb {opacity: .4; background-color: #000; border-radius: 15px;}
-summary::-webkit-details-marker {display: none}
-
-.section4 .project.content summary ~ * { animation: sweep 0.3s ease-in-out; }
-@keyframes sweep {0% {opacity: 0; margin-left: -10px} 100% {opacity: 1; margin-left: 0px}}
-details {color: #000; margin: 5vh 0vw 5em 5vw;}
-
-.section hr {display: none;}
-.section h1.contact {display: none;}
-
 @media (max-width:476px) {
     .icon {position: relative; margin: 60px 0px 50px 5px; width: 100%; justify-content: center;right: auto;}
     .icon .icon_mail {margin-right: 20px !important;}
-    .section hr { border-top: #fff 1px solid; display: block; width: 80px;margin-bottom: 110px;}
+    .section hr { border-top: var(--main-white) 1px solid; display: block; width: 80px;margin-bottom: 110px;}
     .section h1.contact {display: inline;}
     /* .icon div {height: 40px; width: 0px;margin: 0vh 0px 20px;}*/
     .section.skill .graph-container {margin-bottom: 100px;}
