@@ -1,15 +1,19 @@
 <div class="post">
-    <video autoplay loop width="100%">
-        <source src="../assets/img/labtop.mp4"
-                type="video/mp4">
-        Sorry, your browser doesn't support embedded videos.
-    </video>
     <div class="title">
         <h2> {{ page.duration }} </h2>
         <h3> {{ page.title }}</h3>
     </div>
+    {% if page.video %}
+    <video autoplay loop  height="100vh">
+        <source src={{ page.video }} type="video/mp4">
+            Sorry, your browser doesn't support embedded videos.
+    </video>
+    {% elsif page.image %}
+    <img src={{ page.image }} />
+    {% else %}
+    <img src={{ page.image }} />
+    {% endif%}
     <div class="content">
     {{ page.content }}
-        
     </div>
 </div>

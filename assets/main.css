@@ -1,3 +1,8 @@
+:root{
+    --main-red: #dd4226;
+}
+
+
 * {display: block;box-sizing: border-box; overflow-x: hidden;}
 body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 .content {width: 100vw;height: 100vh;margin: 0px; overflow: auto; scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory;}
@@ -13,13 +18,12 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 .section-cont {margin-top: 99.5vh;z-index: 99; }
 .section-cont > img{width: 100%;}
 .section-cont > div{padding: 60px 0px; margin: auto;text-align: center;}
-/* .section.intro {background-color: #8934cf; color: #fff;font-family:'Noto Th';} */
 .section.intro h1{font-family:'NanumM R', 'Noto R'; font-size: 5rem; border-bottom: #fff solid 1px; display: inline;}
 .section.intro h3{text-align: left;font-family:'NanumM R', 'Noto R'; line-height: 1.3; font-size: 2.2rem; display: block; padding: 50px 60px;}
 .section.intro h4{text-align: left;font-family:'NanumM R', 'Noto R'; font-size: 2rem; padding-left: 60px;}
 
 .section.skill{padding:100px 70px 200px; background-color: #000; color: #fff;font-family:'Noto Th';}
-.section.skill h1 {font-family:'Noto Th'; font-size: 2.5rem; border-bottom: #dd4226 solid 1px; display: inline;}
+.section.skill h1 {font-family:'Noto Th'; font-size: 2.5rem; border-bottom: var(--main-red) solid 1px; display: inline;}
 .section.skill .graph-container {display: flex;justify-content: space-around;}
 .section.skill .graph-container canvas {margin-top: 10vh;  } 
 
@@ -27,7 +31,7 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 .cursor--small {width: 5px;height: 5px;left: -2.5px;top: -2.5px;border-radius: 50%;z-index: 11000;background: var(--color-text);}
 .cursor--canvas {width: 100vw;height: 100vh;z-index: 12000;}
 
-.section.bubble {background-color: #dd4226; color: #fff;font-family:'Noto Th';padding-bottom: 100px;}
+.section.bubble {background-color: var(--main-red); color: #fff;font-family:'Noto Th';padding-bottom: 100px;}
 .section.bubble > h1{font-family:'Noto R'; font-size: 5rem; border-bottom: #fff solid 1px; display: inline;}
 .section.bubble .about_container {display: flex; flex-direction: row;width: 100vw; height: 70vh; padding-top: 1vh;}
 .section.bubble .about_container .about { border: 1px solid #fff; border-radius: 50%; position: relative; margin: auto -20px; }
@@ -113,20 +117,6 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
     .section.bubble > h1{display: none;}
 }
 
-
-
-
-
-
-
-
-
-@keyframes changeWhiteBG{0%{background-color: #000;}100%{background-color: #fff;}}
-@keyframes changeBlackBG{0%{background-color: #fff;}100%{background-color: #000;}}
-@keyframes changeWhiteCL{0%{color: #000;}100%{color: #fff;}}
-@keyframes changeBlackCL{0%{color: #fff;}100%{color: #000;}}
-@keyframes changeWhiteBorder{0%{border:1px solid #000;}100%{border:1px solid #fff;}}
-@keyframes changeBlackBorder{0%{border:1px solid #fff;}100%{border:1px solid #000;}} 
 
 .section4 { overflow-y: scroll; height: 100vw; width: 100vh; padding: 0px;margin: 0px; overflow-x: hidden; transform-origin: left bottom;transform:rotate(-90deg) translateY(100vw);scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory; }
 .section4::-webkit-scrollbar {display: none}

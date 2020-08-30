@@ -1,0 +1,21 @@
+I"�<h4> SUMMARY </h4>
+<p>"3주간의 해커톤으로 관광객과 쇼핑객을 위한 짐 보관 서비스 플랫폼"</p>
+
+<h4> SKILL </h4>
+<div class="skill">
+<img src="https://img.icons8.com/color/96/000000/xcode.png" />
+<img src="https://img.icons8.com/ios-filled/100/000000/ios-logo.png" style="filter:invert(100%)" />
+<img src="https://img.icons8.com/fluent/96/000000/swift.png" />
+<!-- <h4>Express</h4> -->
+<img src="https://img.icons8.com/color/96/000000/git.png" />
+<img src="https://img.icons8.com/fluent/96/000000/github.png" />
+</div>
+
+<h4>DETAIL</h4>
+<p>Spring Framework을 사용하여 프로필 조회 및 수정, 문의사항 작성과 조회 및 수정 설계</p>
+
+<p>IT 동아리 내에서 3주간의 해커톤을 진행하며, ‘여행객을 위한 짐 보관 서비스 플랫폼’을 서비스하는 모바일 어플리케이션을 제작했습니다. 정말 큰 도전이 필요한 프로젝트였습니다. 서버를 제작하는 것이 처음일 뿐만 아니라, 실제 서비스를 제작하는 협업 프로젝트가 처음이었기 때문에 도전정신과 열정으로 해결해 나아가려고 노력했습니다.</p>
+
+<h4>링크</h4>
+<p><a target="_blank" href="https://github.com/soptrest/sopt_get_rest_IOS">Github 링크 </a></p>
+:ET

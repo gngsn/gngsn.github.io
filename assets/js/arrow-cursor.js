@@ -49,10 +49,7 @@ const initArrowCursor = () => {
             // document.querySelector('.link.home').style.color = white
         }
     }
-    // let centerVideo = document.querySelector('.slick-slide.slick-active video');
-    // console.log(centerVideo);
-    // centerVideo.setAttribute('autoplay','autoplay');
-    // centerVideo.setAttribute('loop','loop');
+    
     document.getElementById('center').addEventListener("click", e => {
         clientX = e.clientX;
         clientY = e.clientY;

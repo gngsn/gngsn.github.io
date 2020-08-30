@@ -1,16 +1,25 @@
 ---
 layout: post
-isTitle: true
-index: 0
 duration: "2020.01.18 ~ 2020.08.01"
 title: "IT 동아리 SOPT 25대 서버파트장"
+video: "../assets/img/labtop.mp4"
 ---
 <h4> summary </h4>
 <p>"40명 파트원을 이끌며 서버 구축에 필요한 지식 전달, SOPT homepage 관리"</p>
 
 <h4> skill </h4>
-<p>"Node.js, Express, Database, MySQL, MongoDB, AWS Services, Git, Github, Network"</p>
-
+<div class="skill">
+<img src="https://img.icons8.com/fluent/96/000000/visual-studio-code-2019.png"/>
+<img src="https://img.icons8.com/color/96/000000/nodejs.png"/>
+<h4>Express</h4>
+<img src="https://img.icons8.com/ios-filled/100/000000/mysql-logo.png" style="filter:invert(100%)"/>
+<img src="https://img.icons8.com/color/96/000000/mongodb.png"/>
+<img src="https://img.icons8.com/color/96/000000/amazon-web-services.png"/>
+<img src="https://img.icons8.com/color/96/000000/git.png"/>
+<img src="https://img.icons8.com/fluent/96/000000/github.png"/>
+<img src="https://img.icons8.com/fluent-systems-filled/96/000000/domain.png"/>
+<!-- <p>"Node.js, Express, Database, MySQL, MongoDB, AWS Services, Git, Github, Network"</p> -->
+</div>
 <h4>CURRICULUM</h4>
 <p>
 1주차 : Overview, javascript <br />
@@ -29,3 +38,18 @@ title: "IT 동아리 SOPT 25대 서버파트장"
 세미나가 끝나고 2주간의 해커톤을 통해 완성도 높은 애플리케이션을 제작하는 것이 목표를 목표로 모든 필요한 내용을 전달했습니다.
 세미나 이외에도 서버와 관련된 각종 질문들을 받으며, 파트원들과 의사소통을 해나아갔습니다.
 서버 파트 뿐만아니라, SOPT 홈페이지 관리를 하며 지원서 페이지 작업과 홈페이지 개편에 힘썼습니다.
+
+
+<h4>세미나 자료 </h4>
+
+<a href="https://drive.google.com/drive/folders/1LGXAw4he2bH2LiUMP4aS80-8XqoUcDOC">세미나 자료 전체 확인</a>
+<div class="gallery">
+<img src="/assets/img//photo1.png">
+<img src="/assets/img/photo2.png">
+<img src="/assets/img/photo3.png">
+<img src="/assets/img/photo4.png">
+<img src="/assets/img/photo5.png">
+<img src="/assets/img/photo6.png">
+</div>
+<h4>링크</h4>
+<p><a target="_blank" href="https://github.com/gngsn/26th_SERVER"> Github 링크 - 세미나 실습 자료</a></p>
