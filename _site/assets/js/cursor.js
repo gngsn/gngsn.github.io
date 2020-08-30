@@ -11,13 +11,6 @@ const initCursor = () => {
 
     const render = () => {
         innerCursor.style.transform = `translate(${clientX}px, ${clientY}px)`;
-        // if you are already using TweenMax in your project, you might as well
-        // use TweenMax.set() instead
-        // TweenMax.set(innerCursor, {
-        //   x: clientX,
-        //   y: clientY
-        // });
-
         requestAnimationFrame(render);
     };
     requestAnimationFrame(render);

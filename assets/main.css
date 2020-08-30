@@ -50,22 +50,20 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 @keyframes movey{0%{transform : translate(0, 0); width: 360px;height: 360px;}100%{transform : translate(0, -15px);}}
 @keyframes movey2{0%{transform : translate(0, 0); width: 380px; height: 340px; }100%{transform : translate(0, -20px);}}
 
-.icon {position: absolute; right: 5vw;bottom: 40px;margin: auto; display: flex; align-items: flex-end;}
-.icon div {height: 50px; width: 70px;margin: 0vh 0.3vw;}
-.icon .icon_mail {margin-right:2vw !important;background-repeat: no-repeat;background-size: contain;background-image: url("./img/mail.png");}
+.icon {position: absolute; right: 5vw;bottom: 40px;margin: auto; display: flex; align-items: flex-end;height: 50px;}
+.icon a, .icon div {height: 100%; width: 70px;margin: 0vh 0.3vw;}
+.icon .icon_mail {background-repeat: no-repeat;background-size: contain;background-image: url("https://img.icons8.com/material-rounded/96/000000/important-mail.png");filter: invert(100%); }
 .icon .icon_mail:hover {cursor: pointer;}
-.icon .icon_github {background-repeat: no-repeat;background-size: contain;background-image: url("./img/github.png");}
-.icon .icon_linkedin {background-repeat: no-repeat;background-size: contain;background-image: url("./img/linkedin.png");}
-.icon .icon_insta {background-repeat: no-repeat;background-size: contain;background-image: url("./img/instagram.png");}
-
+.icon .icon_github {background-repeat: no-repeat;background-size: contain;background-image: url("https://img.icons8.com/material-rounded/96/000000/github.png");filter: invert(100%);}
+.icon .icon_linkedin {background-repeat: no-repeat;background-size: contain;background-image: url("https://img.icons8.com/small/96/000000/linkedin.png");filter: invert(100%); height: 95%;}
+.icon .icon_insta {background-repeat: no-repeat;background-size: contain;background-image: url("https://img.icons8.com/fluent-systems-regular/96/000000/instagram-new.png");filter: invert(100%);}
 .section hr {display: none;}
 .section h1.contact {display: none;}
-
 @media (max-width:1048px) {
     .inner > div { padding:  72px 50px 0px;}
     .inner .text h1 {line-height: 6rem; font-size: 6rem;min-width: 350px;}
 }
-
+/* <img src="https://img.icons8.com/material-rounded/96/000000/important-mail.png"/> */
 @media (max-width:1200px) {
     .section.bubble .about_container .about.about2 {height: 280px;}
     .section.bubble .about_container .about.about3 {height: 280px;}
@@ -112,11 +110,9 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
     .section.bubble > h1{display: none;}
 }
 @media (max-width:476px) {
-    .icon {position: relative; margin: 60px 0px 50px 5px; width: 100%; justify-content: center;right: auto;}
-    .icon .icon_mail {margin-right: 20px !important;}
+    .icon {position: relative; margin: 120px 0px 50px 5px; width: 100%; justify-content: center;right: auto;}
     .section hr { border-top: var(--main-white) 1px solid; display: block; width: 80px;margin-bottom: 110px;}
     .section h1.contact {display: inline;}
-    /* .icon div {height: 40px; width: 0px;margin: 0vh 0px 20px;}*/
     .section.skill .graph-container {margin-bottom: 100px;}
     .section.skill {padding: 50px 20px 100px;}
 }
