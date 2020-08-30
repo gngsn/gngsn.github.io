@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 duration: "2019-12-22 ~ 2020-01-04"
 title: "얼리버디 (SOPT APPJAM) - 우수상"
 isTitle: true

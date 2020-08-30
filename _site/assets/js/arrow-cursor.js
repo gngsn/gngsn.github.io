@@ -28,6 +28,9 @@ $('.center').slick({
     ]
 });
 
+$('.lazy').slick({
+    lazyLoad: 'ondemand',
+  });
 
 const initArrowCursor = () => {
     var center = document.getElementById('center'); // header 객체에 onclick 이벤트 속성을 연결 
@@ -56,15 +59,15 @@ const initArrowCursor = () => {
         let elem = document.querySelector('.slick-active');
         let rect = elem.getBoundingClientRect();
         let section = document.getElementById('section-cont');
-        console.log('sdfasdfasdsdf');
+        
         if (center.classList.contains('cursor-next')) {
             $('.slick-next').click();
         } else if (center.classList.contains('cursor-back')) {
             $('.slick-prev').click();
         } else if (center.classList.contains('cursor-plus')) {
-            document.getElementById('section-cont').classList.add('cursor-cancel');
             document.getElementById('inner').classList.add('detail-active');
             document.getElementById('main').classList.remove('hide');
+            section.classList.add('cursor-cancel');
             section.style.marginTop = '0px';
         }
     });
@@ -105,3 +108,14 @@ const initArrowCursor = () => {
 }
 
 initArrowCursor();
+
+function loadPost(route) {
+    $("#section-cont").load(route);
+    // console.log(document.getElementById('section-cont')); 
+    // document.getElementById('section-cont').innerHTML = '{%- assign post = posts[0] -%}'
+}
+
+
+$(document).ready( function() {
+	  // 원하는 파일 경로를 삽입하면 된다
+});

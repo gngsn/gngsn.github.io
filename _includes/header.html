@@ -1,13 +1,15 @@
 <header>
     <nav class="nav">
         {% if page.type == "about" %}
-        <a class="link about" href="../category/about.html">ABOUT.</a>
+        <a class="link about" href="../category/about.html">&nbsp;ABOUT.
+        <span></span></a>
         {% else %}
         <a class="link" href="../category/about.html">ABOUT.</a>
         {% endif %}
 
         {% if page.type == "project" %}
-        <a class="link project" href="../category/project.html">PROJ.</a>
+        <a class="link project" href="../category/project.html">&nbsp;PROJ.
+            <span></span></a>
         {% else %}
         <a class="link" href="../category/project.html">PROJ.</a>
         {% endif %}
