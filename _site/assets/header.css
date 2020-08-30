@@ -5,7 +5,7 @@ header a:link {text-decoration: none; color: #fff;}
 header a:visited {text-decoration: none; color: #fff;}
 header a:active {text-decoration: none; color: #fff;}
 header a:hover { color: #fff; }
-
+script{height: 0;}
 .link span{border-top: 0.7px solid #fff; height: 0px;margin-top: -27px; transform: rotate(-4deg);}
 
 .link.home{right: 0%; position: fixed; margin-right: 60px;font-size: 2.6rem; line-height: 2.5;padding-top: 0;z-index: 100;}
