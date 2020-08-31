@@ -5,6 +5,7 @@ header a:link {text-decoration: none; color: #fff;}
 header a:visited {text-decoration: none; color: #fff;}
 header a:active {text-decoration: none; color: #fff;}
 header a:hover { color: #fff; }
+header * {overflow-y: hidden;}
 script{height: 0;}
 header .link{font-family: 'Noto Th'; font-weight: 100;}
 .link span{border-top: 0.7px solid #fff; height: 0px;margin-top: -27px; transform: rotate(-4deg);}
