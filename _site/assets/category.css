@@ -1,20 +1,19 @@
 :root{
     --main-red: #dd4226;
+    --main-black: #000;
+    --main-white: #fff;
 }
 
 * {display: block;box-sizing: border-box;}
 body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
-a {color: #fff;}
-a:link:active, a:visited:active {color: #fff;}
+a,h1,h2,h3,h4,h5,p {color: var(--main-white);}
+a:link:active, a:visited:active {color: var(--main-white);}
 .main {width: 100vw;margin: 0px; overflow: auto; scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory;}
 .about .main {height: 0vh;}
-.inner {position: fixed;top: 0;left: 0;width: 100%;height: 100vh;transition: 0.8s transform cubic-bezier(0.65, 0, 0.35, 1);z-index: -1; background-color: #000; padding-top: 90px;border-bottom: 0.5vh solid #FF3901;
-    -webkit-transition: background-color 800ms ease-out;
-    -moz-transition: background-color 800ms ease-out;
-    -o-transition: background-color 800ms ease-out;
-    transition: background-color 800ms ease-out;}
-.inner .center{width: 100%; height: 100vh;}
-.about .inner h2{font-size: 2.8rem;font-family: 'Noto Th';}
+.inner {top: 0;left: 0;width: 100%;transition: 0.8s transform cubic-bezier(0.65, 0, 0.35, 1); z-index: -1; background-color: #000; padding-top: 90px;border-bottom: 0.5vh solid #FF3901;}
+.about .inner .center{width: 100%; height: 100vh;}
+.about .inner{ height: 100vh;-webkit-transition: background-color 800ms ease-out;-moz-transition: background-color 800ms ease-out;-o-transition: background-color 800ms ease-out;transition: background-color 800ms ease-out;position: fixed;}
+.about .inner h2{font-size: 2.8rem; font-family: 'Noto Th';}
 
 .cursor {position: fixed;left: 0;top: 0;pointer-events: none;}
 .cursor--small {width: 5px;height: 5px;left: -2.5px;top: -2.5px;border-radius: 50%;z-index: 11000;background: var(--color-text);}
@@ -32,24 +31,43 @@ a:link:active, a:visited:active {color: #fff;}
 .about .inner .sub-title h1+span{width: 330px; margin-top: 60px;}
 .about .inner .sub-title h3+span{width: 600px; margin-top: 70px; }
 
-
 .project .cursor-next{cursor: url('./img/next-red.png'), pointer; }
 .project .cursor-back{cursor: url('./img/back-red.png'), pointer; }
 .project .cursor-plus{cursor: url('./img/plus-red.png'), pointer; }
 .project .cursor-cancel{cursor: url('./img/cancel-red.png'), pointer; }
 
-.project .main.hide{height:0vh;}
-.project .main{height:100vh;}
-.project .inner .center .slick-list{margin-top: 40px;z-index: 3; }
+.project .inner { padding: 150px 0 10px;}
+.project .inner .sub-cnt{padding: 60px 70px 10px;}
+.project .inner .sub-cnt p {text-align: left; font-size: 1.8rem; font-family: 'Noto Th'; margin: 0;}
+
+.project .inner .sub-cnt .red-line {align-items: flex-start;}
+.project .inner .sub-cnt .red-line:last-child {align-items: flex-start;}
+.project .inner .red-line{display: flex;flex-direction: column;align-items: center;}
+.project .inner .red-line h1 {text-align: center; font-size: 4rem; font-family: 'Noto B';z-index: 1;}
+.project .inner .red-line h2 {text-align: left; font-size: 4rem; font-family: 'Noto Th';z-index: 1;;}
+.project .inner .red-line span{position: absolute;display: inline-block; opacity: 0.8; transform: rotate(-2deg); z-index: 0;}
+.project .inner .red-line>h1+span{width: 750px; margin-top: 90px; border-bottom: 23px solid var(--main-red); }
+.project .inner .red-line>h2+span{width: 350px; margin-top: 100px;border-bottom: 5px solid var(--main-red);  }
+
+.project .skill{display: flex; justify-items: center;padding: 40px 0px 20px;}
+.project .section-cont .post .content{font-family: 'Noto Th';}
+.project .section-cont .post .content h4{font-size: 2rem;}
+.project .skill img{height: 90px; width: 90px;margin-right: 15px;}
+.project .skill h4{display: inline; vertical-align: middle; font-size: 2rem;font-family: 'Noto Th'; margin: 0 25px 0 10px; line-height: 90px;}
+
+/* .project .main.hide{height:0vh;} */
+/* .project .main{height:100vh;} */
+.project .inner .center .slick-list{margin-top: 10px;z-index: 3; }
 .project .inner .center .slick-list div{display: inline-block;}
 .project .inner .center .slick-track{justify-items: center;display: flex;}
-.project .inner .center .slick-slide{background-color: rgb(0, 0, 0); margin: 40px;opacity: 0.4; transition: all 500ms ease;}
+.project .inner .center .slick-slide{background-color: rgb(0, 0, 0); margin: 20px;opacity: 0.4; transition: all 500ms ease;}
 .project .inner .center .slick-slide.slick-active {color: white;opacity: 1;}
-.project .inner .center .slick-slide img{object-fit: cover; width: 100%;opacity: 0.6;height: 60vh;border-radius: 5px;}
+.project .inner .center .slick-slide img{object-fit: cover; width: 100%;opacity: 0.6;height: 250px;border-radius: 5px;}
 
-.project .inner .center .slick-slide .proj-title{z-index: 30;width:53.75rem; position: absolute; opacity: 1 !important; margin: 100px 0px;}
-.project .inner .center .slick-slide .proj-title h1{font-size: 3rem; text-align: center;font-family: 'Noto B';}
-.project .inner .center .slick-slide .proj-title h3{font-size: 1rem; text-align: center;font-family: 'Noto Th'; line-height: 2;}
+.project .inner .center .slick-slide .proj-title{z-index: 30;width:16.75rem; position: absolute; opacity: 1 !important; margin: 50px 0px;}
+.project .inner .center .slick-slide .proj-title h1{font-size: 1.4rem; text-align: center;font-family: 'Noto B';}
+.project .inner .center .slick-slide .proj-title h2{font-size: 1rem; text-align: center;font-family: 'Noto B';}
+.project .inner .center .slick-slide .proj-title h3{font-size: 0.6rem; text-align: center;font-family: 'Noto Th'; line-height: 2;}
 .project .inner .center .slick-slide.slick-active:hover{transform: scale(1.1);}
 .project .inner .center>button{color: black;}
 .project .inner .center .slick-prev{display: none !important;}
@@ -65,12 +83,6 @@ a:link:active, a:visited:active {color: #fff;}
 .project .section-cont .post h2{font-size: 3.5rem; margin: 60vh 0px 30px 10vw; font-family: 'Noto B';}
 .project .section-cont .post h3{font-size: 3.8rem; margin: 0; margin-left: 10vw; font-family: 'Noto B';}
 .project .section-cont .post .content{padding: 5% 10%;font-family: 'Noto M';}
-
-.project .section-cont .post .skill{display: flex; justify-items: center;}
-.project .section-cont .post .content{font-family: 'Noto Th';}
-.project .section-cont .post .content h4{font-size: 2rem;}
-.project .section-cont .post .skill img{height: 90px; width: 90px;margin-right: 15px;}
-.project .section-cont .post .skill h4{display: inline; vertical-align: middle; font-size: 1.6rem;font-family: 'Noto Th'; margin: 0 25px 0 10px; line-height: 90px;}
 
 .project .section-cont .post .gallery {display: flex; flex-direction: row; width: 100%; overflow-x: scroll; overflow-y: hidden; height: 300px; }
 .project .section-cont .post .gallery img {height: 250px; margin: 5vh 0.4vw;}

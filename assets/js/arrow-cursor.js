@@ -1,7 +1,7 @@
 $('.center').slick({
     centerMode: true,
     centerPadding: '250px',
-    slidesToShow: 1,
+    slidesToShow: 3,
     responsive: [{
             breakpoint: 1200,
             settings: {
@@ -51,57 +51,59 @@ const initArrowCursor = () => {
     }
     
     document.getElementById('center').addEventListener("click", e => {
-        clientX = e.clientX;
-        clientY = e.clientY;
-        let elem = document.querySelector('.slick-active');
-        let rect = elem.getBoundingClientRect();
-        let section = document.getElementById('section-cont');
+        console.log(document.getElementsByClassName('slick-active'));
+        // clientX = e.clientX;
+        // clientY = e.clientY;
+        // let elem = document.querySelectorAll('.slick-active');
+        // console.log(elem);
+        // let rect = elem.getBoundingClientRect();
+        // let section = document.getElementById('section-cont');
         
-        if (center.classList.contains('cursor-next')) {
-            $('.slick-next').click();
-        } else if (center.classList.contains('cursor-back')) {
-            $('.slick-prev').click();
-        } else if (center.classList.contains('cursor-plus')) {
-            document.getElementById('inner').classList.add('detail-active');
-            document.getElementById('main').classList.remove('hide');
-            section.classList.add('cursor-cancel');
-            section.style.marginTop = '0px';
-        }
+        // if (center.classList.contains('cursor-next')) {
+        //     $('.slick-next').click();
+        // } else if (center.classList.contains('cursor-back')) {
+        //     $('.slick-prev').click();
+        // } else if (center.classList.contains('cursor-plus')) {
+        //     document.getElementById('inner').classList.add('detail-active');
+        //     document.getElementById('main').classList.remove('hide');
+        //     section.classList.add('cursor-cancel');
+        //     section.style.marginTop = '0px';
+        // }
     });
 
-    document.addEventListener("mousemove", e => {
-        clientX = e.clientX;
-        clientY = e.clientY;
+//     document.addEventListener("mousemove", e => {
+//         clientX = e.clientX;
+//         clientY = e.clientY;
 
-        let elem = document.querySelector('.slick-active');
-        let rect = elem.getBoundingClientRect();
-        let section = document.getElementById('section-cont');
-
-
-        if (clientX > rect.left + rect.width && !center.classList.contains('cursor-next')) {
-            addClass('center', 'cursor-next', ['cursor-back', 'cursor-plus']);
-        } else if (clientX < rect.left && !center.classList.contains('cursor-back')) {
-            addClass('center', 'cursor-back', ['cursor-next', 'cursor-plus']);
-        } else if (clientX <= rect.left + rect.width && clientX > rect.left && !center.classList.contains('cursor-plus')) {
-            addClass('center', 'cursor-plus', ['cursor-next', 'cursor-back']);
-        }
-        section.onclick = function () {
-            document.getElementById('inner').classList.remove('detail-active');
-            section.style.marginTop = '100vh';
-        }
-
-        if (section.style.marginTop === '100vh') {
-            document.getElementById('main').classList.add('hide');
-        }
-    });
+//         let elem = document.querySelectorAll('.slick-active');
+//         let rect = elem.getBoundingClientRect();
+//         let section = document.getElementById('section-cont');
 
 
-    const addClass = async (id, add, [...remove]) => {
-        await remove.forEach((rm) => {
-            document.getElementById(id).classList.remove(rm);
-        })
-        document.getElementById(id).classList.add(add);
-    }
+//         if (clientX > rect.left + rect.width && !center.classList.contains('cursor-next')) {
+//             addClass('center', 'cursor-next', ['cursor-back', 'cursor-plus']);
+//         } else if (clientX < rect.left && !center.classList.contains('cursor-back')) {
+//             addClass('center', 'cursor-back', ['cursor-next', 'cursor-plus']);
+//         } else if (clientX <= rect.left + rect.width && clientX > rect.left && !center.classList.contains('cursor-plus')) {
+//             addClass('center', 'cursor-plus', ['cursor-next', 'cursor-back']);
+//         }
+//         section.onclick = function () {
+//             document.getElementById('inner').classList.remove('detail-active');
+//             section.style.marginTop = '100vh';
+//         }
+
+//         if (section.style.marginTop === '100vh') {
+//             document.getElementById('main').classList.add('hide');
+//         }
+//     });
+
+
+//     const addClass = async (id, add, [...remove]) => {
+//         await remove.forEach((rm) => {
+//             document.getElementById(id).classList.remove(rm);
+//         })
+//         document.getElementById(id).classList.add(add);
+//     }
 }
 
 initArrowCursor();

@@ -20,6 +20,13 @@
 }
 
 @font-face{
+	font-family:"NanumM R";
+    font-weight: bold;
+    font-weight:700;
+	src:url(./fonts/NanumMyeongjo-Regular.ttf);
+}
+
+@font-face{
 	font-family:"Noto M";
     font-weight: normal;
     font-weight:100;
@@ -33,9 +40,4 @@
 	src:url(./fonts/NotoSansKR-Bold.otf);
 }
 
-@font-face{
-	font-family:"NanumM R";
-    font-weight: bold;
-    font-weight:700;
-	src:url(./fonts/NanumMyeongjo-Regular.ttf);
-}
+
