@@ -7,14 +7,16 @@ $('.center').slick({
             settings: {
                 arrows: false,
                 centerMode: true,
-                centerPadding: '100px'
+                centerPadding: '100px',
+                slidesToShow: 2,
             }
         }, {
-            breakpoint: 900,
+            breakpoint: 800,
             settings: {
                 arrows: false,
                 centerMode: true,
-                centerPadding: '60px'
+                centerPadding: '60px',
+                slidesToShow: 1,
             }
         },
         {
@@ -22,7 +24,8 @@ $('.center').slick({
             settings: {
                 arrows: false,
                 centerMode: true,
-                centerPadding: '0px'
+                centerPadding: '0px',
+                slidesToShow: 1,
             }
         }
     ]
@@ -49,9 +52,14 @@ const initArrowCursor = () => {
             // document.querySelector('.link.home').style.color = white
         }
     }
-    
-    document.getElementById('center').addEventListener("click", e => {
-        console.log(document.getElementsByClassName('slick-active'));
+    // $('.center').on('click', e => {
+
+    // });
+    // $('.slick-slide').on("click", e => {
+    //     // console.log(document.getElementsByClassName('slick-active'));
+    //         let slideClicked = $(e.currentTarget).attr("data-slick-index");
+    //         console.log('slideClicked : ', slideClicked); 
+    //     });
         // clientX = e.clientX;
         // clientY = e.clientY;
         // let elem = document.querySelectorAll('.slick-active');
@@ -69,7 +77,7 @@ const initArrowCursor = () => {
         //     section.classList.add('cursor-cancel');
         //     section.style.marginTop = '0px';
         // }
-    });
+    // });
 
 //     document.addEventListener("mousemove", e => {
 //         clientX = e.clientX;
@@ -109,6 +117,7 @@ const initArrowCursor = () => {
 initArrowCursor();
 
 function loadPost(route) {
+    window.location.href = 'http://'+window.location.host+route;
     $("#section-cont").load(route);
     // console.log(document.getElementById('section-cont')); 
     // document.getElementById('section-cont').innerHTML = '{%- assign post = posts[0] -%}'
@@ -118,3 +127,7 @@ function loadPost(route) {
 $(document).ready( function() {
 	  // 원하는 파일 경로를 삽입하면 된다
 });
+
+
+
+

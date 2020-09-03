@@ -1,19 +1,32 @@
-<div class="post">
-    <div class="title">
-        <h2> {{ page.duration }} </h2>
-        <h3> {{ page.title }}</h3>
-    </div>
-    {% if page.video %}
-    <video autoplay loop  height="100vh">
-        <source src={{ page.video }} type="video/mp4">
-            Sorry, your browser doesn't support embedded videos.
-    </video>
-    {% elsif page.image %}
-    <img src={{ page.image }} />
-    {% else %}
-    <img src={{ page.image }} />
-    {% endif%}
-    <div class="content">
-    {{ page.content }}
+---
+layout: default
+type: post
+---
+
+<div id="post" class="post">
+    <div id="main" class="main hide">
+        <div id="img-wrapper"><div id="img"></div></div>
+        <div class="cursor cursor--small"></div>
+        <canvas class="cursor cursor--canvas" resize></canvas>
+        <img class="back-btn" onclick="back()" src="/assets/img/cancel-red.png" />
+        <div id="section-cont" class="section-cont">
+            <div class="title">
+                <h2> {{ page.duration }} </h2>
+                <h3> {{ page.title }}</h3>
+            </div>
+            {% if page.video %}
+            <video autoplay loop height="100vh">
+                <source src={{ page.video }} type="video/mp4">
+                Sorry, your browser doesn't support embedded videos.
+            </video>
+            {% elsif page.image %}
+            <img src={{ page.image }} />
+            {% else %}
+            <img src={{ page.image }} />
+            {% endif%}
+            <div class="content">
+                {{ page.content }}
+            </div>
+        </div>
     </div>
 </div>

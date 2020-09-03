@@ -2,7 +2,7 @@
 layout: post
 duration: "2020.01.18 ~ 2020.08.01"
 title: "IT 동아리 SOPT 25대 서버파트장"
-video: "../assets/img/labtop.mp4"
+image: "/assets/img/labtop.png"
 ---
 <h4> summary </h4>
 <p>"40명 파트원을 이끌며 서버 구축에 필요한 지식 전달, SOPT homepage 관리"</p>

@@ -16,12 +16,14 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
+    {% if page.layout != 'post' %} 
     <link rel="stylesheet" href="/assets/main.css">
+    {% else %}
+    <link rel="stylesheet" href="/assets/post.css">
+    {% endif %}
     <link rel="stylesheet" href="/assets/font.css">
     <link rel="stylesheet" href="/assets/header.css">
-
-
-    <script src="../assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery.min.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174913603-2"></script>
