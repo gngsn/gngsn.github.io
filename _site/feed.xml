@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-04T05:08:32+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kyeongsun</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-05T02:48:21+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kyeongsun</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><entry><title type="html">IT 동아리 SOPT 25대 서버파트장</title><link href="http://localhost:4000/2020/01/18/server-head.html" rel="alternate" type="text/html" title="IT 동아리 SOPT 25대 서버파트장" /><published>2020-01-18T00:00:00+09:00</published><updated>2020-01-18T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/18/server-head</id><content type="html" xml:base="http://localhost:4000/2020/01/18/server-head.html">&lt;h4&gt; summary &lt;/h4&gt;
 &lt;p&gt;&quot;40명 파트원을 이끌며 서버 구축에 필요한 지식 전달, SOPT homepage 관리&quot;&lt;/p&gt;
 
@@ -38,32 +38,31 @@
 
 &lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1LGXAw4he2bH2LiUMP4aS80-8XqoUcDOC&quot;&gt;세미나 자료 전체 확인&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&quot;gallery&quot;&gt;
-&lt;img src=&quot;/assets/img//photo1.png&quot; /&gt;
-&lt;img src=&quot;/assets/img/photo2.png&quot; /&gt;
-&lt;img src=&quot;/assets/img/photo3.png&quot; /&gt;
-&lt;img src=&quot;/assets/img/photo4.png&quot; /&gt;
-&lt;img src=&quot;/assets/img/photo5.png&quot; /&gt;
-&lt;img src=&quot;/assets/img/photo6.png&quot; /&gt;
+&lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/photo1.png&quot; /&gt;
+&lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/photo2.png&quot; /&gt;
+&lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/photo3.png&quot; /&gt;
+&lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/photo4.png&quot; /&gt;
+&lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/photo5.png&quot; /&gt;
+&lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/photo6.png&quot; /&gt;
 &lt;/div&gt;
 &lt;h4&gt;링크&lt;/h4&gt;
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/gngsn/26th_SERVER&quot;&gt; Github 링크 - 세미나 실습 자료&lt;/a&gt;&lt;/p&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">summary &quot;40명 파트원을 이끌며 서버 구축에 필요한 지식 전달, SOPT homepage 관리&quot;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/labtop.png" /><media:content medium="image" url="http://localhost:4000/assets/img/labtop.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">얼리버디 (SOPT APPJAM) - 우수상</title><link href="http://localhost:4000/2020/01/15/early-buddy.html" rel="alternate" type="text/html" title="얼리버디 (SOPT APPJAM) - 우수상" /><published>2020-01-15T00:00:00+09:00</published><updated>2020-01-15T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/15/early-buddy</id><content type="html" xml:base="http://localhost:4000/2020/01/15/early-buddy.html">&lt;h4&gt; SUMMARY &lt;/h4&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/gngsn/26th_SERVER&quot;&gt; Github 링크 - 세미나 실습 자료&lt;/a&gt;&lt;/p&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">summary &quot;40명 파트원을 이끌며 서버 구축에 필요한 지식 전달, SOPT homepage 관리&quot;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/sopt-main.png" /><media:content medium="image" url="http://localhost:4000/assets/img/sopt-main.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">얼리버디 (SOPT APPJAM) - 우수상</title><link href="http://localhost:4000/2020/01/15/early-buddy.html" rel="alternate" type="text/html" title="얼리버디 (SOPT APPJAM) - 우수상" /><published>2020-01-15T00:00:00+09:00</published><updated>2020-01-15T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/15/early-buddy</id><content type="html" xml:base="http://localhost:4000/2020/01/15/early-buddy.html">&lt;h4&gt; SUMMARY &lt;/h4&gt;
 &lt;p&gt;&quot;2주간의 해커톤으로 약속시간을 위한 나만의 대중교통 배차 알리미 서비스 개발 &lt;br /&gt;
 알림 서비스(FCM) / 일정 확인, 일정 업데이트 및 삭제 (ODsay API)&quot;&lt;/p&gt;
-
-&lt;p&gt;&lt;img style=&quot;width:70vw&quot; src=&quot;/assets/img/eb-workflow.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h4&gt; SKILL &lt;/h4&gt;
 &lt;div class=&quot;skill&quot;&gt;
 &lt;img src=&quot;https://img.icons8.com/fluent/96/000000/visual-studio-code-2019.png&quot; /&gt;
 &lt;img src=&quot;https://img.icons8.com/color/96/000000/nodejs.png&quot; /&gt;
 &lt;h4&gt;Express&lt;/h4&gt;
-&lt;img src=&quot;https://img.icons8.com/ios-filled/100/000000/mysql-logo.png&quot; style=&quot;filter:invert(100%)&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/ios-filled/100/000000/mysql-logo.png&quot; /&gt;
 &lt;img src=&quot;https://img.icons8.com/color/96/000000/git.png&quot; /&gt;
 &lt;img src=&quot;https://img.icons8.com/fluent/96/000000/github.png&quot; /&gt;
 &lt;img src=&quot;https://img.icons8.com/color/96/000000/amazon-web-services.png&quot; /&gt;
 &lt;img src=&quot;https://img.icons8.com/color/96/000000/nginx.png&quot; /&gt;
 &lt;/div&gt;
 
+&lt;p&gt;&lt;img style=&quot;width:70vw&quot; data-zoom=&quot;true&quot; src=&quot;/assets/img/eb-workflow.png&quot; /&gt;&lt;/p&gt;
 &lt;h4&gt;DETAIL&lt;/h4&gt;
 &lt;h5&gt;APPJAM 해커톤 우수상. Node.js 서버 개발. 협업 능력&lt;/h5&gt;
 &lt;p&gt;2주간의 해커톤 기간 동안, 약속시간을 지키지 못하는 사람들을 위한 대중교통 배차 알림 서비스를 모바일 어플리케이션으로 제작하였습니다.
@@ -73,8 +72,8 @@ ODsay에서 제공해주는 경로 검색 API를 사용하여, 대중교통을 �
 서버를 구축해본 경험이 있었기 때문에 해당 프로젝트에서는 주도적인 개발을 하고 싶었고, 또 실제로 주도적인 개발을 이끌어나갔습니다.
 추가적으로, 서버에 대한 능력을 키우고자 타과의 리눅스 프로그래밍을 찾아 수강하고 리눅스 자격증을 준비해 시험을 치루었습니다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/early-buddy-erd.png&quot; /&gt;
-&lt;img src=&quot;/assets/img/early-buddy-arch.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img style=&quot;width:80vw&quot; data-zoom=&quot;true&quot; src=&quot;/assets/img/early-buddy-erd.png&quot; /&gt;
+&lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/early-buddy-arch.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h4&gt;LINK&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/EARLY-BUDDY/EARLY-BUDDY-SERVER&quot;&gt;Github 링크 - 메인 서버&lt;/a&gt;&lt;/p&gt;

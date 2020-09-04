@@ -1,8 +1,9 @@
 ---
 layout: post
 duration: "2020.01.18 ~ 2020.08.01"
-title: "IT 동아리 SOPT 25대 서버파트장"
-image: "/assets/img/labtop.png"
+title: IT 동아리 SOPT 25대 서버파트장
+tit: <span class="break-line800">IT 동아리 SOPT</span> 25대 서버파트장
+image: "/assets/img/sopt-main.png"
 ---
 <h4> summary </h4>
 <p>"40명 파트원을 이끌며 서버 구축에 필요한 지식 전달, SOPT homepage 관리"</p>
@@ -44,12 +45,12 @@ image: "/assets/img/labtop.png"
 
 <a href="https://drive.google.com/drive/folders/1LGXAw4he2bH2LiUMP4aS80-8XqoUcDOC">세미나 자료 전체 확인</a>
 <div class="gallery">
-<img src="/assets/img//photo1.png">
-<img src="/assets/img/photo2.png">
-<img src="/assets/img/photo3.png">
-<img src="/assets/img/photo4.png">
-<img src="/assets/img/photo5.png">
-<img src="/assets/img/photo6.png">
+<img data-zoom="true" src="/assets/img/photo1.png">
+<img data-zoom="true" src="/assets/img/photo2.png">
+<img data-zoom="true" src="/assets/img/photo3.png">
+<img data-zoom="true" src="/assets/img/photo4.png">
+<img data-zoom="true" src="/assets/img/photo5.png">
+<img data-zoom="true" src="/assets/img/photo6.png">
 </div>
 <h4>링크</h4>
 <p><a target="_blank" href="https://github.com/gngsn/26th_SERVER"> Github 링크 - 세미나 실습 자료</a></p>
