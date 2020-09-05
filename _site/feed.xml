@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-05T09:03:16+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kyeongsun</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><entry><title type="html">IT 동아리 SOPT 25대 서버파트장</title><link href="http://localhost:4000/2020/01/18/server-head.html" rel="alternate" type="text/html" title="IT 동아리 SOPT 25대 서버파트장" /><published>2020-01-18T00:00:00+09:00</published><updated>2020-01-18T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/18/server-head</id><content type="html" xml:base="http://localhost:4000/2020/01/18/server-head.html">&lt;h4&gt; summary &lt;/h4&gt;
+&lt;p&gt;&quot;40명 파트원을 이끌며 서버 구축에 필요한 지식 전달, SOPT homepage 관리&quot;&lt;/p&gt;
+
+&lt;h4&gt; skill &lt;/h4&gt;
+&lt;div class=&quot;skill&quot;&gt;
+&lt;img src=&quot;https://img.icons8.com/fluent/96/000000/visual-studio-code-2019.png&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/color/96/000000/nodejs.png&quot; /&gt;
+&lt;h4&gt;Express&lt;/h4&gt;
+&lt;img src=&quot;https://img.icons8.com/ios-filled/100/000000/mysql-logo.png&quot; style=&quot;filter:invert(100%)&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/color/96/000000/mongodb.png&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/color/96/000000/amazon-web-services.png&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/color/96/000000/git.png&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/fluent/96/000000/github.png&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/fluent-systems-filled/96/000000/domain.png&quot; /&gt;
+&lt;!-- &lt;p&gt;&quot;Node.js, Express, Database, MySQL, MongoDB, AWS Services, Git, Github, Network&quot;&lt;/p&gt; --&gt;
+&lt;/div&gt;
+&lt;h4&gt;CURRICULUM&lt;/h4&gt;
+&lt;p&gt;
+1주차 : Overview, javascript &lt;br /&gt;
+2주차 : Node.js + Express &lt;br /&gt;
+3주차 : 흐름제어, EC2 &lt;br /&gt;
+4주차 : Database, RDS &lt;br /&gt;
+5주차 : Multer - 이미지 다루기 &lt;br /&gt;
+6주차 : 인증, 보안 &lt;br /&gt;
+7주차 : 클라이언트 합동 세미나 &lt;br /&gt;
+&lt;/p&gt;
+
+&lt;h4&gt;DETAIL&lt;/h4&gt;
+&lt;h5&gt;&quot;열정&quot;&lt;/h5&gt;
+&lt;p&gt;7개월 동안, 그 어떤 대가를 바람없이 동아리에서
+대학생 IT 창업 동아리 SOPT에서 약 7개월 간 서버파트장으로 활동했습니다. 7주차의 세미나를 통해 40명의 서버파트원에게 서버 지식을 전달했습니다.
+세미나가 끝나고 2주간의 해커톤을 통해 완성도 높은 애플리케이션을 제작하는 것이 목표를 목표로 모든 필요한 내용을 전달했습니다.
+세미나 이외에도 서버와 관련된 각종 질문들을 받으며, 파트원들과 의사소통을 해나아갔습니다.
+서버 파트 뿐만아니라, SOPT 홈페이지 관리를 하며 지원서 페이지 작업과 홈페이지 개편에 힘썼습니다.&lt;/p&gt;
+
+&lt;h4&gt;세미나 자료 &lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1LGXAw4he2bH2LiUMP4aS80-8XqoUcDOC&quot;&gt;세미나 자료 전체 확인&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/photo1.png&quot; /&gt;
+&lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/photo2.png&quot; /&gt;
+&lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/photo3.png&quot; /&gt;
+&lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/photo4.png&quot; /&gt;
+&lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/photo5.png&quot; /&gt;
+&lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/photo6.png&quot; /&gt;
+&lt;/div&gt;
+&lt;h4&gt;링크&lt;/h4&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/gngsn/26th_SERVER&quot;&gt; Github 링크 - 세미나 실습 자료&lt;/a&gt;&lt;/p&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">summary &quot;40명 파트원을 이끌며 서버 구축에 필요한 지식 전달, SOPT homepage 관리&quot;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/sopt-main.png" /><media:content medium="image" url="http://localhost:4000/assets/img/sopt-main.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">얼리버디 (SOPT APPJAM) - 우수상</title><link href="http://localhost:4000/2020/01/15/early-buddy.html" rel="alternate" type="text/html" title="얼리버디 (SOPT APPJAM) - 우수상" /><published>2020-01-15T00:00:00+09:00</published><updated>2020-01-15T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/15/early-buddy</id><content type="html" xml:base="http://localhost:4000/2020/01/15/early-buddy.html">&lt;h4&gt; SUMMARY &lt;/h4&gt;
+&lt;p&gt;&quot;2주간의 해커톤으로 약속시간을 위한 나만의 대중교통 배차 알리미 서비스 개발 &lt;br /&gt;
+알림 서비스(FCM) / 일정 확인, 일정 업데이트 및 삭제 (ODsay API)&quot;&lt;/p&gt;
+
+&lt;h4&gt; SKILL &lt;/h4&gt;
+&lt;div class=&quot;skill&quot;&gt;
+&lt;img src=&quot;https://img.icons8.com/fluent/96/000000/visual-studio-code-2019.png&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/color/96/000000/nodejs.png&quot; /&gt;
+&lt;h4&gt;Express&lt;/h4&gt;
+&lt;img src=&quot;https://img.icons8.com/ios-filled/100/000000/mysql-logo.png&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/color/96/000000/git.png&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/fluent/96/000000/github.png&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/color/96/000000/amazon-web-services.png&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/color/96/000000/nginx.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img style=&quot;width:70vw&quot; data-zoom=&quot;true&quot; src=&quot;/assets/img/eb-workflow.png&quot; /&gt;&lt;/p&gt;
+&lt;h4&gt;DETAIL&lt;/h4&gt;
+&lt;h5&gt;APPJAM 해커톤 우수상. Node.js 서버 개발. 협업 능력&lt;/h5&gt;
+&lt;p&gt;2주간의 해커톤 기간 동안, 약속시간을 지키지 못하는 사람들을 위한 대중교통 배차 알림 서비스를 모바일 어플리케이션으로 제작하였습니다.
+주 업무는 node.js를 이용해 서버를 개발하는 것입니다.
+기능은 약속 시간에 맞추어 일정을 관리하는 것부터, 약속 장소로 가는 경로까지 제공합니다.
+ODsay에서 제공해주는 경로 검색 API를 사용하여, 대중교통을 이용한 이동 경로에 대해 데이터들을 받아왔습니다.
+서버를 구축해본 경험이 있었기 때문에 해당 프로젝트에서는 주도적인 개발을 하고 싶었고, 또 실제로 주도적인 개발을 이끌어나갔습니다.
+추가적으로, 서버에 대한 능력을 키우고자 타과의 리눅스 프로그래밍을 찾아 수강하고 리눅스 자격증을 준비해 시험을 치루었습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;width:80vw&quot; data-zoom=&quot;true&quot; src=&quot;/assets/img/early-buddy-erd.png&quot; /&gt;
+&lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/early-buddy-arch.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h4&gt;LINK&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/EARLY-BUDDY/EARLY-BUDDY-SERVER&quot;&gt;Github 링크 - 메인 서버&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/EARLY-BUDDY/EARLY-BUDDY-PUSH-SERVER&quot;&gt;Github 링크 - 알림 서버 (-FCM)&lt;/a&gt; &lt;/p&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">SUMMARY &quot;2주간의 해커톤으로 약속시간을 위한 나만의 대중교통 배차 알리미 서비스 개발 알림 서비스(FCM) / 일정 확인, 일정 업데이트 및 삭제 (ODsay API)&quot;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/early-buddy.png" /><media:content medium="image" url="http://localhost:4000/assets/img/early-buddy.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">아기 옷장 – 아기 옷 나눔 서비스</title><link href="http://localhost:4000/2020/01/13/baby-closet.html" rel="alternate" type="text/html" title="아기 옷장 – 아기 옷 나눔 서비스" /><published>2020-01-13T00:00:00+09:00</published><updated>2020-01-13T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/13/baby-closet</id><content type="html" xml:base="http://localhost:4000/2020/01/13/baby-closet.html">&lt;h4&gt; SUMMARY &lt;/h4&gt;
+&lt;p&gt;&quot;2주간의 해커톤으로 금새 커버리는 아기들을 위한 &lt;br /&gt; 중고 아기 옷 나눔 서비스&quot;&lt;/p&gt;
+
+&lt;h4&gt; SKILL &lt;/h4&gt;
+&lt;div class=&quot;skill&quot;&gt;
+&lt;img src=&quot;https://img.icons8.com/color/96/000000/xcode.png&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/ios-filled/100/000000/ios-logo.png&quot; style=&quot;filter:invert(100%)&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/fluent/96/000000/swift.png&quot; /&gt;
+&lt;!-- &lt;h4&gt;Express&lt;/h4&gt; --&gt;
+&lt;img src=&quot;https://img.icons8.com/color/96/000000/git.png&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/fluent/96/000000/github.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h4&gt;DETAIL&lt;/h4&gt;
+&lt;h5&gt;서울시 앱 공모전. 사용자 관리 서비스, 나눔 글 CRUD 서비스, 메세지 창 구현&lt;/h5&gt;
+&lt;p&gt;‘2019년 스마트 서울 모바일 앱 공모전’에 10명의 팀원과 함께 응시하였습니다. 성장이 빠른 아기들의 옷을 나눔하는 서비스로, 기획과 iOS를 맡았습니다. iOS개발을 하면서 한 명의 팀원과 역할을 나누게 되었는데, 서로 해보지 못한 것들을 도전하기로 했습니다. ‘쉬자’라는 프로젝트를 같이 했던 분이라 그런지, 서로 잘 맞은 덕분에 서로 욕심과 타협 사이로 역할을 가져갈 수 있었습니다. 그 결과, 사용자를 관리하는 부분과 게시글을 다루는 서비스에 대한 역할을 맡아 했습니다.&lt;/p&gt;
+
+&lt;h4&gt;링크&lt;/h4&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/BabyClosetGroup/BabyClosetIOS&quot;&gt;Github 링크 &lt;/a&gt;&lt;/p&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">SUMMARY &quot;2주간의 해커톤으로 금새 커버리는 아기들을 위한 중고 아기 옷 나눔 서비스&quot;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/babyCloset-dark.png" /><media:content medium="image" url="http://localhost:4000/assets/img/babyCloset-dark.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">쉬자 - 쉬운 자기소개서 쓰기</title><link href="http://localhost:4000/2020/01/12/get-rest.html" rel="alternate" type="text/html" title="쉬자 - 쉬운 자기소개서 쓰기" /><published>2020-01-12T00:00:00+09:00</published><updated>2020-01-12T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/12/get-rest</id><content type="html" xml:base="http://localhost:4000/2020/01/12/get-rest.html">&lt;h4&gt; SUMMARY &lt;/h4&gt;
+&lt;p&gt;&quot;2주간의 해커톤으로 쉬운 자기소개서 쓰기 어플리케이션 제작&quot;&lt;/p&gt;
+&lt;p&gt;APPJAM 해커톤 멘토 우수상, iOS 개발 능력, Github Library 커스터마이징&lt;/p&gt;
+
+&lt;h4&gt; SKILL &lt;/h4&gt;
+&lt;div class=&quot;skill&quot;&gt;
+&lt;img src=&quot;https://img.icons8.com/color/96/000000/xcode.png&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/ios-filled/100/000000/ios-logo.png&quot; style=&quot;filter:invert(100%)&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/fluent/96/000000/swift.png&quot; /&gt;
+&lt;!-- &lt;h4&gt;Express&lt;/h4&gt; --&gt;
+&lt;img src=&quot;https://img.icons8.com/color/96/000000/git.png&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/fluent/96/000000/github.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h4&gt;DETAIL&lt;/h4&gt;
+&lt;p&gt;프로젝트는 모바일 어플리케이션으로 쉽게 포트폴리오를 관리하고 자기소개서 작성하는 서비스를 제작하였습니다. 자신의 활동 로그를 접근하기 가장 편한 핸드폰에 작성해두어 필요할 때마다 추가, 수정할 수 있습니다. 프로젝트에서 두 명이 iOS개발 부분을 맡았습니다.&lt;/p&gt;
+
+&lt;p&gt;:: 날짜 데이터로 막대 그래프를 생성하여, 사용자의 활동 로그 표시
+홈 화면에 자신의 활동 기록을 막대그래프로 나타내는 기능이 있었습니다. 가장 먼저 보이고, 역대 해커톤에서는 없던 기능이어서 기획과 디자이너들이 가장 기대하는 기능이었습니다. 하지만, 개발을 맡은 팀원들의 짧은 시간에 비해 어려운 기능이라는 판단으로 그래프를 빼자는 의견이 나왔습니다. 하지만, 기획과 디자이너 분들의 기대가 보이는 뷰였기 때문에, 아직 해본적이 없어서 어렵게 느껴지는 것일 수도 있다고 설득을 하였습니다. 설득 후, 실제로 그래프를 이틀동안 잠도 안자고 구현하였고, 애니메이션까지 추가하여 기대 이상의 그래프를 만들었습니다.
+가장 큰 어려움이 있었는데, 그래프를 직접 만들지 혹은 라이브러리를 가져다 디자인에 맞게 수정할 지에 대한 고민을 오랜 시간동안 했습니다. 2주간의 짧은 시간으로 직접 만드는 것보다는 라이브러리로 사용하고 다른 기능들을 더 추가하는 결정을 내렸습니다. 그래서 라이브러리를 fork하여 코드를 전부 분석한 후 디자이너들의 요구사항에 맞춰 수정하였습니다. 
+심사를 하시는 멘토님께서 활용력이 좋다는 평과 2주안에 뷰를 전부 제작한 것에 대한 큰 칭찬을 해주셨습니다. 덕분에 열 개가 넘는 팀 중 멘토 우수상을 유일하게 받을 수 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;:: 서버와의 모든 통신
+맡은 뷰를 모두 구현한 후, 서버가 전달해주는 데이터를 통신하였습니다. 다른 통신은 되는데, 특정 데이터를 요청하면 서버가 다운되는 문제가 있었습니다. 계속 테스트를 하며, 서버를 개발하는 분께 정중히 서버를 다시 한 번 확인해달라고 부탁했습니다. 잦은 부탁으로 포기하라는 말을 들었을 때에는 좌절감이 굉장히 컸습니다. 하지만, 포기하지 않고 피해가 가지 않는 선으로 최대한 노력했습니다. 결국, 서버의 문제였고 다른 감정들 보다는 막혔던 부분이 해결되었으니, 얼른 다른 통신들도 구현해서 어플리케이션을 만들어야겠다는 생각만으로 모든 통신을 구현할 수 있었습니다. 모든 팀원들에게 최고의 팀원이라는 인정을 받으며, 정말 뿌듯했던 프로젝트로 마무리할 수 있었습니다.&lt;/p&gt;
+
+&lt;h4&gt;링크&lt;/h4&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/soptrest/sopt_get_rest_IOS&quot;&gt;Github 링크 &lt;/a&gt;&lt;/p&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">SUMMARY &quot;2주간의 해커톤으로 쉬운 자기소개서 쓰기 어플리케이션 제작&quot; APPJAM 해커톤 멘토 우수상, iOS 개발 능력, Github Library 커스터마이징</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/getRest-dark.png" /><media:content medium="image" url="http://localhost:4000/assets/img/getRest-dark.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tooc - 짐 보관 서비스 플랫 폼</title><link href="http://localhost:4000/2020/01/11/tooc.html" rel="alternate" type="text/html" title="Tooc - 짐 보관 서비스 플랫 폼" /><published>2020-01-11T00:00:00+09:00</published><updated>2020-01-11T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/11/tooc</id><content type="html" xml:base="http://localhost:4000/2020/01/11/tooc.html">&lt;h4&gt; SUMMARY &lt;/h4&gt;
+&lt;p&gt;&quot;3주간의 해커톤으로 관광객과 쇼핑객을 위한 짐 보관 서비스 플랫폼&quot;&lt;/p&gt;
+
+&lt;h4&gt; SKILL &lt;/h4&gt;
+&lt;div class=&quot;skill&quot;&gt;
+&lt;img src=&quot;https://img.icons8.com/color/96/000000/intellij-idea.png&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/ios-filled/100/000000/mysql-logo.png&quot; style=&quot;filter:invert(100%)&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/color/96/000000/spring-logo.png&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/color/96/000000/amazon-web-services.png&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/color/96/000000/git.png&quot; /&gt;
+&lt;img src=&quot;https://img.icons8.com/fluent/96/000000/github.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h4&gt;DETAIL&lt;/h4&gt;
+&lt;p&gt;Spring Framework을 사용하여 프로필 조회 및 수정, 문의사항 작성과 조회 및 수정 설계&lt;/p&gt;
+
+&lt;p&gt;IT 동아리 내에서 3주간의 해커톤을 진행하며, ‘여행객을 위한 짐 보관 서비스 플랫폼’을 서비스하는 모바일 어플리케이션을 제작했습니다. 정말 큰 도전이 필요한 프로젝트였습니다. 서버를 제작하는 것이 처음일 뿐만 아니라, 실제 서비스를 제작하는 협업 프로젝트가 처음이었기 때문에 도전정신과 열정으로 해결해 나아가려고 노력했습니다.&lt;/p&gt;
+
+&lt;p&gt;:: 프로필 / 문의사항 조회 및 수정
+MVC 패턴에 대한 이해를 먼저 시작했습니다. 요청을 받고 데이터베이스에 접근하기까지의 흐름을 먼저 파악하고 난 후에 프로필을 조회하는 기능을 구현했습니다. 그 과정에서 DTO와 DAO에 대한 이해부터 사용까지 할 수 있었습니다. 또, JWT를 전송하는 이유에 대한 궁금증이 커져 혼자 찾아보았습니다. JWT를 다룬 사이트가 있어서 알아내는 것에 대한 어려움을 덜 수 있었으며, 궁금증을 해결하기에 충분했습니다. 관련된 알아야할 것이 많다고 느꼈지만, 알아가면 갈 수록 보이는 로직에 대한 흥미가 점점 커져갔습니다.&lt;/p&gt;
+
+&lt;p&gt;또, AWS에서 제공해주는 EC2, RDS, S3를 사용하면서 사용하는 목적을 알아보고 사용법까지 익혔습니다. 이론상으로는 이해가 힘들었던 것에 비해, 이론을 기반으로 실제로 접속하고 사용해보면서 완전히 익힐 수 있었습니다. 실제로, 팀원 분의 계정으로 대여했던 EC2의 pem키를 Slack으로 받아서 ssh명령어를 통해 처음으로 클라우드 서버에 접속해보았습니다. 클라우드 서버에 대해 추상적이었던 개념들이 정확하게 정립될 수 있었습니다. 또, RDS와 S3는 직접 대여해 다른 팀원들에게 공유하기도 했습니다. 이 때, 혼자 공부했던 MySQL Workbench를 이용해서 RDS에 접속해보았습니다.&lt;/p&gt;
+
+&lt;p&gt;또, Workbench에 대한 사용법을 제대로 익히고자 노력했습니다. 미처 배우지 못한 AI, PK, FK 단어가 궁금해서 찾아보고 이해하는 과정을 가졌습니다. 뿐만 아니라, 프로필 수정을 할 때 이미지를 수정하는 부분이 있었기 때문에 S3에 직접 이미지를 넣고 주소를 받아오기도 했습니다.
+3주라는 짧은 시간동안 서버 협업 프로젝트의 A부터 Z까지 처음 듣고 배운 덕분에 큰 성장을 이루고, 견문을 넓힐 수 있는 큰 기회를 가졌습니다. 끊임없이 배우려는 자세로 임하게 되어서 후회없는 3주를 보낼 수 있었습니다. 뿐만 아니라, 서버에 대한 흥미와 관심이 매우 커질 수 있었습니다. 또, 이러한 노력의 결과로 구글스토어와 앱스토어에 등록을 하여 서비스를 배포할 수 있었습니다.&lt;/p&gt;
+
+&lt;h4&gt;링크&lt;/h4&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/team-travely/travely-server&quot;&gt;Github 링크 &lt;/a&gt;&lt;/p&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">SUMMARY &quot;3주간의 해커톤으로 관광객과 쇼핑객을 위한 짐 보관 서비스 플랫폼&quot;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/tooc-dark.png" /><media:content medium="image" url="http://localhost:4000/assets/img/tooc-dark.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">HUMAN-COMPUTER INTERACTION</title><link href="http://localhost:4000/2020/01/03/hci.html" rel="alternate" type="text/html" title="HUMAN-COMPUTER INTERACTION" /><published>2020-01-03T00:00:00+09:00</published><updated>2020-01-03T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/03/hci</id><content type="html" xml:base="http://localhost:4000/2020/01/03/hci.html">&lt;div class=&quot;hci&quot;&gt;
+    &lt;h4&gt; # HUMAN-COMPUTER INTERACTION &lt;/h4&gt;
+    &lt;p&gt; 인간과 컴퓨터의 상호작용을 탐구하여 기존에 출시되었던 '따릉이' 어플을 UX을 고려하여 재탄생시켰습니다. &lt;/p&gt;
+    &lt;div class=&quot;slider pdf-gallery&quot;&gt; 
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_1.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_2.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_3.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_4.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_5.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_6.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_7.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_8.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_9.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_10.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_11.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_12.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_13.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_14.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_15.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_16.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_17.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_18.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_19.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_20.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_21.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_22.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_23.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_24.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_25.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_26.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_27.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_28.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_29.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_30.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_31.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_32.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_33.png&quot; /&gt;
+        
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_34.png&quot; /&gt;
+        
+    &lt;/div&gt;
+    &lt;div class=&quot;g-cnt&quot;&gt;
+        &lt;div id=&quot;pdf-nav&quot; class=&quot;slider pdf-nav&quot;&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_1.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_2.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_3.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_4.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_5.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_6.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_7.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_8.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_9.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_10.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_11.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_12.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_13.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_14.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_15.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_16.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_17.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_18.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_19.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_20.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_21.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_22.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_23.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_24.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_25.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_26.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_27.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_28.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_29.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_30.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_31.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_32.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_33.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/hci/hci_34.png&quot; /&gt;
+            
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;h4&gt; # PROTOTYPE - Wizard of OZ &lt;/h4&gt;
+    &lt;div class=&quot;flex-box&quot;&gt;
+    &lt;iframe width=&quot;320&quot; height=&quot;450&quot; src=&quot;https://youtube.com/embed/a-N13-zTeIM?autoplay=1&quot;&gt; &lt;/iframe&gt;
+        &lt;!-- &lt;video id=&quot;myVideo&quot; width=&quot;320&quot; controls autoplay=&quot;true&quot; &gt;
+            &lt;source src=&quot;/assets/img/hci/prototype.mp4&quot; type=&quot;video/mp4&quot;&gt;
+        &lt;/video&gt; --&gt;
+        &lt;h4&gt; 마치 사용자가 사용하는 것처럼 뷰를 찾아보고 버튼을 눌러보는 등의 이벤트를 직접 취하면서 프로토타입을 설명해줍니다. &lt;/h4&gt;
+    &lt;/div&gt;
+    &lt;h4&gt; # PROTOTYPE - XD &lt;/h4&gt;
+    &lt;div class=&quot;xd flex-box&quot;&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-main-1.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-main-2.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-main-3.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-main-4.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-main-5.png&quot; /&gt;
+        
+    &lt;/div&gt;
+    &lt;div class=&quot;xd flex-box&quot;&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-pay-1.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-pay-2.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-pay-3.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-pay-4.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-pay-5.png&quot; /&gt;
+        
+    &lt;/div&gt;
+    &lt;div class=&quot;xd flex-box&quot;&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-lent-1.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-lent-2.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-lent-3.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-lent-4.png&quot; /&gt;
+        
+    &lt;/div&gt;
+    &lt;div class=&quot;xd flex-box&quot;&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-mypage-1.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-mypage-2.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-mypage-3.png&quot; /&gt;
+        
+    &lt;/div&gt;
+    &lt;div class=&quot;xd flex-box&quot;&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-card-1.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-card-2.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-card-3.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-card-4.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-card-5.png&quot; /&gt;
+        
+    &lt;/div&gt;
+    &lt;div class=&quot;xd flex-box&quot;&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-hand-1.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-hand-2.png&quot; /&gt;
+        
+    &lt;/div&gt;
+    &lt;div class=&quot;xd flex-box&quot;&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-menu-1.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-menu-2.png&quot; /&gt;
+        
+        &lt;img src=&quot;/assets/img/hci/hci-menu-3.png&quot; /&gt;
+        
+    &lt;/div&gt;
+
+&lt;/div&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html"># HUMAN-COMPUTER INTERACTION 인간과 컴퓨터의 상호작용을 탐구하여 기존에 출시되었던 '따릉이' 어플을 UX을 고려하여 재탄생시켰습니다. # PROTOTYPE - Wizard of OZ 마치 사용자가 사용하는 것처럼 뷰를 찾아보고 버튼을 눌러보는 등의 이벤트를 직접 취하면서 프로토타입을 설명해줍니다. # PROTOTYPE - XD</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/hci/hci_dark.png" /><media:content medium="image" url="http://localhost:4000/assets/img/hci/hci_dark.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">3D MAX ANIMATION 제작</title><link href="http://localhost:4000/2020/01/02/max3d.html" rel="alternate" type="text/html" title="3D MAX ANIMATION 제작" /><published>2020-01-02T00:00:00+09:00</published><updated>2020-01-02T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/02/max3d</id><content type="html" xml:base="http://localhost:4000/2020/01/02/max3d.html">&lt;div class=&quot;max3d&quot;&gt;
+&lt;h4&gt; 시기에 맞추어 트렌디한 카드뉴스 제작을 해왔습니다. &lt;br /&gt;홍보와 기록을 목적으로 하는 컨텐츠들을 기획부터 디자인까지 맡아 발행했습니다.  &lt;/h4&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;h4&gt; # 3D MAX - Tangled &lt;/h4&gt;
+&lt;p&gt; 소리를 켜주세요! &lt;/p&gt;
+&lt;iframe width=&quot;840&quot; height=&quot;630&quot; src=&quot;https://youtube.com/embed/Avc1ugCUjCo?autoplay=1&quot;&gt; &lt;/iframe&gt;
+    &lt;!-- &lt;video id=&quot;myVideo&quot; width=&quot;320&quot; controls autoplay=&quot;true&quot; &gt;
+            &lt;source src=&quot;/assets/img/3dmax/tangled.mp4&quot; type=&quot;video/mp4&quot;&gt;
+    &lt;/video&gt; --&gt;
+&lt;/div&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">시기에 맞추어 트렌디한 카드뉴스 제작을 해왔습니다. 홍보와 기록을 목적으로 하는 컨텐츠들을 기획부터 디자인까지 맡아 발행했습니다.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/max3d/tangled-dark.png" /><media:content medium="image" url="http://localhost:4000/assets/img/max3d/tangled-dark.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">CARDNEWS 제작</title><link href="http://localhost:4000/2020/01/01/cardnews.html" rel="alternate" type="text/html" title="CARDNEWS 제작" /><published>2020-01-01T00:00:00+09:00</published><updated>2020-01-01T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/01/cardnews</id><content type="html" xml:base="http://localhost:4000/2020/01/01/cardnews.html">&lt;h4&gt; 시기에 맞추어 트렌디한 카드뉴스 제작을 해왔습니다. &lt;br /&gt;홍보와 기록을 목적으로 하는 컨텐츠들을 기획부터 디자인까지 맡아 발행했습니다.  &lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;cardnews&quot;&gt;
+&lt;h4&gt; # SOPT CARDNEWS &lt;/h4&gt;
+&lt;p&gt; IT 창업 동아리 SOPT에서 운영팀에 지원하기 위해 자기소개를 담은 카드뉴스를 제작했습니다.&lt;/p&gt;
+&lt;div class=&quot;g-cnt&quot;&gt;
+    &lt;div id=&quot;cn-gallery&quot; class=&quot;cn-gallery&quot;&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/sopt-team-1.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/sopt-team-2.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/sopt-team-3.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/sopt-team-4.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/sopt-team-5.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/sopt-team-6.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/sopt-team-7.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/sopt-team-8.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/sopt-team-9.png&quot; /&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;cardnews&quot;&gt;
+&lt;h4&gt; # SOPT SEMINAR CARDNEWS &lt;/h4&gt;
+&lt;p&gt; IT 창업 동아리 SOPT에서 운영팀으로 활동하며, 매주 진행되는 세미나에 대한 기사로 카드뉴스를 제작했습니다.&lt;/p&gt;
+&lt;div class=&quot;g-cnt&quot;&gt;
+    &lt;div id=&quot;cn-gallery&quot; class=&quot;cn-gallery&quot;&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_1.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_2.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_3.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_4.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_5.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_6.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_7.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_8.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_9.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_10.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_11.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_12.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_13.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_14.png&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_15.png&quot; /&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h4&gt; # MADDY MT CARDNEWS &lt;/h4&gt;
+&lt;p&gt; 문화교류 연합동아리 MADDY에서 부회장 및 DNA(Design 부서)팀에서 활동하며 카드뉴스를 제작했습니다.&lt;/p&gt;
+
+&lt;div class=&quot;g-cnt&quot;&gt;
+    &lt;div id=&quot;cn-gallery&quot; class=&quot;cn-gallery&quot;&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/MT_1.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/MT_2.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/MT_3.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/MT_4.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/MT_5.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/MT_6.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/MT_7.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/MT_8.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/MT_9.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h4&gt; # MADDY CARDNEWS &lt;/h4&gt;
+&lt;p&gt; 문화교류 연합동아리 MADDY에서 활동들을 컨텐츠로 담아 카드뉴스를 제작했습니다.&lt;/p&gt;
+
+&lt;div class=&quot;g-cnt&quot;&gt;
+    &lt;div id=&quot;cn-gallery&quot; class=&quot;cn-gallery&quot;&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel01.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel02.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel03.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel04.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel05.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel06.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel07.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel08.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h4&gt; # MADDY CARDNEWS &lt;/h4&gt;
+&lt;p&gt; 문화교류 연합동아리 MADDY에서 새로운 회원들을 모집하기 위한 카드뉴스를 제작했습니다.&lt;/p&gt;
+
+&lt;div class=&quot;g-cnt&quot;&gt;
+    &lt;div id=&quot;cn-gallery&quot; class=&quot;cn-gallery&quot;&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_intro_1.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_intro_2.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_intro_3.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_intro_4.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_intro_5.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_intro_6.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_intro_7.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_intro_8.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_intro_9.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h4&gt; # MADDY CARDNEWS &lt;/h4&gt;
+&lt;p&gt; 문화교류 연합동아리 MADDY에서 활동들을 컨텐츠로 담아 카드뉴스를 제작했습니다.&lt;/p&gt;
+
+&lt;div class=&quot;g-cnt&quot;&gt;
+    &lt;div id=&quot;cn-gallery&quot; class=&quot;cn-gallery&quot;&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_cont_1.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_cont_2.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_cont_3.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_cont_4.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_cont_5.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_cont_6.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+	    &lt;div class=&quot;link&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_cont_7.jpg&quot; /&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">시기에 맞추어 트렌디한 카드뉴스 제작을 해왔습니다. 홍보와 기록을 목적으로 하는 컨텐츠들을 기획부터 디자인까지 맡아 발행했습니다.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/cardnews/cardnews-dark.png" /><media:content medium="image" url="http://localhost:4000/assets/img/cardnews/cardnews-dark.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
