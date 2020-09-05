@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-05T16:15:04+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kyeongsun</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-06T00:49:44+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kyeongsun</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><entry><title type="html">IT 동아리 SOPT 25대 서버파트장</title><link href="http://localhost:4000/2020/01/18/server-head.html" rel="alternate" type="text/html" title="IT 동아리 SOPT 25대 서버파트장" /><published>2020-01-18T00:00:00+09:00</published><updated>2020-01-18T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/18/server-head</id><content type="html" xml:base="http://localhost:4000/2020/01/18/server-head.html">&lt;h4&gt; summary &lt;/h4&gt;
 &lt;p&gt;&quot;40명 파트원을 이끌며 서버 구축에 필요한 지식 전달, SOPT homepage 관리&quot;&lt;/p&gt;
 
@@ -46,38 +46,55 @@
 &lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/photo6.png&quot; /&gt;
 &lt;/div&gt;
 &lt;h4&gt;링크&lt;/h4&gt;
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/gngsn/26th_SERVER&quot;&gt; Github 링크 - 세미나 실습 자료&lt;/a&gt;&lt;/p&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">summary &quot;40명 파트원을 이끌며 서버 구축에 필요한 지식 전달, SOPT homepage 관리&quot;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/sopt-main.png" /><media:content medium="image" url="http://localhost:4000/assets/img/sopt-main.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">얼리버디 (SOPT APPJAM) - 우수상</title><link href="http://localhost:4000/2020/01/15/early-buddy.html" rel="alternate" type="text/html" title="얼리버디 (SOPT APPJAM) - 우수상" /><published>2020-01-15T00:00:00+09:00</published><updated>2020-01-15T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/15/early-buddy</id><content type="html" xml:base="http://localhost:4000/2020/01/15/early-buddy.html">&lt;h4&gt; SUMMARY &lt;/h4&gt;
-&lt;p&gt;&quot;2주간의 해커톤으로 약속시간을 위한 나만의 대중교통 배차 알리미 서비스 개발 &lt;br /&gt;
-알림 서비스(FCM) / 일정 확인, 일정 업데이트 및 삭제 (ODsay API)&quot;&lt;/p&gt;
-
-&lt;h4&gt; SKILL &lt;/h4&gt;
-&lt;div class=&quot;skill&quot;&gt;
-&lt;img src=&quot;https://img.icons8.com/fluent/96/000000/visual-studio-code-2019.png&quot; /&gt;
-&lt;img src=&quot;https://img.icons8.com/color/96/000000/nodejs.png&quot; /&gt;
-&lt;h4&gt;Express&lt;/h4&gt;
-&lt;img src=&quot;https://img.icons8.com/ios-filled/100/000000/mysql-logo.png&quot; /&gt;
-&lt;img src=&quot;https://img.icons8.com/color/96/000000/git.png&quot; /&gt;
-&lt;img src=&quot;https://img.icons8.com/fluent/96/000000/github.png&quot; /&gt;
-&lt;img src=&quot;https://img.icons8.com/color/96/000000/amazon-web-services.png&quot; /&gt;
-&lt;img src=&quot;https://img.icons8.com/color/96/000000/nginx.png&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;img style=&quot;width:70vw&quot; data-zoom=&quot;true&quot; src=&quot;/assets/img/eb-workflow.png&quot; /&gt;&lt;/p&gt;
-&lt;h4&gt;DETAIL&lt;/h4&gt;
-&lt;h5&gt;APPJAM 해커톤 우수상. Node.js 서버 개발. 협업 능력&lt;/h5&gt;
-&lt;p&gt;2주간의 해커톤 기간 동안, 약속시간을 지키지 못하는 사람들을 위한 대중교통 배차 알림 서비스를 모바일 어플리케이션으로 제작하였습니다.
-주 업무는 node.js를 이용해 서버를 개발하는 것입니다.
-기능은 약속 시간에 맞추어 일정을 관리하는 것부터, 약속 장소로 가는 경로까지 제공합니다.
-ODsay에서 제공해주는 경로 검색 API를 사용하여, 대중교통을 이용한 이동 경로에 대해 데이터들을 받아왔습니다.
-서버를 구축해본 경험이 있었기 때문에 해당 프로젝트에서는 주도적인 개발을 하고 싶었고, 또 실제로 주도적인 개발을 이끌어나갔습니다.
-추가적으로, 서버에 대한 능력을 키우고자 타과의 리눅스 프로그래밍을 찾아 수강하고 리눅스 자격증을 준비해 시험을 치루었습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img style=&quot;width:80vw&quot; data-zoom=&quot;true&quot; src=&quot;/assets/img/early-buddy-erd.png&quot; /&gt;
-&lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/early-buddy-arch.png&quot; /&gt;&lt;/p&gt;
-
-&lt;h4&gt;LINK&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/EARLY-BUDDY/EARLY-BUDDY-SERVER&quot;&gt;Github 링크 - 메인 서버&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/EARLY-BUDDY/EARLY-BUDDY-PUSH-SERVER&quot;&gt;Github 링크 - 알림 서버 (-FCM)&lt;/a&gt; &lt;/p&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">SUMMARY &quot;2주간의 해커톤으로 약속시간을 위한 나만의 대중교통 배차 알리미 서비스 개발 알림 서비스(FCM) / 일정 확인, 일정 업데이트 및 삭제 (ODsay API)&quot;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/early-buddy.png" /><media:content medium="image" url="http://localhost:4000/assets/img/early-buddy.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">아기 옷장 – 아기 옷 나눔 서비스</title><link href="http://localhost:4000/2020/01/13/baby-closet.html" rel="alternate" type="text/html" title="아기 옷장 – 아기 옷 나눔 서비스" /><published>2020-01-13T00:00:00+09:00</published><updated>2020-01-13T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/13/baby-closet</id><content type="html" xml:base="http://localhost:4000/2020/01/13/baby-closet.html">&lt;h4&gt; SUMMARY &lt;/h4&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/gngsn/26th_SERVER&quot;&gt; Github 링크 - 세미나 실습 자료&lt;/a&gt;&lt;/p&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">summary &quot;40명 파트원을 이끌며 서버 구축에 필요한 지식 전달, SOPT homepage 관리&quot;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/sopt-main.png" /><media:content medium="image" url="http://localhost:4000/assets/img/sopt-main.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">얼리버디 (SOPT APPJAM) - 우수상</title><link href="http://localhost:4000/2020/01/15/early-buddy.html" rel="alternate" type="text/html" title="얼리버디 (SOPT APPJAM) - 우수상" /><published>2020-01-15T00:00:00+09:00</published><updated>2020-01-15T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/15/early-buddy</id><content type="html" xml:base="http://localhost:4000/2020/01/15/early-buddy.html">&lt;div class=&quot;earlyBuddy&quot;&gt;
+    &lt;h5 class=&quot;quot-title&quot;&gt;
+    &lt;!-- &lt;span class=&quot;line-break960&quot;&gt;2주간의 해커톤 &lt;em&gt;-&lt;/em&gt;&lt;/span&gt;  --&gt;
+    약속시간을 위한 나만의 대중교통 배차 알리미 서비스&lt;/h5&gt;
+    &lt;iframe width=&quot;840&quot; height=&quot;510&quot; src=&quot;https://youtube.com/embed/AxuGlkMUapA?autoplay=1&quot;&gt; &lt;/iframe&gt;
+    &lt;div class=&quot;info&quot;&gt;
+        &lt;h5&gt;# 2주간의 열정 &lt;/h5&gt;
+        &lt;img style=&quot;width:70vw;box-shadow: 5px 5px 15px 6px rgba(0, 0, 0, 0.205);margin: auto;&quot; src=&quot;/assets/img/eb-panel.png&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;tech&quot;&gt;
+        &lt;h5&gt;APPJAM 해커톤 우수상. Node.js 서버 개발. 협업 능력&lt;/h5&gt;
+        &lt;div class=&quot;skill&quot; style=&quot;justify-content: center;&quot;&gt;
+            &lt;img src=&quot;https://img.icons8.com/fluent/96/000000/visual-studio-code-2019.png&quot; /&gt;
+            &lt;img src=&quot;https://img.icons8.com/color/96/000000/nodejs.png&quot; /&gt;
+            &lt;h4&gt;Express&lt;/h4&gt;
+            &lt;img src=&quot;https://img.icons8.com/ios-filled/100/000000/mysql-logo.png&quot; /&gt;
+            &lt;img src=&quot;https://img.icons8.com/color/96/000000/git.png&quot; /&gt;
+            &lt;img src=&quot;https://img.icons8.com/fluent/96/000000/github.png&quot; /&gt;
+            &lt;img src=&quot;https://img.icons8.com/color/96/000000/amazon-web-services.png&quot; /&gt;
+            &lt;img src=&quot;https://img.icons8.com/color/96/000000/nginx.png&quot; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;flex-box&quot;&gt;
+            &lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/eb-capture.png&quot; /&gt;
+            &lt;p&gt; 2주간의 해커톤 기간 동안, 약속시간을 지키지 못하는 사람들을 위한 대중교통 배차 알림 서비스를 모바일 어플리케이션으로 제작하였습니다.
+            주 업무는 node.js를 이용해 서버를 개발하는 것입니다. &lt;br /&gt;&lt;br /&gt;
+            기능은 약속 시간에 맞추어 일정을 관리하는 것부터, 약속 장소로 가는 경로까지 제공합니다.
+            ODsay에서 제공해주는 경로 검색 API를 사용하여, 대중교통을 이용한 이동 경로에 대해 데이터들을 받아왔습니다.
+            서버를 구축해본 경험이 있었기 때문에 해당 프로젝트에서는 주도적인 개발을 하고 싶었고, 또 실제로 주도적인 개발을 이끌어나갔습니다.
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;h5&gt; # FCM – 알림 기능 구현&lt;/h5&gt;
+        &lt;div class=&quot;flex-box&quot;&gt;
+            &lt;p&gt; 
+            일정을 지정하면, 배차 시간을 검색하여 약속시간에 늦지 않게 출발하는 시간을 계산합니다. schedule 모듈을 사용하였으며, 계산된 시간에 맞추어 schedule 객체에 새 일정을 추가하도록 구현하였습니다.  &lt;br /&gt;&lt;br /&gt;
+            개발 과정에서 가장 힘들었던 점은 테스트 도중 서버가 다운되어 버리면 저장되어 있던 schedule 객체들이 사라지는 문제가 있었습니다. 어플리케이션을 발표하는 날, 테스트를 안정적으로 해야했기 때문에 큰 이슈로 떠올랐습니다. 결국 새로운 프로젝트 하나를 생성하여, 알림 기능만을 위한 프로젝트를 생성하고 다른 포트로 요청하게끔 만들어 문제를 해결할 수 있었습니다. 발표하는 날, 다행히도 온전한 테스트가 가능하여 평가를 하시는 멘토님께 좋은 평을 들을 수 있었습니다.
+            &lt;/p&gt;
+            &lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/early-buddy-arch.png&quot; /&gt;
+        &lt;/div&gt;
+        &lt;h5&gt; # 일정 조회, 수정 그리고 삭제&lt;/h5&gt;
+        &lt;img style=&quot;width:80vw&quot; data-zoom=&quot;true&quot; src=&quot;/assets/img/early-buddy-erd.png&quot; /&gt;
+        &lt;p&gt; 
+        일정 데이터에는 약속 날짜와, 위치 그리고 경로검색 데이터 등이 포함됩니다. ODsay에서 제공해주는 경로검색 데이터가 방대했으며, 대중교통의 종류에 따라 구조가 달라 분석하는 작업에서 큰 어려움을 겪었습니다. 일정을 추가하는 작업은 데이터를 분석 한 후 해결할 수 있었지만, 가장 큰 문제는 일정 수정이었습니다.
+        &lt;br /&gt;&lt;br /&gt;
+        일정을 수정하는 작업에서 데이터베이스 처리에 대한 문제가 생겼습니다. 경로 데이터를 모두 삭제하고 새로운 데이터를 넣는 해결책을 생각해내었고, 데이터를 찾는 것과 삭제하는 기능을 구현을 한 후에 두 기능을 가져와 수정 기능으로 만드니 해결할 수 있었습니다. &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;h5&gt;# 깃허브 링크&lt;/h5&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/EARLY-BUDDY/EARLY-BUDDY-SERVER&quot;&gt;Github 링크 - 메인 서버&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/EARLY-BUDDY/EARLY-BUDDY-PUSH-SERVER&quot;&gt;Github 링크 - 알림 서버 (-FCM)&lt;/a&gt; &lt;/p&gt;
+&lt;/div&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">약속시간을 위한 나만의 대중교통 배차 알리미 서비스 # 2주간의 열정 APPJAM 해커톤 우수상. Node.js 서버 개발. 협업 능력 Express 2주간의 해커톤 기간 동안, 약속시간을 지키지 못하는 사람들을 위한 대중교통 배차 알림 서비스를 모바일 어플리케이션으로 제작하였습니다. 주 업무는 node.js를 이용해 서버를 개발하는 것입니다. 기능은 약속 시간에 맞추어 일정을 관리하는 것부터, 약속 장소로 가는 경로까지 제공합니다. ODsay에서 제공해주는 경로 검색 API를 사용하여, 대중교통을 이용한 이동 경로에 대해 데이터들을 받아왔습니다. 서버를 구축해본 경험이 있었기 때문에 해당 프로젝트에서는 주도적인 개발을 하고 싶었고, 또 실제로 주도적인 개발을 이끌어나갔습니다. # FCM – 알림 기능 구현 일정을 지정하면, 배차 시간을 검색하여 약속시간에 늦지 않게 출발하는 시간을 계산합니다. schedule 모듈을 사용하였으며, 계산된 시간에 맞추어 schedule 객체에 새 일정을 추가하도록 구현하였습니다. 개발 과정에서 가장 힘들었던 점은 테스트 도중 서버가 다운되어 버리면 저장되어 있던 schedule 객체들이 사라지는 문제가 있었습니다. 어플리케이션을 발표하는 날, 테스트를 안정적으로 해야했기 때문에 큰 이슈로 떠올랐습니다. 결국 새로운 프로젝트 하나를 생성하여, 알림 기능만을 위한 프로젝트를 생성하고 다른 포트로 요청하게끔 만들어 문제를 해결할 수 있었습니다. 발표하는 날, 다행히도 온전한 테스트가 가능하여 평가를 하시는 멘토님께 좋은 평을 들을 수 있었습니다. # 일정 조회, 수정 그리고 삭제 일정 데이터에는 약속 날짜와, 위치 그리고 경로검색 데이터 등이 포함됩니다. ODsay에서 제공해주는 경로검색 데이터가 방대했으며, 대중교통의 종류에 따라 구조가 달라 분석하는 작업에서 큰 어려움을 겪었습니다. 일정을 추가하는 작업은 데이터를 분석 한 후 해결할 수 있었지만, 가장 큰 문제는 일정 수정이었습니다. 일정을 수정하는 작업에서 데이터베이스 처리에 대한 문제가 생겼습니다. 경로 데이터를 모두 삭제하고 새로운 데이터를 넣는 해결책을 생각해내었고, 데이터를 찾는 것과 삭제하는 기능을 구현을 한 후에 두 기능을 가져와 수정 기능으로 만드니 해결할 수 있었습니다. # 깃허브 링크 Github 링크 - 메인 서버 Github 링크 - 알림 서버 (-FCM)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/early-buddy.png" /><media:content medium="image" url="http://localhost:4000/assets/img/early-buddy.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">아기 옷장 – 아기 옷 나눔 서비스</title><link href="http://localhost:4000/2020/01/13/baby-closet.html" rel="alternate" type="text/html" title="아기 옷장 – 아기 옷 나눔 서비스" /><published>2020-01-13T00:00:00+09:00</published><updated>2020-01-13T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/13/baby-closet</id><content type="html" xml:base="http://localhost:4000/2020/01/13/baby-closet.html">&lt;h4&gt; SUMMARY &lt;/h4&gt;
 &lt;p&gt;&quot;2주간의 해커톤으로 금새 커버리는 아기들을 위한 &lt;br /&gt; 중고 아기 옷 나눔 서비스&quot;&lt;/p&gt;
 
 &lt;h4&gt; SKILL &lt;/h4&gt;

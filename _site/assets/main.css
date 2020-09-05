@@ -1,7 +1,10 @@
 :root{
     --main-red: #dd4226;
     --main-black: #000;
-    --main-white: #fff;
+    --main-white: #fff; 
+    /* --main-red: #ffffff;
+    --main-black: #fadf4b;
+    --main-white: #0f3cbf; */
 }
 
 * {display: block;box-sizing: border-box; overflow-x: hidden;}
