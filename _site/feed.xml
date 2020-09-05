@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-05T16:05:00+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kyeongsun</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-05T16:15:04+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kyeongsun</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><entry><title type="html">IT 동아리 SOPT 25대 서버파트장</title><link href="http://localhost:4000/2020/01/18/server-head.html" rel="alternate" type="text/html" title="IT 동아리 SOPT 25대 서버파트장" /><published>2020-01-18T00:00:00+09:00</published><updated>2020-01-18T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/18/server-head</id><content type="html" xml:base="http://localhost:4000/2020/01/18/server-head.html">&lt;h4&gt; summary &lt;/h4&gt;
 &lt;p&gt;&quot;40명 파트원을 이끌며 서버 구축에 필요한 지식 전달, SOPT homepage 관리&quot;&lt;/p&gt;
 
@@ -561,35 +561,35 @@ MVC 패턴에 대한 이해를 먼저 시작했습니다. 요청을 받고 데�
     &lt;div id=&quot;cn-gallery&quot; class=&quot;cn-gallery&quot;&gt;
         
 	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel01.jpg&quot; /&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel_1.jpg&quot; /&gt;
         &lt;/div&gt;
         
 	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel02.jpg&quot; /&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel_2.jpg&quot; /&gt;
         &lt;/div&gt;
         
 	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel03.jpg&quot; /&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel_3.jpg&quot; /&gt;
         &lt;/div&gt;
         
 	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel04.jpg&quot; /&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel_4.jpg&quot; /&gt;
         &lt;/div&gt;
         
 	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel05.jpg&quot; /&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel_5.jpg&quot; /&gt;
         &lt;/div&gt;
         
 	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel06.jpg&quot; /&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel_6.jpg&quot; /&gt;
         &lt;/div&gt;
         
 	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel07.jpg&quot; /&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel_7.jpg&quot; /&gt;
         &lt;/div&gt;
         
 	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel08.jpg&quot; /&gt;
+            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel_8.jpg&quot; /&gt;
         &lt;/div&gt;
         
     &lt;/div&gt;

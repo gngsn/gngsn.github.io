@@ -61,7 +61,7 @@ iframe {border: 0; margin: auto;width: 100%;}
 
 .post .hci .g-cnt{height: 200px;margin-top: 20px;}
 .post .slick-dots{display: flex; justify-content: center; margin-top: 0;}
-.post .slick-dots li button{margin-right: 20px; width: 10px !important; height: 10px !important; border-radius: 50%; background-color: rgba(71, 71, 71, 0.726); border: 0;text-indent:-10000px; cursor: pointer;}
+.post .slick-dots li button{margin-right: 20px; height: 5px;background-color: rgba(71, 71, 71, 0.726); border: 0;font-size:0px; cursor: pointer;}
 .post .slick-dots li.slick-active button{background-color: rgba(224, 224, 224, 0.726);}
 
 .post .hci h4 {margin: 40px auto 20px auto; font-family: 'Noto B';}
