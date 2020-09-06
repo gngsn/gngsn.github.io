@@ -84,7 +84,7 @@ a:link:active, a:visited:active {color: var(--main-white);}
 .project .inner.detail-active{z-index: -1;pointer-events: none;}
 
 .project .slick-dots{display: flex; justify-content: center; margin-top: 0;}
-.project .slick-dots li button{margin-right: 20px; width: 10px !important; height: 10px !important; border-radius: 50%; background-color: rgba(71, 71, 71, 0.726); border: 0;text-indent:-10000px; cursor: pointer;}
+.project .slick-dots li button{margin-right: 20px; width: 10px !important; height: 7px !important; background-color: rgba(71, 71, 71, 0.726); border: 0;text-indent:-10000px; cursor: pointer;}
 .project .slick-dots li.slick-active button{background-color: rgba(224, 224, 224, 0.726);}
 
 @media (max-width:1200px) {

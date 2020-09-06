@@ -2,6 +2,7 @@ $('.center').slick({
     centerMode: true,
     centerPadding: '250px',
     slidesToShow: 3,
+    dots:true,
     responsive: [{
             breakpoint: 1200,
             settings: {
@@ -26,7 +27,6 @@ $('.center').slick({
                 centerMode: true,
                 centerPadding: '0px',
                 slidesToShow: 1,
-                dots:true
             }
         }
     ]
