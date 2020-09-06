@@ -1,6 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-06T00:49:44+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kyeongsun</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</subtitle><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><entry><title type="html">IT 동아리 SOPT 25대 서버파트장</title><link href="http://localhost:4000/2020/01/18/server-head.html" rel="alternate" type="text/html" title="IT 동아리 SOPT 25대 서버파트장" /><published>2020-01-18T00:00:00+09:00</published><updated>2020-01-18T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/18/server-head</id><content type="html" xml:base="http://localhost:4000/2020/01/18/server-head.html">&lt;h4&gt; summary &lt;/h4&gt;
-&lt;p&gt;&quot;40명 파트원을 이끌며 서버 구축에 필요한 지식 전달, SOPT homepage 관리&quot;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-06T01:18:56+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kyeongsun</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><entry><title type="html">IT 동아리 SOPT 25대 서버파트장</title><link href="http://localhost:4000/2020/01/18/server-head.html" rel="alternate" type="text/html" title="IT 동아리 SOPT 25대 서버파트장" /><published>2020-01-18T00:00:00+09:00</published><updated>2020-01-18T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/18/server-head</id><content type="html" xml:base="http://localhost:4000/2020/01/18/server-head.html">&lt;div class=&quot;server-head&quot;&gt;
+&lt;h5 class=&quot;quot-title&quot;&gt; 7주간의 세미나, 그리고 앱잼 해커톤 &lt;/h5&gt;
+&lt;p&gt; 👇🏻  COVID로 인해 리모트 세미나를 하는 모습&lt;/p&gt;
+&lt;img src=&quot;/assets/img/serverHead/seminar-multi.png&quot; /&gt;
+
+&lt;h5 class=&quot;quot-title&quot;&gt; 7주 CURRICULUM &lt;/h5&gt;
+&lt;p&gt; 👇🏻  COVID로 인해 리모트 세미나를 하는 모습&lt;/p&gt;
+&lt;img src=&quot;/assets/img/serverHead/curriculum.png&quot; /&gt;
+
 
 &lt;h4&gt; skill &lt;/h4&gt;
 &lt;div class=&quot;skill&quot;&gt;
@@ -28,15 +35,16 @@
 
 &lt;h4&gt;DETAIL&lt;/h4&gt;
 &lt;h5&gt;&quot;열정&quot;&lt;/h5&gt;
-&lt;p&gt;7개월 동안, 그 어떤 대가를 바람없이 동아리에서
+7개월 동안, 그 어떤 대가를 바람없이 동아리에서
 대학생 IT 창업 동아리 SOPT에서 약 7개월 간 서버파트장으로 활동했습니다. 7주차의 세미나를 통해 40명의 서버파트원에게 서버 지식을 전달했습니다.
 세미나가 끝나고 2주간의 해커톤을 통해 완성도 높은 애플리케이션을 제작하는 것이 목표를 목표로 모든 필요한 내용을 전달했습니다.
 세미나 이외에도 서버와 관련된 각종 질문들을 받으며, 파트원들과 의사소통을 해나아갔습니다.
-서버 파트 뿐만아니라, SOPT 홈페이지 관리를 하며 지원서 페이지 작업과 홈페이지 개편에 힘썼습니다.&lt;/p&gt;
+서버 파트 뿐만아니라, SOPT 홈페이지 관리를 하며 지원서 페이지 작업과 홈페이지 개편에 힘썼습니다.
+
 
 &lt;h4&gt;세미나 자료 &lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1LGXAw4he2bH2LiUMP4aS80-8XqoUcDOC&quot;&gt;세미나 자료 전체 확인&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://drive.google.com/drive/folders/1LGXAw4he2bH2LiUMP4aS80-8XqoUcDOC&quot;&gt;세미나 자료 전체 확인&lt;/a&gt;
 &lt;div class=&quot;gallery&quot;&gt;
 &lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/photo1.png&quot; /&gt;
 &lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/photo2.png&quot; /&gt;
@@ -46,7 +54,9 @@
 &lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/photo6.png&quot; /&gt;
 &lt;/div&gt;
 &lt;h4&gt;링크&lt;/h4&gt;
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/gngsn/26th_SERVER&quot;&gt; Github 링크 - 세미나 실습 자료&lt;/a&gt;&lt;/p&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">summary &quot;40명 파트원을 이끌며 서버 구축에 필요한 지식 전달, SOPT homepage 관리&quot;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/sopt-main.png" /><media:content medium="image" url="http://localhost:4000/assets/img/sopt-main.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">얼리버디 (SOPT APPJAM) - 우수상</title><link href="http://localhost:4000/2020/01/15/early-buddy.html" rel="alternate" type="text/html" title="얼리버디 (SOPT APPJAM) - 우수상" /><published>2020-01-15T00:00:00+09:00</published><updated>2020-01-15T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/15/early-buddy</id><content type="html" xml:base="http://localhost:4000/2020/01/15/early-buddy.html">&lt;div class=&quot;earlyBuddy&quot;&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/gngsn/26th_SERVER&quot;&gt; Github 링크 - 세미나 실습 자료&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">7주간의 세미나, 그리고 앱잼 해커톤 👇🏻 COVID로 인해 리모트 세미나를 하는 모습</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/sopt-main.png" /><media:content medium="image" url="http://localhost:4000/assets/img/sopt-main.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">얼리버디 (SOPT APPJAM) - 우수상</title><link href="http://localhost:4000/2020/01/15/early-buddy.html" rel="alternate" type="text/html" title="얼리버디 (SOPT APPJAM) - 우수상" /><published>2020-01-15T00:00:00+09:00</published><updated>2020-01-15T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/15/early-buddy</id><content type="html" xml:base="http://localhost:4000/2020/01/15/early-buddy.html">&lt;div class=&quot;early-buddy&quot;&gt;
     &lt;h5 class=&quot;quot-title&quot;&gt;
     &lt;!-- &lt;span class=&quot;line-break960&quot;&gt;2주간의 해커톤 &lt;em&gt;-&lt;/em&gt;&lt;/span&gt;  --&gt;
     약속시간을 위한 나만의 대중교통 배차 알리미 서비스&lt;/h5&gt;

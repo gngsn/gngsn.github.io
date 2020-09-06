@@ -10,7 +10,7 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 a:link:active, a:visited:active {color: var(--main-white);}
 iframe {border: 0; margin: auto;width: 100%;}
 .post span{display: inline;}
-.earlyBuddy span, span em{display: inline;}
+.early-buddy span, span em{display: inline;}
 .content {width: 100vw;margin: 0px; overflow: auto; scroll-padding: 0px 0px 0px 0px; padding: 5% 10%;font-family: 'Noto M'; scroll-snap-type: both mandatory;overflow: hidden; border-bottom: .5vh solid var(--main-red);}
 
 .cursor {position: fixed;left: 0;top: 0;pointer-events: none;}
@@ -81,19 +81,24 @@ iframe {border: 0; margin: auto;width: 100%;}
 
 
 .post .max3d video{width: 80vw;}
-.post .earlyBuddy h5{font-size: 2rem; font-family: 'Nanum Myeongjo';font-weight: 700;text-align: center;}
-/* .post .earlyBuddy>h5.quot-title{text-align: center;} */
-.post .earlyBuddy h5.quot-title:before {display:block; content:"“"; font-size: 4rem; line-height: .3;}
-.post .earlyBuddy h5.quot-title:after {display:block;content:"”"; font-size: 4rem; line-height: .3; margin-top: 3rem;}
-.post .earlyBuddy p{font-size: 1.2rem; font-family: 'Nanum Myeongjo';font-weight: 200; line-height: 1.7;}
-.post .earlyBuddy >img{margin: auto;margin-bottom: 40px;}
-.post .earlyBuddy .info{padding-top: 100px;}
-.post .earlyBuddy .info h5{padding-top: 100px;}
-.post .earlyBuddy .tech{padding-top: 150px;}
-.post .earlyBuddy .tech h5{margin: 120px auto 10px;}
-.post .earlyBuddy .flex-box{justify-content: space-around;align-items: center;}
-.post .earlyBuddy .flex-box img {max-width: 350px; margin-right: 20px;}
-.post .earlyBuddy .flex-box p {max-width: 500px;}
+.post .early-buddy h5, .post .server-head h5{font-size: 2rem; font-family: 'Nanum Myeongjo';font-weight: 700;text-align: center;}
+.post .server-head h5.quot-title:before {display:block; content:"“"; font-size: 4rem; line-height: .3;}
+.post .server-head h5.quot-title:after {display:block;content:"”"; font-size: 4rem; line-height: .3; margin-top: 3rem;}
+.post .early-buddy h5.quot-title:before {display:block; content:"“"; font-size: 4rem; line-height: .3;}
+.post .early-buddy h5.quot-title:after {display:block;content:"”"; font-size: 4rem; line-height: .3; margin-top: 3rem;}
+.post .early-buddy p{font-size: 1.2rem; font-family: 'Nanum Myeongjo';font-weight: 200; line-height: 1.7;}
+.post .early-buddy >img{margin: auto;margin-bottom: 40px;}
+.post .early-buddy .info{padding-top: 100px;}
+.post .early-buddy .info h5{padding-top: 100px;}
+.post .early-buddy .tech{padding-top: 150px;}
+.post .early-buddy .tech h5{margin: 120px auto 10px;}
+.post .early-buddy .flex-box{justify-content: space-around;align-items: center;}
+.post .early-buddy .flex-box img {max-width: 350px; margin-right: 20px;}
+.post .early-buddy .flex-box p {max-width: 500px;}
+
+.post .server-head >img{margin: auto;margin-bottom: 40px; width: 80vw; border-radius: 10px;}
+
+
 
 @media (max-width:1200px) {
     .post .skill img {height: 60px;width: 60px;}

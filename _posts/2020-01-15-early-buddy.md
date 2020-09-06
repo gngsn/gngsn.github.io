@@ -6,7 +6,7 @@ image: "/assets/img/early-buddy.png"
 skill: "Node.js, Express, Database, MySQL, MongoDB, AWS Services, Git, Github, Network"
 bgColor: white
 ---
-<div class="earlyBuddy">
+<div class="early-buddy">
     <h5 class="quot-title">
     <!-- <span class="line-break960">2주간의 해커톤 <em>-</em></span>  -->
     약속시간을 위한 나만의 대중교통 배차 알리미 서비스</h5>
