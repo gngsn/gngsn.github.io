@@ -1,0 +1,18 @@
+I"<div class="sopt-page">
+<h5 class="quot-title"> 630명이 지원한 페이지 제작 </h5>
+<div class="main-img">
+    <img src="/assets/img/sopt-page/26th_yb_apply_yb.png" />
+</div>
+<h5 class="quot-title"> 7주 CURRICULUM </h5>
+<div class="flex-box">
+    <img src="/assets/img/sopt-page/alert.png" />
+    <p> 7주간의 세미나로, 약 40명의 파트원들에게 서버에 대한 전반적인 지식을 전달하였습니다.
+    Javascript부터 시작하여, Node.js란 무엇인지와 Express를 사용하여 서버를 구축하는 법을 전달했습니다.
+    AWS EC2를 사용하여 서버를 올리는 방법과, MySQL사용법을 전달하는 동시에 AWS RDS 사용법을 전달했습니다.
+    마지막에는 Token을 이용한 인증방법인 JWT에 대한 필요성과 이론, 그리고 사용법에 대해 강의했습니다.<br /><br />
+    <a target="_blank" href="https://github.com/gngsn/26th_SERVER"> 
+    <img src="https://img.icons8.com/fluent/96/000000/github.png" />  세미나 실습 자료</a>
+    </p>
+</div>
+</div>
+:ET

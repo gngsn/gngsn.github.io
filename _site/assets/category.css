@@ -5,7 +5,7 @@
 }
 
 * {display: block;box-sizing: border-box;}
-body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
+body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden; background-color: var(--main-black);}
 a,h1,h2,h3,h4,h5,p {color: var(--main-white);}
 main span{display: inline;}
 a:link:active, a:visited:active {color: var(--main-white);}
