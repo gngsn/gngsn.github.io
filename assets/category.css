@@ -12,6 +12,7 @@ a:link:active, a:visited:active {color: var(--main-white);}
 .main {width: 100vw;margin: 0px; overflow: auto; scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory;}
 .about .main {height: 0vh;}
 .inner { top: 0;left: 0;width: 100%;transition: 0.8s transform cubic-bezier(0.65, 0, 0.35, 1); z-index: -1; background-color: #000; padding-top: 90px;border-bottom: 0.5vh solid #FF3901;}
+.inner{padding-top: 15vh;}
 .about .inner .center{width: 100%; height: 100vh;}
 .about .inner{ height: 100vh;-webkit-transition: background-color 800ms ease-out;-moz-transition: background-color 800ms ease-out;-o-transition: background-color 800ms ease-out;transition: background-color 800ms ease-out;position: fixed;}
 .about .inner h2{font-size: 2.8rem; font-family: 'Noto Th';}
@@ -103,6 +104,11 @@ a:link:active, a:visited:active {color: var(--main-white);}
     .project .skill h4 {font-size: 1.2rem;line-height: 40px;}
 }
 
+/* iPad Pro */
+@media (max-width:1025px) and (min-height:1200px) {
+    .inner{padding-top: 25vh;}
+}
+
 @media (max-width:800px) {
     .project .inner .center .slick-slide .proj-title{width: 38.75rem; margin: 40px 0px;}
     .project .inner .center .slick-slide .proj-title h1{font-size: 2.3rem; }
@@ -145,6 +151,7 @@ a:link:active, a:visited:active {color: var(--main-white);}
     .project .inner .center .slick-slide .proj-title h3{font-size: 0.8rem;margin-top: 30px;}
     .project .inner .red-line h2 {font-size: 2.8rem;}
     .project .inner .red-line>h2+span {width: 240px;margin-top: 70px;}
+    .inner{padding-top: 20vh;}
 }
 
 @media (max-width:480px) {
