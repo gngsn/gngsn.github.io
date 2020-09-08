@@ -55,6 +55,7 @@ a:link:active, a:visited:active {color: var(--main-white);}
 .project .inner .red-line h1 em{display: inline;}
 
 
+
 .project .inner .sub-cnt .skill{display: flex; padding: 40px 0px 20px;flex-wrap : wrap;}
 .project .inner .sub-cnt.right .skill{justify-content: flex-end;}
 .project .section-cont .post .content{font-family: 'Noto Th';}
@@ -71,6 +72,7 @@ a:link:active, a:visited:active {color: var(--main-white);}
 .project .inner .center.backend .slick-slide{opacity: 0.4;}
 .project .inner .center .slick-slide.slick-active {color: white;opacity: 1;}
 .project .inner .center .slick-slide img{object-fit: cover; width: 100%;opacity: 0.6;height: 250px;border-radius: 5px;}
+.proj-title .skill{display: inline-flex; padding: 0px;flex-wrap : wrap;}
 
 .project .inner .center .slick-slide .proj-title{z-index: 30;width:16.75rem; position: absolute; opacity: 1 !important; margin: 50px 0px;}
 .project .inner .center .slick-slide .proj-title h1{font-size: 1.4rem; text-align: center;font-family: 'Noto B';}
@@ -104,12 +106,20 @@ a:link:active, a:visited:active {color: var(--main-white);}
     .project .skill h4 {font-size: 1.2rem;line-height: 40px;}
 }
 
-/* iPad Pro */
-@media (max-width:1025px) and (min-height:1200px) {
+/* iPad Pro 12 */
+@media (max-width:1024px) and (min-height:1200px) {
+    .inner{padding-top: 25vh;}
+}
+/* iPad Pro 12 */
+@media (max-width:1024px) and (min-height:1200px) {
     .inner{padding-top: 25vh;}
 }
 
+@media (max-width:960px) {
+    .project .inner .center .slick-slide .proj-title {width: 21.75rem;}
+}
 @media (max-width:800px) {
+    .project .inner .center .slick-slide .proj-title {width: 15.75rem;}
     .project .inner .center .slick-slide .proj-title{width: 38.75rem; margin: 40px 0px;}
     .project .inner .center .slick-slide .proj-title h1{font-size: 2.3rem; }
     .about .inner .switch img {width: 90px;margin: 0 40px 0 50px;}
@@ -155,6 +165,7 @@ a:link:active, a:visited:active {color: var(--main-white);}
 }
 
 @media (max-width:480px) {
+    .inner{padding-top: 90px;}
     .project .inner .center .slick-slide .proj-title h1{font-size: 1.4rem; }
     .inner .center .slick-slide{margin: 0px;}
     .project .section-cont .post h2{font-size: 1.2rem; margin: 40vh 0px 30px 5vw;}

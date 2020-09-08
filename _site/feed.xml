@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-08T17:02:08+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kyeongsun</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-08T18:30:19+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kyeongsun</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><entry><title type="html">IT 동아리 SOPT 25대 서버파트장</title><link href="http://localhost:4000/2020/01/18/server-head.html" rel="alternate" type="text/html" title="IT 동아리 SOPT 25대 서버파트장" /><published>2020-01-18T00:00:00+09:00</published><updated>2020-01-18T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/18/server-head</id><content type="html" xml:base="http://localhost:4000/2020/01/18/server-head.html">&lt;div class=&quot;server-head&quot;&gt;
 &lt;h5 class=&quot;quot-title&quot;&gt; 7주간의 세미나, 그리고 해커톤 앱잼 &lt;/h5&gt;
 &lt;p&gt; 👇🏻  COVID로 인해 리모트 세미나를 하는 모습&lt;/p&gt;
@@ -193,34 +193,77 @@
 맡은 뷰를 모두 구현한 후, 서버가 전달해주는 데이터를 통신하였습니다. 다른 통신은 되는데, 특정 데이터를 요청하면 서버가 다운되는 문제가 있었습니다. 계속 테스트를 하며, 서버를 개발하는 분께 정중히 서버를 다시 한 번 확인해달라고 부탁했습니다. 잦은 부탁으로 포기하라는 말을 들었을 때에는 좌절감이 굉장히 컸습니다. 하지만, 포기하지 않고 피해가 가지 않는 선으로 최대한 노력했습니다. 결국, 서버의 문제였고 다른 감정들 보다는 막혔던 부분이 해결되었으니, 얼른 다른 통신들도 구현해서 어플리케이션을 만들어야겠다는 생각만으로 모든 통신을 구현할 수 있었습니다. 모든 팀원들에게 최고의 팀원이라는 인정을 받으며, 정말 뿌듯했던 프로젝트로 마무리할 수 있었습니다.&lt;/p&gt;
 
 &lt;h4&gt;링크&lt;/h4&gt;
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/soptrest/sopt_get_rest_IOS&quot;&gt;Github 링크 &lt;/a&gt;&lt;/p&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">SUMMARY &quot;2주간의 해커톤으로 쉬운 자기소개서 쓰기 어플리케이션 제작&quot; APPJAM 해커톤 멘토 우수상, iOS 개발 능력, Github Library 커스터마이징</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/getRest-dark.png" /><media:content medium="image" url="http://localhost:4000/assets/img/getRest-dark.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tooc - 짐 보관 서비스 플랫 폼</title><link href="http://localhost:4000/2020/01/11/tooc.html" rel="alternate" type="text/html" title="Tooc - 짐 보관 서비스 플랫 폼" /><published>2020-01-11T00:00:00+09:00</published><updated>2020-01-11T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/11/tooc</id><content type="html" xml:base="http://localhost:4000/2020/01/11/tooc.html">&lt;h4&gt; SUMMARY &lt;/h4&gt;
-&lt;p&gt;&quot;3주간의 해커톤으로 관광객과 쇼핑객을 위한 짐 보관 서비스 플랫폼&quot;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/soptrest/sopt_get_rest_IOS&quot;&gt;Github 링크 &lt;/a&gt;&lt;/p&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">SUMMARY &quot;2주간의 해커톤으로 쉬운 자기소개서 쓰기 어플리케이션 제작&quot; APPJAM 해커톤 멘토 우수상, iOS 개발 능력, Github Library 커스터마이징</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/getRest-dark.png" /><media:content medium="image" url="http://localhost:4000/assets/img/getRest-dark.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tooc</title><link href="http://localhost:4000/2020/01/11/tooc.html" rel="alternate" type="text/html" title="Tooc" /><published>2020-01-11T00:00:00+09:00</published><updated>2020-01-11T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/11/tooc</id><content type="html" xml:base="http://localhost:4000/2020/01/11/tooc.html">&lt;div class=&quot;tooc&quot;&gt;
 
-&lt;h4&gt; SKILL &lt;/h4&gt;
-&lt;div class=&quot;skill&quot;&gt;
-&lt;img src=&quot;https://img.icons8.com/color/96/000000/intellij-idea.png&quot; /&gt;
-&lt;img src=&quot;https://img.icons8.com/ios-filled/100/000000/mysql-logo.png&quot; style=&quot;filter:invert(100%)&quot; /&gt;
-&lt;img src=&quot;https://img.icons8.com/color/96/000000/spring-logo.png&quot; /&gt;
-&lt;img src=&quot;https://img.icons8.com/color/96/000000/amazon-web-services.png&quot; /&gt;
-&lt;img src=&quot;https://img.icons8.com/color/96/000000/git.png&quot; /&gt;
-&lt;img src=&quot;https://img.icons8.com/fluent/96/000000/github.png&quot; /&gt;
+&lt;div class=&quot;section1&quot;&gt;
+    &lt;h5 class=&quot;quot-title&quot;&gt; 관광객과 쇼핑객을 위한 짐 보관 서비스 플랫폼 &lt;/h5&gt;
+    &lt;div class=&quot;fb-video&quot; data-href=&quot;https://www.facebook.com/541083246408336/videos/357852304769997/&quot; data-width=&quot;800&quot; data-show-text=&quot;false&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h4&gt;DETAIL&lt;/h4&gt;
-&lt;p&gt;Spring Framework을 사용하여 프로필 조회 및 수정, 문의사항 작성과 조회 및 수정 설계&lt;/p&gt;
+&lt;div class=&quot;section2&quot;&gt;
+    &lt;h5 class=&quot;quot-title&quot;&gt; 사용자 Workflow &lt;/h5&gt;
+    &lt;div class=&quot;flex-box&quot;&gt;
+        &lt;a class=&quot;img-cont&quot; target=&quot;_blank&quot; href=&quot;https://user-images.githubusercontent.com/38368820/51367467-1c5fd980-1b2e-11e9-81a0-e1814704a0ff.jpg&quot;&gt;
+            &lt;img class=&quot;left&quot; src=&quot;/assets/img/tooc/workflow.jpg&quot; /&gt;
+        &lt;/a&gt;
+        &lt;div&gt;
+            &lt;p&gt; IT 동아리 내에서 3주간의 해커톤을 진행하며, ‘여행객을 위한 짐 보관 서비스 플랫폼’을 서비스하는 모바일 어플리케이션을 제작했습니다. 정말 큰 도전이 필요한 프로젝트였습니다. 서버를 제작하는 것이 처음일 뿐만 아니라, 실제 서비스를 제작하는 협업 프로젝트가 처음이었기 때문에 도전정신과 열정으로 해결해 나아가려고 노력했습니다. &lt;br /&gt;&lt;br /&gt;
+            &lt;/p&gt;
+            &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/team-travely/travely-server&quot;&gt; 
+                &lt;img src=&quot;https://img.icons8.com/fluent/96/000000/github.png&quot; /&gt; 서버 레퍼지토리
+            &lt;/a&gt;
+            &lt;div class=&quot;skill&quot;&gt;
+                &lt;img src=&quot;https://img.icons8.com/color/96/000000/intellij-idea.png&quot; /&gt;
+                &lt;img src=&quot;https://img.icons8.com/ios-filled/100/000000/mysql-logo.png&quot; style=&quot;filter:invert(100%)&quot; /&gt;
+                &lt;img src=&quot;https://img.icons8.com/color/96/000000/spring-logo.png&quot; /&gt;
+                &lt;img src=&quot;https://img.icons8.com/color/96/000000/amazon-web-services.png&quot; /&gt;
+                &lt;img src=&quot;https://img.icons8.com/color/96/000000/git.png&quot; /&gt;
+                &lt;img src=&quot;https://img.icons8.com/fluent/96/000000/github.png&quot; /&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;IT 동아리 내에서 3주간의 해커톤을 진행하며, ‘여행객을 위한 짐 보관 서비스 플랫폼’을 서비스하는 모바일 어플리케이션을 제작했습니다. 정말 큰 도전이 필요한 프로젝트였습니다. 서버를 제작하는 것이 처음일 뿐만 아니라, 실제 서비스를 제작하는 협업 프로젝트가 처음이었기 때문에 도전정신과 열정으로 해결해 나아가려고 노력했습니다.&lt;/p&gt;
+&lt;div class=&quot;section3&quot;&gt;
+    &lt;h5 class=&quot;quot-title&quot;&gt; 개발 인생의 전환점 &lt;/h5&gt;
+    &lt;div class=&quot;flex-box&quot;&gt;
+        &lt;div&gt;
+            &lt;p&gt; 처음 서버와 프런트라는 개념을 배우고, 우물 안 개구리였던 스스로를 깨닫게 되었습니다.
+            끝 없는 서버의 세계에 끝없는 호기심을 느낄 수 있다는 매력을 느끼고 서버에 대한 공부를 제대로 시작하게된 계기입니다.
+            &lt;br /&gt;&lt;br /&gt;
+            'Tooc'을 제작하면서 많은 것들을 동아리에서 배우거나 스스로 학습해 나아갔습니다. &lt;br /&gt;
+            AWS에서 제공해주는 EC2, RDS, S3를 사용하면서 사용하는 목적을 알아보고 사용법까지 익혔습니다. 이론상으로는 이해가 힘들었던 것에 비해, 이론을 기반으로 실제로 접속하고 사용해보면서 완전히 익힐 수 있었습니다. 실제로, 팀원 분의 계정으로 대여했던 EC2의 pem키를 받아서 ssh명령어를 통해 처음으로 클라우드 서버에 접속해보았습니다. 클라우드 서버에 대해 추상적이었던 개념들이 정확하게 정립될 수 있었습니다. 또, RDS와 S3는 직접 대여해 다른 팀원들에게 공유하기도 했습니다. MySQL Workbench를 이용해서 RDS에 접속했습니다. 
+            &lt;br /&gt;&lt;br /&gt;
+                &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/team-travely/travely-server/wiki&quot;&gt; 
+                    &lt;img src=&quot;https://img.icons8.com/fluent/96/000000/github.png&quot; /&gt; 서버 API 소개
+                &lt;/a&gt;
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;slick-auto&quot;&gt;
+            
+            &lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/tooc/screen-01.jpg&quot; /&gt;
+            
+            &lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/tooc/screen-02.jpg&quot; /&gt;
+            
+            &lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/tooc/screen-03.jpg&quot; /&gt;
+            
+            &lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/tooc/screen-04.jpg&quot; /&gt;
+            
+            &lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/tooc/screen-05.jpg&quot; /&gt;
+            
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;:: 프로필 / 문의사항 조회 및 수정
-MVC 패턴에 대한 이해를 먼저 시작했습니다. 요청을 받고 데이터베이스에 접근하기까지의 흐름을 먼저 파악하고 난 후에 프로필을 조회하는 기능을 구현했습니다. 그 과정에서 DTO와 DAO에 대한 이해부터 사용까지 할 수 있었습니다. 또, JWT를 전송하는 이유에 대한 궁금증이 커져 혼자 찾아보았습니다. JWT를 다룬 사이트가 있어서 알아내는 것에 대한 어려움을 덜 수 있었으며, 궁금증을 해결하기에 충분했습니다. 관련된 알아야할 것이 많다고 느꼈지만, 알아가면 갈 수록 보이는 로직에 대한 흥미가 점점 커져갔습니다.&lt;/p&gt;
-
-&lt;p&gt;또, AWS에서 제공해주는 EC2, RDS, S3를 사용하면서 사용하는 목적을 알아보고 사용법까지 익혔습니다. 이론상으로는 이해가 힘들었던 것에 비해, 이론을 기반으로 실제로 접속하고 사용해보면서 완전히 익힐 수 있었습니다. 실제로, 팀원 분의 계정으로 대여했던 EC2의 pem키를 Slack으로 받아서 ssh명령어를 통해 처음으로 클라우드 서버에 접속해보았습니다. 클라우드 서버에 대해 추상적이었던 개념들이 정확하게 정립될 수 있었습니다. 또, RDS와 S3는 직접 대여해 다른 팀원들에게 공유하기도 했습니다. 이 때, 혼자 공부했던 MySQL Workbench를 이용해서 RDS에 접속해보았습니다.&lt;/p&gt;
-
-&lt;p&gt;또, Workbench에 대한 사용법을 제대로 익히고자 노력했습니다. 미처 배우지 못한 AI, PK, FK 단어가 궁금해서 찾아보고 이해하는 과정을 가졌습니다. 뿐만 아니라, 프로필 수정을 할 때 이미지를 수정하는 부분이 있었기 때문에 S3에 직접 이미지를 넣고 주소를 받아오기도 했습니다.
-3주라는 짧은 시간동안 서버 협업 프로젝트의 A부터 Z까지 처음 듣고 배운 덕분에 큰 성장을 이루고, 견문을 넓힐 수 있는 큰 기회를 가졌습니다. 끊임없이 배우려는 자세로 임하게 되어서 후회없는 3주를 보낼 수 있었습니다. 뿐만 아니라, 서버에 대한 흥미와 관심이 매우 커질 수 있었습니다. 또, 이러한 노력의 결과로 구글스토어와 앱스토어에 등록을 하여 서비스를 배포할 수 있었습니다.&lt;/p&gt;
-
-&lt;h4&gt;링크&lt;/h4&gt;
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/team-travely/travely-server&quot;&gt;Github 링크 &lt;/a&gt;&lt;/p&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">SUMMARY &quot;3주간의 해커톤으로 관광객과 쇼핑객을 위한 짐 보관 서비스 플랫폼&quot;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/tooc-dark.png" /><media:content medium="image" url="http://localhost:4000/assets/img/tooc-dark.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">HUMAN-COMPUTER INTERACTION</title><link href="http://localhost:4000/2020/01/03/hci.html" rel="alternate" type="text/html" title="HUMAN-COMPUTER INTERACTION" /><published>2020-01-03T00:00:00+09:00</published><updated>2020-01-03T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/03/hci</id><content type="html" xml:base="http://localhost:4000/2020/01/03/hci.html">&lt;div class=&quot;hci&quot;&gt;
+&lt;div class=&quot;section4&quot;&gt;
+    &lt;h5 class=&quot;quot-title&quot;&gt; 처음 만나는 서버 &lt;/h5&gt;
+    &lt;p&gt; MVC 패턴에 대한 이해를 먼저 시작했습니다. 요청을 받고 데이터베이스에 접근하기까지의 흐름을 먼저 파악하고 난 후에 프로필을 조회하는 기능을 구현했습니다. 그 과정에서 DTO와 DAO에 대한 이해부터 사용까지 할 수 있었습니다. 또, JWT를 전송하는 이유에 대한 궁금증이 커져 혼자 찾아보았습니다. JWT를 다룬 사이트가 있어서 알아내는 것에 대한 어려움을 덜 수 있었으며, 궁금증을 해결하기에 충분했습니다. 관련된 알아야할 것이 많다고 느꼈지만, 알아가면 갈 수록 보이는 로직에 대한 흥미가 점점 커져갔습니다. 
+    &lt;br /&gt;&lt;br /&gt;
+    또, Workbench에 대한 사용법을 제대로 익히고자 노력했습니다. 미처 배우지 못한 AI, PK, FK 단어가 궁금해서 찾아보고 이해하는 과정을 가졌습니다. 뿐만 아니라, 프로필 수정을 할 때 이미지를 수정하는 부분이 있었기 때문에 S3에 직접 이미지를 넣고 주소를 받아오기도 했습니다.
+    3주라는 짧은 시간동안 서버 협업 프로젝트의 A부터 Z까지 처음 듣고 배운 덕분에 큰 성장을 이루고, 견문을 넓힐 수 있는 큰 기회를 가졌습니다. 끊임없이 배우려는 자세로 임하게 되어서 후회없는 3주를 보낼 수 있었습니다. 뿐만 아니라, 서버에 대한 흥미와 관심이 매우 커질 수 있었습니다. 또, 이러한 노력의 결과로 구글스토어와 앱스토어에 등록을 하여 서비스를 배포할 수 있었습니다. &lt;br /&gt;&lt;br /&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/tooc-dark.png" /><media:content medium="image" url="http://localhost:4000/assets/img/tooc-dark.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">HUMAN-COMPUTER INTERACTION</title><link href="http://localhost:4000/2020/01/03/hci.html" rel="alternate" type="text/html" title="HUMAN-COMPUTER INTERACTION" /><published>2020-01-03T00:00:00+09:00</published><updated>2020-01-03T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/03/hci</id><content type="html" xml:base="http://localhost:4000/2020/01/03/hci.html">&lt;div class=&quot;hci&quot;&gt;
     &lt;h4&gt; # HUMAN-COMPUTER INTERACTION &lt;/h4&gt;
     &lt;p&gt; 인간과 컴퓨터의 상호작용을 탐구하여 기존에 출시되었던 '따릉이' 어플을 UX을 고려하여 재탄생시켰습니다. &lt;/p&gt;
     &lt;div class=&quot;slider pdf-gallery&quot;&gt; 
