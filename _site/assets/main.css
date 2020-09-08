@@ -7,6 +7,7 @@
     --main-white: #0f3cbf; */
 }
 
+head{opacity: 0;}
 * {display: block;box-sizing: border-box;}
 body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 .content {width: 100vw;height: 100vh;margin: 0px; overflow: auto; scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory;}
@@ -21,7 +22,7 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 .inner .selfie {width: 500px;max-height:750px; bottom: 0%; }
 .inner .selfie img {position: absolute; width: 500px;height: auto; bottom: 0px; transform: translateX(-5%);z-index: 999999; overflow: scroll;}
 
-.section-cont {margin-top: 99.5vh;z-index: 99; }
+.section-cont {margin-top: 99.5vh;z-index: 99; overflow-x: hidden;}
 .section-cont > img{width: 100%;}
 .section-cont > div{padding: 60px 0px; margin: auto;text-align: center;}
 .section.intro h1{font-family:'NanumM R', 'Noto R'; font-size: 5rem; border-bottom: var(--main-white) solid 1px; display: inline;}
@@ -125,7 +126,7 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 
 
 @media (max-width:600px) {
-    .inner .selfie img {left: 50%;transform: translateX(-30%);opacity: .4;}
+    .inner .selfie img {left: 50%;transform: translateX(-30%);opacity: .4; width: 100vw;}
 }
 @media (max-width:476px) {
     .icon {position: relative; margin: 120px 0px 50px 5px; width: 100%; justify-content: center;right: auto;}
@@ -138,5 +139,5 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 
 
 @media (max-width:476px) {
-    .inner .selfie img {left: 0;}
+    .inner .selfie img {left: 70px;}
 }
