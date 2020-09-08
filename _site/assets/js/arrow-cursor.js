@@ -1,6 +1,6 @@
 $('.center').slick({
     centerMode: true,
-    centerPadding: '250px',
+    centerPadding: '70px',
     slidesToShow: 3,
     dots:true,
     responsive: [{
@@ -8,20 +8,29 @@ $('.center').slick({
             settings: {
                 arrows: false,
                 centerMode: true,
-                centerPadding: '100px',
-                slidesToShow: 2,
+                centerPadding: '40px',
+                slidesToShow: 3,
             }
         }, {
-            breakpoint: 800,
+            breakpoint: 900,
             settings: {
                 arrows: false,
                 centerMode: true,
                 centerPadding: '60px',
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '70px',
                 slidesToShow: 1,
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 425,
             settings: {
                 arrows: false,
                 centerMode: true,

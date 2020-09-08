@@ -38,7 +38,7 @@ iframe {border: 0; margin: auto;width: 100%;}
 .post .skill img{height: 90px; width: 90px;margin-right: 15px;}
 .post .skill h4{display: inline; vertical-align: middle; font-size: 2rem;font-family: 'Noto Th'; margin: 0 25px 0 10px; line-height: 90px;}
 
-.post .section-cont .gallery {display: flex; flex-direction: row; width: 100%; overflow-x: scroll; overflow-y: hidden; height: 300px; }
+.post .section-cont .gallery {display: flex; flex-direction: row; width: 100%; overflow-x: scroll; overflow-y: hidden; height: 320px; }
 .post .section-cont .gallery img {height: 250px; margin: 5vh 0.4vw;}
 .post .section-cont .gallery::-webkit-scrollbar {height: 6px;}
 .post .section-cont .gallery::-webkit-scrollbar-thumb {opacity: .4; background-color: #fff; border-radius: 15px;}
@@ -99,6 +99,8 @@ iframe {border: 0; margin: auto;width: 100%;}
 .post .early-buddy .flex-box img {max-width: 350px; margin-right: 20px;}
 .post .early-buddy .flex-box p {max-width: 700px;}
 
+
+
 .post .server-head {padding-bottom: 70px;}
 .post .server-head >img{margin: auto;margin-bottom: 40px; border-radius: 10px; max-width: 80vw;}
 .post .flex-box{display: flex;width: 100%; margin: 10px auto 120px; justify-content: center; align-items: center;}
@@ -108,9 +110,18 @@ iframe {border: 0; margin: auto;width: 100%;}
 .post .server-head .flex-box a img{width: 42px;display: inline-block; margin-right: 10px;}
 .post .server-head p {text-align: center;}
 .post .server-head .skill{justify-content: center;}
+.post .server-head .section4{margin-top: 120px;}
+.post .server-head .section5{margin-top: 160px;}
+.post .server-head .gallery{ padding-bottom: 40px;}
+.post .server-head .gallery::-webkit-scrollbar {height: 7px;margin-top: 20px;}
+.post .server-head .gallery::-webkit-scrollbar-thumb {opacity: .4; background-color: var(--main-red); border-radius: 15px;}
 .server-head a, .server-head a:link:active,.server-head a:visited:active {line-height: .3; color: var(--main-white); font-family: 'Nanum Myeongjo';font-weight: 200; display: flex; align-items: center;}
 
-.post .tooc .fb-video{ left: 50%; transform: translateX(-50%);}
+
+
+
+.post .tooc .fb-video{ left: 50%; transform: translateX(-50%); width: 60vw;height: 100%;}
+.fb_iframe_widget_fluid {display: inline-block !important;}
 .post .tooc .flex-box{justify-content: space-around;align-items: center;}
 .post .tooc .flex-box h4{text-align: left;margin: 0px 0px 20px; font-weight: 200; font-family: 'Nanum Myeongjo';}
 .post .tooc .flex-box .skill {padding: 20px 0px 20px;}
@@ -166,8 +177,12 @@ iframe {border: 0; margin: auto;width: 100%;}
     .post .section-cont h2 {font-size: 3rem;margin: 60vh 0px 30px 5vw;}
     .post .section-cont h3 {font-size: 3.3rem;margin: 0;margin-left: 5vw;}
     .post .server-head .flex-box{flex-direction: column;}
+    .post .server-head .section5 .flex-box{flex-direction: column-reverse;}
     .post .server-head .flex-box img {width: 100%;}
     .post .server-head .flex-box img.left {margin-right: 0px;}
+    .post .server-head .flex-box .left{margin-right: 0px; text-align: left;}
+    .post .server-head .flex-box a{margin-bottom: 10px;}
+    .post .server-head .flex-box p{text-align: left;}
 }
 
 @media (min-width:800px) {
@@ -178,6 +193,9 @@ iframe {border: 0; margin: auto;width: 100%;}
     .post .section-cont h2 {font-size: 2.3rem;margin: 60vh 0px 30px 5vw;}
     .post .section-cont h3 {font-size: 3.9rem;margin: 0;margin-left: 5vw;}
     span.break-line800{display: block;font-size:80%;}
+    .post .skill img {height: 40px;width: 40px;}
+    .post .skill h4 {font-size: 1rem;line-height: 40px;}
+    .post .tooc .fb-video{ height: 30%;}
 }
 
 
@@ -185,7 +203,7 @@ iframe {border: 0; margin: auto;width: 100%;}
     header {display: none;}
     .post .section-cont h2 {font-size: 1.4rem;margin: 40vh 0px 30px 5vw;}
     .post .section-cont h3 {font-size: 3rem;margin: 0;margin-left: 5vw;}
-    .back-btn {right: 40vw; width: 40px;height: 40px;top: 90vh;}
+    .back-btn {right: 40vw; width: 40px;height: 40px;top: 85vh;}
     .post .hci .pdf-gallery {width: 90vw;}
     .post .hci .pdf-nav .slick-slide {margin: 10px;}
     .flex-box{flex-direction: column;}
@@ -196,6 +214,7 @@ iframe {border: 0; margin: auto;width: 100%;}
     .cursor {display: none;}
     .cursor--small {display: none;}
     .cursor--canvas {display: none;}
+    .post .tooc .fb-video{ height: 30%;}
 
 }
 
