@@ -6,7 +6,7 @@
 
 * {display: block;box-sizing: border-box;}
 body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
-a,h1,h2,h3,h4,h5,p {font-family: 'Nanum Myeongjo';}
+.post a,.post h1,.post h2,.post h3,.post h4,.post h5,.post p {font-family: 'Nanum Myeongjo';}
 a:link:active, a:visited:active {color: var(--main-white);}
 iframe {border: 0; margin: auto;width: 100%;}
 .post span{display: inline;}
@@ -81,6 +81,9 @@ iframe {border: 0; margin: auto;width: 100%;}
 
 
 .post .max3d video{width: 80vw;}
+.early-buddy a, .early-buddy a:link:active,.early-buddy a:visited:active {line-height: .3; color: var(--main-black); font-family: 'Nanum Myeongjo';font-weight: 200; display: flex; align-items: center;}
+.post .early-buddy .flex-box a img{width: 42px;display: inline-block; margin-right: 10px;}
+.post .early-buddy .flex-box a{margin-top: 30px;}
 .post .early-buddy h5, .post .server-head h5{font-size: 2rem;font-weight: 700;text-align: center;}
 .post .server-head h5.quot-title:before {display:block; content:"“"; font-size: 4rem; line-height: .3;}
 .post .server-head h5.quot-title:after {display:block;content:"”"; font-size: 4rem; line-height: .3; margin-top: 3rem;}

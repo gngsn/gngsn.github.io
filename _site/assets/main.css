@@ -17,8 +17,8 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 .inner .text{display: inline;color: var(--main-white); margin-top:100px; z-index: 2;}
 .inner .text h1 {line-height: 7rem; font-size: 7rem;font-family:'Noto Th';min-width: 600px;}
 .inner .text h3 {font-size: 3.5rem;font-family:'Noto R';}
-.inner .selfie {max-width: 650px;bottom: 0%;z-index: 0;}
-.inner .selfie img {position:fixed; width: 500px;height: auto; bottom: 0px; transform: translateX(-5%);}
+.inner .selfie {width: 500px;max-height:750px; bottom: 0%; }
+.inner .selfie img {position: absolute;  width: 500px;height: auto; bottom: 0px; transform: translateX(-5%);background-color: darkgray;}
 
 .section-cont {margin-top: 99.5vh;z-index: 99; }
 .section-cont > img{width: 100%;}
