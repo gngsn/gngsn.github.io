@@ -7,18 +7,19 @@
     --main-white: #0f3cbf; */
 }
 
-* {display: block;box-sizing: border-box; overflow-x: hidden;}
+* {display: block;box-sizing: border-box;}
 body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 .content {width: 100vw;height: 100vh;margin: 0px; overflow: auto; scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory;}
+*::-webkit-scrollbar {display: none;-ms-overflow-style: none;scrollbar-width: none;}
 
 .inner {position: fixed;top: 0;left: 0;width: 100%;height: 100vh;transition: 0.8s transform cubic-bezier(0.65, 0, 0.35, 1);z-index: -1;pointer-events: none; background-color: var(--main-black);}
-.inner * {overflow-y: hidden;}
+/* .inner * {overflow-y: hidden;} */
 .inner > div { padding: 72px 150px 0px; display: flex; flex-direction: row; margin: auto; bottom: 0; height: calc(100% - 92px);}
 .inner .text{display: inline;color: var(--main-white); margin-top:100px; z-index: 2;}
 .inner .text h1 {line-height: 7rem; font-size: 7rem;font-family:'Noto Th';min-width: 600px;}
 .inner .text h3 {font-size: 3.5rem;font-family:'Noto R';}
 .inner .selfie {width: 500px;max-height:750px; bottom: 0%; }
-.inner .selfie img {position: absolute;  width: 500px;height: auto; bottom: 0px; transform: translateX(-5%);}
+.inner .selfie img {position: absolute; width: 500px;height: auto; bottom: 0px; transform: translateX(-5%);z-index: 999999; overflow: scroll;}
 
 .section-cont {margin-top: 99.5vh;z-index: 99; }
 .section-cont > img{width: 100%;}
@@ -63,11 +64,9 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 .icon .icon_insta {background-repeat: no-repeat;background-size: contain;background-image: url("https://img.icons8.com/fluent-systems-regular/96/000000/instagram-new.png");filter: invert(100%);}
 .section hr {display: none;}
 .section h1.contact {display: none;}
-@media (max-width:1048px) {
-    .inner > div { padding:  72px 50px 0px;}
-    .inner .text h1 {line-height: 6rem; font-size: 6rem;min-width: 350px;}
-}
-/* <img src="https://img.icons8.com/material-rounded/96/000000/important-mail.png"/> */
+
+
+
 @media (max-width:1200px) {
     .section.bubble .about_container .about.about2 {height: 280px;}
     .section.bubble .about_container .about.about3 {height: 280px;}
@@ -76,8 +75,15 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
     .section.bubble .about_container .about.about5 {height: 200px;}
     @keyframes movey{0%{transform : translate(0, 0); width: 360px;height: 300px;}100%{transform : translate(0, -15px);}}
     @keyframes movey2{0%{transform : translate(0, 0); width: 400px; height: 300px; }100%{transform : translate(0, -20px);}}
-    }
-    
+}
+@media (max-width:1048px) {
+    .inner > div { padding:  72px 50px 0px;}
+    .inner .text h1 {line-height: 6rem; font-size: 6rem;min-width: 350px;}
+}
+
+@media (max-width:1025px) and (min-height:1200px) {
+    .inner .selfie img{ width: 80vw; left: 30%;}
+}
 
 @media (max-width:820px) {
     .inner .selfie {max-width: 550px;bottom: 0%; position:fixed;}
@@ -86,7 +92,7 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
     .inner .text h1 {line-height: 4rem; font-size: 4rem;min-width: 600px;}
     .inner .text h3 {font-size: 2.5rem;}
     .inner .selfie {min-width: 500px;}
-    .inner .selfie img {width: 500px;left: 50%;transform: translateX(-40%);}
+    .inner .selfie img {left: 50%;transform: translateX(0%);}
 
     .section-cont > div{padding: 0px 10px;}
     .section.intro h1{font-size: 2.5rem; border-bottom: var(--main-white) solid 1px; display: inline;}
@@ -113,10 +119,21 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
     .section.bubble .about_container .text_container h2 {font-size: 1.2em;}
     .section.bubble > h1{display: none;}
 }
+
+
+@media (max-width:600px) {
+    .inner .selfie img {left: 50%;transform: translateX(-30%);opacity: .4;}
+}
 @media (max-width:476px) {
     .icon {position: relative; margin: 120px 0px 50px 5px; width: 100%; justify-content: center;right: auto;}
     .section hr { border-top: var(--main-white) 1px solid; display: block; width: 80px;margin-bottom: 110px;}
     .section h1.contact {display: inline;}
     .section.skill .graph-container {margin-bottom: 100px;}
     .section.skill {padding: 50px 20px 100px;}
+    .inner .selfie img {left: 50%;transform: translateX(0%);}
+}
+
+
+@media (max-width:476px) {
+    .inner .selfie img {left: 0;}
 }
