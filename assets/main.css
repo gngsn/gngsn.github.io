@@ -18,7 +18,7 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 .inner .text h1 {line-height: 7rem; font-size: 7rem;font-family:'Noto Th';min-width: 600px;}
 .inner .text h3 {font-size: 3.5rem;font-family:'Noto R';}
 .inner .selfie {width: 500px;max-height:750px; bottom: 0%; }
-.inner .selfie img {position: absolute;  width: 500px;height: auto; bottom: 0px; transform: translateX(-5%);background-color: darkgray;}
+.inner .selfie img {position: absolute;  width: 500px;height: auto; bottom: 0px; transform: translateX(-5%);}
 
 .section-cont {margin-top: 99.5vh;z-index: 99; }
 .section-cont > img{width: 100%;}
