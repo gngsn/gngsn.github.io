@@ -2,6 +2,18 @@ const back = () => {
     window.location.href = 'http://' + window.location.host + '/category/project.html';
 }
 
+const newTabImag = (imgTag) => {
+    const route = imgTag.src;
+    console.log(imgTag);
+    console.log(route);
+    console.log('http://' + window.location.host + route);
+    window.open(
+        route,
+        '_blank' // <- This is what makes it open in a new window.
+    );
+}
+
+
 $(document).ready(function (e) {
     $(document).on("click", "img", function () {
         if ($(this).data('zoom') === true) {

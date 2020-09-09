@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-09T03:11:01+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kyeongsun</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-09T16:23:13+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kyeongsun</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><entry><title type="html">SOPT 지원 페이지 제작</title><link href="http://localhost:4000/2020/01/20/sopt-page.html" rel="alternate" type="text/html" title="SOPT 지원 페이지 제작" /><published>2020-01-20T00:00:00+09:00</published><updated>2020-01-20T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/20/sopt-page</id><content type="html" xml:base="http://localhost:4000/2020/01/20/sopt-page.html">&lt;div class=&quot;sopt-page&quot;&gt;
 
 &lt;div class=&quot;section1&quot;&gt;
@@ -408,78 +408,241 @@
     3주라는 짧은 시간동안 서버 협업 프로젝트의 A부터 Z까지 처음 듣고 배운 덕분에 큰 성장을 이루고, 견문을 넓힐 수 있는 큰 기회를 가졌습니다. 끊임없이 배우려는 자세로 임하게 되어서 후회없는 3주를 보낼 수 있었습니다. 뿐만 아니라, 서버에 대한 흥미와 관심이 매우 커질 수 있었습니다. 또, 이러한 노력의 결과로 구글스토어와 앱스토어에 등록을 하여 서비스를 배포할 수 있었습니다. &lt;br /&gt;&lt;br /&gt;
     &lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/tooc-dark.png" /><media:content medium="image" url="http://localhost:4000/assets/img/tooc-dark.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">HUMAN-COMPUTER INTERACTION</title><link href="http://localhost:4000/2020/01/03/hci.html" rel="alternate" type="text/html" title="HUMAN-COMPUTER INTERACTION" /><published>2020-01-03T00:00:00+09:00</published><updated>2020-01-03T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/03/hci</id><content type="html" xml:base="http://localhost:4000/2020/01/03/hci.html">&lt;div class=&quot;hci&quot;&gt;
+&lt;/div&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/tooc-dark.png" /><media:content medium="image" url="http://localhost:4000/assets/img/tooc-dark.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">BubbleBubble</title><link href="http://localhost:4000/2020/01/04/game.html" rel="alternate" type="text/html" title="BubbleBubble" /><published>2020-01-04T00:00:00+09:00</published><updated>2020-01-04T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/04/game</id><content type="html" xml:base="http://localhost:4000/2020/01/04/game.html">&lt;div class=&quot;game&quot;&gt;
+&lt;div class=&quot;section1&quot;&gt;
+    &lt;h5&gt; # 추억의 게임, 다시 한번 &lt;/h5&gt;
+    &lt;p&gt; 👇🏻  직접 제작한 bubble bobble 표지와 사용 설명서&lt;/p&gt;
+    &lt;div class=&quot;flex-box&quot;&gt;
+        &lt;img src=&quot;/assets/img/game/BubbleBobble1.png&quot; /&gt;
+        &lt;img src=&quot;/assets/img/game/BubbleBobble2.png&quot; /&gt;
+    &lt;/div&gt;
+        &lt;p&gt; 게임 제작, 보고서 작성, 게임 표지 디자인, 사용설명서 제작까지 해야했던 프로젝트.
+    많이 힘들고 부담스러웠지만, 사실 그것보다 재미있고 더 잘 만들고 싶다는 욕심이 앞선 프로젝트입니다. &lt;br /&gt;&lt;br /&gt;
+    사실, 이 프로젝트의 마지막엔 웃지못할 해프닝이 있는데요.
+    프로젝트를 교수님께 제출한 뒤, 교수님께 전화가 왔습니다.
+    &quot;이 프로젝트 구매한 거 다 알아.&quot; 라는 말씀이었습니다. 잘못 전화를 거셨나해서 다시 확인했더니, 제가 맞다고 하셨습니다.
+    제작한 양과 퀄리티, 기능 별로 깔끔하게 나뉘어 놓은 코드 파일들이 말이 안된다고 전화를 하신 것이었습니다.
+    내심 기쁜 마음도 있지만 일단 하나부터 열까지 스스로 제작했다는 것을 알려드리기 위해 1시간이 넘는 시간동안 질문을 받으며 오해를 풀어 나갔습니다.
+    결국, 1시간이 넘는 시간만에 저를 믿으시고 이 웃지못할 해프닝을 마쳤습니다. &lt;br /&gt;&lt;br /&gt;
+    이도저도 아닌 게임을 제작해서 내놓는 것보다는 '한 번 만들 때 제대로 만들어 보자'라는 마음가짐으로 3주 내내 제대로 된 밥도 못먹고, 집도 못가서 간이 침대에 살기로 스스로 다짐한 결과물이라고 생각드니 더 뿌듯한 프로젝트입니다.
+    &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;section2&quot;&gt;
+    &lt;h5&gt; # 끊임없는 실패, 도전정신으로 딛으며 완성한 게임 &lt;/h5&gt;
+    &lt;div class=&quot;g-cnt&quot;&gt;
+        &lt;div class=&quot;slider pdf-gallery&quot;&gt; 
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-1.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-2.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-3.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-4.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-5.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-6.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-7.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-8.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-9.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-10.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-11.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-12.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-13.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-14.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-15.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-16.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-17.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-18.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-19.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-20.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-21.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-22.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-23.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-24.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-25.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-26.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-27.png&quot; /&gt;
+        
+        &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/game/game-28.png&quot; /&gt;
+        
+        &lt;/div&gt;
+        &lt;div id=&quot;pdf-nav&quot; class=&quot;slider pdf-nav&quot;&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-1.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-2.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-3.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-4.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-5.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-6.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-7.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-8.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-9.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-10.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-11.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-12.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-13.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-14.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-15.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-16.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-17.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-18.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-19.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-20.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-21.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-22.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-23.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-24.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-25.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-26.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-27.png&quot; /&gt;
+            
+            &lt;img data-lazy=&quot;/assets/img/game/game-28.png&quot; /&gt;
+            
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;section3&quot;&gt;
+    &lt;h5&gt; # 한땀 한땀  &lt;/h5&gt;
+    &lt;div class=&quot;flex-box&quot;&gt;
+        &lt;img src=&quot;/assets/img/game/bubblun_jump.png&quot; /&gt;
+        &lt;p&gt; 모든 캐릭터, 과일, 악당들, 배경을 인터넷에서 가져와 하나도 빠짐없이 하나하나 가공하여 제작한 게임입니다.
+        캐릭터의 모든 움직임을 표현하기 위해 photoshop으로 장면 하나하나를 편집하고 자르며 만들었습니다.
+        물리적인 특징을 사용하여 중력과 속도, 가속도 등을 조절하여 적용했습니다.
+        &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;flex-box&quot;&gt;
+        &lt;p&gt; 모든 요소들을 하나하나 간격을 맞추고 위치를 조정하여 꽤 긴 시간이 들었지만, 작업을 한 후에
+        코드로 애니메이션과 같은 효과가 눈에 보이면 힘들었다는 감정이 있었다는 것도 잊혀질 정도로 뿌듯하고 큰 흥미를 느꼈습니다.
+        이렇게 총 5마리의 악당의 모든 애니메이션과 주인공 bubblun의 7가지 애니메이션(가만히 서있는 모습, 걷는 모습, 점프하는 모습, 버블에 갇힌 모습, 악당에 부딪힌 모습, 버블을 발사하는 모습, 다음 단계로 넘어갈 때 모습)을 제작했습니다. 
+        뿐만아니라, 배경과 스코어들과 악당을 해치우면 나오는 보상들, 보스가 뿜는 불구덩이 등등 하나도 빠짐없이 제작을 하였습니다.
+        &lt;/p&gt;
+        &lt;img src=&quot;/assets/img/game/boss_invader.png&quot; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html"># 추억의 게임, 다시 한번 👇🏻 직접 제작한 bubble bobble 표지와 사용 설명서 게임 제작, 보고서 작성, 게임 표지 디자인, 사용설명서 제작까지 해야했던 프로젝트. 많이 힘들고 부담스러웠지만, 사실 그것보다 재미있고 더 잘 만들고 싶다는 욕심이 앞선 프로젝트입니다. 사실, 이 프로젝트의 마지막엔 웃지못할 해프닝이 있는데요. 프로젝트를 교수님께 제출한 뒤, 교수님께 전화가 왔습니다. &quot;이 프로젝트 구매한 거 다 알아.&quot; 라는 말씀이었습니다. 잘못 전화를 거셨나해서 다시 확인했더니, 제가 맞다고 하셨습니다. 제작한 양과 퀄리티, 기능 별로 깔끔하게 나뉘어 놓은 코드 파일들이 말이 안된다고 전화를 하신 것이었습니다. 내심 기쁜 마음도 있지만 일단 하나부터 열까지 스스로 제작했다는 것을 알려드리기 위해 1시간이 넘는 시간동안 질문을 받으며 오해를 풀어 나갔습니다. 결국, 1시간이 넘는 시간만에 저를 믿으시고 이 웃지못할 해프닝을 마쳤습니다. 이도저도 아닌 게임을 제작해서 내놓는 것보다는 '한 번 만들 때 제대로 만들어 보자'라는 마음가짐으로 3주 내내 제대로 된 밥도 못먹고, 집도 못가서 간이 침대에 살기로 스스로 다짐한 결과물이라고 생각드니 더 뿌듯한 프로젝트입니다.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/game/bub_dark.png" /><media:content medium="image" url="http://localhost:4000/assets/img/game/bub_dark.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">HUMAN-COMPUTER INTERACTION</title><link href="http://localhost:4000/2020/01/03/hci.html" rel="alternate" type="text/html" title="HUMAN-COMPUTER INTERACTION" /><published>2020-01-03T00:00:00+09:00</published><updated>2020-01-03T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/03/hci</id><content type="html" xml:base="http://localhost:4000/2020/01/03/hci.html">&lt;div class=&quot;hci&quot;&gt;
     &lt;h4&gt; # HUMAN-COMPUTER INTERACTION &lt;/h4&gt;
     &lt;p&gt; 인간과 컴퓨터의 상호작용을 탐구하여 기존에 출시되었던 '따릉이' 어플을 UX을 고려하여 재탄생시켰습니다. &lt;/p&gt;
     &lt;div class=&quot;slider pdf-gallery&quot;&gt; 
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_1.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_1.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_2.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_2.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_3.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_3.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_4.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_4.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_5.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_5.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_6.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_6.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_7.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_7.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_8.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_8.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_9.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_9.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_10.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_10.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_11.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_11.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_12.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_12.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_13.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_13.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_14.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_14.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_15.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_15.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_16.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_16.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_17.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_17.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_18.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_18.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_19.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_19.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_20.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_20.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_21.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_21.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_22.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_22.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_23.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_23.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_24.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_24.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_25.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_25.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_26.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_26.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_27.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_27.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_28.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_28.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_29.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_29.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_30.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_30.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_31.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_31.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_32.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_32.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_33.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_33.png&quot; /&gt;
         
-            &lt;img data-lazy=&quot;/assets/img/hci/hci_34.png&quot; /&gt;
+            &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/hci/hci_34.png&quot; /&gt;
         
     &lt;/div&gt;
     &lt;div class=&quot;g-cnt&quot;&gt;
@@ -644,300 +807,151 @@
 &lt;!-- &lt;h4&gt; 시기에 맞추어 트렌디한 카드뉴스 제작을 해왔습니다. &lt;br/&gt;홍보와 기록을 목적으로 하는 컨텐츠들을 기획부터 디자인까지 맡아 발행했습니다.  &lt;/h4&gt; --&gt;
 &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
 
-&lt;h4&gt; # 3D MAX - Tangled &lt;/h4&gt;
+&lt;h5&gt; # 3D MAX - Tangled &lt;/h5&gt;
 &lt;p&gt; 소리를 켜주세요! &lt;/p&gt;
 &lt;iframe width=&quot;840&quot; height=&quot;630&quot; src=&quot;https://youtube.com/embed/Avc1ugCUjCo?autoplay=1&quot;&gt; &lt;/iframe&gt;
     &lt;!-- &lt;video id=&quot;myVideo&quot; width=&quot;320&quot; controls autoplay=&quot;true&quot; &gt;
             &lt;source src=&quot;/assets/img/3dmax/tangled.mp4&quot; type=&quot;video/mp4&quot;&gt;
     &lt;/video&gt; --&gt;
-&lt;/div&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/max3d/tangled-dark.png" /><media:content medium="image" url="http://localhost:4000/assets/img/max3d/tangled-dark.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">CARDNEWS 제작</title><link href="http://localhost:4000/2020/01/01/cardnews.html" rel="alternate" type="text/html" title="CARDNEWS 제작" /><published>2020-01-01T00:00:00+09:00</published><updated>2020-01-01T00:00:00+09:00</updated><id>http://localhost:4000/2020/01/01/cardnews</id><content type="html" xml:base="http://localhost:4000/2020/01/01/cardnews.html">&lt;h4&gt; 시기에 맞추어 트렌디한 카드뉴스 제작을 해왔습니다. &lt;br /&gt;홍보와 기록을 목적으로 하는 컨텐츠들을 기획부터 디자인까지 맡아 발행했습니다.  &lt;/h4&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;div class=&quot;cardnews&quot;&gt;
-&lt;h4&gt; # SOPT CARDNEWS &lt;/h4&gt;
-&lt;p&gt; IT 창업 동아리 SOPT에서 운영팀에 지원하기 위해 자기소개를 담은 카드뉴스를 제작했습니다.&lt;/p&gt;
-&lt;div class=&quot;g-cnt&quot;&gt;
-    &lt;div id=&quot;cn-gallery&quot; class=&quot;cn-gallery&quot;&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/sopt-team-1.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/sopt-team-2.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/sopt-team-3.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/sopt-team-4.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/sopt-team-5.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/sopt-team-6.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/sopt-team-7.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/sopt-team-8.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/sopt-team-9.png&quot; /&gt;
-        &lt;/div&gt;
-        
-    &lt;/div&gt;
+&lt;h5&gt;# 포기없는 도전&lt;/h5&gt;
+
+&lt;div class=&quot;slider pdf-gallery&quot;&gt; 
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-1.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-2.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-3.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-4.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-5.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-6.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-7.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-8.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-9.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-10.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-11.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-12.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-13.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-14.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-15.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-16.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-17.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-18.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-19.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-20.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-21.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-22.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-23.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-24.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-25.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-26.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-27.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-28.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-29.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-30.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-31.png&quot; /&gt;
+    
+    &lt;img onclick=&quot;newTabImag(this)&quot; data-lazy=&quot;/assets/img/max3d/3d-max-32.png&quot; /&gt;
+    
 &lt;/div&gt;
-
-
-&lt;div class=&quot;cardnews&quot;&gt;
-&lt;h4&gt; # SOPT SEMINAR CARDNEWS &lt;/h4&gt;
-&lt;p&gt; IT 창업 동아리 SOPT에서 운영팀으로 활동하며, 매주 진행되는 세미나에 대한 기사로 카드뉴스를 제작했습니다.&lt;/p&gt;
-&lt;div class=&quot;g-cnt&quot;&gt;
-    &lt;div id=&quot;cn-gallery&quot; class=&quot;cn-gallery&quot;&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_1.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_2.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_3.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_4.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_5.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_6.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_7.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_8.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_9.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_10.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_11.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_12.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_13.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_14.png&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/SOPT_CN_15.png&quot; /&gt;
-        &lt;/div&gt;
-        
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h4&gt; # MADDY MT CARDNEWS &lt;/h4&gt;
-&lt;p&gt; 문화교류 연합동아리 MADDY에서 부회장 및 DNA(Design 부서)팀에서 활동하며 카드뉴스를 제작했습니다.&lt;/p&gt;
 
 &lt;div class=&quot;g-cnt&quot;&gt;
-    &lt;div id=&quot;cn-gallery&quot; class=&quot;cn-gallery&quot;&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/MT_1.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/MT_2.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/MT_3.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/MT_4.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/MT_5.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/MT_6.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/MT_7.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/MT_8.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/MT_9.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-    &lt;/div&gt;
+&lt;div id=&quot;pdf-nav&quot; class=&quot;slider pdf-nav&quot;&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-1.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-2.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-3.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-4.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-5.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-6.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-7.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-8.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-9.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-10.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-11.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-12.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-13.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-14.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-15.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-16.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-17.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-18.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-19.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-20.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-21.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-22.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-23.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-24.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-25.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-26.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-27.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-28.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-29.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-30.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-31.png&quot; /&gt;
+    
+    &lt;img data-lazy=&quot;/assets/img/max3d/3d-max-32.png&quot; /&gt;
+    
 &lt;/div&gt;
-
-
-&lt;h4&gt; # MADDY CARDNEWS &lt;/h4&gt;
-&lt;p&gt; 문화교류 연합동아리 MADDY에서 활동들을 컨텐츠로 담아 카드뉴스를 제작했습니다.&lt;/p&gt;
-
-&lt;div class=&quot;g-cnt&quot;&gt;
-    &lt;div id=&quot;cn-gallery&quot; class=&quot;cn-gallery&quot;&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel_1.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel_2.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel_3.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel_4.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel_5.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel_6.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel_7.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/pixel_8.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-    &lt;/div&gt;
+    
 &lt;/div&gt;
-
-
-&lt;h4&gt; # MADDY CARDNEWS &lt;/h4&gt;
-&lt;p&gt; 문화교류 연합동아리 MADDY에서 새로운 회원들을 모집하기 위한 카드뉴스를 제작했습니다.&lt;/p&gt;
-
-&lt;div class=&quot;g-cnt&quot;&gt;
-    &lt;div id=&quot;cn-gallery&quot; class=&quot;cn-gallery&quot;&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_intro_1.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_intro_2.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_intro_3.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_intro_4.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_intro_5.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_intro_6.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_intro_7.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_intro_8.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_intro_9.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-    &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;h4&gt; # MADDY CARDNEWS &lt;/h4&gt;
-&lt;p&gt; 문화교류 연합동아리 MADDY에서 활동들을 컨텐츠로 담아 카드뉴스를 제작했습니다.&lt;/p&gt;
-
-&lt;div class=&quot;g-cnt&quot;&gt;
-    &lt;div id=&quot;cn-gallery&quot; class=&quot;cn-gallery&quot;&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_cont_1.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_cont_2.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_cont_3.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_cont_4.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_cont_5.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_cont_6.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-	    &lt;div class=&quot;link&quot;&gt;
-            &lt;img data-zoom=&quot;true&quot; data-lazy=&quot;/assets/img/cardnews/maddy_cont_7.jpg&quot; /&gt;
-        &lt;/div&gt;
-        
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html">시기에 맞추어 트렌디한 카드뉴스 제작을 해왔습니다. 홍보와 기록을 목적으로 하는 컨텐츠들을 기획부터 디자인까지 맡아 발행했습니다.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/cardnews/cardnews-dark.png" /><media:content medium="image" url="http://localhost:4000/assets/img/cardnews/cardnews-dark.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/max3d/tangled-dark.png" /><media:content medium="image" url="http://localhost:4000/assets/img/max3d/tangled-dark.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
