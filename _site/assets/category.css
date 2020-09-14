@@ -1,14 +1,14 @@
-:root{
+/* :root{
     --main-red: #dd4226;
     --main-black: #000;
     --main-white: #fff;
-}
+} */
 
 * {display: block;box-sizing: border-box;}
-body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden; background-color: var(--main-black);}
-a,h1,h2,h3,h4,h5,p {color: var(--main-white);}
+body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden; background-color: #000;}
+a,h1,h2,h3,h4,h5,p {color: #fff;}
 main span{display: inline;}
-a:link:active, a:visited:active {color: var(--main-white);}
+a:link:active, a:visited:active {color: #fff;}
 .main {width: 100vw;margin: 0px; overflow: auto; scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory;}
 .about .main {height: 0vh;}
 .inner { top: 0;left: 0;width: 100%;transition: 0.8s transform cubic-bezier(0.65, 0, 0.35, 1); z-index: -1; background-color: #000; padding-top: 90px;border-bottom: 0.5vh solid #FF3901;}
@@ -30,7 +30,7 @@ a:link:active, a:visited:active {color: var(--main-white);}
 .about .inner .sub-title, .inner h2{text-align: center; color: white;}
 .about .inner .sub-title h1{font-size: 4.5rem; display: inline-block; font-family: 'Noto B'; margin: 0 0 40px;}
 .about .inner .sub-title h3{font-size: 2.5rem; font-family: 'Noto B';}
-.about .inner .sub-title span{position: absolute; border-bottom: 3px solid var(--main-red); display: inline-block; opacity: 0.8; z-index: -1; transform: rotate(-3deg);}
+.about .inner .sub-title span{position: absolute; border-bottom: 3px solid #dd4226; display: inline-block; opacity: 0.8; z-index: -1; transform: rotate(-3deg);}
 .about .inner .sub-title h1+span{width: 330px; margin-top: 60px;}
 .about .inner .sub-title h3+span{width: 600px; margin-top: 70px; }
 
@@ -50,8 +50,8 @@ a:link:active, a:visited:active {color: var(--main-white);}
 .project .inner .red-line h1 {text-align: center; font-size: 4rem; font-family: 'Noto B';z-index: 1;}
 .project .inner .red-line h2 {text-align: left; font-size: 4rem; font-family: 'Noto Th';z-index: 1;;}
 .project .inner .red-line >span{position: absolute;display: inline-block; opacity: 0.8; transform: rotate(-2deg); z-index: 0;}
-.project .inner .red-line>h1+span{width: 750px; margin-top: 90px; border-bottom: 23px solid var(--main-red); }
-.project .inner .red-line>h2+span{width: 350px; margin-top: 100px;border-bottom: 5px solid var(--main-red);  }
+.project .inner .red-line>h1+span{width: 750px; margin-top: 90px; border-bottom: 23px solid #dd4226; }
+.project .inner .red-line>h2+span{width: 350px; margin-top: 100px;border-bottom: 5px solid #dd4226;  }
 .project .inner .red-line h1 em{display: inline;}
 
 .project .inner .sub-cnt .skill{display: flex; padding: 40px 0px 20px;flex-wrap : wrap;}
