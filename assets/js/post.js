@@ -58,6 +58,7 @@ $('.cn-gallery').slick({
     responsive: [{
             breakpoint: 1200,
             settings: {
+                dots: true,
                 slidesToShow: 3,
                 slidesToScroll: 3,
                 infinite: true,
@@ -67,6 +68,7 @@ $('.cn-gallery').slick({
         {
             breakpoint: 600,
             settings: {
+                dots: true,
                 slidesToShow: 2,
                 slidesToScroll: 2
             }
@@ -90,6 +92,7 @@ $('.pdf-gallery').slick({
     fade: true,
     asNavFor: '.pdf-nav'
 });
+
 $('.pdf-nav').slick({
     slidesToShow: 8,
     slidesToScroll: 4,
