@@ -7,6 +7,7 @@ $(document).ready(function () {
     var nav = $("#switch");
     var turnOn = false;
     var inner = $(".inner");
+    var audio = new Audio('/assets/img/switch.mp3');
 
     nav.click(function (e) {
         if (!turnOn) {
@@ -39,6 +40,7 @@ $(document).ready(function () {
             document.querySelectorAll('.link')[0].style.color = '#fff';
             document.querySelectorAll('.link')[1].style.color = '#fff';            
         }
+        audio.play();
         turnOn = !turnOn;
     });
 });

@@ -13,7 +13,7 @@ bgColor: white
     <iframe width="840" height="510" src="https://youtube.com/embed/AxuGlkMUapA?autoplay=1"> </iframe>
     <div class="info">
         <h5># 2주간의 열정 </h5>
-        <img style="width:70vw;box-shadow: 5px 5px 15px 6px rgba(0, 0, 0, 0.205);margin: auto;" src="/assets/img/eb-panel.png"/>
+        <img src="/assets/img/eb-panel.png"/>
     </div>
     <div class="tech">
         <h5>APPJAM 해커톤 우수상. Node.js 서버 개발. 협업 능력</h5>

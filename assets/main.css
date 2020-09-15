@@ -3,6 +3,7 @@ head{opacity: 0;}
 body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 .content {width: 100vw;height: 100vh;margin: 0px; overflow: auto; scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory;}
 *::-webkit-scrollbar {display: none;-ms-overflow-style: none;scrollbar-width: none;}
+a,h1,h2,h3,h4,h5, p {font-family: 'Noto Th';}
 
 .inner {position: fixed;top: 0;left: 0;width: 100%;height: 100vh;transition: 0.8s transform cubic-bezier(0.65, 0, 0.35, 1);z-index: -1;pointer-events: none; background-color: #000;}
 /* .inner * {overflow-y: hidden;} */
@@ -13,7 +14,7 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 .inner .selfie {width: 500px;max-height:750px; bottom: 0%; }
 .inner .selfie img {position: absolute; width: 500px;height: auto; bottom: 0px; transform: translateX(-5%);z-index: 999999; overflow: scroll;}
 
-.section-cont {margin-top: 99.5vh;z-index: 99; overflow-x: hidden;}
+.section-cont {margin-top: 99.5vh;z-index: 99; overflow-x: hidden; background-color: #000;}
 .section-cont > img{width: 100%;}
 .section-cont > div{padding: 60px 0px; margin: auto;text-align: center;}
 .section.intro h1{font-family:'NanumM R', 'Noto R'; font-size: 5rem; border-bottom: #fff solid 1px; display: inline;}
@@ -29,21 +30,22 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 .cursor--small {width: 5px;height: 5px;left: -2.5px;top: -2.5px;border-radius: 50%;z-index: 11000;background: var(--color-text);}
 .cursor--canvas {width: 100vw;height: 100vh;z-index: 12000;}
 
-.section.bubble {background-color: #dd4226; color: #fff;font-family:'Noto Th';padding-bottom: 100px;}
+.section.bubble {background-color: #dd4226; color: #fff;font-family:'Noto Th';padding-bottom: 130px; display: flex; flex-direction: column; align-items: center;}
 .section.bubble > h1{font-family:'Noto R'; font-size: 5rem; border-bottom: #fff solid 1px; display: inline;}
-.section.bubble .about_container {display: flex; flex-direction: row;width: 100vw; height: 70vh; padding-top: 1vh;}
-.section.bubble .about_container .about { border: 1px solid #fff; border-radius: 50%; float: left; margin: auto -7px;}
+.section.bubble .about_container {display: flex; flex-direction: row; height: 70vh; padding: 50px 0px;}
+.section.bubble .about_container .about { border: 1px solid #fff; border-radius: 50%; position: relative; float: left; margin: auto -14px;}
 .section.bubble .about_container .about:hover {cursor: pointer;}
-.section.bubble .about_container .about.about1 {height: 280px; width: 280px; animation: bubble 6s ease-in-out alternate infinite;}
-.section.bubble .about_container .about.about2 {height: 380px; width: 380px; animation: bubble 3s ease-in alternate infinite;}
-.section.bubble .about_container .about.about3 {height: 330px; width: 330px; animation: bubble 5.5s ease-out alternate infinite;}
-.section.bubble .about_container .about.about4 {height: 370px; width: 370px; animation: bubble 2.5s ease-in alternate-reverse infinite;}
-.section.bubble .about_container .about.about5 {height: 300px; width: 300px; right: -40px;}
+.section.bubble .about_container .about.about1 {height: 280px; width: 280px; margin-top: 170px; animation: bubble 6s ease-in-out alternate infinite;}
+.section.bubble .about_container .about.about2 {height: 380px; width: 380px; margin-top: 50px; animation: bubble 3s ease-in alternate infinite;}
+.section.bubble .about_container .about.about3 {height: 330px; width: 330px; margin-top: 170px; animation: bubble 5.5s ease-out alternate infinite;}
+.section.bubble .about_container .about.about4 {height: 370px; width: 370px; margin-top: 100px; animation: bubble 2.5s ease-in alternate-reverse infinite;}
+.section.bubble .about_container .about.about5 {height: 300px; width: 300px;}
 .section.bubble .about_container .text_container {margin-top: 15%; text-align: center; padding:30px;}
-.section.bubble .about_container .text_container h1 {font-size: 2em; color: #fff; border-bottom: #fff solid 0.2rem; display: inline;}
-.section.bubble .about_container .text_container h2 {font-size: 1.2em; font-weight: 200; color: #fff; display: inline-block; margin-top: 2em;}
+.section.bubble .about_container .text_container h1 {font-size: 2em; color: #fff; border-bottom: #fff solid 0.2rem; display: inline;font-family: 'Noto B';}
+.section.bubble .about_container .text_container h2 {font-size: 1.2em; font-weight: 200; color: #fff; display: block; margin-top: 2em;font-family: 'Noto Th';}
 
-@keyframes bubble{0%{transform: scale(1.0) translate(0, 0px);}100%{transform: scale(1.08) translate(0, -10px);}}
+@keyframes bubble{0%{transform: scale(1.0) translate(0, 0px);}100%{transform: scale(1.03) translate(0, -30px);}}
+
 
 .icon {position: absolute; right: 5vw;bottom: 40px;margin: auto; display: flex; align-items: flex-end;height: 50px;}
 .icon a, .icon div {height: 100%; width: 70px;margin: 0vh 0.3vw;}
@@ -58,26 +60,25 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 
 
 @media (max-width:1200px) {
-    .section.bubble .about_container .about.about1 {height: 190px;}
-    .section.bubble .about_container .about.about2 {height: 250px;}
-    .section.bubble .about_container .about.about3 {height: 230px;}
-    .section.bubble .about_container .about.about4 {height: 250px;}
-    .section.bubble .about_container .about.about5 {height: 190px;}
-    @keyframes movey{0%{transform : translate(0, 0); width: 360px;height: 300px;}100%{transform : translate(0, -15px);}}
-    @keyframes movey2{0%{transform : translate(0, 0); width: 400px; height: 300px; }100%{transform : translate(0, -20px);}}
 }
 @media (max-width:1048px) {
     .inner > div { padding:  72px 50px 0px;}
     .inner .text h1 {line-height: 6rem; font-size: 6rem;min-width: 350px;}
+    .section.bubble .about_container {padding: 40px 0px 20px;}
+    .section.bubble .about_container .about.about1 {height: 210px; width: 210px;}
+    .section.bubble .about_container .about.about2 {height: 290px; width: 290px}
+    .section.bubble .about_container .about.about3 {height: 250px; width: 250px}
+    .section.bubble .about_container .about.about4 {height: 270px; width: 270px}
+    .section.bubble .about_container .about.about5 {height: 220px; width: 220px}
+    .section.bubble .about_container .text_container h1 {font-size: 1.6em;}
+    .section.bubble .about_container .text_container h2 {font-size: 0.9em;}
+    .section.bubble {padding-bottom: 20px;}
 }
+
 
 /* iPad Pro */
 @media (max-width:1024px) and (min-height:1200px) {
     .inner .selfie img{ width: 80vw; left: 30%;}
-    .section.bubble .about_container {height:40vh;}
-    .section.bubble .about_container .about h1 {line-height: 1.2; display: inline-block;font-size: 1.5em;}
-    .section.bubble .about_container .text_container h2 {margin-top: 1em; font-size: 0.9em;}
-    .section.bubble .about_container .text_container {padding: 20px;margin-top: 5%;}
     .section.bubble {padding-bottom: 70px;}
 }
 
@@ -94,30 +95,37 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
     .section.intro h1{font-size: 2.5rem; border-bottom: #fff solid 1px; display: inline;}
     .section.intro h3{font-size: 1rem; display: block; padding: 50px 20px;}
     .section.intro h4{font-size: 0.8rem; padding-left: 20px;}
-
+    .break-line820 {display: inline;}
     .section.skill {padding: 50px 60px 200px;}
     .section.skill h1 {font-size: 2rem;}
     .section.skill .graph-container {flex-direction: column; padding-left: 2vw;}
     .section.skill .graph-container .graph {margin-right: 6vw;margin-top: 50px;}
     .section.skill .graph-container canvas {width:80vw !important; height: 200px !important; margin-top: 10vh;  } 
+}
 
-    .section.bubble .about_container .text_container {text-align: left; margin-top: 20px; padding-left: 20px; flex-direction: column;}
+
+.line-break670{display: block;}
+@media (max-width:680px) {
+    .section.bubble .about_container .text_container {text-align: left; margin-top: 20px; padding: 0px 50px 0px 20px; flex-direction: column;}
     .section.bubble .about_container .text_container h2 {font-size: 1.2em; display: block;}
     .section.bubble .about_container .about { border: none; border-radius: 0%; position: relative; margin: auto; animation: none; width: 100%;}
-    .section.bubble .about_container {display: flex; flex-direction: column;width: 100vw; height: auto; padding-top: 1vh;}
+    .section.bubble .about_container {display: flex; flex-direction: column;width: 100vw; height: auto; padding: 50px 0px 50px;}
+    .section.bubble{padding-bottom:50px;}
     .section.bubble .about_container .about.about1 {display: none;}
     .section.bubble .about_container .about.about2 {animation: none; margin-top: 0; width: 100%; height: auto;}
     .section.bubble .about_container .about.about3 {animation: none; margin-top: 0; width: 100%;height: auto;}
     .section.bubble .about_container .about.about4 {animation: none; margin-top: 0; width: 100%;height: auto;}
     .section.bubble .about_container .about.about5 {display: none;}
-    .break-line820 {display: inline;}
+    .line-break670 {display: inline;}
     .section.bubble > h1{display: none;}
+    .section .about_container .text_container h1{display: inline; border-bottom: 1px solid #fff;}
 }
-
 
 @media (max-width:600px) {
     .inner .selfie img {left: 50%;transform: translateX(-30%);opacity: .4; width: 100vw;}
 }
+
+
 @media (max-width:476px) {
     .icon {position: relative; margin: 120px 0px 50px 5px; width: 100%; justify-content: center;right: auto;}
     .section hr { border-top: #fff 1px solid; display: block; width: 80px;margin-bottom: 110px;}
@@ -125,9 +133,9 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
     .section.skill .graph-container {margin-bottom: 100px;}
     .section.skill {padding: 50px 20px 100px;}
     .inner .selfie img {left: 50%;transform: translateX(0%);}
+    .inner .selfie img {left: 70px;}
 }
 
 
-@media (max-width:476px) {
-    .inner .selfie img {left: 70px;}
+@media (max-width:375px) {
 }

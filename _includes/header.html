@@ -12,7 +12,11 @@
         <a class="link" href="/category/project.html">PROJ.</a>
         {% endif %}
     </nav>
-    <a class="link home" href="/">
-        <h1>PARK.</h1>
+    
+        {% if page.type != "project" and  page.type != "about" %}
+        <a class="link home" href="/"><h1>&nbsp;PARK.</h1><span></span></a>
+        {% else %}
+        <a class="link home" href="/"><h1>PARK.</h1></a>
+        {% endif %}
     </a>
 </header>

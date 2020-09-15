@@ -1,3 +1,10 @@
+$('#center').on('mouseover', '.slick-slide', function (e) {
+    var $currTarget = $(e.currentTarget), 
+        index = $currTarget.data('slick-index'),
+        slickObj = $('#center').slick('getSlick');
+    slickObj.slickGoTo(index);
+    });
+
 $('.center').slick({
     centerMode: true,
     centerPadding: '70px',
@@ -44,6 +51,8 @@ $('.center').slick({
 $('.lazy').slick({
     lazyLoad: 'ondemand',
 });
+
+
 
 // const initArrowCursor = () => {
 //     var center = document.getElementById('center'); // header 객체에 onclick 이벤트 속성을 연결 
