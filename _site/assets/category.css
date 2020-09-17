@@ -39,7 +39,7 @@ a:link:active, a:visited:active {color: #fff;}
 .project .cursor-plus{cursor: url('./img/plus-red.png'), pointer; }
 .project .cursor-cancel{cursor: url('./img/cancel-red.png'), pointer; }
 
-.project .inner { padding: 150px 0 100px;}
+.project .inner { padding: 250px 0 100px;}
 .project .inner .sub-cnt{padding: 60px 70px 10px;}
 .project .inner .sub-cnt p {text-align: left; font-size: 1.8rem; font-family: 'Noto Th'; margin: 0;}
 .project .inner .sub-cnt.right p {text-align: right;}

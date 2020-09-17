@@ -1,7 +1,7 @@
 main * {box-sizing: border-box;}
 body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;background-color:  #000;}
-.content a,.content h1,.content h2,.content h3,.content h4,.content h5,.content p {font-family: 'Nanum Myeongjo';}
-a:link:active, a:visited:active {color: #fff;}
+.content a,.content h1,.content h2,.content h3,.content h4,.content h5,.content p {font-family: 'Nanum Myeongjo';color: #fff;}
+a:link:active, a:visited:active {color: #fff; font-family: 'Nanum Myeongjo';}
 iframe {border: 0; margin: auto;width: 100%;}
 .post span{display: inline;}
 .early-buddy span, span em{display: inline;}
@@ -77,7 +77,8 @@ iframe {border: 0; margin: auto;width: 100%;}
 
 
 .post .max3d video{width: 80vw;}
-.early-buddy a, .early-buddy a:link:active,.early-buddy a:visited:active {line-height: .3; color: #000; font-family: 'Nanum Myeongjo';font-weight: 200; display: flex; align-items: center;}
+.early-buddy a,.early-buddy h1,.early-buddy h2,.early-buddy h3,.early-buddy h4,.early-buddy h5,.early-buddy p {color: #000;}
+.early-buddy a, .early-buddy a:link:active,.early-buddy a:visited:active {line-height: .3; color: #000; font-weight: 200; display: flex; align-items: center;}
 .post .early-buddy .flex-box a img{width: 42px;display: inline-block; margin-right: 10px;}
 .post .early-buddy .flex-box a{margin-top: 30px;}
 .post h5, .post .server-head h5{font-size: 2rem;font-weight: 700;text-align: center;}

@@ -142,21 +142,24 @@
 // // });
 
 
-// $('.about2').click(function(){
-//     // if (this.classList.contains('active')) {
-//     //     $('.about1').show();
-//     //     $('.about3').show();
-//     //     $('.about4').show();
-//     //     $('.about5').show();
-//     //     $('.about2').removeClass('active');
-//     // } else {
-//     //     $('.about1').hide();
-//     //     $('.about2').addClass('active');
-//     //     $('.about3').hide();
-//     //     $('.about4').hide();
-//     //     $('.about5').hide();
-//     // }
-// });
+$('.about2').click(function(){
+    $('.about2').animate({
+        transform: 'rotate3d(1, 1, 1, 1rad);'
+    },);
+    // if (this.classList.contains('active')) {
+    //     $('.about1').show();
+    //     $('.about3').show();
+    //     $('.about4').show();
+    //     $('.about5').show();
+    //     $('.about2').removeClass('active');
+    // } else {
+        // $('.about1').hide();
+    //     $('.about2').addClass('active');
+    //     $('.about3').hide();
+    //     $('.about4').hide();
+    //     $('.about5').hide();
+    // }
+});
 
 // $('.about3').click(function(){
 

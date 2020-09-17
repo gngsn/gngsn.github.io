@@ -161,3 +161,48 @@ function loadPost(card) {
 $(document).ready(function () {
     // 원하는 파일 경로를 삽입하면 된다
 });
+
+// setup();
+
+// function setup() {
+//     var $window = $(window);
+//     vpHeight = $window.height();
+//     vpWidth = $window.width();
+//     vpTop = $window.scrollTop();
+//     vpBottom = $window.scrollTop() + vpHeight;
+
+//     console.log('vpHeight : '+ vpHeight);
+//     console.log('vpWidth : '+ vpWidth);
+//     console.log('vpTop : '+ vpTop);
+//     console.log('vpBottom : '+vpBottom);
+
+//     piece = $('.red-line h1');
+
+//     var
+//     $piece = piece,
+//     pieceTop = piece.top,
+//     pieceBot = piece.ends,
+//     vpMidpoint,
+//     pieceMidpoint,
+//     progressIn,
+//     progressOut,
+//     inview = pieceTop < vpBottom && pieceBot > vpTop;
+
+//     console.log('piece : ', piece);
+
+//     //Midpoint of viewport in relation to page
+//     vpMidpoint = ((vpBottom - vpTop) / 2) + vpTop;
+
+//     //Midpoint of targeted piece in relation to page
+//     pieceMidpoint = piece.midpoint = ((pieceBot - pieceTop) / 2) + pieceTop;
+
+//     // 0% when it just comes into vp, 100% when midpoints match
+//     // progressIn = 1 - ((vpMidpoint - pieceMidpoint) / vpHeight * -1) < 1 ? (1 - ((vpMidpoint - pieceMidpoint) / vpHeight * -1)).toFixed(2) : 1;
+
+//     //0% when when midpoints match, 100% when it exits vp
+//     progressOut = 1 - ((vpMidpoint - pieceMidpoint) / vpHeight * -1) > 1 ? (((vpMidpoint - pieceMidpoint) / vpHeight * -1) * -1).toFixed(2) : 0;
+
+//     rate = 2;
+//     //Add, change and remove these as you see fit:
+//     $('.red-line h1').css('opacity', (1 - progressOut * rate).toFixed(2));
+// }
