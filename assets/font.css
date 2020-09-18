@@ -39,3 +39,28 @@
     font-weight:100;
 	src:url(./fonts/NotoSansKR-Bold.otf);
 }
+
+
+@font-face{
+	font-family:"Kakao L";
+    font-weight: normal;
+    font-weight:100;
+    src:url(./fonts/KakaoOTF-aLt.otf),
+    url(./fonts/KakaoOTF-aLt.woff);
+}
+
+@font-face{
+	font-family:"Kakao R";
+    font-weight: normal;
+    font-weight:100;
+	src:url(./fonts/KakaoOTF-bRg.otf),
+    url(./fonts/KakaoOTF-bRg.woff);
+}
+
+@font-face{
+	font-family:"Kakao B";
+    font-weight: normal;
+    font-weight:100;
+    src:url(./fonts/KakaoOTF-cBd.otf),
+    url(./fonts/KakaoOTF-cBd.woff);
+}
