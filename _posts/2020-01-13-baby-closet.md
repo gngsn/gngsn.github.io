@@ -13,7 +13,7 @@ skill: "swift 4.2, Alamofire, Kingfisher, SwiftyJSON, Git, Github"
 
 <h5>서울시 앱 공모전</h5>
 <!-- <div class="flex-box"> -->
-<p>사용자 관리 서비스, 나눔 글 CRUD 서비스, 메세지 창 구현</p>
+<!-- <p>사용자 관리 서비스, 나눔 글 CRUD 서비스, 메세지 창 구현</p> -->
 <div class="skill">
 <img src="https://img.icons8.com/color/96/000000/xcode.png"/>
 <img src="https://img.icons8.com/ios-filled/100/000000/ios-logo.png" style="filter:invert(100%)"/>
