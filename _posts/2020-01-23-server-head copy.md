@@ -4,6 +4,7 @@ duration: "2020.01.18 ~ 2020.08.01"
 title: IT 동아리 SOPT 25대 서버파트장
 tit: <span class="break-line800">IT 동아리 SOPT</span> 25대 서버파트장
 image: "/assets/img/sopt-main.png"
+permalink: project/server-head
 ---
 
 <div class="server-head">
