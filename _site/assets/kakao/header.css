@@ -8,7 +8,7 @@ header a:hover { color: #000; }
 header * {overflow-y: hidden;}
 script{height: 0;}
 header .link{font-family: 'Kakao L'; font-weight: 100;}
-.link span{border-top: 0.7px solid #000; height: 0px;margin-top: -27px; transform: rotate(-4deg);}
+.link span{border-top: 2px solid #000; height: 0px;margin-top: -27px; transform: rotate(-4deg);}
 
 .link.home{right: 0%; position: fixed; margin-right: 60px;font-size: 2.6rem; line-height: 2.5;padding-top: 0;z-index: 100;}
 .link.home h1{font-weight: 600; font-size: 3.3rem;color: #F7CE46; margin: 0; }

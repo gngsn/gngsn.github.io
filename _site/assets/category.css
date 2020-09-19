@@ -12,27 +12,29 @@ a:link:active, a:visited:active {color: #fff;}
 .main {width: 100vw;margin: 0px; overflow: auto; scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory;}
 .about .main {height: 0vh;}
 .inner { top: 0;left: 0;width: 100%;transition: 0.8s transform cubic-bezier(0.65, 0, 0.35, 1); z-index: -1; background-color: #000; padding-top: 90px;border-bottom: 0.5vh solid #FF3901;}
-.inner{padding-top: 15vh;}
+.inner{padding-top: 20vh;}
 .about .inner .center{width: 100%; height: 100vh;}
-.about .inner{ height: 100vh;-webkit-transition: background-color 800ms ease-out;-moz-transition: background-color 800ms ease-out;-o-transition: background-color 800ms ease-out;transition: background-color 800ms ease-out;position: fixed;}
-.about .inner h2{font-size: 2.8rem; font-family: 'Noto Th';}
+.about .inner{ height: 100vh;-webkit-transition: background-color 500ms ease-out;-moz-transition: background-color 500ms ease-out; -o-transition: background-color 500ms ease-out;transition: background-color 500ms ease-out;position: fixed;}
+.about .inner h1{width: 240px; font-size: 3.5rem; display: inline-block; font-family: 'Noto B'; text-align: center;}
+.about .inner h1 em{font-size: 3.5rem; display: inline-block; font-family: 'Noto B'; font-style: normal; opacity: 0.1; transition: none;}
+.about .inner h2{font-size: 2.8rem; font-family: 'Noto B'; text-align: center; width: 240px;}
+.about .inner h2 em{font-size: 2.6rem; font-family: 'Noto Th'; text-align: center; font-style: normal;transition: none;}
 
 .cursor {position: fixed;left: 0;top: 0; pointer-events: none;}
 .cursor--small {width: 5px;height: 5px;left: -2.5px;top: -2.5px;border-radius: 50%;z-index: 11000;background: var(--color-text);}
 .cursor--canvas {width: 100vw;height: 100vh;z-index: 12000;}
 
-.about .inner>p{text-align:center; font-family: 'Noto Th'; font-size: 1rem;line-height: 0; margin: 0; color: #bdbdbd;}
-.about .inner .switch{display: flex; align-items: center;padding-top: 30px; justify-content: center; margin-left: 60px;}
-.about .inner .switch *{transition: all 600ms ease-in;}
-.about .inner .switch img{width: 110px; margin: 0 80px 0 100px;cursor: pointer;}
+.about .inner h1+p{text-align:center; font-family: 'Noto Th'; font-size: 1rem;line-height: 0; margin: 0; color: #bdbdbd;}
+.about .inner .switch{display: flex; align-items: center;padding-top: 30px; justify-content: center; max-width: 850px; margin: auto; justify-content: space-around;}
+.about .inner .switch *:not(em){transition: all 600ms ease-in;}
+.about .inner .switch img{width: 110px;cursor: pointer;}
 .about .inner .sub-title {display: flex; justify-items: center; align-items: center; flex-direction: column;}
-.about .inner .sub-title:last-child {padding-top: 20px;}
+.about .inner .sub-title:last-child {padding-top: 40px;}
 .about .inner .sub-title, .inner h2{text-align: center; color: white;}
-.about .inner .sub-title h1{font-size: 4.5rem; display: inline-block; font-family: 'Noto B'; margin: 0 0 10px;}
-.about .inner .sub-title h3{font-size: 2.5rem; font-family: 'Noto B';}
-.about .inner .sub-title span{position: absolute; border-bottom: 3px solid #dd4226; display: inline-block; opacity: 0.8; z-index: -1; transform: rotate(-3deg);}
-.about .inner .sub-title h1+span{width: 330px; margin-top: 60px;}
-.about .inner .sub-title h3+span{width: 600px; margin-top: 70px; }
+.about .inner .sub-title h3{font-size: 1.7rem; font-family: 'Noto L'; margin-top: 40px;}
+.about .inner .sub-title span{position: absolute; border-bottom: 3px solid #dd4226; display: inline-block; opacity: 0.8; z-index: -1; transform: rotate(-1deg);}
+/* .about .inner .sub-title h1+span{width: 330px; margin-top: 60px;} */
+.about .inner .sub-title h3+span{width: 400px; margin-top: 60px; opacity: .4;}
 
 .project .cursor-next{cursor: url('./img/next-red.png'), pointer; }
 .project .cursor-back{cursor: url('./img/back-red.png'), pointer; }
@@ -114,9 +116,14 @@ a:link:active, a:visited:active {color: #fff;}
 
 @media (max-width:900px) {
     .project .inner .center.backend .slick-slide{opacity: 1;}
+    .about .inner h1 {font-size: 2.7rem; width: 230px;}
+    .about .inner h1 em{font-size: 2.7rem;}
+    .about .inner .switch {max-width: 600px;}
+    .about .inner h2 {font-size: 2.2rem;width: 230px;}
+    .about .inner h2 em{font-size: 2.2rem;}
 }
+
 @media (max-width:800px) {
-    .about .inner .switch img {width: 90px;margin: 0 40px 0 50px;}
     .project .inner .sub-cnt p {font-size: 1.3rem;}
     .project .inner .red-line h1 {font-size: 3rem;}
     .project .inner .red-line>h1+span {width: 500px;margin-top: 70px;border-width: 17px}
@@ -139,11 +146,11 @@ a:link:active, a:visited:active {color: #fff;}
     .about .inner{padding-top: 90px;}
     .about .inner .switch{flex-direction: column;}
     .about .inner h1 {font-size: 3rem;margin-top: 40px;margin-bottom: 20px;}
+    .about .inner .link.switch {padding-top: 70px; padding-bottom: 20px;}
     .about .inner .switch {padding-top: 10px;}
-    .about .inner .switch {margin-left: 0px;}
     .about .inner .sub-title h1 {font-size: 3.4rem;}
     .about .inner .sub-title h3 {font-size: 1.6rem;margin-top: 30px;}
-    .about .inner .sub-title:last-child {padding-top: 20px;}
+    .about .inner .sub-title:last-child {padding-top: 0px;}
     .about .inner .sub-title h1 {margin: 0px;}
     .about .inner .sub-title h1+span {width: 250px;margin-top: 45px;}
     .about .inner .sub-title h3+span {width: 350px;margin-top: 50px;}
@@ -171,7 +178,7 @@ a:link:active, a:visited:active {color: #fff;}
 }
 
 @media (max-width:375px) {
-    .about .inner{padding-top: 120px;}
+    .about .inner{padding-top: 80px;}
     .about .inner .sub-title h3 {font-size: 1.4rem;}
     .about .inner .sub-title h3+span {width: 320px;margin-top: 50px;}
     .about .inner .sub-title h1 {margin: 0px 0px 30px;}

@@ -17,26 +17,29 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
-     
-    <link rel="stylesheet" href="/assets/kakao/category.css">
     
     <link rel="stylesheet" href="/assets/font.css">
     <link rel="stylesheet" href="/assets/kakao/header.css">
     <script src="/assets/js/jquery.min.js"></script>
+
+    
+    <link rel="stylesheet" href="/assets/kakao/category.css">
+    
+    
     
 </head><body><header>
     <nav class="nav">
         
-        <a class="link about" href="/kakao/about.html">&nbsp;ABOUT.<span></span></a>
+        <a class="link about" href="/kakao/about">&nbsp;ABOUT.<span></span></a>
         
 
         
-        <a class="link" href="/project.html">PROJ.</a>
+        <a class="link" href="/kakao/project">PROJ.</a>
         
     </nav>
     
         
-        <a class="link home" href="/"><h1>PARK.</h1></a>
+        <a class="link home" href="/kakao"><h1>PARK.</h1></a>
         
     </a>
 </header><main class="page-content" aria-label="Content">
@@ -46,16 +49,14 @@
     </div>
         <div class="inner">
             <div class="cursor cursor--small"></div>
-            <canvas class="cursor cursor--canvas" resize></canvas>
-            <div class="sub-title">
-                <h1>ON/OFF</h1>
-                <span></span>
-            </div>
-            <p>"push the switch"</p>
+            <canvas class="cursor cursor--canvas" resize></canvas>            
             <div class="switch">
-                <h2 id="f-text">개발할 땐 </h2>
+                <div>
+                    <h1 id="f-text">ON<em>/OFF</em></h1>
+                    <p>"push the switch"</p>
+                </div>
                 <img class="link switch" id="switch" src="../assets/img/switch-off.png"/>
-                <h2 id="s-text">깊은 집중을 &nbsp;&nbsp; </h2>
+                <h2 id="s-text">개발할 땐, <br/><em> 깊은 집중을 </em></h2>
             </div>
             <div class="sub-title">
             <h3>"어차피 할 거, 후회하지 않도록"</h3>
@@ -72,15 +73,13 @@
         </div>
     </main><footer class="site-footer h-card">
     <data class="u-url" href="/"></data>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
-
-     
-    <script src="/assets/js/kakao-portfolio.js"></script>
     
-    <script src="/assets/js/jquery.min.js"></script>
+     
+    <script src="/assets/js/kakao-switch.js"></script>
+    
     <script src="/assets/js/kakao-cursor.js"></script>
     </div>
 

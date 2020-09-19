@@ -1,5 +1,5 @@
 const back = () => {
-    window.location.href = 'http://' + window.location.host + '/category/project.html';
+    window.location.href = 'http://' + window.location.host + '/project';
 }
 
 const newTabImag = (imgTag) => {
@@ -12,7 +12,6 @@ const newTabImag = (imgTag) => {
         '_blank' // <- This is what makes it open in a new window.
     );
 }
-
 
 $(document).ready(function (e) {
     $(document).on("click", "img", function () {

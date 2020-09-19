@@ -16,20 +16,26 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
-    {% if page.layout != 'post' and page.type != 'about'%} 
-    <link rel="stylesheet" href="/assets/kakao/main.css">
-    {% elsif page.type == 'about' %} 
-    <link rel="stylesheet" href="/assets/kakao/category.css">
-    {% else %}
-    <link rel="stylesheet" href="/assets/post.css">
-    {% endif %}
+    
     <link rel="stylesheet" href="/assets/font.css">
     <link rel="stylesheet" href="/assets/kakao/header.css">
     <script src="/assets/js/jquery.min.js"></script>
-    {% if page.layout == 'post' %} 
+
+    {% if page.layout != 'post' and page.type != 'about' and page.type != 'project'%} 
+    <link rel="stylesheet" href="/assets/kakao/main.css">
+    {% elsif page.type == 'about'%}
+    <link rel="stylesheet" href="/assets/kakao/category.css">
+    {% elsif page.type == 'project' %}
+    <link rel="stylesheet" href="/assets/kakao/category.css">
+    <link rel="stylesheet" type="text/css" href="/assets/slick.css"/>
+    <script src="/assets/js/slick.js"></script>
+    {% endif %}
+    
+    {% if page.layout == 'post' %}
+    <link rel="stylesheet" href="/assets/kakao/post.css">
     <link rel="stylesheet" type="text/css" href="/assets/slick.css"/>
     <script src="/assets/js/slick.js"></script>
     <div id="fb-root"></div>
-    <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>    
     {% endif %}
 </head>
