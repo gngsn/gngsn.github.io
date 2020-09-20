@@ -19,3 +19,7 @@ header .link{font-family: 'Kakao L'; font-weight: 100;}
     .link.home{margin-right: 30px;}
     .link.home h1{font-weight: 500; font-size: 2rem; margin-top: 10px;}
 }
+
+@media (max-width:375px) {
+    .link span{border-top-width: 1px; margin-top: -20px; transform: rotate(-4deg);}
+}

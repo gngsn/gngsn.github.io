@@ -1,5 +1,6 @@
 const back = () => {
-    window.location.href = 'http://' + window.location.host + '/project';
+    // window.location.href = 'http://' + window.location.host + '/project';
+    window.history.back();
 }
 
 const newTabImag = (imgTag) => {

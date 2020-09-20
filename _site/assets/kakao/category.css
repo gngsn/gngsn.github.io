@@ -174,7 +174,7 @@ a:link:active, a:visited:active {color: #FFF;}
     .about .inner .switch img {width: 70px;}
     .project .inner .red-line>h1 { font-size: 3rem;}
     .project .inner .red-line>h1 span{font-size: 1.5rem;}
-    .project .inner .red-line>h1+span {width: 300px;margin-top: 100px;border-width: 15px;transform: rotate(-3deg);}
+    .project .inner .red-line>h1+span {width: 300px;margin-top: 70px;border-width: 15px;transform: rotate(-3deg);}
 }
 
 @media (max-width:375px) {
@@ -183,5 +183,6 @@ a:link:active, a:visited:active {color: #FFF;}
     .about .inner .sub-title h3+span {width: 320px;margin-top: 50px;}
     .about .inner .sub-title h1 {margin: 0px 0px 30px;}
     .project .inner .red-line h2 {font-size: 3rem;}
-    .project .inner .red-line>h2+span {width: 250px;margin-top: 80px;}
+    .project .inner .red-line>h2+span {width: 270px;margin-top: 60px;}
+    .project .inner .right .red-line>h2+span{width: 310px;}
 }

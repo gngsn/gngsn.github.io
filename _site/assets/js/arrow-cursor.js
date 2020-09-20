@@ -144,19 +144,10 @@ $('.lazy').slick({
 // initArrowCursor();
 // .attr("data-slick-index")
 function loadPost(card) {
-    // $('.slick-slide .slick-center').attr()
-    // const isactive = card.parentNode.parentNode.classList.contains('slick-active').contains('slick-cloned');
-    // // .attr('aria-hidden');
     const route = card.dataset.link;
-    // console.log(parentsIdx);
-    // if (parentsIdx < -1) {
-    //     $('.slick-prev').click();
-    // } else if (parentsIdx > 1) {
-    //     $('.slick-next').click();
-    // } else {
-        window.location.href = 'http://' + window.location.host + route;
-    // }
+    window.location.href = 'http://' + window.location.host + route;
 }
+
 
 $(document).ready(function () {
     // 원하는 파일 경로를 삽입하면 된다
