@@ -18,17 +18,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="/assets/post.css">
-    
-    <link rel="stylesheet" href="/assets/font.css">
-    <link rel="stylesheet" href="/assets/header.css">
-    <script src="/assets/js/jquery.min.js"></script>
+
      
-    <link rel="stylesheet" type="text/css" href="/assets/slick.css"/>
-    <script src="/assets/js/slick.js"></script>
+    <link rel="stylesheet" href="/assets/post.css">
     <div id="fb-root"></div>
     <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
     
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/slick.css"/>
+    
+    <link rel="stylesheet" href="/assets/font.css">
+    <link rel="stylesheet" href="/assets/header.css">
+    <link rel="stylesheet" href="/assets/dark.css">
+    <link rel="stylesheet" href="/assets/yellow.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174913603-2"></script>
     <script>
@@ -41,18 +44,17 @@
 </head><body><header>
     <nav class="nav">
         
-        <a class="link" href="/about">ABOUT.</a>
+        <a id="about" class="link" href="/about">ABOUT.</a>
         
 
         
-        <a class="link" href="/project">PROJ.</a>
+        <a id="project"class="link" href="/project">PROJ.</a>
+        
         
     </nav>
     
-        
-        <a class="link home" href="/"><h1>&nbsp;PARK.</h1><span></span></a>
-        
-    </a>
+    <a id="home" class="link home" href="/"><span></span>&nbsp;PARK.</a>
+    
 </header><main class="page-content" aria-label="Content">
         <div class="wrapper">
             <div id="post" class="post">
@@ -60,11 +62,9 @@
         <div id="img-wrapper"><div id="img"></div></div>
         <div class="cursor cursor--small"></div>
         <canvas class="cursor cursor--canvas" resize></canvas>
-        <img class="back-btn" onclick="back()" src="/assets/img/cancel-red.png" />
-        
-        <div style="background-color: black;color: white;" id="section-cont" class="section-cont">
-        
-            <div style="color: white;" class="title">
+        <img id="back-btn" class="back-btn" onclick="back()" src="/assets/img/cancel-red.png" />
+        <div id="section-cont" class="section-cont">
+            <div class="title">
                 <h2> 2020.01.18 ~ 2020.08.01 </h2>
                 
                 <h3> <span class="break-line800">IT 동아리 SOPT</span> 25대 서버파트장</h3>
@@ -198,14 +198,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
 
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/common.js"></script>
+    <script src="/assets/js/cursor.js"></script>
+
      
+    <script src="/assets/js/slick.js"></script>
     <script src="/assets/js/post.js"></script>
     
-    
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/cursor.js"></script>
-    </div>
-
 </footer></body>
 
 </html>

@@ -1,0 +1,135 @@
+head{opacity: 0;}
+* {box-sizing: border-box;}
+body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
+.content {width: 100vw;height: 100vh;margin: 0px; overflow: auto; scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory;}
+*::-webkit-scrollbar {display: none; -ms-overflow-style: none; scrollbar-width: none;}
+
+.inner {position: fixed;top: 0;left: 0;width: 100%;height: 100vh;z-index: -1;pointer-events: none; }
+.inner > div { padding: 72px 150px 0px; display: flex; flex-direction: row; margin: auto; bottom: 0; height: calc(100% - 92px);}
+.inner .text{ z-index: 2;padding-top: 70px; z-index: 100;}
+.inner .text h1 {line-height: 7rem; font-size: 7rem;}
+.inner .text h3 {font-size: 2.8rem;}
+.inner .selfie {width: 600px;max-height:750px; bottom: 0%; }
+.inner .selfie img {position: absolute; bottom: 0px;z-index: 99;}
+
+.cursor {position: fixed;left: 0;top: 0;pointer-events: none;}
+.cursor--small {width: 5px;height: 5px;left: -2.5px;top: -2.5px;border-radius: 50%;z-index: 11000;background: var(--color-text);}
+.cursor--canvas {width: 100vw;height: 100vh;z-index: 12000;}
+
+.section-cont {margin-top: 99.5vh;z-index: 99; overflow-x: hidden; }
+.section-cont > img{width: 100%;}
+.section-cont > div{padding: 60px 0px; margin: auto;text-align: center;}
+
+.section.bubble {padding-bottom: 130px; display: flex; flex-direction: column; align-items: center;}
+.section.bubble > h1{font-size: 5rem; }
+.section.bubble .about_container {display: flex; flex-direction: row; height: 70vh; padding: 50px 0px;}
+.section.bubble .about_container .about {border-radius: 50%; position: relative; float: left; margin: auto -14px;}
+.section.bubble .about_container .about:hover {cursor: pointer;}
+.section.bubble .about_container .about.about1 {height: 280px; width: 280px; margin-top: 170px; animation: bubble 6s ease-in-out alternate infinite;}
+.section.bubble .about_container .about.about2 {height: 380px; width: 380px; margin-top: 50px; animation: bubble 3s ease-in alternate infinite;}
+.section.bubble .about_container .about.about3 {height: 330px; width: 330px; margin-top: 170px; animation: bubble 5.5s ease-out alternate infinite;}
+.section.bubble .about_container .about.about4 {height: 370px; width: 370px; margin-top: 100px; animation: bubble 2.5s ease-in alternate-reverse infinite;}
+.section.bubble .about_container .about.about5 {height: 300px; width: 300px;}
+.section.bubble .about_container .text_container {margin-top: 15%; text-align: center; padding:30px;}
+
+.section.bubble .about_container .text_container h1 {font-size: 2em; display: inline;}
+.section.bubble .about_container .text_container h2 {font-size: 1.2em; font-weight: 200; display: block; margin-top: 2em;}
+
+@keyframes bubble{0%{transform: scale(1.0) translate(0, 0px);}100%{transform: scale(1.03) translate(0, -30px);}}
+
+.section.skill{padding:100px 70px 200px;}
+.section.skill h1 {font-size: 2.5rem; display: inline;}
+.section.skill .graph-container {display: flex;justify-content: space-around;}
+.section.skill .graph-container canvas {margin-top: 10vh;} 
+
+.icon {position: absolute; right: 5vw;bottom: 40px;margin: auto; display: flex; align-items: flex-end;height: 50px;}
+.icon a, .icon div {height: 100%; width: 70px;margin: 0vh 0.3vw;}
+.icon .icon_mail {background-repeat: no-repeat;background-size: contain;background-image: url("https://img.icons8.com/material-rounded/96/000000/important-mail.png");}
+.icon .icon_github {background-repeat: no-repeat;background-size: contain;background-image: url("https://img.icons8.com/material-rounded/96/000000/github.png");}
+.icon .icon_linkedin {background-repeat: no-repeat;background-size: contain;background-image: url("https://img.icons8.com/small/96/000000/linkedin.png"); height: 95%;}
+.icon .icon_insta {background-repeat: no-repeat;background-size: contain;background-image: url("https://img.icons8.com/fluent-systems-regular/96/000000/instagram-new.png");}
+.icon .icon_mail:hover {cursor: pointer;}
+.section hr {display: none;}
+.section h1.contact {display: none;}
+.icon a {font-size: 2.3rem;}
+
+
+
+
+
+
+
+@media (max-width:1048px) {
+    .inner > div { padding:  72px 70px 0px;}
+    .inner .text h1 {line-height: 6rem; font-size: 6rem;min-width: 350px;}
+    .section.bubble .about_container {padding: 40px 0px 20px;}
+    .section.bubble .about_container .about.about1 {height: 210px; width: 210px;}
+    .section.bubble .about_container .about.about2 {height: 290px; width: 290px}
+    .section.bubble .about_container .about.about3 {height: 250px; width: 250px}
+    .section.bubble .about_container .about.about4 {height: 270px; width: 270px}
+    .section.bubble .about_container .about.about5 {height: 220px; width: 220px}
+    .section.bubble .about_container .text_container h1 {font-size: 1.6em;}
+    .section.bubble .about_container .text_container h2 {font-size: 0.9em;}
+    .section.bubble {padding-bottom: 20px;}
+}
+
+
+/* iPad Pro */
+@media (max-width:1024px) and (min-height:1200px) {
+    .inner .selfie img{ width: 80vw; left: 30%;}
+    .section.bubble {padding-bottom: 70px;}
+}
+
+@media (max-width:820px) {
+    .inner > div { padding: 72px 10px 0px; }
+    .inner .text{position: fixed; bottom: 0%;}
+    .inner .text h1 {line-height: 4rem; font-size: 4rem;min-width: 600px;}
+    .inner .text h3 {font-size: 2.5rem;}
+    .inner .selfie {min-width: 500px;}
+    .inner .selfie img {transform: translateX(0%);}
+
+    .section-cont > div{padding: 0px 10px;}
+    .break-line820 {display: inline;}
+    .section.skill {padding: 50px 60px 200px;}
+    .section.skill h1 {font-size: 2rem;}
+    .section.skill .graph-container {flex-direction: column; padding-left: 2vw;}
+    .section.skill .graph-container .graph {margin-right: 6vw;margin-top: 50px;}
+    .section.skill .graph-container canvas {width:80vw !important; height: 200px !important; margin-top: 10vh;  } 
+    .inner .selfie img {transform: translateX(20%);}
+}
+
+
+
+.line-break670{display: block;}
+@media (max-width:680px) {
+    .section.bubble{padding-bottom:50px;}
+    .section.bubble > h1{display: none;}
+    .section.bubble .about_container {display: flex; flex-direction: column;width: 100vw; height: auto; padding: 50px 0px 50px;}
+    .section.bubble .about_container .about { border: none; border-radius: 0%; position: relative; margin: auto; animation: none; width: 100%;}
+    .section.bubble .about_container .about.about1 {display: none;}
+    .section.bubble .about_container .about.about2 {animation: none; margin-top: 0; width: 100%; height: auto;}
+    .section.bubble .about_container .about.about3 {animation: none; margin-top: 0; width: 100%;height: auto;}
+    .section.bubble .about_container .about.about4 {animation: none; margin-top: 0; width: 100%;height: auto;}
+    .section.bubble .about_container .about.about5 {display: none;}
+    .section.bubble .about_container .text_container {text-align: left; margin-top: 20px; padding: 0px 50px 0px 20px; flex-direction: column;}
+    .section.bubble .about_container .text_container h2 {font-size: 1.2em; display: block;}
+    .line-break670 {display: inline;}
+}
+
+@media (max-width:600px) {
+    .inner .selfie img {transform: translateX(-20%);opacity: .4;}
+}
+
+
+@media (max-width:476px) {
+    .icon {position: relative; margin: 120px 0px 50px 5px; width: 100%; justify-content: center;right: auto;}
+    .section hr { display: block; width: 80px;margin-bottom: 110px;}
+    .section h1.contact {display: inline;}
+    .section.skill .graph-container {margin-bottom: 100px;}
+    .section.skill {padding: 50px 20px 100px;}
+    .inner .selfie img {transform: translateX(-25%);opacity: .4;}
+}
+
+
+@media (max-width:375px) {
+}

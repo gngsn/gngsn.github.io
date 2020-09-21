@@ -17,13 +17,20 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    
+
      
     <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="/assets/common.css">
+    
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/slick.css"/>
     
     <link rel="stylesheet" href="/assets/font.css">
     <link rel="stylesheet" href="/assets/header.css">
-    <script src="/assets/js/jquery.min.js"></script>
-    
+    <link rel="stylesheet" href="/assets/dark.css">
+    <link rel="stylesheet" href="/assets/yellow.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174913603-2"></script>
     <script>
@@ -36,21 +43,20 @@
 </head><body><header>
     <nav class="nav">
         
-        <a class="link" href="/about">ABOUT.</a>
+        <a id="about" class="link" href="/about">ABOUT.</a>
         
 
         
-        <a class="link" href="/project">PROJ.</a>
+        <a id="project"class="link" href="/project">PROJ.</a>
+        
         
     </nav>
     
-        
-        <a class="link home" href="/"><h1>&nbsp;PARK.</h1><span></span></a>
-        
-    </a>
+    <a id="home" class="link home" href="/"><span></span>&nbsp;PARK.</a>
+    
 </header><main class="page-content" aria-label="Content">
         <div class="wrapper">
-            <div id="contents" class="content">
+            <div id="content" class="content">
     <div id="main" class="main">
         <div class="inner">
             <div class="cursor cursor--small"></div>
@@ -61,7 +67,7 @@
                     <h3>박경선</h3>
                 </div>
                 <div class="selfie">
-                    <img src="https://user-images.githubusercontent.com/43839834/92443328-52af0880-f1ec-11ea-80f4-770e8600d067.png" />
+                    <img id="selfie" src=""/>
                 </div>
             </div>
         </div>
@@ -75,7 +81,7 @@
                             <h1>PASSION.</h1>
                             <h2>
                                 <span class="line-break670"> 항상 성장을 갈망하며, </span>
-                                그 누구에게도 <br/>
+                                그 누구에게도 <br />
                                 <span class="line-break670"> 뒤쳐지지 않는 </span>
                                 열정을 갖고있습니다.</h2>
                         </div>
@@ -84,7 +90,7 @@
                         <div class="text_container">
                             <h1>WITH.</h1>
                             <h2>
-                                “함께”라는 가치를 중요시하여 <br/>
+                                “함께”라는 가치를 중요시하여 <br />
                                 주변 사람과 화합합니다.
                             </h2>
                         </div>
@@ -94,14 +100,14 @@
                             <h1>CONSTANTLY.</h1>
                             <h2>
                                 <span class="line-break670">어떤 일을 하든지 </span>
-                                포기하지 않고 <br/>
+                                포기하지 않고 <br />
                                 까지 해냅니다.</h2>
                         </div>
                     </div>
                     <div class="about about5"></div>
                 </div>
             </div>
-            <img src="../assets/img/working.png" />
+            <img id="midImage" src="../assets/img/working.jpg" />
             <div class="section skill">
                 <div class="graph-container">
                     <div class="graph">
@@ -116,8 +122,7 @@
                 <hr />
                 <h1 class="contact"> CONTACT. </h1>
                 <div class="icon">
-                    <div id="icon_mail" class="icon_mail">
-                    </div>
+                    <div id="icon_mail" class="icon_mail"></div>
                     <a target="_blank" href="https://www.instagram.com/pppppppppark">
                         <div class="icon_insta"></div>
                     </a>
@@ -126,6 +131,11 @@
                     </a>
                     <a target="_blank" href="https://github.com/gngsn">
                         <div class="icon_github"></div>
+                    </a>
+                        <label class="sw"> 
+                            <input id="dark-mode" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
                     </a>
                 </div>
             </div>
@@ -141,13 +151,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
 
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/common.js"></script>
+    <script src="/assets/js/cursor.js"></script>
+
      
     <script src="/assets/js/portfolio.js"></script>
     
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/cursor.js"></script>
-    </div>
-
 </footer></body>
 
 </html>

@@ -16,20 +16,26 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
-    {% if page.layout != 'post' %} 
-    <link rel="stylesheet" href="/assets/main.css">
-    {% else %}
+    
+
+    {% if page.type == 'about' or page.type == 'project'%}
+    <link rel="stylesheet" href="/assets/category.css">
+    {% elsif page.layout == 'post' %} 
     <link rel="stylesheet" href="/assets/post.css">
-    {% endif %}
-    <link rel="stylesheet" href="/assets/font.css">
-    <link rel="stylesheet" href="/assets/header.css">
-    <script src="/assets/js/jquery.min.js"></script>
-    {% if page.layout == 'post' %} 
-    <link rel="stylesheet" type="text/css" href="/assets/slick.css"/>
-    <script src="/assets/js/slick.js"></script>
     <div id="fb-root"></div>
     <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+    {% else %} 
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="/assets/common.css">
     {% endif %}
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/slick.css"/>
+    
+    <link rel="stylesheet" href="/assets/font.css">
+    <link rel="stylesheet" href="/assets/header.css">
+    <link rel="stylesheet" href="/assets/dark.css">
+    <link rel="stylesheet" href="/assets/yellow.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174913603-2"></script>
     <script>

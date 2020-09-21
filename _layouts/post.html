@@ -9,13 +9,9 @@ permalink: kakao/post
         <div id="img-wrapper"><div id="img"></div></div>
         <div class="cursor cursor--small"></div>
         <canvas class="cursor cursor--canvas" resize></canvas>
-        <img class="back-btn" onclick="back()" src="/assets/img/cancel-red.png" />
-        {% if page.bgColor == white %}
-        <div style="background-color: black;color: white;" id="section-cont" class="section-cont">
-        {% else %}
-        <div style="background-color: white;color: black;" id="section-cont" class="section-cont">
-        {% endif %}
-            <div style="color: white;" class="title">
+        <img id="back-btn" class="back-btn" onclick="back()" src="/assets/img/cancel-red.png" />
+        <div id="section-cont" class="section-cont">
+            <div class="title">
                 <h2> {{ page.duration }} </h2>
                 {% if page.tit %}
                 <h3> {{ page.tit }}</h3>

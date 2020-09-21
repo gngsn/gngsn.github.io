@@ -1,6 +1,8 @@
+theme = getUrlParameters().th;
 const back = () => {
-    // window.location.href = 'http://' + window.location.host + '/project';
-    window.history.back();
+    let route = 'http://' + window.location.host + '/project';
+    if (theme !== undefined) route += "?th="+theme;
+    window.location.href = route;
 }
 
 const newTabImag = (imgTag) => {
@@ -15,9 +17,14 @@ const newTabImag = (imgTag) => {
 }
 
 $(document).ready(function (e) {
+    if (theme === "y") {
+        var backBtn = document.getElementById('back-btn');
+        backBtn.src = "/assets/img/cancel-yellow.png";
+    }
+
     $(document).on("click", "img", function () {
         if ($(this).data('zoom') === true) {
-            var path = $(this).attr('src');
+            let path = $(this).attr('src');
             $("#img-wrapper").css("display", "flex").show();
             $("#img")
                 .html("<img src='" + path + "' >");

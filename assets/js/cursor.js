@@ -26,14 +26,20 @@ let isSwitch = false;
 let showCursor = false;
 let group, stuckX, stuckY, fillOuterCursor;
 
+var theme = getUrlParameters().th;
 const initCanvas = () => {
+    var strokeColor = "";
     const canvas = document.querySelector(".cursor--canvas");
     const shapeBounds = {
         width: 75,
         height: 75
     };
     paper.setup(canvas);
-    const strokeColor = "rgba(255, 57, 1, 0.5)";
+    if (theme == 'y') {
+        strokeColor = "#F7CE46";
+    } else {
+        strokeColor = "rgba(255, 57, 1, 0.5)";
+    }
     const strokeWidth = 1;
     const segments = 8;
     const radius = 15;
