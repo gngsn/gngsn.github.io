@@ -5,6 +5,7 @@ title: "얼리버디 (SOPT APPJAM) - 우수상"
 image: "/assets/img/early-buddy.png"
 skill: "Node.js, Express, Database, MySQL, MongoDB, AWS Services, Git, Github, Network"
 bgColor: white
+permalink: project/early-buddy
 ---
 <div class="early-buddy">
     <h5 class="quot-title">
