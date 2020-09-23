@@ -77,3 +77,7 @@ input:checked + .slider:before {background-color: rgb(218, 218, 218);-webkit-tra
 @media (max-width:476px) {
     .dark .section hr {border-top: #000 1px solid;}
 }
+
+@media (max-width:680px) {
+    .dark .section.bubble .about_container .about { border: none;}
+}
