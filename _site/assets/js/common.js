@@ -6,23 +6,29 @@ $(document).ready(function () {
     var project = document.getElementById('project');
     var home = document.getElementById('home');
     var darkMode = document.getElementById('dark-mode');
-    
     if( theme === 'd') {
         $("body").addClass('dark');
-        selfieImg.src = "https://user-images.githubusercontent.com/43839834/92443328-52af0880-f1ec-11ea-80f4-770e8600d067.png";
-        midImage.src = "assets/img/working.png";
+        if(selfieImg !== null){
+            selfieImg.src = "https://user-images.githubusercontent.com/43839834/92443328-52af0880-f1ec-11ea-80f4-770e8600d067.png";
+            midImage.src = "assets/img/working.png";
+        }
         about.href = "/about?th=d";
         project.href = "/project?th=d";
         home.href = "/?th=d";
         darkMode.checked = true;
     } else if( theme === 'y') {
         $("body").addClass('y');
+        if(selfieImg !== null){
+            selfieImg.src = "assets/img/selfie-white.png";
+        }
         about.href = "/about?th=y";
         project.href = "/project?th=y";
         home.href = "/?th=y";
     } else {
-        selfieImg.src = "assets/img/selfie-white.png"; 
-        midImage.src = "assets/img/working.jpg";
+        if(selfieImg !== null){
+            selfieImg.src = "assets/img/selfie-white.png";
+            midImage.src = "assets/img/working.jpg";
+        }
     }
 });
 

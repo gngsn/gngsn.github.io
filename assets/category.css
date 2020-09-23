@@ -188,7 +188,7 @@ a:link:active, a:visited:active {color: #000;}
 .about .inner .sub-title span{ border-bottom: 3px solid #dd4226;}
 
 
-.project .inner .red-line h1 {font-family: 'Noto B';}
+.project .inner .red-line h1 {font-family: 'Noto M';}
 .project .inner .red-line>h1+span{border-bottom: 23px solid #dd4226;}
 .project .inner .red-line>h2+span{border-bottom: 5px solid #dd4226;}
 .project .inner .center .slick-slide{background-color: #000;}
