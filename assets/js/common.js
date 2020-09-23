@@ -1,17 +1,3 @@
-console.log(location)
-document.getElementById("dark-mode").addEventListener("click", e=>{
-    let checked = e.target.checked;
-    if(checked) {
-        $("body").addClass('dark');
-        window.location.href = location.origin+"?th=d";
-    } else {
-        window.location.href= location.origin;
-        $("body").removeClass('dark');
-    }
-});
-
-
-
 $(document).ready(function () { 
     theme = getUrlParameters().th;
     var selfieImg = document.getElementById('selfie');

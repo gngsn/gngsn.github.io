@@ -133,3 +133,14 @@ $('#content').scroll(function () {
         inView = true;
     }
 });
+
+document.getElementById("dark-mode").addEventListener("click", e=>{
+    let checked = e.target.checked;
+    if(checked) {
+        $("body").addClass('dark');
+        window.location.href = location.origin+"?th=d";
+    } else {
+        window.location.href= location.origin;
+        $("body").removeClass('dark');
+    }
+});
