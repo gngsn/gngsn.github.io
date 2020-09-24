@@ -1,6 +1,12 @@
 $(document).ready(function () {
     var nav = $("#switch");
     var turnOn = false;
+    theme = getUrlParameters().th;
+    if(theme === 'd') {
+        document.getElementById('f-text').innerHTML = '<em>ON/</em>OFF';
+        document.getElementById('s-text').innerHTML = '어울릴 땐, <br/><em>최고의 화합을</em>';
+        turnOn = true;
+    }
     var audio = new Audio('/assets/img/switch.mp3');
 
     nav.click(function (e) {

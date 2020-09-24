@@ -1,4 +1,6 @@
 $(document).ready(function () { 
+    setDarkMode();
+
     theme = getUrlParameters().th;
     var selfieImg = document.getElementById('selfie');
     var midImage = document.getElementById('midImage');
@@ -6,6 +8,7 @@ $(document).ready(function () {
     var project = document.getElementById('project');
     var home = document.getElementById('home');
     var darkMode = document.getElementById('dark-mode');
+
     if( theme === 'd') {
         $("body").addClass('dark');
         if(selfieImg !== null){
@@ -15,7 +18,9 @@ $(document).ready(function () {
         about.href = "/about?th=d";
         project.href = "/project?th=d";
         home.href = "/?th=d";
-        darkMode.checked = true;
+        if(darkMode !== null){
+            darkMode.checked = true;
+        }
     } else if( theme === 'y') {
         $("body").addClass('y');
         if(selfieImg !== null){
@@ -44,4 +49,25 @@ function getUrlParameters() {
         }
     }
     return params;
+}
+
+const setDarkMode = () => {
+    var contDiv = document.createElement( 'div' );
+    var subDiv = document.createElement( 'div' );
+    var label = document.createElement( 'label' );
+    var input = document.createElement( 'input' );
+    var span = document.createElement( 'span' );
+    
+    contDiv.className = 'icon';
+    label.className = 'sw';
+    span.className = 'slider round';
+    input.setAttribute('id', 'dark-mode');
+    input.setAttribute('type', 'checkbox');
+
+    contDiv.appendChild(subDiv);
+    subDiv.appendChild(label);
+    label.appendChild(input);
+    label.appendChild(span);
+
+    document.body.appendChild(contDiv);
 }
