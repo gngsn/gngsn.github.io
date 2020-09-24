@@ -126,6 +126,7 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
     .section.skill .graph-container {margin-bottom: 100px;}
     .section.skill {padding: 50px 20px 100px;}
     .inner .selfie img {transform: translateX(-25%);opacity: .4;}
+    .icon a:last-child{display: none;}
 }
 
 

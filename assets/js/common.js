@@ -58,7 +58,7 @@ const setDarkMode = () => {
     var input = document.createElement( 'input' );
     var span = document.createElement( 'span' );
     
-    contDiv.className = 'icon';
+    contDiv.className = 'dark-mode';
     label.className = 'sw';
     span.className = 'slider round';
     input.setAttribute('id', 'dark-mode');
@@ -68,10 +68,9 @@ const setDarkMode = () => {
     subDiv.appendChild(label);
     label.appendChild(input);
     label.appendChild(span);
-
+    
     document.body.appendChild(contDiv);
 
-    console.log(location);
     input.addEventListener("click", e=>{
         let route = location.origin + location.pathname;
         let checked = e.target.checked;
