@@ -70,4 +70,17 @@ const setDarkMode = () => {
     label.appendChild(span);
 
     document.body.appendChild(contDiv);
+
+    console.log(location);
+    input.addEventListener("click", e=>{
+        let route = location.origin + location.pathname;
+        let checked = e.target.checked;
+        if(checked) {
+            $("body").addClass('dark');
+            window.location.href = route+"?th=d";
+        } else {
+            window.location.href= route;
+            $("body").removeClass('dark');
+        }
+    });
 }
