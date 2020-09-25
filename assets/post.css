@@ -181,6 +181,13 @@ iframe {border: 0; margin: auto;width: 100%;}
 .post .get-rest .section4 .flex-box p{margin: 0px 70px;}
 .post .get-rest .section4 p{font-size: 1.2rem; line-height: 1.7;}
 
+.post .babyCloset .section1 img{max-width: 800px; margin: 60px auto 50px;display: block; border-radius: 10px; box-shadow: 0px 0px 20px 10px rgba(112, 112, 112, 0.192);}
+.post .babyCloset .section2 p{font-size: 1.2rem; line-height: 1.5; }
+.post .babyCloset .section2{padding-bottom: 130px;}
+.post .babyCloset .section3{padding-top: 130px;}
+.post .babyCloset .section3 p{max-width: 800px; font-size: 1.2rem; line-height: 1.8;}
+.post .babyCloset .section3 a > img {width: 42px;display: inline-block; margin-right: 10px;}
+
 @media (max-width:1200px) {
     .post .skill img {height: 60px;width: 60px;}
     .post .game .section3 .flex-box img{max-width: 550px;}

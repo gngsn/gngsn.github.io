@@ -1,80 +1,4 @@
-<!DOCTYPE html>
-<html lang="kr"><head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-    <title> kyeongsun </title>
-    <meta name="generator" content="Jekyll v4.1.1" />
-    <meta property="og:title" content="kyeongsun" />
-    <meta property="og:locale" content="ko_KR" />
-    <meta property="og:image" content="/assets/img/selfie_sq.png" />
-    <meta property="og:url" content="http://gngsn.github.io/" />
-    <meta property="og:site_name" content=" 아기 옷장 – 아기 옷 나눔 서비스 " />
-
-    <meta name="description" content="kyeongsun" />
-    <meta property="og:description" content="" content="안녕하세요. 백엔드 개발자를 꿈꾸는 박경선입니다." />
-    <link rel="icon" type="image/png" href="/assets/img/selfie_sq.png" sizes="32x32" />
-    <link rel="shortcut icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
-    
-
-     
-    <link rel="stylesheet" href="/assets/post.css">
-    <div id="fb-root"></div>
-    <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
-    
-
-    <script src="/assets/js/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/assets/slick.css"/>
-    
-    <link rel="stylesheet" href="/assets/font.css">
-    <link rel="stylesheet" href="/assets/header.css">
-    <link rel="stylesheet" href="/assets/dark.css">
-    <link rel="stylesheet" href="/assets/yellow.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174913603-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-174913603-2');
-    </script>
-
-</head><body><header>
-    <nav class="nav">
-        
-        <a id="about" class="link" href="/about">ABOUT.</a>
-        
-
-        
-        <a id="project"class="link" href="/project">PROJ.</a>
-        
-        
-    </nav>
-    
-    <a id="home" class="link home" href="/"><span></span>&nbsp;PARK.</a>
-    
-</header><main class="page-content" aria-label="Content">
-        <div class="wrapper">
-            <div id="post" class="post">
-    <div id="main" class="main hide">
-        <div id="img-wrapper"><div id="img"></div></div>
-        <div class="cursor cursor--small"></div>
-        <canvas class="cursor cursor--canvas" resize></canvas>
-        <img id="back-btn" class="back-btn" onclick="back()" src="/assets/img/cancel-red.png" />
-        <div id="section-cont" class="section-cont">
-            <div class="title">
-                <h2> 2019-08-25 ~ 2019-10-21 </h2>
-                
-                <h3> 아기 옷장 – 아기 옷 나눔 서비스</h3>
-                
-            </div>
-            
-            <img src=/assets/img/babyCloset-dark.png />
-            
-            <div class="content">
-                <div class="babyCloset">
+I"�<div class="babyCloset">
 
 <div class="section1">
     <h5 class="quot-title"> 서울시 앱공모전 </h5>
@@ -162,8 +86,6 @@
         메세지 창을 개발하는 것은 굉장히 까다로웠습니다. 유동적으로 변하는 레이아웃들이 필수적이었기 때문입니다. 사용자가 보내는 메세지와 상대방이 보내는 메세지의 위치나 이미지가 다르다는 점과 메세지 셀 사이즈에 맞춰 Container View의 사이즈도 늘어나게끔 만드는 부분에서 큰 어려움을 겪었습니다. 뷰를 생성하는 방식은 굉장히 다양하기 때문에 여러가지 방법을 시도해보았습니다. 
         먼저, Table View, Collection View, Scroll View를 Container View로 사용해보는 다양한 시도를 했습니다. 가장 상위 계층인 Container View에 대한 다양한 도전이었기 때문에 많은 시간이 들었지만, 그 만큼 세 가지 중 Table View가 가장 적합하다는 판단을 내릴 수 있었습니다. 또한, 말풍선을 만들 때에도 UIBezierPath로 말풍선을 그리는 방법과, 이미지에 inset을 가장자리 모양에 맞게 주어서 가장자리를 제외하고 이미지가 늘어나도록 만들어 말풍선의 다양한 사이즈를 구현하려는 노력을 했습니다.
     </p>
-    <a target="_blank" href="https://github.com/BabyClosetGroup/BabyClosetIOS"> 
-        <img src="https://img.icons8.com/fluent/96/000000/github.png" />Github 링크</a>
     <div class="skill">
         <img src="https://img.icons8.com/color/96/000000/xcode.png" />
         <img class="ch" src="https://img.icons8.com/ios-filled/100/000000/ios-logo.png" />
@@ -172,28 +94,8 @@
         <img src="https://img.icons8.com/fluent/96/000000/github.png" />
     </div>
 </div>
+
+<h4>링크</h4>
+<p><a target="_blank" href="https://github.com/BabyClosetGroup/BabyClosetIOS">Github 링크 </a></p>
 </div>
-
-            </div>
-        </div>
-    </div>
-</div>
-        </div>
-    </main><footer class="site-footer h-card">
-    <data class="u-url" href="/"></data>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
-
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/common.js"></script>
-    <script src="/assets/js/cursor.js"></script>
-
-     
-    <script src="/assets/js/slick.js"></script>
-    <script src="/assets/js/post.js"></script>
-    
-</footer></body>
-
-</html>
+:ET
