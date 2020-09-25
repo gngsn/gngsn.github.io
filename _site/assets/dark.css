@@ -57,8 +57,7 @@
 .dark .tooc a,.dark  .tooc a:link:active,.dark .tooc a:visited:active {color: #fff;}
 
 .dark .icon div{filter: invert(1);}
-
-
+.dark .post .skill img.ch{filter: invert(1);}
 
 @media (max-width:476px) {
     .dark .section hr {border-top: #000 1px solid;}

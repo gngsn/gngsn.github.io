@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-24T23:04:44+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kyeongsun</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-25T17:43:48+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kyeongsun</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><entry><title type="html">IT 동아리 SOPT 25대 서버파트장</title><link href="http://localhost:4000/project/server-head" rel="alternate" type="text/html" title="IT 동아리 SOPT 25대 서버파트장" /><published>2020-01-23T00:00:00+09:00</published><updated>2020-01-23T00:00:00+09:00</updated><id>http://localhost:4000/project/server-head%20copy</id><content type="html" xml:base="http://localhost:4000/project/server-head">&lt;div class=&quot;server-head&quot;&gt;
 
 &lt;div class=&quot;section1&quot;&gt;
@@ -413,7 +413,7 @@
 &lt;!-- &lt;p&gt;사용자 관리 서비스, 나눔 글 CRUD 서비스, 메세지 창 구현&lt;/p&gt; --&gt;
 &lt;div class=&quot;skill&quot;&gt;
 &lt;img src=&quot;https://img.icons8.com/color/96/000000/xcode.png&quot; /&gt;
-&lt;img src=&quot;https://img.icons8.com/ios-filled/100/000000/ios-logo.png&quot; style=&quot;filter:invert(100%)&quot; /&gt;
+&lt;img class=&quot;ch&quot; src=&quot;https://img.icons8.com/ios-filled/100/000000/ios-logo.png&quot; /&gt;
 &lt;img src=&quot;https://img.icons8.com/fluent/96/000000/swift.png&quot; /&gt;
 &lt;!-- &lt;h4&gt;Express&lt;/h4&gt; --&gt;
 &lt;img src=&quot;https://img.icons8.com/color/96/000000/git.png&quot; /&gt;
