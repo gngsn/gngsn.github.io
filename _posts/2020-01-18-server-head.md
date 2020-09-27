@@ -44,7 +44,7 @@ image: "/assets/img/sopt-main.png"
         <img src="https://img.icons8.com/fluent/96/000000/visual-studio-code-2019.png"/>
         <img src="https://img.icons8.com/color/96/000000/nodejs.png"/>
         <h4>Express</h4>
-        <img src="https://img.icons8.com/ios-filled/100/000000/mysql-logo.png" style="filter:invert(100%)"/>
+        <img class="ch" src="https://img.icons8.com/ios-filled/100/000000/mysql-logo.png"/>
         <img src="https://img.icons8.com/color/96/000000/mongodb.png"/>
         <img src="https://img.icons8.com/color/96/000000/amazon-web-services.png"/>
         <img src="https://img.icons8.com/color/96/000000/git.png"/>

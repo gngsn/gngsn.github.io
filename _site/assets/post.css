@@ -28,8 +28,7 @@ iframe {border: 0; margin: auto;width: 100%;}
 .post .section-cont h3{font-size: 3.8rem; margin: 0; margin-left: 10vw;}
 .post h5.quot-title:before {display:block; content:"“"; font-size: 4rem; line-height: .3;}
 .post h5.quot-title:after {display:block;content:"”"; font-size: 4rem; line-height: .3; margin-top: 3rem;}
-.post .flex-box{display: flex;width: 100%; margin: 10px auto 120px; justify-content: center; align-items: center;}
-.post .flex-box{display: flex; justify-content: center;margin: 70px auto;}
+.post .flex-box{display: flex;width: 100%;justify-content: center; align-items: center;margin: 70px auto;}
 .post .flex-box h4{margin: 150px 80px 0px;font-size: 24px; max-width: 500px;line-height: 2.4;}
 
 .post .skill{display: flex; padding: 40px 0px 20px;flex-wrap : wrap;}
@@ -216,6 +215,8 @@ iframe {border: 0; margin: auto;width: 100%;}
     .post .game .section3 .flex-box:last-child{flex-direction: column-reverse;}
     .post .game .section3 .flex-box img {max-width: 90vw;}
     .post .game .section3 .flex-box p {max-width: 90vw;margin: 20px auto 40px;}
+    .post .get-rest .section4 .flex-box{flex-direction: column;}
+    .post .get-rest .section4 .flex-box p{margin: 40px 10px;}
 }
 
 @media (min-width:800px) {
