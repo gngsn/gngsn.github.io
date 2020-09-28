@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-27T21:42:40+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kyeongsun</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-28T15:43:56+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kyeongsun</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><entry><title type="html">IT 동아리 SOPT 25대 서버파트장</title><link href="http://localhost:4000/project/server-head" rel="alternate" type="text/html" title="IT 동아리 SOPT 25대 서버파트장" /><published>2020-01-23T00:00:00+09:00</published><updated>2020-01-23T00:00:00+09:00</updated><id>http://localhost:4000/project/server-head%20copy</id><content type="html" xml:base="http://localhost:4000/project/server-head">&lt;div class=&quot;server-head&quot;&gt;
 
 &lt;div class=&quot;section1&quot;&gt;
@@ -356,9 +356,8 @@
         &lt;img data-zoom=&quot;true&quot; src=&quot;/assets/img/serverHead/alive.jpg&quot; /&gt;
     &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/sopt-main.png" /><media:content medium="image" url="http://localhost:4000/assets/img/sopt-main.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">얼리버디 (SOPT APPJAM) - 우수상</title><link href="http://localhost:4000/project/early-buddy" rel="alternate" type="text/html" title="얼리버디 (SOPT APPJAM) - 우수상" /><published>2020-01-15T00:00:00+09:00</published><updated>2020-01-15T00:00:00+09:00</updated><id>http://localhost:4000/project/early-buddy</id><content type="html" xml:base="http://localhost:4000/project/early-buddy">&lt;div class=&quot;early-buddy&quot;&gt;
+&lt;/div&gt;</content><author><name>gngsn</name><email>rudtjs4540@gmail.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/sopt-main.png" /><media:content medium="image" url="http://localhost:4000/assets/img/sopt-main.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">얼리버디 - 우수상</title><link href="http://localhost:4000/project/early-buddy" rel="alternate" type="text/html" title="얼리버디 - 우수상" /><published>2020-01-15T00:00:00+09:00</published><updated>2020-01-15T00:00:00+09:00</updated><id>http://localhost:4000/project/early-buddy</id><content type="html" xml:base="http://localhost:4000/project/early-buddy">&lt;div class=&quot;early-buddy&quot;&gt;
     &lt;h5 class=&quot;quot-title&quot;&gt;
-    &lt;!-- &lt;span class=&quot;line-break960&quot;&gt;2주간의 해커톤 &lt;em&gt;-&lt;/em&gt;&lt;/span&gt;  --&gt;
     약속시간을 위한 나만의 대중교통 배차 알리미 서비스&lt;/h5&gt;
     &lt;iframe width=&quot;840&quot; height=&quot;510&quot; src=&quot;https://youtube.com/embed/AxuGlkMUapA?autoplay=1&quot;&gt; &lt;/iframe&gt;
     &lt;div class=&quot;info&quot;&gt;
@@ -371,7 +370,7 @@
             &lt;img src=&quot;https://img.icons8.com/fluent/96/000000/visual-studio-code-2019.png&quot; /&gt;
             &lt;img src=&quot;https://img.icons8.com/color/96/000000/nodejs.png&quot; /&gt;
             &lt;h4&gt;Express&lt;/h4&gt;
-            &lt;img src=&quot;https://img.icons8.com/ios-filled/100/000000/mysql-logo.png&quot; /&gt;
+            &lt;img class=&quot;ch&quot; src=&quot;https://img.icons8.com/ios-filled/100/000000/mysql-logo.png&quot; /&gt;
             &lt;img src=&quot;https://img.icons8.com/color/96/000000/git.png&quot; /&gt;
             &lt;img src=&quot;https://img.icons8.com/fluent/96/000000/github.png&quot; /&gt;
             &lt;img src=&quot;https://img.icons8.com/color/96/000000/amazon-web-services.png&quot; /&gt;

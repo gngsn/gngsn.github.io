@@ -52,6 +52,8 @@
 .dark .post .pdf-nav .slick-slide{background-color: #000}
 .dark .post .cn-gallery .slick-slide{background-color: #000; }
 .dark .post .cn-gallery>button{color: #000;}
+.dark .post .section-cont .title h2 {font-family: 'Noto B';}
+.dark .post .section-cont .title h3 {font-family: 'Noto B';}
 
 .dark .server-head a,.dark .server-head a:link:active,.dark .server-head a:visited:active {color: #fff; }
 .dark .tooc a,.dark  .tooc a:link:active,.dark .tooc a:visited:active {color: #fff;}
