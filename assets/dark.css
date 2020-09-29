@@ -54,7 +54,7 @@
 .dark .post .cn-gallery>button{color: #000;}
 .dark .post .section-cont .title h2 {font-family: 'Noto B';}
 .dark .post .section-cont .title h3 {font-family: 'Noto B';}
-
+.dark .post .get-rest .section1 img{box-shadow: 0px 0px 30px 2px rgba(255, 255, 255, 0.344);}
 .dark .server-head a,.dark .server-head a:link:active,.dark .server-head a:visited:active {color: #fff; }
 .dark .tooc a,.dark  .tooc a:link:active,.dark .tooc a:visited:active {color: #fff;}
 
