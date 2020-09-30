@@ -25,6 +25,46 @@ document.querySelector("#icon_mail").addEventListener("click", function () {
     document.body.removeChild(emailCopy);
 });
 
+
+let nameIp = document.getElementById('nameIp')
+let emailIp = document.getElementById('emailIp')
+let message = document.getElementById('message')
+let submit = document.getElementById('submit')
+let sbmSpan = document.getElementById('sbmUnder')
+let nameLength = 0;
+let emailLength = 0;
+// let messageLength = message.val;
+
+
+const checkForm = () => {
+    console.log(nameLength);
+    console.log(emailLength);
+    if (nameLength > 0 && emailLength > 0 ) {
+        submit.disabled = false;
+        sbmSpan.classList.add("active")
+        console.log('abled')
+    }
+}
+
+
+nameIp.addEventListener("change", e=>{
+    nameLength = nameIp.value.length; 
+    // console.log(nameLength);
+    checkForm();
+})
+emailIp.addEventListener("change", e=>{
+    emailLength = emailIp.value.length;
+    // console.log(nameLength);
+    checkForm();
+})
+
+// message.addEventListener("change", e=>{
+//     message = message.value.length;
+// })
+// console.log(messageLength);
+
+
+
 var inView = false;
 
 function isScrolledIntoView(elem) {
