@@ -15,6 +15,8 @@ a,h1,h2,h3,h4,h5, p {font-family: 'Noto Th';}
 
 .section.skill{background-color: #FFF; color: #000;}
 .section.skill h1 {border-bottom: #dd4226 solid 1px; font-family: 'Noto R';} 
+.contact span.active {border-top: 10px solid #dd4226;}
+
 
 @media (max-width:476px) {
     .section hr {border-top: #fff 1px solid;}
