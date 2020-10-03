@@ -52,13 +52,14 @@ body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
 .section hr {opacity: 0; margin-bottom: 110px;}
 .contact form{display: flex; flex-direction: column; padding: 50px 20px; max-width: 600px; margin: auto;}
 .contact textarea{height: 100px;}
-.contact textarea, .contact input{background-color: transparent; width: 90%;outline: none; border: none; font-size: 1.2rem; margin: 20px auto 30px; font-family: 'Noto L';}
+.contact textarea, .contact input{background-color: transparent; width: 90%;outline: none; border: none; font-size: 1.2rem; margin: 20px auto 30px;}
+.contact textarea, .contact input{font-family: 'Noto L'; color: #000;}
 .contact textarea, .contact input:not([type="submit"]){border-bottom: 1px solid #919191;}
-.contact input[type="submit"]{max-width: 100px;z-index:1; font-family: 'Noto B';}
+.contact input[type="submit"]{max-width: 100px;z-index:1;}
 .contact input[type="submit"]{cursor: pointer;}
 .contact input[type="submit"]:disabled{ color: #424242;cursor: auto;}
 .contact form div {position: relative; display: flex; justify-content: center; align-items: center;}
-.contact span {position: absolute; width: 120px; border-top: 10px solid #5e5e5e; opacity: .8; margin: auto; transform: rotate(-2deg);}
+.contact span {position: absolute; width: 120px; border-top: 10px solid #5e5e5e; opacity: .8; margin: auto; transform: rotate(-2deg); margin-bottom: 15px;}
 .contact textarea:focus, .contact input:focus{outline: none; border: none;}
 .contact textarea:focus, .contact textarea:focus, .contact input:focus:not([type="submit"]){font-size: 1.4rem;border-bottom: 1px solid #919191;}
 /* .section .contact h1 {display: none;} */

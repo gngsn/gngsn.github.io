@@ -28,28 +28,27 @@ document.querySelector("#icon_mail").addEventListener("click", function () {
 
 let nameIp = document.getElementById('nameIp')
 let emailIp = document.getElementById('emailIp')
-let message = document.getElementById('message')
+let message = document.getElementById('message');
 let submit = document.getElementById('submit')
 let sbmSpan = document.getElementById('sbmUnder')
 let nameLength = 0;
 let emailLength = 0;
-// let messageLength = message.val;
+let msgLength = 0;
 
 
 const checkForm = () => {
-    console.log(nameLength);
-    console.log(emailLength);
-    if (nameLength > 0 && emailLength > 0 ) {
+    if (nameLength > 0 && emailLength > 0 && msgLength > 0) {
         submit.disabled = false;
         sbmSpan.classList.add("active")
-        console.log('abled')
+    } else {
+        submit.disabled = true;
+        sbmSpan.classList.remove("active")
     }
 }
 
 
 nameIp.addEventListener("change", e=>{
     nameLength = nameIp.value.length; 
-    // console.log(nameLength);
     checkForm();
 })
 emailIp.addEventListener("change", e=>{
@@ -58,9 +57,10 @@ emailIp.addEventListener("change", e=>{
     checkForm();
 })
 
-// message.addEventListener("change", e=>{
-//     message = message.value.length;
-// })
+$("#message").on("change", e=>{
+    msgLength = message.value.length;
+    checkForm();
+})
 // console.log(messageLength);
 
 

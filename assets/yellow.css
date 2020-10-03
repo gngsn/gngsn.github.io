@@ -46,6 +46,7 @@
 .y .post .sopt-page .main-img::-webkit-scrollbar-thumb {background: #F7CE46; }
 .y .post .sopt-page .img-cont::-webkit-scrollbar-thumb {background: #F7CE46;}
 
+.y .contact textarea, .contact input{font-family: 'Kakao L';}
 .y .contact span.active {border-top: 10px solid #F7CE46;}
 
 @media (max-width:600px) {
