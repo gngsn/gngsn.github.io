@@ -12,7 +12,7 @@
 
 .dark .inner .text{color: #FFF;}
 .dark .inner .selfie img {width: 500px; transform: translateX(-5%);}
-.dark .contact textarea, .contact input{color: #fff;}
+.dark .contact textarea, .dark .contact input{color: #fff;}
 
 .dark .section-cont {background-color: #000;}
 .dark .section.bubble {background-color: #dd4226; color: #FFF;}
