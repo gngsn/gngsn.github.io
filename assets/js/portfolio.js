@@ -136,7 +136,7 @@ var techData ={
     data: {
         labels: ["Node", "Spring", "Linux", "Git", "MySQL"],
         datasets: [{
-            data: [10, 8, 5, 10, 10],
+            data: [10, 7, 8, 10, 10],
             backgroundColor: [
                 '#000', '#000', '#000', '#000', '#000'
             ]
