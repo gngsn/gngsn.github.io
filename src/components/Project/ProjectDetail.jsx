@@ -1,0 +1,59 @@
+import { Flipped } from 'react-flip-toolkit';
+import styled from 'styled-components';
+import { section1, section2, section3 } from '../../projectList';
+import Detail from '../../projectDetail';
+
+const Cont = styled.div`
+        width: 100%;
+        height: 100vh;
+        top: 0px;
+        left: 0px;
+        position: fixed;
+        z-index: 11;
+        overflow: auto;
+        background-color: #fff;
+`
+
+const ImageBack = styled.div`
+        width: 100%;
+        height: 100vh;
+        z-index: 111;
+        background-image: ${props => 'url(' + props.image + ')'};
+        background-position: center;
+        background-size: cover;
+        display: inline-block;
+        opacity: 1;
+`
+
+const ProjectDetail = ({ id, toggleFullScreen }) => {
+    const dataList = section1.concat(section2, section3);
+    const data = dataList.find(d => d.key === id)
+    return (
+        <>
+            {
+                data ?
+                    <Flipped flipId="square">
+                        <Cont>
+                        <div className="full-screen-square"/>
+                            <img id="back-btn" className="back-btn" onClick={toggleFullScreen} src="/img/cancel-red.png" />
+                            <div className="post">
+                                <ImageBack image={data.backImage} className="proj-title">
+                                    <div className="title">
+                                        <h2> {data.duration} </h2>
+                                        <h3> {data.title}</h3>
+                                    </div>
+                                </ImageBack>
+                                <div className="content">
+                                    <Detail />
+                                </div>
+                            </div>
+                        </Cont>
+                    </Flipped>
+                    :
+                    <></>
+            }
+        </>
+    )
+}
+
+export default ProjectDetail;

@@ -1,0 +1,105 @@
+'use stric';
+import React, {useState} from 'react';
+import Slider from "react-slick";
+import {section1, section2, section3} from '../../projectList';
+import styled from 'styled-components';
+
+const ImageStyle = styled.div`
+        background-image: ${props => 'url(' + props.image + ')'};
+        background-position: center center;
+        background-size: cover;
+        display: inline-block;
+        overflow: hidden;
+        border-radius: 10px;
+        translateX: 
+`
+
+const List = ({ cate, toggleFullScreen, setId }) => {
+    const [isSwiping, setSwiping] = useState(false);
+    const settings = {
+        centerPadding: '70px',
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        dots: true,
+        dotsClass: 'dots',
+        responsive: [{
+            breakpoint: 1200,
+            settings: {
+                arrows: true,
+                centerPadding: '40px',
+                slidesToShow: 3,
+            }
+        }, {
+            breakpoint: 900,
+            settings: {
+                arrows: false,
+                centerPadding: '60px',
+                slidesToShow: 1,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerPadding: '70px',
+                slidesToShow: 1,
+            }
+        },
+        {
+            breakpoint: 425,
+            settings: {
+                arrows: false,
+                centerPadding: '0px',
+                slidesToShow: 1,
+            }
+        }
+        ]
+    };
+
+    let project = []
+    if (cate === 'backend') {
+        project = section1
+        settings.centerMode = true
+    } else if (cate === 'developer') {
+        project = section2
+    } else {
+        project = section3
+    }
+    const subClass = cate+' center'
+
+    const hover = e => {
+        e.target.parentElement.style.boxShadow = '2px 8px 19px 4px rgb(134,134,134)'
+    }
+    const overHover = e => {
+        e.target.parentElement.style.boxShadow = 'none';
+    }
+
+    const click = (key) => {
+        if (!isSwiping)
+            toggleFullScreen()
+        setId(key)
+    }
+
+    return (
+        <div className={subClass}>
+            <Slider {...settings}>
+                {
+                    project.map(data => (
+                        <ImageStyle image={data.thumbnail} key={data.key} onClick={()=>click(data.key)} onMouseMove={() => setSwiping(true)} onMouseDown={() => setSwiping(false)} onMouseOver={hover} onMouseLeave={overHover} className="link proj" data-link={data.link}>
+                            <div className="proj-title">
+                                <h2>{data.duration}</h2>
+                                <h1>{data.title}</h1>
+                                <h3>{data.subTitle.map(tit => (
+                                    <>{tit} <br /></>
+                                ))}</h3>
+                            </div>
+                        </ImageStyle>
+                    ))
+                }
+
+            </Slider>
+        </div>
+    );
+}
+
+export default List;
