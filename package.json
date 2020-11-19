@@ -1,8 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "gngsn.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gngsn.github.io/portfolio",
+  "homepage": "http://gngsn.github.io/",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^5.11.4",

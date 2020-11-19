@@ -1,7 +1,9 @@
 import { Flipped } from 'react-flip-toolkit';
 import styled from 'styled-components';
 import { section1, section2, section3 } from '../../projectList';
-import Detail from '../../projectDetail';
+import ServerHead from "./Details/ServerHead";
+import EarlyBuddy from "./Details/EarlyBuddy";
+import Tooc from "./Details/Tooc";
 
 const Cont = styled.div`
         width: 100%;
@@ -28,6 +30,22 @@ const ImageBack = styled.div`
 const ProjectDetail = ({ id, toggleFullScreen }) => {
     const dataList = section1.concat(section2, section3);
     const data = dataList.find(d => d.key === id)
+    let content = <></>;
+    console.log('data : ', data)
+    switch (data.link) {
+        case 'server-head':
+            content = <ServerHead />
+            break;
+        case 'early-buddy':
+            content = <EarlyBuddy />
+            break;
+        case 'tooc':
+            content = <Tooc />
+            break;
+        default:
+            break;
+    }
+
     return (
         <>
             {
@@ -44,7 +62,7 @@ const ProjectDetail = ({ id, toggleFullScreen }) => {
                                     </div>
                                 </ImageBack>
                                 <div className="content">
-                                    <Detail />
+                                    {content}
                                 </div>
                             </div>
                         </Cont>

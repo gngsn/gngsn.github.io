@@ -21,9 +21,9 @@ const Header = () => {
                     }
                     {
                         state.type === 'proj' ?
-                            <Link id="project" to="/proj" className="link" onClick={() => dispatch({type:'type', payload: 'proj'})} >PROJ.<span></span></Link>
+                            <Link id="project" to="/project" className="link" onClick={() => dispatch({type:'type', payload: 'proj'})} >PROJ.<span></span></Link>
                             :
-                            <Link id="project" to="/proj" className="link" onClick={() => dispatch({type:'type', payload: 'proj'})}>PROJ.</Link>
+                            <Link id="project" to="/project" className="link" onClick={() => dispatch({type:'type', payload: 'proj'})}>PROJ.</Link>
                     }
                     {
                         state.type === 'home' ?

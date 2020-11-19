@@ -5,7 +5,7 @@ const section1 = [{
         subTitle: ['# IT 창업 동아리 운영 및 서버파트장'],
         thumbnail: '/img/sopt-main.png',
         backImage: '/img/sopt-main.png',
-        link: '/project/server-head',
+        link: 'server-head',
         content: ''
     },
     {
@@ -15,7 +15,7 @@ const section1 = [{
         subTitle: ['# 해커톤 APPJAM 우수상', '# Node.js # Express'],
         thumbnail: '/img/early-buddy.png',
         backImage: '/img/early-buddy.png',
-        link: '/project/early-buddy',
+        link: 'early-buddy',
         content: ''
     },
     {
@@ -25,7 +25,7 @@ const section1 = [{
         subTitle: ['# 해커톤 APPJAM 장려상', '# Spring Framework'],
         thumbnail: '/img/tooc-dark.png',
         backImage: '/img/tooc-dark.png',
-        link: '/project/tooc',
+        link: 'tooc',
         content: ''
     },
     {
@@ -35,7 +35,7 @@ const section1 = [{
         subTitle: ['# php'],
         thumbnail: '/img/sopt-page.png',
         backImage: '/img/sopt-page.png',
-        link: '/project/sopt-page',
+        link: 'sopt-page',
         content: ''
     }
 ];
@@ -46,7 +46,7 @@ const section2 = [{
         subTitle: ['# 서울시 앱 공모전', '# 아기 옷 나눔 서비스 앱 제작'],
         thumbnail: '/img/babyCloset-dark.png',
         backImage: '/img/babyCloset-dark.png',
-        link: '/project/baby-closet',
+        link: 'baby-closet',
         content: ''
     },
     {
@@ -56,7 +56,7 @@ const section2 = [{
         subTitle: ['# 해커톤 APPJAM 멘토 우수상 ', ' # 쉬운 자기소개서 쓰기 앱 제작'],
         thumbnail: '/img/getRest-dark.png',
         backImage: '/img/getRest-dark.png',
-        link: '/project/get-rest',
+        link: 'get-rest',
         content: ''
     },
     {
@@ -66,7 +66,7 @@ const section2 = [{
         subTitle: [' # Unity'],
         thumbnail: '/img/game/bub_dark.png',
         backImage: '/img/game/bub_dark.png',
-        link: '/project/game',
+        link: 'game',
         content: ''
     }
 ];
@@ -78,7 +78,7 @@ const section3 = [{
         subTitle: ['# 따릉이 Redesign'],
         thumbnail: '/img/hci/hci_dark.png',
         backImage: '/img/hci/hci_dark.png',
-        link: '/project/hci',
+        link: 'hci',
         content: ''
     },
     {
@@ -88,7 +88,7 @@ const section3 = [{
         subTitle: ['# photoshop + illustrator '],
         thumbnail: '/img/cardnews/cardnews-dark.png',
         backImage: '/img/cardnews/cardnews-dark.png',
-        link: '/project/cardnews',
+        link: 'cardnews',
         content: ''
     },
     {
@@ -98,7 +98,7 @@ const section3 = [{
         subTitle: ['# 3D max + After Effects'],
         thumbnail: '/img/max3d/tangled-dark.png',
         backImage: '/img/max3d/tangled-dark.png',
-        link: '/project/3dmax',
+        link: '3dmax',
         content: ''
     }
 ];

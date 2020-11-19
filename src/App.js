@@ -21,7 +21,7 @@ function App() {
           <Header />
             <Route exact path="/" component={Main} />
             <Route path="/about" component={About} />
-            <Route path="/proj" component={Project} />
+            <Route path="/project" component={Project} />
         </BrowserRouter>
         </mainContext.Provider>
     </ThemeProvider>
