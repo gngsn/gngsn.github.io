@@ -4,6 +4,8 @@ import { section1, section2, section3 } from '../../projectList';
 import ServerHead from "./Details/ServerHead";
 import EarlyBuddy from "./Details/EarlyBuddy";
 import Tooc from "./Details/Tooc";
+import SoptPage from "./Details/SoptPage";
+import GetRest from "./Details/GetRest";
 
 const Cont = styled.div`
         width: 100%;
@@ -32,19 +34,16 @@ const ProjectDetail = ({ id, toggleFullScreen }) => {
     const data = dataList.find(d => d.key === id)
     let content = <></>;
     console.log('data : ', data)
-    switch (data.link) {
-        case 'server-head':
+    if (data.link === 'server-head')
             content = <ServerHead />
-            break;
-        case 'early-buddy':
-            content = <EarlyBuddy />
-            break;
-        case 'tooc':
-            content = <Tooc />
-            break;
-        default:
-            break;
-    }
+    else if (data.link === 'early-buddy')
+        content = <EarlyBuddy />
+    else if (data.link === 'tooc')
+        content = <Tooc />
+    else if (data.link === 'sopt-page')
+        content = <SoptPage />
+    else if (data.link === 'get-rest')
+        content = <GetRest />
 
     return (
         <>

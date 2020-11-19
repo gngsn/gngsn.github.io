@@ -3,7 +3,6 @@ import React, {useState} from 'react';
 import Slider from "react-slick";
 import {section1, section2, section3} from '../../projectList';
 import styled from 'styled-components';
-import { Link, BrowserRouter, Route } from "react-router-dom";
 
 const ImageStyle = styled.div`
         background-image: ${props => 'url(' + props.image + ')'};

@@ -24,7 +24,8 @@ const Detail = () => {
                 AWS EC2를 사용하여 서버를 올리는 방법과, MySQL사용법을 전달하는 동시에 AWS RDS 사용법을 전달했습니다.
         마지막에는 Token을 이용한 인증방법인 JWT에 대한 필요성과 이론, 그리고 사용법에 대해 강의했습니다.<br /><br />
                     <a target="_blank" href="https://github.com/gngsn/26th_SERVER">
-                        <img src="https://img.icons8.com/fluent/96/000000/github.png" />  세미나 실습 자료
+                        <img src="https://img.icons8.com/fluent/96/000000/github.png" />  
+                        세미나 실습 자료
                         </a>
                 </p>
             </div>

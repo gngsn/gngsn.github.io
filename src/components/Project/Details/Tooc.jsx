@@ -1,9 +1,23 @@
 import setImage from './setImage';
+import Slider from "react-slick";
 
 const Detail = () => {
+    const screenSettings = {
+        // centerPadding: '70px',
+        // dots: false,
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        // infinite: true,
+        // autoplay: true,
+        // speed: 2000,
+        // dotsClass: 'dots',
+        // autoplaySpeed: 2000,
+        // cssEase: "linear"
+    }
 
     let screenImage = []
-    setImage(screenImage, '/img/tooc/screen-0', 5, 'jpg');
+    setImage(screenImage, '/img/tooc/screen-0', 4, 'jpg');
 
     return (
         <div className="tooc">
@@ -26,7 +40,8 @@ const Detail = () => {
                         </a>
                         <div className="skill">
                             <img src="https://img.icons8.com/color/96/000000/intellij-idea.png"/>
-                            <img src="https://img.icons8.com/ios-filled/100/000000/mysql-logo.png" style={{filter:'invert(100%)'}}/>
+                            <img src="https://img.icons8.com/ios-filled/100/000000/mysql-logo.png"/>
+                            {/* <img src="https://img.icons8.com/ios-filled/100/000000/mysql-logo.png" style={{filter:'invert(100%)'}}/> */}
                             <img src="https://img.icons8.com/color/96/000000/spring-logo.png"/>
                             <img src="https://img.icons8.com/color/96/000000/amazon-web-services.png"/>
                             <img src="https://img.icons8.com/color/96/000000/git.png"/>
@@ -39,7 +54,7 @@ const Detail = () => {
             <div className="section3">
                 <h5 className="quot-title"> 개발 인생의 전환점 </h5>
                 <div className="flex-box">
-                    <div>
+                    <div class="left">
                         <p> 처음 서버와 프런트라는 개념을 배우고, 우물 안 개구리였던 스스로를 깨닫게 되었습니다.
                         끝 없는 서버의 세계에 끝없는 호기심을 느낄 수 있다는 매력을 느끼고 서버에 대한 공부를 제대로 시작하게된 계기입니다.
                         <br/><br/>
@@ -51,13 +66,16 @@ const Detail = () => {
                             </a>
                         </p>
                     </div>
-                    <div className="slick-auto">
+                    <img alt="screen-image" src={screenImage[0]} />
+                    {/* <Slider className="slick-auto" {...screenSettings}>
                         {
-                            screenImage.map( img =>(
-                                <img src={img} />
+                            screenImage.map( (img, index) =>(
+                                <div className="test" key={index} >
+                                <img alt="screen-image" src={img} />
+                                </div>
                             ))
                         }
-                    </div>
+                    </Slider> */}
                 </div>
             </div>
 

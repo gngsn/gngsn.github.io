@@ -10,12 +10,12 @@ import { GlobalStyles, lightTheme, darkTheme } from './theme';
 import { mainContext } from './context';
 
 function App() {
-  const [state] = useReducer(initReducer, initState)
+  const [state, dispatch] = useReducer(initReducer, initState)
   console.log('state : ', state)
   
   return (
     <ThemeProvider theme={state.theme === 'light' ? lightTheme : darkTheme} className="App">
-      <mainContext.Provider>
+      <mainContext.Provider value={{...state, dispatch}}>
         <GlobalStyles />
         <BrowserRouter>
           <Header />

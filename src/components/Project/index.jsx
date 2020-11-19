@@ -15,8 +15,8 @@ const Project = () => {
                     <span></span>
                 </div>
                 {
-                    sectionList.map(sec => (
-                        <ProjectSection setId="setId" data={sec}/>
+                    sectionList.map((sec, index) => (
+                        <ProjectSection key={index} setId="setId" data={sec}/>
                     ))
                 }
             </div>
