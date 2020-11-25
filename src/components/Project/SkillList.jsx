@@ -1,21 +1,20 @@
 'use stric';
+import React from 'react';
+import { Grid } from '@material-ui/core';
+import Icon from '../elements/Icons';
 
-const SkillList = () => {
+const SkillList = React.memo(({ list, width=60, height=60, padding =20, fontSize =1.2, style= {} }) => {
     return (
-        <div className="skill">
-            <img src="https://img.icons8.com/color/96/000000/spring-logo.png" />
-            <img src="https://img.icons8.com/color/96/000000/nodejs.png" />
-            <h4>Express</h4>
-            <img src="https://img.icons8.com/officel/80/000000/php-logo.png" />
-            <img src="https://img.icons8.com/color/96/000000/amazon-web-services.png" />
-            <img className="ch" src="https://img.icons8.com/ios-filled/100/000000/mysql-logo.png" />
-            <img src="https://img.icons8.com/color/96/000000/mongodb.png" />
-            <img src="https://img.icons8.com/color/96/000000/nginx.png" />
-            <img src="https://img.icons8.com/color/96/000000/linux.png" />
-            <img src="https://img.icons8.com/color/96/000000/git.png" />
-            <img src="https://img.icons8.com/fluent/96/000000/github.png" />
-        </div>
+        <Grid container style={style} className="skill">
+            {
+            list.map((icon, index) => (
+                <Grid item xs={1} key={index} style={{margin: 'auto 0px'}}>
+                    <Icon name={icon} width={width} height={height} fontSize={fontSize} />
+                </Grid>
+            ))
+            }
+        </Grid>
     );
-}
+});
 
 export default SkillList;

@@ -18,7 +18,7 @@ const ImageStyle = styled.div`
 const List = React.memo(({ cate, toggleFullScreen, setId }) => {
     const [isSwiping, setSwiping] = useState(false);
     const settings = {
-        centerPadding: '70px',
+        // centerPadding: '70px',
         slidesToShow: 3,
         slidesToScroll: 3,
         dots: true,
@@ -27,14 +27,14 @@ const List = React.memo(({ cate, toggleFullScreen, setId }) => {
             breakpoint: 1200,
             settings: {
                 arrows: true,
-                centerPadding: '40px',
+                // centerPadding: '40px',
                 slidesToShow: 3,
             }
         }, {
             breakpoint: 900,
             settings: {
                 arrows: false,
-                centerPadding: '60px',
+                // centerPadding: '60px',
                 slidesToShow: 1,
             }
         },
@@ -42,7 +42,7 @@ const List = React.memo(({ cate, toggleFullScreen, setId }) => {
             breakpoint: 768,
             settings: {
                 arrows: false,
-                centerPadding: '70px',
+                // centerPadding: '70px',
                 slidesToShow: 1,
             }
         },
@@ -50,7 +50,7 @@ const List = React.memo(({ cate, toggleFullScreen, setId }) => {
             breakpoint: 425,
             settings: {
                 arrows: false,
-                centerPadding: '0px',
+                // centerPadding: '0px',
                 slidesToShow: 1,
             }
         }

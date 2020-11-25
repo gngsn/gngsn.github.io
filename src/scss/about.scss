@@ -31,11 +31,11 @@
     .red-line>h2+span{width: 350px; margin-top: 80px;margin-left: -20px;}
     .red-line h1 em{display: inline;}
     
-    .sub-cnt .skill{display: flex; padding: 40px 0px 20px;flex-wrap : wrap;}
+    .sub-cnt .skill{display: flex; padding: 40px 0px 20px;flex-wrap : wrap; vertical-align: middle; align-content: center;}
     .sub-cnt.right .skill{justify-content: flex-end;}
     .section-cont .post .content h4{font-size: 2rem;}
-    .skill img{height: 90px; width: 90px;margin-right: 15px;}
-    .skill h4{display: inline; vertical-align: middle; font-size: 2rem; margin: 0 25px 0 10px; line-height: 90px;}
+    .skill img{height: 90px; width: 90px;}
+    .skill h4{display: inline; vertical-align: middle; font-size: 1.2rem; margin: auto 0px;}
     
     .center .slick-list{margin-top: 10px;z-index: 3; }
     .center .slick-track{justify-items: center;display: flex; margin: auto;}
@@ -74,14 +74,14 @@
     .center .slick-slide .proj-title h1{font-size: 1.2rem;}
     .project .center .slick-slide .proj-title h2{font-size: 0.8rem;}
     .project .skill img {height: 60px;width: 60px;}
-    .project .skill h4 {font-size: 1.5rem;line-height: 50px;}
+    .project .skill h4 {font-size: 1.5rem;}
 }
 
 @media (max-width:1024px) {
     .project .section-cont .post h2{font-size: 2.5rem;}
     .project .section-cont .post h3{font-size: 2.8rem;}
     .project .skill img {height: 50px;width: 50px;margin-right: 10px;}
-    .project .skill h4 {font-size: 1.2rem;line-height: 40px;}
+    .project .skill h4 {font-size: 1.2rem;}
 }
 
 /* iPad Pro 12 */
