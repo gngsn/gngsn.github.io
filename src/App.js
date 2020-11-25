@@ -6,25 +6,31 @@ import React, { useReducer } from 'react';
 import { initState, initReducer } from './context/default'
 import { BrowserRouter, Route } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
-import { GlobalStyles, lightTheme, darkTheme } from './theme';
+import { GlobalStyles, lightTheme, darkTheme } from './components/libs/theme';
 import { mainContext } from './context';
+import Cursor from './components/Cursor';
+import DarkModeToggle from './components/DarkModeToggle';
+import ProjectDetail from './components/Project/ProjectDetail';
+
 
 function App() {
   const [state, dispatch] = useReducer(initReducer, initState)
-  console.log('state : ', state)
   
   return (
-    <ThemeProvider theme={state.theme === 'light' ? lightTheme : darkTheme} className="App">
-      <mainContext.Provider value={{...state, dispatch}}>
+    <mainContext.Provider value={{...state, dispatch}}>
+      <ThemeProvider theme={state.theme === 'light' ? lightTheme : darkTheme} className="App">
+        <Cursor/>
         <GlobalStyles />
         <BrowserRouter>
           <Header />
+          <DarkModeToggle/>
             <Route exact path="/" component={Main} />
             <Route path="/about" component={About} />
             <Route path="/project" component={Project} />
-        </BrowserRouter>
-        </mainContext.Provider>
-    </ThemeProvider>
+            <Route path="/project/:title" component={ProjectDetail} />
+          </BrowserRouter>
+      </ThemeProvider>
+    </mainContext.Provider>
   );
 }
 

@@ -3,34 +3,30 @@
 import React, { useReducer } from 'react';
 import { Grid } from '@material-ui/core';
 import '../scss/header.scss';
-import { context } from '../context'
-import { initState, initReducer } from '../context/default'
-import { Link } from "react-router-dom"
+import { context } from '../context';
+import { initState, initReducer } from '../context/default';
+import { Link } from "react-router-dom";
 
 const Header = () => {
-    const [state, dispatch] = useReducer(initReducer, initState)
+    const [state, dispatch] = useReducer(initReducer, initState);
 
     return (
         <>
             <Grid className="nav">
-                    {
-                        state.type === 'about' ?
-                            <Link id="about" to="/about" className="link" onClick={() => dispatch({type:'type', payload: 'about'})}>ABOUT.<span></span></Link>
-                            :
-                            <Link id="about" to="/about" className="link" onClick={() => dispatch({type:'type', payload: 'about'})}>ABOUT.</Link>
+                <Link id="about" to="/about" className="link" onClick={() => dispatch({ type: 'type', payload: 'about' })}>ABOUT.
+                            {state.type === 'about' ?
+                        <span></span> : <></>}
+                </Link>
+                <Link id="project" to="/project" className="link" onClick={() => dispatch({ type: 'type', payload: 'proj' })} >PROJ.
+                        {state.type === 'proj' ?
+                        <span></span> : <></>
                     }
-                    {
-                        state.type === 'proj' ?
-                            <Link id="project" to="/project" className="link" onClick={() => dispatch({type:'type', payload: 'proj'})} >PROJ.<span></span></Link>
-                            :
-                            <Link id="project" to="/project" className="link" onClick={() => dispatch({type:'type', payload: 'proj'})}>PROJ.</Link>
+                </Link>
+                <Link id="home" to="/" className="link" onClick={() => dispatch({ type: 'type', payload: 'home' })}>PARK.
+                            {state.type === 'home' ?
+                        <span></span> : <></>
                     }
-                    {
-                        state.type === 'home' ?
-                            <Link id="home" to="/" className="link" onClick={() => dispatch({type:'type', payload: 'home'})}>PARK.<span></span></Link>
-                            :
-                            <Link id="home" to="/" className="link" onClick={() => dispatch({type:'type', payload: 'home'})}>PARK.</Link>
-                    }
+                </Link>
             </Grid>
         </>
     )

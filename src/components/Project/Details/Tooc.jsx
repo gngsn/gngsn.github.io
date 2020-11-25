@@ -54,7 +54,7 @@ const Detail = () => {
             <div className="section3">
                 <h5 className="quot-title"> 개발 인생의 전환점 </h5>
                 <div className="flex-box">
-                    <div class="left">
+                    <div className="left">
                         <p> 처음 서버와 프런트라는 개념을 배우고, 우물 안 개구리였던 스스로를 깨닫게 되었습니다.
                         끝 없는 서버의 세계에 끝없는 호기심을 느낄 수 있다는 매력을 느끼고 서버에 대한 공부를 제대로 시작하게된 계기입니다.
                         <br/><br/>

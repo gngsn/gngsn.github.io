@@ -1,11 +1,9 @@
 const initState = {
-    type: null,
     theme: 'light'
 }
 
 const initReducer = function (state, {
     type,
-    theme,
     payload
 }) {
     const newReducer = {

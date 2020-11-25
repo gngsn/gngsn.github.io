@@ -1,22 +1,25 @@
 'use stric';
 import '../../scss/common.scss';
+import React, { useContext } from 'react';
+import { mainContext } from '../../context';
+import classNames from 'classnames';
 
-const inner = () => {
+const Inner = () => {
+    const { theme } = useContext(mainContext);
+
     return (
         <div className="inner">
-            <div className="cursor cursor--small"></div>
-            <canvas className="cursor cursor--canvas" resize='true'></canvas>
             <div>
-                <div className="text">
+                <div className="text --main-red">
                     <h1>PARK <br /> KYUNG SUN </h1>
                     <h3>박경선</h3>
                 </div>
-                <div className="selfie">
-                    <img id="selfie" src='/img/selfie-white.png' />
+                <div className={classNames('selfie', theme === 'dark' ? 'dark':'')}>
+                    <img id="selfie" src={theme !== 'dark' ? '/img/selfie-white.png' : '/img/selfie.png'} />
                 </div>
             </div>
         </div>
     )
 }
 
-export default inner;
+export default Inner;

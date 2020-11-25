@@ -1,27 +1,32 @@
 $main-red: #dd4226;
 
-.cursor {position: fixed;left: 0;top: 0;pointer-events: none;}
-.cursor--small {width: 5px;height: 5px;left: -2.5px;top: -2.5px;border-radius: 50%;z-index: 11000;background: var(--color-text);}
-.cursor--canvas {width: 100vw;height: 100vh;z-index: 12000;}
-body {margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
-body * {box-sizing: border-box;}
+
+body { margin: 0px; width:100vw; background-size: cover;overflow-x: hidden;}
+body * {box-sizing: border-box;cursor: none;}
+// a {cursor: none;}
 *::-webkit-scrollbar {display: none; -ms-overflow-style: none; scrollbar-width: none;}
+
+.--main-red {
+    color: $main-red;
+}
 
 .main {
     .content {width: 100vw;height: 100vh;margin: 0px; overflow: auto; scroll-padding: 0px 0px 0px 0px; scroll-snap-type: both mandatory;}
 
     .inner {
+        color: #fff;
         position: fixed;top: 0;left: 0;width: 100%;height: 100vh;z-index: -1;pointer-events: none; 
         & > div { padding: 72px 150px 0px; display: flex; flex-direction: row; margin: auto; bottom: 0; height: calc(100% - 92px);}
         .text{ z-index: 2;padding-top: 70px; z-index: 100;}
         .text h1 {line-height: 7rem; font-size: 7rem;}
         .text h3 {font-size: 2.8rem;}
         .selfie {max-height:750px; bottom: 0%; }
-        .selfie img {max-height:750px; bottom: 0px; z-index: 99;}
+        .selfie img {max-height:750px; bottom: 0px; z-index: 99;width: 800px; transition: all 500ms ease-in-out;}
+        .selfie.dark img {width: auto; transform: translateX(0%);}
     }
 
     .section-cont {
-        margin-top: 99.5vh;z-index: 99; overflow-x: hidden; background-color: $main-red;
+        margin-top: 99.5vh;z-index: 99; overflow-x: hidden;
         & > img{width: 100%;}
         & > div{padding: 60px 0px; margin: auto;text-align: center;}
     }
@@ -32,8 +37,8 @@ body * {box-sizing: border-box;}
         .motto_container {
             display: flex; flex-direction: row; height: 70vh; padding: 50px 0px;
             .motto {
-                border-radius: 50%; position: relative; float: left; margin: auto -14px;
-                &:hover {cursor: pointer;}
+                border-radius: 50%; position: relative; float: left; margin: auto -14px;border: 1px solid #fff;
+                // &:hover {cursor: pointer;}
                 &.motto1 {height: 280px; width: 280px; margin-top: 170px; animation: bubble 6s ease-in-out alternate infinite;}
                 &.motto2 {height: 380px; width: 380px; margin-top: 50px; animation: bubble 3s ease-in alternate infinite;}
                 &.motto3 {height: 330px; width: 330px; margin-top: 170px; animation: bubble 5.5s ease-out alternate infinite;}
@@ -59,11 +64,12 @@ body * {box-sizing: border-box;}
         position: fixed; right: 5vw;bottom: 40px;margin: auto; display: flex; align-items: flex-end;height: 50px;
         a {font-size: 2.3rem;}
         a, div {height: 100%; width: 70px;margin: 0vh 0.3vw;}
-        .icon_mail {background-repeat: no-repeat;background-size: contain;background-image: url("https://img.icons8.com/material-rounded/96/000000/important-mail.png");}
-        .icon_github {background-repeat: no-repeat;background-size: contain;background-image: url("https://img.icons8.com/material-rounded/96/000000/github.png");}
-        .icon_linkedin {background-repeat: no-repeat;background-size: contain;background-image: url("https://img.icons8.com/small/96/000000/linkedin.png"); height: 95%;}
-        .icon_insta {background-repeat: no-repeat;background-size: contain;background-image: url("https://img.icons8.com/fluent-systems-regular/96/000000/instagram-new.png");}
-        .icon_mail:hover {cursor: pointer;}
+        .__mail {background-repeat: no-repeat;background-size: contain;background-image: url("https://img.icons8.com/material-rounded/96/000000/important-mail.png");}
+        .__github {background-repeat: no-repeat;background-size: contain;background-image: url("https://img.icons8.com/material-rounded/96/000000/github.png");}
+        .__linkedin {background-repeat: no-repeat;background-size: contain;background-image: url("https://img.icons8.com/small/96/000000/linkedin.png"); height: 95%;}
+        .__insta {background-repeat: no-repeat;background-size: contain;background-image: url("https://img.icons8.com/fluent-systems-regular/96/000000/instagram-new.png");}
+        &.--dark div, &.dark a {filter: invert(1);}
+        // .icon_mail:hover {cursor: pointer;}
     }
 
     hr {opacity: 0; margin-bottom: 110px;}
@@ -72,14 +78,14 @@ body * {box-sizing: border-box;}
         textarea{height: 100px;}
         label{margin-top: 40px;}
         textarea, input, button{background-color: transparent; width: 90%;outline: none; border: none; font-size: 1.2rem; margin: 20px auto 10px;}
-        textarea, input, button{font-family: 'Noto L'; color: #000;}
+        textarea, input, button{font-family: 'Noto L';}
         textarea, input{border-bottom: 1px solid #919191;}
         button {max-width: 100px;z-index:1; font-weight: bold;}
-        button {cursor: pointer;}
+        // button {cursor: pointer;}
         .errorMsg{color: $main-red; margin-bottom: 20px}
         button:disabled{ color: #424242;cursor: auto;}
         form div {position: relative; display: flex; justify-content: center; align-items: center;}
-        button span {position: absolute; width: 120px; border-top: 10px solid $main-red; opacity: .4; margin: auto; transform: rotate(-2deg) translateX(-30px); margin-top: 5px;}
+        button span {position: absolute; width: 120px; border-top: 10px solid $main-red; opacity: .4; margin: auto; transform: rotate(-2deg) translateX(-30px); margin-top: 10px;}
         // button span {position: absolute; width: 120px; border-top: 10px solid #5e5e5e; opacity: .4; margin: auto; transform: rotate(-2deg) translateX(-30px); margin-top: 5px;}
         textarea:focus, input:focus{outline: none; border: none;}
         textarea:focus, textarea:focus, input:focus{font-size: 1.4rem;border-bottom: 1px solid #919191;}
@@ -91,15 +97,18 @@ body * {box-sizing: border-box;}
     @media (max-width:1048px) {
         .inner > div { padding:  72px 70px 0px;}
         .inner .text h1 {line-height: 6rem; font-size: 6rem;min-width: 350px;}
-        .section.bubble .motto_container {padding: 40px 0px 20px;}
-        .section.bubble .motto_container .motto.motto1 {height: 210px; width: 210px;}
-        .section.bubble .motto_container .motto.motto2 {height: 290px; width: 290px}
-        .section.bubble .motto_container .motto.motto3 {height: 250px; width: 250px}
-        .section.bubble .motto_container .motto.motto4 {height: 270px; width: 270px}
-        .section.bubble .motto_container .motto.motto5 {height: 220px; width: 220px}
-        .section.bubble .motto_container .text_container h1 {font-size: 1.6em;}
-        .section.bubble .motto_container .text_container h2 {font-size: 0.9em;}
+        .section.bubble .motto_container {
+            padding: 40px 0px 20px;
+            .motto.motto1 {height: 210px; width: 210px;}
+            .motto.motto2 {height: 290px; width: 290px}
+            .motto.motto3 {height: 250px; width: 250px}
+            .motto.motto4 {height: 270px; width: 270px}
+            .motto.motto5 {height: 220px; width: 220px}
+            .text_container h1 {font-size: 1.6em;}
+            .text_container h2 {font-size: 0.9em;}
+        }
         .section.bubble {padding-bottom: 20px;}
+        .selfie img {transform: translateX(-20%);}
     }
 
 
@@ -115,7 +124,7 @@ body * {box-sizing: border-box;}
         .inner .text h1 {line-height: 4rem; font-size: 4rem;min-width: 600px;}
         .inner .text h3 {font-size: 2.5rem;}
         .inner .selfie {min-width: 500px;}
-        .inner .selfie img {transform: translateX(0%);}
+        .inner .selfie img {transform: translateX(10%);}
 
         .section-cont > div{padding: 0px 10px;}
         .break-line820 {display: inline;}
@@ -124,7 +133,7 @@ body * {box-sizing: border-box;}
         .section.skill .graph-container {flex-direction: column; padding-left: 2vw;}
         .section.skill .graph-container .graph {margin-right: 6vw;margin-top: 50px;}
         .section.skill .graph-container canvas {width:80vw !important; height: 200px !important; margin-top: 10vh;  } 
-        .inner .selfie img {transform: translateX(20%);}
+        // .inner .selfie img {transform: translateX(20%);}
         .contact form{padding: 50px 0px;}
     }
 
@@ -132,22 +141,25 @@ body * {box-sizing: border-box;}
 
     .line-break670{display: block;}
     @media (max-width:680px) {
-        .section.bubble{padding-bottom:50px;}
-        .section.bubble > h1{display: none;}
-        .section.bubble .motto_container {display: flex; flex-direction: column;width: 100vw; height: auto; padding: 50px 0px 50px;}
-        .section.bubble .motto_container .motto { border: none; border-radius: 0%; position: relative; margin: auto; animation: none; width: 100%;}
-        .section.bubble .motto_container .motto.motto1 {display: none;}
-        .section.bubble .motto_container .motto.motto2 {animation: none; margin-top: 0; width: 100%; height: auto;}
-        .section.bubble .motto_container .motto.motto3 {animation: none; margin-top: 0; width: 100%;height: auto;}
-        .section.bubble .motto_container .motto.motto4 {animation: none; margin-top: 0; width: 100%;height: auto;}
-        .section.bubble .motto_container .motto.motto5 {display: none;}
-        .section.bubble .motto_container .text_container {text-align: left; margin-top: 20px; padding: 0px 50px 0px 20px; flex-direction: column;}
-        .section.bubble .motto_container .text_container h2 {font-size: 1.2em; display: block;}
+        .main .section.bubble{padding-bottom:50px;}
+        .main .section.bubble > h1{display: none;}
+        .section.bubble .motto_container {
+            display: flex; flex-direction: column;width: 100vw; height: auto; padding: 10px 0px 50px;
+            .motto { border: none; border-radius: 0%; position: relative; margin: auto; animation: none; width: 100%;}
+            .motto.motto1 {display: none;}
+            .motto.motto2 {animation: none; margin-top: 0; width: 100%; height: auto;}
+            .motto.motto3 {animation: none; margin-top: 0; width: 100%;height: auto;}
+            .motto.motto4 {animation: none; margin-top: 0; width: 100%;height: auto;}
+            .motto.motto5 {display: none;}
+            .text_container {text-align: left; margin-top: 50px; padding: 0px 50px 0px 20px; flex-direction: column;}
+            .text_container h2 {font-size: 1.2em; display: block;}
+        }
         .line-break670 {display: inline;}
     }
 
     @media (max-width:600px) {
         .inner .selfie img {transform: translateX(-20%);opacity: .4;}
+        .section.bubble > h1 {font-size: 3rem;}
     }
 
 
@@ -157,31 +169,30 @@ body * {box-sizing: border-box;}
         .section h1.contact {display: inline;}
         .section.skill .graph-container {margin-bottom: 100px;}
         .section.skill {padding: 50px 20px 100px;}
-        .inner .selfie img {transform: translateX(-25%);opacity: .4;}
+        .inner .selfie img {transform: translateX(-25%) translateY(-10%);opacity: .4;}
         .icon a:last-child{display: none;}
     }
 
 
     @media (max-width:375px) {
+        .inner .selfie img {transform: translateX(-36%) translateY(-13%);}
     }
 
 
     a,h1,h2,h3,h4,h5, p {font-family: 'Noto Th';}
     // .inner {background-color: #FFF;}
 
-    .inner .text{color: #dd4226;}
+    // .inner .text{color: #dd4226;}
     .inner .text h1 {font-family:'Noto R';}
     .inner .text h3 {font-family:'Noto R';}
-    // .inner .selfie img {width: 800px; transform: translateX(-25%);}
 
-    .section-cont {background-color: #FFF;}
+    // .section-cont {background-color: #FFF;}
 
     .section.bubble {background-color: #dd4226; color: #fff;}
     .section.bubble > h1{font-family:'Noto R'; border-bottom: #fff solid 1.3px;}
-    .section.bubble .motto_container .motto { border: 1px solid #fff;}
     .section.bubble .motto_container .text_container h1 {border-bottom: #fff solid 0.2rem; font-family: 'Noto B';}
 
-    .section.skill{background-color: #FFF; color: #000;}
+    // .section.skill{background-color: #FFF; color: #000;}
     .section.skill h1 {border-bottom: #dd4226 solid 1px; font-family: 'Noto R';} 
     .contact span.active {border-top: 10px solid #dd4226;}
 

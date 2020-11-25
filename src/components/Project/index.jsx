@@ -7,8 +7,6 @@ import sectionList from '../../sectionList';
 const Project = () => {
     return (
         <div id="project" className="project">
-            <div className="cursor cursor--small"></div>
-            <canvas className="cursor cursor--canvas" resize="true"></canvas>
             <div className="content">
                 <div className="red-line">
                     <h1><em>"</em><span className="break-line660"> 성장 중독</span> 백엔드 개발자<em>"</em></h1>

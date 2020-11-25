@@ -1,22 +1,24 @@
-import { Flipped } from 'react-flip-toolkit';
 import styled from 'styled-components';
+import React, { useState, useEffect } from 'react'
 import { section1, section2, section3 } from '../../projectList';
 import ServerHead from "./Details/ServerHead";
 import EarlyBuddy from "./Details/EarlyBuddy";
 import Tooc from "./Details/Tooc";
 import SoptPage from "./Details/SoptPage";
 import GetRest from "./Details/GetRest";
+import '../../scss/post.scss';
+import { Link } from 'react-router-dom';
 
-const Cont = styled.div`
+const DetailContainer = styled.div`
         width: 100%;
         height: 100vh;
         top: 0px;
         left: 0px;
         position: fixed;
-        z-index: 11;
         overflow: auto;
         background-color: #fff;
-`
+        z-index: 11;
+    `;
 
 const ImageBack = styled.div`
         width: 100%;
@@ -27,32 +29,37 @@ const ImageBack = styled.div`
         background-size: cover;
         display: inline-block;
         opacity: 1;
-`
+`;
 
-const ProjectDetail = ({ id, toggleFullScreen }) => {
+const ProjectDetail = React.memo(({location}) => {
     const dataList = section1.concat(section2, section3);
-    const data = dataList.find(d => d.key === id)
     let content = <></>;
-    console.log('data : ', data)
-    if (data.link === 'server-head')
+    const title = location.pathname.split('/')[2];
+    const data = dataList.find(d => d.link === title);
+    
+    // console.log('data : ', data)
+    if (title === 'server-head')
             content = <ServerHead />
-    else if (data.link === 'early-buddy')
+    else if (title === 'early-buddy')
         content = <EarlyBuddy />
-    else if (data.link === 'tooc')
+    else if (title === 'tooc')
         content = <Tooc />
-    else if (data.link === 'sopt-page')
+    else if (title === 'sopt-page')
         content = <SoptPage />
-    else if (data.link === 'get-rest')
+    else if (title === 'get-rest')
         content = <GetRest />
 
     return (
-        <>
+        <div className="project-detail">
             {
                 data ?
-                    <Flipped flipId="square">
-                        <Cont>
+                    // <Flipped flipId="square">
+                        <DetailContainer>
                         <div className="full-screen-square"/>
-                            <img id="back-btn" className="back-btn" onClick={toggleFullScreen} src="/img/cancel-red.png" />
+                            <Link to='/project'>
+                                <img id="back-btn" className="back-btn" src="/img/cancel-red.png" />
+                            </Link>
+                            {/* <img id="back-btn" className="back-btn" onClick={toggleFullScreen} src="/img/cancel-red.png" /> */}
                             <div className="post">
                                 <ImageBack image={data.backImage} className="proj-title">
                                     <div className="title">
@@ -64,13 +71,13 @@ const ProjectDetail = ({ id, toggleFullScreen }) => {
                                     {content}
                                 </div>
                             </div>
-                        </Cont>
-                    </Flipped>
+                        </DetailContainer>
+                    // </Flipped>
                     :
                     <></>
             }
-        </>
+        </div>
     )
-}
+});
 
 export default ProjectDetail;

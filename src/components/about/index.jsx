@@ -1,31 +1,28 @@
 'use stric';
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import '../../scss/about.scss';
+import { mainContext } from '../../context'
 import Switch from './Switch';
 
 const Inner = () => {
-    const [type, setType] = useState('about');
-    const [theme, setTheme] = useState('light');
+    const { dispatch } = useContext(mainContext);
+
     const isOn = (to) => {
         if (to) {
-            setTheme('dark')
+            dispatch({type: 'theme', payload: 'light'});
         } else {
-            setTheme('light')
+            dispatch({type: 'theme', payload: 'dark'});
         }
     }
 
 
     return (
         <div id="about" className="about" >
-            {/* <div > */}
-                <div className="cursor cursor--small"></div>
-                <canvas className="cursor cursor--canvas" resize="true"></canvas>
-                <Switch isOn={isOn} />
-                <div className="sub-title">
-                    <h3>"어차피 할 거, 후회하지 않도록"</h3>
-                    <span></span>
-                </div>
-            {/* </div> */}
+            <Switch isOn={isOn} />
+            <div className="sub-title">
+                <h3>"어차피 할 거, 후회하지 않도록"</h3>
+                <span></span>
+            </div>
         </div>
     )
 }

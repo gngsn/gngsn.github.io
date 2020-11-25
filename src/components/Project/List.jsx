@@ -1,8 +1,9 @@
 'use stric';
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Slider from "react-slick";
-import {section1, section2, section3} from '../../projectList';
+import { section1, section2, section3 } from '../../projectList';
 import styled from 'styled-components';
+import { Link } from "react-router-dom"
 
 const ImageStyle = styled.div`
         background-image: ${props => 'url(' + props.image + ')'};
@@ -14,7 +15,7 @@ const ImageStyle = styled.div`
         translateX: 
 `
 
-const List = ({ cate, toggleFullScreen, setId }) => {
+const List = React.memo(({ cate, toggleFullScreen, setId }) => {
     const [isSwiping, setSwiping] = useState(false);
     const settings = {
         centerPadding: '70px',
@@ -59,13 +60,15 @@ const List = ({ cate, toggleFullScreen, setId }) => {
     let project = []
     if (cate === 'backend') {
         project = section1
-        settings.centerMode = true
+        settings.centerMode = false
     } else if (cate === 'developer') {
         project = section2
+        settings.centerMode = false
     } else {
         project = section3
+        settings.centerMode = false
     }
-    const subClass = cate+' center'
+    const subClass = cate + ' center'
 
     const hover = e => {
         e.target.parentElement.style.boxShadow = '2px 8px 19px 4px rgb(134,134,134)'
@@ -85,20 +88,22 @@ const List = ({ cate, toggleFullScreen, setId }) => {
             <Slider {...settings}>
                 {
                     project.map(data => (
-                        <ImageStyle image={data.thumbnail} key={data.key} onClick={()=>click(data.key)} onMouseMove={() => setSwiping(true)} onMouseDown={() => setSwiping(false)} onMouseOver={hover} onMouseLeave={overHover} className="link proj" data-link={data.link}>
-                            <div className="proj-title">
-                                <h2>{data.duration}</h2>
-                                <h1>{data.title}</h1>
-                                <h3>{data.subTitle.map(tit => (
-                                    <>{tit} <br /></>
-                                ))}</h3>
-                            </div>
+                        <ImageStyle key={data.key} image={data.thumbnail} onClick={() => click(data.key)} onMouseMove={() => setSwiping(true)} onMouseDown={() => setSwiping(false)} onMouseOver={hover} onMouseLeave={overHover} className="link proj" data-link={data.link}>
+                            <Link to={`/project/${data.link}`}>
+                                <div className="proj-title">
+                                    <h2>{data.duration}</h2>
+                                    <h1>{data.title}</h1>
+                                    {data.subTitle.map((tit, index) => (
+                                        <h3 key={index}>{tit} <br /></h3>
+                                    ))}
+                                </div>
+                            </Link>
                         </ImageStyle>
                     ))
                 }
             </Slider>
         </div>
     );
-}
+});
 
 export default List;

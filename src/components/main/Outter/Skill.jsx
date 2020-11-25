@@ -1,28 +1,26 @@
+import React, { useContext } from 'react';
 import { Grid } from '@material-ui/core';
-import React from 'react';
 import Graph from './Graph';
+import { mainContext } from '../../../context'
 
-const graph = () => {
+const Skill = () => {
     var inView = false;
-
-    // function isScrolledIntoView(elem) {
-    //     var docViewTop = $(window).scrollTop();
-    //     var docViewBottom = docViewTop + $(window).height();
-
-    //     var elemTop = $(elem).offset().top;
-    //     var elemBottom = elemTop + $(elem).height();
-
-    //     return ((elemTop <= docViewBottom) && (elemBottom >= docViewTop));
-    // }
-
-
+    var backgroundColor = [
+        '#000', '#000', '#000', '#000', '#000'
+    ];
+    const context = useContext(mainContext);
+    const { theme } = context;
+    if (theme === 'dark') {
+        backgroundColor = [ '#fff', '#fff', '#fff', '#fff', '#fff'];
+    } else {
+        backgroundColor = [ '#000', '#000', '#000', '#000', '#000'];
+    }
+    
     var langData = {
         labels: ["Java", "JS", "MySQL", "PHP", "C"],
         datasets: [{
             data: [8, 10, 10, 7, 5],
-            backgroundColor: [
-                '#000', '#000', '#000', '#000', '#000'
-            ]
+            backgroundColor: backgroundColor
         }]
     };
 
@@ -30,9 +28,7 @@ const graph = () => {
         labels: ["Node", "Spring", "Linux", "Git", "MySQL"],
         datasets: [{
             data: [10, 7, 8, 9, 10],
-            backgroundColor: [
-                '#000', '#000', '#000', '#000', '#000'
-            ]
+            backgroundColor: backgroundColor
         }]
     };
 
@@ -55,4 +51,4 @@ const graph = () => {
         </>
     )
 }
-export default graph;
+export default Skill;

@@ -1,6 +1,7 @@
 import { Bar } from 'react-chartjs-2';
 import PropTypes from 'prop-types';
 
+
 const graphPropTypes = {
     datasets: PropTypes.object,
     width: PropTypes.number,
@@ -8,6 +9,7 @@ const graphPropTypes = {
 }
 
 const graph = ({ title, datasets, width, height }) => {
+    
     const options = {
         maintainAspectRatio: false,
         responsive: false,
