@@ -1,0 +1,131 @@
+theme = getUrlParameters().th;
+const back = () => {
+    let route = 'http://' + window.location.host + '/project';
+    if (theme !== undefined) route += "?th="+theme;
+    window.location.href = route;
+}
+
+const newTabImag = (imgTag) => {
+    const route = imgTag.src;
+    console.log(imgTag);
+    console.log(route);
+    console.log('http://' + window.location.host + route);
+    window.open(
+        route,
+        '_blank' // <- This is what makes it open in a new window.
+    );
+}
+
+$(document).ready(function (e) {
+    if (theme === "y") {
+        var backBtn = document.getElementById('back-btn');
+        backBtn.src = "/assets/img/cancel-yellow.png";
+    }
+
+    $(document).on("click", "img", function () {
+        if ($(this).data('zoom') === true) {
+            let path = $(this).attr('src');
+            $("#img-wrapper").css("display", "flex").show();
+            $("#img")
+                .html("<img src='" + path + "' >");
+            if ($(this).width() < $(this).height()) {
+                $("#img > img")
+                    .animate({
+                        width: 'auto',
+                        height: '50vh'
+                    }, 0);
+            } else {
+                $("#img > img")
+                    .animate({
+                        width: '50vw',
+                        height: 'auto'
+                    }, 0);
+            }
+        }
+    });
+
+    $("#img-wrapper").on("click", function (e) {
+        $("#img > img").animate({
+            width: '0%',
+            height: '0%'
+        }, 0);
+        setTimeout(function () {
+            $('#img-wrapper').hide();
+        }, 0);
+    }); //end bigWrapperClick event
+});
+
+
+$('.cn-gallery').slick({
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 2,
+    responsive: [{
+            breakpoint: 1200,
+            settings: {
+                dots: true,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                dots: true,
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true
+            }
+        }
+    ]
+});
+
+
+$('.pdf-gallery').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.pdf-nav'
+});
+
+$('.pdf-nav').slick({
+    slidesToShow: 8,
+    slidesToScroll: 4,
+    asNavFor: '.pdf-gallery',
+    dots: true,
+    centerMode: true,
+    focusOnSelect: true,
+    responsive: [{
+        breakpoint: 1200,
+        settings: {
+            slidesToShow: 5,
+            dots: false
+        }
+    },
+    {
+        breakpoint: 560,
+        settings: {
+            slidesToShow: 3,
+            dots: false
+        }
+    }]
+});
+
+$('.slick-auto').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+});
