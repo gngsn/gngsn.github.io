@@ -1,0 +1,24 @@
+<footer class="site-footer h-card">
+    <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/common.js"></script>
+    <script src="/assets/js/cursor.js"></script>
+
+    {% if page.type == "about" %}
+    <script src="../assets/js/switch.js"></script>
+    <!-- <script src="../assets/js/cursor.js"></script> -->
+    {% elsif page.type == "project" %}
+    <script src="/assets/js/slick.js"></script>
+    <script src="../assets/js/project-slick.js"></script>
+    {% elsif page.layout == 'post' %} 
+    <script src="/assets/js/slick.js"></script>
+    <script src="/assets/js/post.js"></script>
+    {% else%} 
+    <script src="/assets/js/portfolio.js"></script>
+    {% endif %}
+</footer>
