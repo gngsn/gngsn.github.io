@@ -13,7 +13,7 @@ header .link:not(.home){min-width: 160px;width: 180px;margin-left: 50px;}
 .link span{height: 0px;margin-top: -27px; transform: rotate(-4deg);border-top: 0.7px solid #000; display: block; width: 80%;}
 .link.home{padding: 10px 20px 0px 40px; margin-right: 60px; max-width: 200px; display: inline; right: 5px; text-align: right; justify-self: right; font-family: 'Noto M'; color: #dd4226; }
 a.link.home{padding-top: 10px; margin-top: 20px; width: 140px;}
-.link.home span{ position: fixed; width: 140px; margin-top: 35px; z-index: 99; border-top: 2px solid #dd4226;}
+.link.home span{ position: fixed; width: 140px; margin-top: 35px; z-index: 99; border-top: 2px solid #dd4226; transform: translateX(30%);}
 
 @media (max-width:600px) {
     header .link:not(.home){min-width: 90px;width: 100px; margin-left: 20px;}
